@@ -1,0 +1,6017 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1100: Force -- Vector Solutions for Coplanar Forces Concurrent at a Point</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38125</md:content-id>
+  <md:title>Phy1100: Force -- Vector Solutions for Coplanar Forces Concurrent at a Point</md:title>
+  <md:abstract>This module explains the law of sines and the law of cosines. It also explains vector solutions for coplanar forces that are concurrent at a point in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>d173470e-9516-4fd0-81e2-c3adaac4bd66</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Figures">
+
+Figures
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1005">
+<link id="a1005" target-id="Listings">
+
+Listings
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1007">
+<link id="a1007" target-id="General_background_information">
+
+General background information
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="Creation_of_tactile_graphics">
+
+Creation of tactile graphics
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="The_law_of_sines">
+
+The law of sines
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="The_law_of_cosines">
+
+The law of cosines
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1011">
+<link id="a1011" target-id="Discussion">
+
+Discussion and sample code
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+		
+
+<item id="li1012">
+<link id="a1012" target-id="Using_the_graph_board">
+
+Using the graph board
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1013">
+<link id="a1013" target-id="Parallelogram_of_forces">
+
+Parallelogram of forces
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1014">
+<link id="a1014" target-id="Triangle_of_forces">
+
+Triangle of forces
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1015">
+<link id="a1015" target-id="Trigonometric_solution_to_the_triangle_problem">
+
+
+		Trigonometric solution to the triangle of forces
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1016">
+<link id="a1016" target-id="Using_components_to_analyze_for_equilibrium">
+
+Using 
+		components to analyze for equilibrium
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1017">
+<link id="a1017" target-id="Run_the_program">
+
+Run the scripts
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1018">
+<link id="a1018" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1019">
+<link id="a1019" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a collection of modules designed to make physics 
+concepts accessible to blind students.
+
+</para>
+
+
+
+
+<para id="p1001">
+If you opened this page in the context of the book, a Table of Contents for 
+the book (or collection) should be available above and to the left of this 
+paragraph. Otherwise, click
+
+
+<link id="a1020" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+here
+
+</link>
+
+ 
+to open the book at the beginning.
+
+</para>
+
+
+
+
+<para id="p1002">
+This book is intended to supplement but not to replace the textbook in an 
+introductory high school or college physics course. 
+
+</para>
+
+
+
+
+<para id="p1003">
+This module explains the law of sines and the law of cosines. It also 
+explains vector solutions for coplanar forces that are concurrent at a point in 
+a format that is accessible to blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1020">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1021" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1021">
+A protractor for measuring angles (
+
+<link id="a1022" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1022">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1023" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1023">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1024" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1024">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+<item id="li1025">
+The ability to create tactile graphics as described
+	
+
+<link id="a1025" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+here
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+
+<para id="p1005">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1026">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1027">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1026" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1028">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1027" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1029">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1028" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1030">
+An introductory understanding of JavaScript programming (
+
+<link id="a1029" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1030" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1031">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+	
+
+<item id="li1032">
+An understanding of the creation and use of tactile graphics as 
+	described
+	
+
+<link id="a1031" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+here
+
+</link>
+
+.
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+ I recommend that you open another copy of this document in a separate 
+browser window and use the following links to easily find and view the figures 
+and listings while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+ 
+
+<emphasis id="Figures" effect="bold">
+
+Figures
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1033">
+<link id="a1032" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+. Mirror image from the file named Phy1100a1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1034">
+<link id="a1033" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+. Non-mirror-image version of the image from the file named Phy1100a1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1035">
+<link id="a1034" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+. Key-value pairs for the image in the file named Phy1100a1.svg.
+
+</item>
+
+
+	
+
+<item id="li1036">
+<link id="a1035" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+. Mirror image contained in the file named Phy1100b1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1037">
+<link id="a1036" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+. Non-mirror-image version of the image 
+	from the file named Phy1100b1.svg.
+
+</item>
+
+
+	
+
+<item id="li1038">
+<link id="a1037" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+. Key-value pairs for the image in the file named Phy1100b1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1039">
+<link id="a1038" target-id="Figure_7">
+
+Figure 7
+
+</link>
+
+. Mirror image from the file named Phy1100c1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1040">
+<link id="a1039" target-id="Figure_8">
+
+Figure 8
+
+</link>
+
+. Non-mirror-image version of the image from the file named Phy1100c1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1041">
+<link id="a1040" target-id="Figure_9">
+
+Figure 9
+
+</link>
+
+. Key-value pairs for the image in the file named Phy1100c1.svg.
+
+</item>
+
+
+	
+
+<item id="li1042">
+<link id="a1041" target-id="Figure_10">
+
+Figure 10
+
+</link>
+
+. Mirror image from the file named Phy1100d1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1043">
+<link id="a1042" target-id="Figure_11">
+
+Figure 11
+
+</link>
+
+. Non-mirror-image version of the image from the file named Phy1100d1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1044">
+<link id="a1043" target-id="Figure_12">
+
+Figure 12
+
+</link>
+
+. Key-value pairs for the image in the file named Phy1100d1.svg.
+
+</item>
+
+
+	
+
+<item id="li1045">
+<link id="a1044" target-id="Figure_13">
+
+Figure 13
+
+</link>
+
+. Mirror image from the file named Phy1100e1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1046">
+<link id="a1045" target-id="Figure_14">
+
+Figure 14
+
+</link>
+
+. Non-mirror-image version of the image from the file named Phy1100e1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1047">
+<link id="a1046" target-id="Figure_15">
+
+Figure 15
+
+</link>
+
+. Key-value pairs for the image in the file named Phy1100e1.svg.
+
+</item>
+
+
+	
+
+<item id="li1048">
+<link id="a1047" target-id="Figure_16">
+
+Figure 16
+
+</link>
+
+. Screen output for Listing #1. 
+
+</item>
+
+
+	
+
+<item id="li1049">
+<link id="a1048" target-id="Figure_17">
+
+Figure 17
+
+</link>
+
+. Changes to Listing #1.
+
+</item>
+
+
+	
+
+<item id="li1050">
+<link id="a1049" target-id="Figure_18">
+
+Figure 18
+
+</link>
+
+. Screen output for modified Listing #1. 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31001">
+<title>
+ 
+
+<emphasis id="Listings" effect="bold">
+
+Listings
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1051">
+<link id="a1050" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+. Tent pole exercise. 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h21003">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1007">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1051" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="General_background_information" effect="bold">
+
+General background 
+information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21004">
+<title>
+<emphasis id="Creation_of_tactile_graphics" effect="bold">
+
+Creation of tactile graphics
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1008">
+The module titled
+
+
+<link id="a1052" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482/Phy1004-Manual-Creation-of-Tac">
+
+
+Manual Creation of Tactile Graphics
+
+</link>
+
+ explains how to create tactile graphics 
+from svg files that I will provide.
+
+</para>
+
+
+
+
+<para id="p1009">
+If you are going to have an assistant create tactile graphics for this 
+module, you will need to 
+
+<link id="a1053" url="Phy1100.zip">
+
+download the file named 
+Phy1100.zip
+
+</link>
+
+, which contains the svg files for this module. Extract the svg 
+files from the zip file and provide them to your assistant.
+
+</para>
+
+
+
+
+<para id="p1010">
+Also, if you are going to use tactile graphics, it probably won't be 
+necessary for you to perform the graph board exercises. However, you should 
+still walk through the graph board exercises in your mind because I will often 
+embed important physics concepts in the instructions for doing the graph board 
+exercises.
+
+</para>
+
+
+
+
+<para id="p1011">
+In each case where I am providing an svg file for the creation of tactile 
+graphics, I will identify the name of the appropriate svg file and display an 
+image of the contents of the file for the benefit of your assistant. As 
+explained 
+
+<link id="a1054" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+
+here
+
+</link>
+
+, those images will be mirror images of 
+the actual images so that your assistant can emboss the image from the back of 
+the paper and you can explore it from the front.
+
+</para>
+
+
+
+
+<para id="p1012">
+I will also display a non-mirror-image version of the image so that your 
+assistant can easily read the text in the image.
+
+</para>
+
+
+
+
+<para id="p1013">
+Also in those cases, I will provide a table of key-value pairs that explain 
+how the Braille keys in the image relate to text or objects in the image.
+
+</para>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="The_law_of_sines" effect="bold">
+
+The law of sines
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1014">
+Much of the background material needed for this module was presented in the 
+earlier module titled 
+
+
+<link id="a1055" url="http://cnx.org/contents/52e8554d-a0e3-4a2f-b18f-6e876178c921/Phy1090-Force----Introduction-">
+
+Introduction to Statics, Equilibrium, and Forces
+
+</link>
+
+. 
+However, beginning with this module, you will need some information on 
+trigonometry that was not presented in the earlier module titled
+
+
+<link id="a1056" url="http://cnx.org/contents/257998f1-068b-4c59-8924-78a29a68b610/Phy1020-Brief-Trigonometry-Tut">
+
+Brief Trigonometry Tutorial
+
+</link>
+
+. 
+That item is known as the law of sines (see
+
+
+<link id="a1057" url="http://en.wikipedia.org/wiki/Law_of_sines">
+
+
+http://en.wikipedia.org/wiki/Law_of_sines
+
+</link>
+
+).
+
+</para>
+
+
+<para id="p1015">
+<emphasis id="strong1000" effect="bold">
+Proving identities
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1016">
+When I was a student in a trigonometry course many years ago, students were 
+required to "prove identities" which was a process very similar to proving 
+theorems in plane geometry. That activity included doing such things as proving 
+that the law of sines is true.
+
+</para>
+
+
+
+
+<para id="p1017">
+I don't know if mathematics instructors still require students to prove 
+identities or not. In any event, we will simply accept such mathematical truths 
+in this collection of modules and won't worry about proving that they are true.
+
+</para>
+
+
+
+
+<para id="p1018">
+We will work through some exercises in this module to show how the law 
+of sines can be used to advantage.
+
+</para>
+
+
+
+
+<para id="p1019">
+<emphasis id="strong1001" effect="bold">
+Beyond the right triangle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1020">
+Previous modules using trigonometry have dealt almost exclusively with right 
+triangles. Beginning in this module, we will start using trigonometry to solve 
+problems that involve triangles that are not right triangles.
+
+</para>
+
+
+
+
+<para id="p1021">
+<emphasis id="strong1002" effect="bold">
+Tactile graphics
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1022">
+The svg file that is required to create tactile graphics for this exercise is 
+named Phy1100a1.svg. You should have 
+
+<link id="a1058" target-id="Creation_of_tactile_graphics">
+
+
+downloaded
+
+</link>
+
+ that file earlier.
+
+</para>
+
+
+
+
+<para id="p1023">
+<link id="a1059" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+ shows the mirror image that is contained in 
+that file for the benefit of your assistant who will create the tactile graphic 
+for this exercise.
+
+</para>
+
+
+	
+
+
+
+<table id="table1000" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1000">
+<row id="tr1000">
+<entry id="th1000">
+
+
+
+<emphasis id="Figure_1" effect="bold">
+
+Figure 1
+
+</emphasis>
+
+. Mirror image from the file named Phy1100a1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1000">
+<row id="tr1001">
+<entry id="td1000">
+
+
+
+<media id="media1000" alt="Missing image" display="block">
+<image id="img1000" mime-type="image/png" src="../../media/Phy1100a1a.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1024">
+<link id="a1060" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+ shows a non-mirror-image version of the same 
+image.
+
+</para>
+
+
+
+
+<table id="table1001" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1001">
+<row id="tr1002">
+<entry id="th1001">
+
+
+
+<emphasis id="Figure_2" effect="bold">
+
+Figure 2
+
+</emphasis>
+
+. Non-mirror-image version of the image from the file named Phy1100a1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1001">
+<row id="tr1003">
+<entry id="td1001">
+
+
+
+<media id="media1001" alt="Missing image." display="block">
+<image id="img1001" mime-type="image/png" src="../../media/Phy1100a1b.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1025">
+<emphasis id="strong1003" effect="bold">
+Key-value pairs
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1026">
+<link id="a1061" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+ shows the key-value pairs that go with the 
+image in the file named Phy1100a1.svg.
+
+</para>
+
+
+
+	
+
+
+<table id="table1002" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1002">
+<row id="tr1004">
+<entry id="th1002">
+
+
+
+<emphasis id="Figure_3" effect="bold">
+
+Figure 3
+
+</emphasis>
+
+. Key-value pairs for the image in the file named Phy1100a1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1002">
+<row id="tr1005">
+<entry id="td1002">
+
+
+
+<code id="pre1000" display="block">
+m: Laws of sines and cosines
+n: C = 40 degrees
+o: a = 10
+p: B = 80 degrees
+q: A = 60 degrees
+r: c = 7.4
+s: File: Phy1100a1.svg
+t: b = 11.4
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+<para id="p1027">
+<emphasis id="strong1004" effect="bold">
+Create a triangle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1028">
+Please use your graph board to create a triangle with the dimensions, angles, 
+and labels specified below.
+
+</para>
+
+
+
+
+<para id="p1029">
+Use your Braille labeler to label the sides of the triangle a, b, and c. 
+Label the angle opposite from side a as A, the angle opposite side b as B, and 
+the angle opposite side c as C.
+
+</para>
+
+
+
+
+<para id="p1030">
+Adjust your triangle to make side a equal to 10 units, angle B equal to 80 
+degrees, and angle C equal to 40 degrees. Using the above relationship, we also 
+know that angle A is equal to 60 degrees because the angles in a triangle must 
+sum to 180 degrees.
+
+</para>
+
+
+
+
+<para id="p1031">
+<emphasis id="strong1005" effect="bold">
+Using the law of sines
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1032">
+The law of sines can be used to compute the remaining sides of a triangle when two angles and a side are known. 
+Of course, if you know two of the angles of a triangle, you also know the third 
+angle because the sum of the angles in a triangle is always 180 degrees.
+
+</para>
+
+
+
+
+<para id="p1033">
+<emphasis id="strong1006" effect="bold">
+Use the Google calculator
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1034">
+All of the arithmetic and trigonometric requirements in this section can be 
+satisfied using the Google calculator. Go to Google and enter the following in the search box:
+
+</para>
+
+
+
+
+<para id="p1035">
+sine 80 degrees
+
+</para>
+
+
+
+
+<para id="p1036">
+Google should 
+produce a line of output text that reads:
+
+</para>
+
+
+
+
+<para id="p1037">
+sine(80 degrees) = 0.984807753
+
+</para>
+
+
+
+
+<para id="p1038">
+Record this value for future use.
+
+</para>
+
+
+
+
+<para id="p1039">
+<emphasis id="strong1007" effect="bold">
+Get and record two more values
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1040">
+Go to Google again and enter sine 40 degrees. The output should be:
+
+</para>
+
+
+
+
+<para id="p1041">
+sine(40 degrees) = 0.64278761
+
+</para>
+
+
+
+
+<para id="p1042">
+Doing the same thing again for 60 degrees produces:
+
+</para>
+
+
+
+
+<para id="p1043">
+sine(60 degrees) = 0.866025404
+
+</para>
+
+
+
+
+<para id="p1044">
+<emphasis id="strong1008" effect="bold">
+<emphasis id="The_law_of_sines_formula" effect="bold">
+
+The law of sines formula
+
+</emphasis>
+
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1045">
+Given the names of the sides and angles that you have applied to your triangle, the law of 
+sines says that the following is true:
+
+</para>
+
+
+
+
+<para id="p1046">
+(a/sin A) = (b/sin B) = (c/sin C)
+
+</para>
+
+
+
+
+<para id="p1047">
+In general, the law of sines states that the ratio of the length of any side 
+to the sine of the opposite angle is equal to the ratio of any other side to the 
+sine of its opposite angle.
+
+</para>
+
+
+
+
+<para id="p1048">
+<emphasis id="strong1009" effect="bold">
+Compute the length of side b
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1049">
+Substituting the known values in the above formula gives us:
+
+</para>
+
+
+
+
+<para id="p1050">
+(10/0.866) = (b/0.985) = (c/0.643)
+
+</para>
+
+
+
+
+<para id="p1051">
+Combining the first and second ratios and rearranging terms gives us:
+
+</para>
+
+
+
+
+<para id="p1052">
+b = 10 * 0.985/0.866 = 11.4
+
+</para>
+
+
+
+
+<para id="p1053">
+(You can also use the search box at Google to perform arithmetic such as 10 * 
+0.985/0.866.)
+
+</para>
+
+
+
+
+<para id="p1054">
+<emphasis id="strong1010" effect="bold">
+Compute the length of side c
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1055">
+Combining the first and third ratios and rearranging terms gives us:
+
+</para>
+
+
+
+
+<para id="p1056">
+c = 10*0.643/.866 = 7.42
+
+</para>
+
+
+
+
+<para id="p1057">
+Hopefully, you can confirm these values (approximately) by making 
+measurements on the triangle on your graph board.
+
+</para>
+
+
+
+
+<para id="p1058">
+<emphasis id="strong1011" effect="bold">
+Another use for the law of sines
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1059">
+The law of sines can also be used when two sides and one of the non-enclosed 
+angles is known to find the values of the other side and the values of the other 
+two angles.
+
+</para>
+
+
+
+
+<para id="p1060">
+<emphasis id="strong1012" effect="bold">
+Let's give that scenario a test drive
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1061">
+Pretend that all we know about the triangle is the following:
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1052">
+Side a = 10
+
+</item>
+
+
+	
+
+<item id="li1053">
+Side b = 11.3741339
+
+</item>
+
+
+	
+
+<item id="li1054">
+Angle B = 80 degrees
+
+</item>
+
+
+	
+
+<item id="li1055">
+sin B = 0.984807753
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1062">
+We need to solve for angles A and C as well as side c.
+
+</para>
+
+
+
+
+<para id="p1063">
+<emphasis id="strong1013" effect="bold">
+Substitution of known values
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1064">
+Recall that the general formula for the law of sines is:
+
+</para>
+
+
+
+
+<para id="p1065">
+(a/sin A) = (b/sin B) = (c/sin C)
+
+</para>
+
+
+
+
+<para id="p1066">
+Substitution of the known values into the formula gives:
+
+</para>
+
+
+
+
+<para id="p1067">
+(10/sin A) = (11.3741339/0.984807753) = (c/sin C)
+
+</para>
+
+
+
+
+<para id="p1068">
+<emphasis id="strong1014" effect="bold">
+Rearranging terms
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1069">
+Using the first two ratios and rearranging terms gives us:
+
+</para>
+
+
+
+
+<para id="p1070">
+sin A = 10*0.984807753/11.3741339 = 0.865830983
+
+</para>
+
+
+
+
+<para id="p1071">
+A = arcsine(0.865830983) = 1.04680884  radians = 60 degrees
+
+</para>
+
+
+
+
+<para id="p1072">
+(Note that I used an extreme number of decimal digits to avoid rounding 
+errors and cause the final answer to come out almost exactly correct.)
+
+</para>
+
+
+
+
+<para id="p1073">
+<emphasis id="strong1015" effect="bold">
+Compute the value of angle c
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1074">
+Now that we know the values of angles A and B, we also know that 
+
+</para>
+
+
+
+
+<para id="p1075">
+Angle C = 180 - 80 - 60 = 40 degrees.
+
+</para>
+
+
+
+
+<para id="p1076">
+<emphasis id="strong1016" effect="bold">
+Compute the length of side c
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1077">
+Using the second and third ratios and rearranging terms, we can solve for side c as:
+
+</para>
+
+
+
+
+<para id="p1078">
+c = sin C * (11.3741339/0.984807753)
+
+</para>
+
+
+
+
+<para id="p1079">
+= 0.64278761 * (11.3741339/0.984807753)
+
+</para>
+
+
+
+
+<para id="p1080">
+= 7.42393866
+
+</para>
+
+
+
+
+<para id="p1081">
+Thus, we have determined that:
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1056">
+Angle A = 60 degrees
+
+</item>
+
+
+	
+
+<item id="li1057">
+Angle C = 40 degrees
+
+</item>
+
+
+	
+
+<item id="li1058">
+Side c = 7.42
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1082">
+These values all match what we know to be true from the first example.
+
+</para>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="The_law_of_cosines" effect="bold">
+
+The law of cosines
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1083">
+In addition to the law of sines, there is also a law of cosines. The law of cosines is useful for computing the third side of a triangle when two sides and their enclosed angle are known. 
+The law is also useful in computing the angles of a triangle when all three sides are known.
+
+</para>
+
+
+
+
+<para id="p1084">
+Using the same names for the sides and the angles, there 
+are three formulas for the law 
+
+<emphasis id="of_cosines" effect="bold">
+
+of cosines
+
+</emphasis>
+
+:
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1059">
+c^2 = a^2 + b^2 - 2*a*b*cos C
+
+</item>
+
+
+	
+
+<item id="li1060">
+a^2 = b^2 + c^2 - 2*b*c*cos A
+
+</item>
+
+
+	
+
+<item id="li1061">
+b^2 = a^2 + c^2 - 2*a*c*cos B
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1085">
+<emphasis id="strong1017" effect="bold">
+Compute the length of side c
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1086">
+Using the known values from the earlier example, we can compute the length of 
+side c by entering the following expression into the Google search box:
+
+</para>
+
+
+
+
+<para id="p1087">
+sqrt(10^2 + 11.3^2 - 2*10*11.3*cos(40*pi/180))
+
+</para>
+
+
+
+
+<para id="p1088">
+This produces an answer of 7.39, which is close enough to the known value for 
+the length of side c.
+
+</para>
+
+
+
+
+<para id="p1089">
+<emphasis id="strong1018" effect="bold">
+Compute angle C in degrees
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1090">
+Similarly, using the known values from the earlier example, we can compute 
+the angle C knowing the lengths of the three sides. Enter the following 
+expression into the Google search box:
+
+</para>
+
+
+
+
+<para id="p1091">
+arccos((10^2 + 11.3^2 - 7.39^2)/(2*10*11.3))*180/pi
+
+</para>
+
+
+
+
+<para id="p1092">
+This produces an answer of 40.02 which is close enough to the known value for 
+the angle C in degrees.
+
+</para>
+
+
+
+
+<para id="p1093">
+<emphasis id="strong1019" effect="bold">
+An exercise for the student
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1094">
+I will leave it as an exercise for the student to work through the algebra to 
+determine how I used the known values and the first formula given
+
+
+<link id="a1062" target-id="of_cosines">
+
+above
+
+</link>
+
+ to construct the expressions that I entered into 
+the Google search box.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Discussion and sample code
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1095">
+Now that we have expanded our knowledge of trigonometry, let's examine some 
+solutions to problems involving force using vectors.
+
+</para>
+
+
+
+
+<para id="p1096">
+All of the exercises that we will work through in this module involve forces 
+in a two-dimensional plane (coplanar) that meet at a point (concurrent at a 
+point). This excludes forces that create moments or torques, which will be the 
+topic of future modules, and also excludes forces that may come from any 
+direction in a third dimension.
+
+</para>
+
+
+
+
+<section id="h21007">
+<title>
+<emphasis id="Using_the_graph_board" effect="bold">
+
+Using the graph board
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1097">
+You will be making heavy use of your graph board in this module. In order to 
+make the instructions less awkward, I am going to begin using drawing syntax 
+when talking about the graph board. For example, when I say draw a line from 3,5 
+to 10,15, that will mean for you to insert a pin at coordinates x=3 and y=5, to insert a second pin at x=10 and y=15, and 
+to connect the two pins with a rubber 
+band, a pipe cleaner, a wire, a piece of yarn, or whatever works for you.
+
+</para>
+
+
+
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="Parallelogram_of_forces" effect="bold">
+
+Parallelogram of forces
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1098">
+Force is a vector. It has both magnitude and direction. You learned in an 
+earlier module that you can resolve vectors two at a time using a method that 
+involves parallelograms.
+
+</para>
+
+
+
+
+<para id="p1099">
+Stated more formally, any two forces meeting at a point can be replaced by a 
+single resultant force, which is represented by the diagonal of a parallelogram 
+whose two adjacent sides represent the two forces.
+
+</para>
+
+
+
+
+<para id="p1100">
+<emphasis id="strong1020" effect="bold">
+Tactile graphics
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1101">
+The file named Phy1100b1.svg contains an image from which your assistant can 
+create a tactile graphic to illustrate the 
+
+<link id="a1063" target-id="The_scenario">
+
+scenario 
+described below
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1102">
+<link id="a1064" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+ shows the mirror image that is contained in 
+that file for the benefit of your assistant who will create the tactile graphic 
+for this exercise.
+
+</para>
+
+
+	
+
+
+
+<table id="table1003" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1003">
+<row id="tr1006">
+<entry id="th1003">
+
+
+
+<emphasis id="Figure_4" effect="bold">
+
+Figure 4
+
+</emphasis>
+
+. Mirror image contained in the file named Phy1100b1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1003">
+<row id="tr1007">
+<entry id="td1003">
+
+
+
+<media id="media1002" alt="Missing image" display="block">
+<image id="img1002" mime-type="image/png" src="../../media/Phy1100b1a.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1103">
+<link id="a1065" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+ shows a non-mirror-image version of the same 
+image.
+
+</para>
+
+
+
+
+<table id="table1004" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1004">
+<row id="tr1008">
+<entry id="th1004">
+
+
+
+<emphasis id="Figure_5" effect="bold">
+
+Figure 5
+
+</emphasis>
+
+. Non-mirror-image version of the image from the 
+file named Phy1100b1.svg.
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1004">
+<row id="tr1009">
+<entry id="td1004">
+
+
+
+<media id="media1003" alt="Missing image" display="block">
+<image id="img1003" mime-type="image/png" src="../../media/Phy1100b1b.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1104">
+<link id="a1066" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+ shows the key-value pairs that go with the 
+image in the file named Phy1100b1.svg.
+
+</para>
+
+
+
+
+
+
+<table id="table1005" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1005">
+<row id="tr1010">
+<entry id="th1005">
+
+
+
+<emphasis id="Figure_6" effect="bold">
+
+Figure 6
+
+</emphasis>
+
+. Key-value pairs for the image in the file named 
+Phy1100b1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1005">
+<row id="tr1011">
+<entry id="td1005">
+
+
+
+<code id="pre1001" display="block">m: Schematic diagram of the scenario
+n: pipe 
+o: cord under tension 
+p: slack cord 
+q: cord under tension 
+r: cord under tension 
+s: 1.02 kg mass 
+t: File: Phy1100b1.svg
+u: small connecting ring</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+<para id="p1105">
+<emphasis id="strong1021" effect="bold">
+<emphasis id="The_scenario" effect="bold">
+
+The scenario
+
+</emphasis>
+
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1106">
+Please draw a schematic diagram of this scenario on your graph 
+board.
+
+</para>
+
+
+
+
+<para id="p1107">
+A strong pipe extends from left to right in the work area supported 
+on both ends. You can get your hands around the pipe to attach things to it.
+
+</para>
+
+
+
+
+<para id="p1108">
+<emphasis id="strong1022" effect="bold">
+Light, strong, flexible cords
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1109">
+You tie two light, strong, flexible cords to the pipe approximately one meter 
+apart. (the distance isn't critical). We will ignore the weight of the cords. 
+You thread the ends of the two cords through a small ring that is just large enough 
+for you to tie four cords onto the ring. (The only purpose of the ring is to 
+provide a convenient way to attach cords together at a single point.)
+
+</para>
+
+
+
+
+<para id="p1110">
+<emphasis id="strong1023" effect="bold">
+Adjust the position of the ring
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1111">
+You adjust the position of the ring on each of the cords so that the cord on 
+the left forms a 60-degree south of east angle with the pipe and the cord on the 
+right forms a 45 degree south of west angle with the pipe. Then you tie both 
+cords to the ring at that point.
+
+</para>
+
+
+
+
+<para id="p1112">
+<emphasis id="strong1024" effect="bold">
+A triangle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1113">
+When you pull straight down on the ring, the two cords and the pipe form a 
+triangle. The interior angle at the upper-left vertex is 60 degrees, the 
+interior angle at the upper-right vertex is 45 degrees, and because the sum of 
+the angles in a triangle is 180 degrees, the interior angle at the bottom vertex is 75 
+degrees.
+
+</para>
+
+
+
+
+<para id="p1114">
+<emphasis id="strong1025" effect="bold">
+Attach a mass to the ring
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1115">
+You tie a short cord to the bottom of the ring and tie a 1.02 kg mass to the 
+cord. (A 1.02 kg mass has a weight of approximately 10 newtons.). Then you allow 
+the two cords that are tied to the pipe to support the mass, which pulls 
+straight down with a force of 10 newtons.
+
+</para>
+
+
+
+
+<para id="p1116">
+<emphasis id="strong1026" effect="bold">
+The structure of the system
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1117">
+Now, let's think about the structure of this system. It consists of three 
+cords emanating out from a small ring with each cord exerting a force on the 
+ring.
+
+</para>
+
+
+
+
+<para id="p1118">
+<emphasis id="strong1027" effect="bold">
+Compression or tension?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1119">
+To begin with, a flexible cord cannot support a compressive force. If you 
+push on one end of a cord in an attempt to push the object attached to the other 
+end, the cord will simply bend. Therefore, the cords in this scenario cannot 
+possibly exert a pushing force on the ring.
+
+</para>
+
+
+
+
+<para id="p1120">
+However, a cord can support a tension or pulling force. In other words, any 
+or all of the cords can support a pulling force on the ring.
+
+</para>
+
+
+
+
+<para id="p1121">
+<emphasis id="strong1028" effect="bold">
+Nothing else is touching the ring
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1122">
+The ring is not in contact with anything other than the three cords at this 
+point in time, and the ring is in equilibrium. By that I mean that the ring has 
+zero velocity and no acceleration.
+
+</para>
+
+
+
+
+<para id="p1123">
+(We are also assuming that the ring is, for all practical purposes, a point 
+and it is not experiencing a moment or a torque. Once again, we'll get into 
+moments and torques in a future module.)
+
+</para>
+
+
+
+
+<para id="p1124">
+<emphasis id="strong1029" effect="bold">
+Thee pulling forces
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1125">
+So, we know that the ring is being subjected to three pulling forces. A 
+pulling force of 10 newtons is pulling straight down toward the center of the 
+earth. The forces associated with the two upper cords must be along the lengths 
+of the cords. Otherwise, the cords and the ring would be moving.
+
+</para>
+
+
+
+
+<para id="p1126">
+<emphasis id="strong1030" effect="bold">
+Tactile graphics
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1127">
+The file named Phy1100c1.svg contains a force vector diagram for this 
+scenario.
+
+</para>
+
+
+
+
+<para id="p1128">
+<link id="a1067" target-id="Figure_7">
+
+Figure 7
+
+</link>
+
+ shows the mirror image that is contained in 
+that file for the benefit of your assistant who will create the tactile graphic 
+for this exercise.
+
+</para>
+
+
+
+
+<table id="table1006" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1006">
+<row id="tr1012">
+<entry id="th1006">
+
+
+
+<emphasis id="Figure_7" effect="bold">
+
+Figure 7
+
+</emphasis>
+
+. Mirror image from the file named Phy1100c1.svg. 
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1006">
+<row id="tr1013">
+<entry id="td1006">
+
+
+
+<media id="media1004" alt="Missing image." display="block">
+<image id="img1004" mime-type="image/png" src="../../media/Phy1100c1a.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1129">
+<link id="a1068" target-id="Figure_8">
+
+Figure 8
+
+</link>
+
+ shows a non-mirror-image version of the same 
+image.
+
+</para>
+
+
+
+
+<table id="table1007" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1007">
+<row id="tr1014">
+<entry id="th1007">
+
+
+
+<emphasis id="Figure_8" effect="bold">
+
+Figure 8
+
+</emphasis>
+
+. Non-mirror-image version of the image from the file named Phy1100c1.svg. 
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1007">
+<row id="tr1015">
+<entry id="td1007">
+
+
+
+<media id="media1005" alt="Missing image." display="block">
+<image id="img1005" mime-type="image/png" src="../../media/Phy1100c1b.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1130">
+<link id="a1069" target-id="Figure_9">
+
+Figure 9
+
+</link>
+
+ shows the key-value pairs that go with the image in the file named 
+Phy1100c1.svg.
+
+</para>
+
+
+
+
+
+
+<table id="table1008" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1008">
+<row id="tr1016">
+<entry id="th1008">
+
+
+
+<emphasis id="Figure_9" effect="bold">
+
+Figure 9
+
+</emphasis>
+
+. Key-value pairs for the image in the file named Phy1100c1.svg.
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1008">
+<row id="tr1017">
+<entry id="td1008">
+
+
+
+<code id="pre1002" display="block">m: Force vector diagram.
+n: Parallelogram lines
+o: 7.3 newtons 
+p: Vector C 
+q: Resultant 
+r: 10 newtons 
+s: Vector B 
+t: 5.3 newtons 
+u: 60 degrees 
+v: 45 degrees 
+w: 10 newtons 
+x: Vector A 
+y: File: Phy1100c1.svg 
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+<para id="p1131">
+<emphasis id="strong1031" effect="bold">
+Directions of the forces
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1132">
+The fact that the cords can only support tension tells us that one of the two forces pulling in an upward direction is 
+actually pulling at an angle of 45 degrees north of east(the direction of the 
+cord). The other force is pulling at angle of 60 degrees north of west.
+
+</para>
+
+
+
+
+<para id="p1133">
+<emphasis id="strong1032" effect="bold">
+What is the tension in each cord?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1134">
+So, three interesting questions are:
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1062">
+What is the tension in each of the cords.
+
+</item>
+
+
+	
+
+<item id="li1063">
+How much of the 
+10-newton load is being carried by the 
+cord on the right.
+
+</item>
+
+
+	
+
+<item id="li1064">
+How much of the load is being carried by the cord on the left?
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1135">
+We can determine the answers to those questions using the parallelogram 
+rule. At least we can find the tension in each of the cords and determine if 
+those tensions are sufficient to carry the 10-newton load.
+
+</para>
+
+
+
+
+<para id="p1136">
+<emphasis id="strong1033" effect="bold">
+The parallelogram rule
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1137">
+As I told you earlier, 
+
+<emphasis id="any_two_forces" effect="bold">
+
+any two forces
+
+</emphasis>
+
+ meeting at 
+a point (we're considering the ring to be a point) can be replaced by a single 
+resultant force, which is represented by the diagonal of a parallelogram whose 
+two adjacent sides represent the two forces.
+
+</para>
+
+
+
+
+<para id="p1138">
+If we can figure out what the resultant force is, we can figure out the 
+answer to the above questions regarding the tensions and the load being borne by each of the upper 
+cords.
+
+</para>
+
+
+
+
+<para id="p1139">
+We should be able to figure out what the resultant force is with a thought 
+experiment based on our life experiences.
+
+</para>
+
+
+
+
+<para id="p1140">
+<emphasis id="strong1034" effect="bold">
+Tie a fourth cord to the ring
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1141">
+Pretend that you tie another cord to the top of the ring and loop it over the 
+pipe somewhere between the tie points of the other two cords. (This cord is 
+indicated by the object labeled "slack cord" in the image in the file named 
+Phy1100b1.svg and also in the image in 
+
+<link id="a1070" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+.)
+
+</para>
+
+
+
+
+<para id="p1142">
+Then pull very 
+slowly on that fourth cord until both of the other cords go slack. At that 
+point, the fourth cord, (which is somewhat analogous to the resultant of the 
+forces in the other two cords) has assumed the entire 10-newton load.
+
+</para>
+
+
+
+
+<para id="p1143">
+<emphasis id="strong1035" effect="bold">
+Is the ring in equilibrium?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1144">
+Did the ring and the mass move sideways when the other two cords went slack. 
+If so, the equilibrium of the system was disrupted. Relax the tension on the fourth 
+cord, move it slightly sideways, and repeat the experiment. Continue this 
+process until you find a location where the ring doesn't move sideways when the 
+fourth cord assumes the total load.
+
+</para>
+
+
+
+
+<para id="p1145">
+<emphasis id="strong1036" effect="bold">
+Only one location will suffice
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1146">
+You can probably agree, from prior experience on the swing set at the playground 
+as a child, that the only location at which the fourth cord can 
+assume the total load without the ring moving sideways is when the fourth cord 
+passes over the pipe directly above the ring and the mass. Therefore, we know 
+that the resultant of the forces being exerted by the original two upper cords 
+must be on a vertical line directly above the ring and the mass.
+
+</para>
+
+
+
+
+<para id="p1147">
+<emphasis id="strong1037" effect="bold">
+The diagonal
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1148">
+We also know on the basis of the 
+
+<link id="a1071" target-id="any_two_forces">
+
+above rule
+
+</link>
+
+ 
+that the length of the resultant force is proportional to the length of the 
+diagonal of a parallelogram whose two adjacent sides represent the two forces 
+that are being resolved.
+
+</para>
+
+
+
+
+<para id="p1149">
+<emphasis id="strong1038" effect="bold">
+The resultant force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1150">
+The resultant force is indicated by a heavy dashed vector pointing upward in 
+the image in Phy1100c1.svg. Two sides of the parallelogram are represented by 
+lighter dashed lines. The other two sides of the parallelogram are represented 
+by heavy solid vectors, one at 45 degrees relative to the horizontal and the 
+other at 60 degrees relative to the horizontal.
+
+</para>
+
+
+
+
+<para id="p1151">
+<emphasis id="strong1039" effect="bold">
+The length of the resultant force vector
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1152">
+Let's think a bit about the required length of the resultant force vector. 
+The above experiment resolves the force system into only two forces acting on 
+the ring. (The original two upward force vectors are eliminated from the 
+picture when those two cords go slack.) One force is directed up and the other force is directed down.
+
+</para>
+
+
+
+
+<para id="p1153">
+<emphasis id="strong1040" effect="bold">
+The vector sum must be zero for equilibrium
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1154">
+We also know that the vector sum of all the forces acting on a point must be 
+zero in in order for the point to be in equilibrium. Since there are the only 
+two forces acting on the ring, the only way that they can sum to zero is for 
+them to be equal in magnitude and opposite in direction from one another.
+
+</para>
+
+
+
+
+<para id="p1155">
+<emphasis id="strong1041" effect="bold">
+Equal and opposite
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1156">
+The force vector pulling down on the ring has a magnitude of 10 newtons. We 
+know because we tied a ten-newton load to the bottom of the ring. Therefore, the 
+magnitude of the resultant vector pulling up on the ring must also be 10 
+newtons. That is the required length of the diagonal of the parallelogram 
+discussed earlier.
+
+</para>
+
+
+
+
+<para id="p1157">
+<emphasis id="strong1042" effect="bold">
+The graphical solution
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1158">
+Draw the force vector pointing straight up from the ring with a length of ten 
+units. (You can use whatever drawing scale is convenient for your drawing.) That 
+is the diagonal of a parallelogram. Two force vectors lie along the lines of the 
+two cords. Those two force vectors form the adjacent sides of a parallelogram, 
+but we don't yet know their lengths.
+
+</para>
+
+
+
+
+<para id="p1159">
+<emphasis id="strong1043" effect="bold">
+Complete the parallelogram
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1160">
+The lengths of the force vectors that lie along the lines of the cords are 
+equal to the sides of the parallelogram. That provides the answer to the original 
+question regarding the tension in each of the cords. The tension in each cord is 
+equal to the length of the side of the parallelogram using the same scale that 
+was used to draw the 10-newton diagonal length.
+
+</para>
+
+
+
+
+<para id="p1161">
+<emphasis id="strong1044" effect="bold">
+Drawing the parallelogram might be difficult
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1162">
+Drawing the parallelogram is not particularly easy even for a sighted person without 
+special drawing tools. Here is one way that I have found to do it.
+
+</para>
+
+
+
+
+<para id="p1163">
+Draw a horizontal line (parallel to the pipe) that just touches the tip of 
+the force vector that represents the diagonal. Then use your protractor to draw 
+lines that begin at the tip of the force vector and emanate downward on both 
+sides of the diagonal at angles of 60 degrees south of east and 45 degrees south 
+of west. Be sure to do it in the correct order so that you end up with a 
+parallelogram. 
+
+</para>
+
+
+
+
+<para id="p1164">
+<emphasis id="strong1045" effect="bold">
+Mark the spots
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1165">
+Mark the spots where those lines cross the two upper cords. Those spots are 
+the tips of the force vectors in the cords.
+
+</para>
+
+
+
+
+<para id="p1166">
+<emphasis id="strong1046" effect="bold">
+My answer
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1167">
+When I did it graphically (using pencil, paper, protractor, and ruler), I got 
+the length of the force vector pointing 45 degrees north of east to have a 
+length of 5.3 newtons. I got the length of the force vector pointing north of 
+west to be 7.3 newtons. These are the values on the upper force vectors in the 
+image in Phy1100c1.svg.
+
+</para>
+
+
+
+
+<para id="p1168">
+<emphasis id="strong1047" effect="bold">
+Numeric sum exceeds 10 newtons
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1169">
+You may have noticed that the numeric sum of the magnitudes of these two force vectors exceeds 
+the load of 10 newtons. How can that be?
+
+</para>
+
+
+
+
+<para id="p1170">
+The answer is that when force vectors that are supporting a vertical load go 
+off in a direction other than vertical, only the vertical component of the force 
+vector counts insofar as supporting the load is concerned.
+
+</para>
+
+
+
+
+<para id="p1171">
+The vertical components of the two force vectors are:
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1065">
+5.3*sin(45 degrees) = 3.74
+
+</item>
+
+
+	
+
+<item id="li1066">
+7.3*sin(60 degrees) = 6.32
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1172">
+The sum of the vertical components is:
+
+</para>
+
+
+
+
+<para id="p1173">
+6.32 + 3.74 = 10.06
+
+</para>
+
+
+
+
+<para id="p1174">
+which is close enough to the downward force being exerted on the ring by the 
+mass.
+
+</para>
+
+
+
+
+<para id="p1175">
+<emphasis id="strong1048" effect="bold">
+Your answer
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1176">
+Were you able to get reasonably close to my answers? If so, 
+congratulations. If not, don't worry too much about it. The most important thing 
+is for you to understand the process and not to develop expertise in constructing accurate drawings 
+using pushpins and rubber bands. However, I do believe that constructing vector 
+diagrams will help you gain a better understanding of the process.
+
+</para>
+
+
+
+
+<para id="p1177">
+Later I will show you how to solve the same .problem 
+mathematically which is probably the better choice for a blind student.
+
+</para>
+
+
+
+
+</section>
+<section id="h21009">
+<title>
+<emphasis id="Triangle_of_forces" effect="bold">
+
+Triangle of forces
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1178">
+Now let's take another look at the same problem from a somewhat different 
+graphical viewpoint. To recap, we have a point in a plane (the ring) which is subjected to 
+the following three vector forces and the ring is in equilibrium. (All angles are given relative to the positive 
+horizontal axis).
+
+</para>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1067">
+Vector A -- A force of 10 newtons at an angle of -90 degrees.
+
+</item>
+
+
+	
+
+<item id="li1068">
+Vector B -- A force of an unknown magnitude at an angle of 45 degrees.
+
+</item>
+
+
+	
+
+<item id="li1069">
+Vector C -- A force of an unknown magnitude at an angle of 120 degrees.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1179">
+We know that in order for the ring to be in equilibrium, the sum of the 
+vectors for these three forces must add to zero. What are the magnitudes of the 
+forces that vector B and vector C exert on the ring?
+
+</para>
+
+
+
+
+<para id="p1180">
+<emphasis id="strong1049" effect="bold">
+Drawing tail to tip
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1181">
+You learned in an earlier module that you can add vectors graphically by 
+drawing them tail to tip. Once you have done that, the resultant vector is a 
+vector that extends from the tail of the first vector to the tip of the last 
+vector.
+
+</para>
+
+
+
+
+<para id="p1182">
+<emphasis id="strong1050" effect="bold">
+Tactile graphics
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1183">
+The file named Phy1100d1.svg contains the image that is required to create a 
+tactile graphic for this scenario.
+
+</para>
+
+
+
+
+<para id="p1184">
+<link id="a1072" target-id="Figure_10">
+
+Figure 10
+
+</link>
+
+ shows the mirror image that is contained in 
+that file for the benefit of your assistant who will create the tactile graphic 
+for this exercise.
+
+</para>
+
+
+
+	
+
+
+<table id="table1009" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1009">
+<row id="tr1018">
+<entry id="th1009">
+
+
+
+<emphasis id="Figure_10" effect="bold">
+
+Figure 10
+
+</emphasis>
+
+. Mirror image from the file named Phy1100d1.svg. 
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1009">
+<row id="tr1019">
+<entry id="td1009">
+
+
+
+<media id="media1006" alt="Missing image." display="block">
+<image id="img1006" mime-type="image/png" src="../../media/Phy1100d1a.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1185">
+<link id="a1073" target-id="Figure_11">
+
+Figure 11
+
+</link>
+
+ shows a non-mirror-image version of the same 
+image.
+
+</para>
+
+
+
+
+<table id="table1010" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1010">
+<row id="tr1020">
+<entry id="th1010">
+
+
+
+<emphasis id="Figure_11" effect="bold">
+
+Figure 11
+
+</emphasis>
+
+. Non-mirror-image version of the image from the file named Phy1100d1.svg. 
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1010">
+<row id="tr1021">
+<entry id="td1010">
+
+
+
+<media id="media1007" alt="Missing image" display="block">
+<image id="img1007" mime-type="image/png" src="../../media/Phy1100d1b.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1186">
+<link id="a1074" target-id="Figure_12">
+
+Figure 12
+
+</link>
+
+ shows the key-value pairs that go with the 
+image in the file named Phy1100d1.svg.
+
+</para>
+
+
+
+
+
+
+<table id="table1011" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1011">
+<row id="tr1022">
+<entry id="th1011">
+
+
+
+<emphasis id="Figure_12" effect="bold">
+
+Figure 12
+
+</emphasis>
+
+. Key-value pairs for the image in the file named Phy1100d1.svg.
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1011">
+<row id="tr1023">
+<entry id="td1011">
+
+
+
+<code id="pre1003" display="block">m: Tip-to-tail force vector diagram
+n: Vector C
+o: 7.3 newtons
+p: 10 newtons
+q: Vector A
+r: 120 degrees
+s: 45 degrees
+t: File: Phy1100d1.svg
+u: Vector B
+v: 5.3 newtons
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+<para id="p1187">
+<emphasis id="strong1051" effect="bold">
+A closed path for equilibrium
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1188">
+For this case where the sum must be zero, the resultant vector must have a 
+zero length. This means that the tip of the last vector must touch the tail of 
+the first vector. In other words, the connected vectors must describe a closed 
+path.
+
+</para>
+
+
+
+
+<para id="p1189">
+In the earlier modules, you were given the magnitude and direction of several 
+vectors and you arranged them tail to tip in order to find the resultant vector. 
+However, for this problem, you know the direction and magnitude of one vector 
+but you only know the directions for the other two vectors. You need to find 
+their magnitudes.
+
+</para>
+
+
+
+
+<para id="p1190">
+Knowing that the three vectors must form a closed path makes a graphical 
+solution to this problem possible.
+
+</para>
+
+
+
+
+<para id="p1191">
+<emphasis id="strong1052" effect="bold">
+Draw a vector diagram
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1192">
+Begin by drawing vector A with a length of 10 newtons at an angle of -90 
+degrees, using whatever plotting scale works for you. The tail for this vector 
+will be at the top of the vertical line and the tip will be at the bottom.
+
+</para>
+
+
+
+
+<para id="p1193">
+<emphasis id="strong1053" effect="bold">
+Add vector B to the diagram
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1194">
+Go to the tip of vector A and draw vector B with an unspecified length 
+at an angle of 45 degrees. The tail of vector B will touch the tip of vector A 
+and the tip of vector B will be somewhere up and to the right of the tip of 
+vector A.
+
+</para>
+
+
+
+
+<para id="p1195">
+<emphasis id="strong1054" effect="bold">
+Add vector C to the diagram
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1196">
+Go to the tail of vector A and draw vector C with an unspecified 
+length at an angle of 120 degrees. The tip of vector C will touch the tail of 
+vector A and the tail of vector C will be somewhere down and to the right of the 
+tail of vector A.
+
+</para>
+
+
+
+
+<para id="p1197">
+<emphasis id="strong1055" effect="bold">
+The lines should cross
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1198">
+If you did everything right, the lines that describe vector B and vector C 
+should cross. Use a pushpin to mark the place where they cross. This point will 
+be the tip of vector B and will be the tail of vector C.
+
+</para>
+
+
+
+
+<para id="p1199">
+<emphasis id="strong1056" effect="bold">
+Measure the lengths of vector B and vector C
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1200">
+At this point, you can measure the lengths of the lines that describe vector 
+B and vector C. Using the same plotting scale that you used for the 10-newton 
+vector A, you can determine the magnitudes of each of those vectors.
+
+</para>
+
+
+
+
+<para id="p1201">
+Since this is the same 
+problem as before, the magnitudes for those two vectors should be the same as 
+before. Vector B should be about 5.3 newtons and vector C should be about 
+7.3 newtons.
+
+</para>
+
+
+
+
+<para id="p1202">
+<emphasis id="strong1057" effect="bold">
+Was this easier than the parallelogram?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1203">
+I suspect that you probably found the physical construction of the triangle 
+solution to be easier than the physical construction of the parallelogram 
+solution. I further suspect that the trigonometric solution, which I will 
+explain in the next section, will be even easier for blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21010">
+<title>
+<emphasis id="Trigonometric_solution_to_the_triangle_problem" effect="bold">
+
+Trigonometric 
+solution to the triangle of forces
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1204">
+Let's pretend that you don't have a graphic solution for this 
+problem. However, you do have a rough sketch of what the triangle looks like on 
+your graph board. Use your Braille labeler to label the three vectors in the 
+sketch A, B, and C. Then label the angles opposite each side as a, b, and c respectively.
+
+</para>
+
+
+
+
+<para id="p1205">
+Here are the facts as we know them at this point:
+
+</para>
+
+
+
+
+<list id="ul1015" list-type="bulleted">
+
+	
+
+<item id="li1070">
+Vector A = 10 newtons.
+
+</item>
+
+
+	
+
+<item id="li1071">
+Angle a = 105 degrees.
+
+</item>
+
+
+	
+
+<item id="li1072">
+Sine 105 degrees = 0.966
+
+</item>
+
+
+	
+
+<item id="li1073">
+Angle b = 30 degrees
+
+</item>
+
+
+	
+
+<item id="li1074">
+Sine 30 degrees = 0..5
+
+</item>
+
+
+	
+
+<item id="li1075">
+Angle c = 45 degrees
+
+</item>
+
+
+	
+
+<item id="li1076">
+Sine c = 0.707
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1206">
+<emphasis id="strong1058" effect="bold">
+The law of sines
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1207">
+We will solve this problem using the law of sines that I explained earlier. Given the 
+names that we have applied to the sides and the angles for this triangle, the law of 
+sines can be written as follows:
+
+</para>
+
+
+
+
+<para id="p1208">
+(A/sin a) = (B/sin b) = (C/sin c)
+
+</para>
+
+
+
+
+<para id="p1209">
+(Note that upper and lower-case letters were switched relative to the law of 
+sines given near the 
+
+<link id="a1075" target-id="The_law_of_sines_formula">
+
+beginning
+
+</link>
+
+ of this module.)
+
+</para>
+
+
+
+
+<para id="p1210">
+<emphasis id="strong1059" effect="bold">
+Solve for the length of side B
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1211">
+Using the first two ratios and rearranging terms gives
+
+</para>
+
+
+
+
+<para id="p1212">
+B = A*sin b/sin a = 5.18
+
+</para>
+
+
+
+
+<para id="p1213">
+<emphasis id="strong1060" effect="bold">
+Solve for the length of side C
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1214">
+Using the first and third ratio and rearranging terms gives
+
+</para>
+
+
+
+
+<para id="p1215">
+C = A*sin c/sin a = 7.32
+
+</para>
+
+
+
+
+<para id="p1216">
+<emphasis id="strong1061" effect="bold">
+The answers
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1217">
+These are the answers that we are looking for:
+
+</para>
+
+
+
+
+<list id="ul1016" list-type="bulleted">
+
+	
+
+<item id="li1077">
+B = 5.18 newtons
+
+</item>
+
+
+	
+
+<item id="li1078">
+C = 7.32 newtons
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21011">
+<title>
+<emphasis id="Using_components_to_analyze_for_equilibrium" effect="bold">
+
+Using components to 
+analyze for equilibrium
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1218">
+<emphasis id="strong1062" effect="bold">
+Tent pole exercise
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1219">
+Please sketch this scenario on your graph board. Then we will solve the 
+problem using a script and components.
+
+</para>
+
+
+
+
+<para id="p1220">
+A bird's eye view of the top of a tent pole shows guy wires extending 
+outward and exerting radial 
+10-newton forces on a tent pole at 
+
+<emphasis id="the_following_angles" effect="bold">
+
+the following angles
+
+</emphasis>
+
+:
+
+</para>
+
+
+
+
+<list id="ul1017" list-type="bulleted">
+
+	
+
+<item id="li1079">
+0 degrees
+
+</item>
+
+
+	
+
+<item id="li1080">
+45 degrees
+
+</item>
+
+
+	
+
+<item id="li1081">
+90 degrees
+
+</item>
+
+
+	
+
+<item id="li1082">
+135 degrees
+
+</item>
+
+
+	
+
+<item id="li1083">
+180 degrees
+
+</item>
+
+
+	
+
+<item id="li1084">
+225 degrees
+
+</item>
+
+
+	
+
+<item id="li1085">
+270 degrees
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1221">
+<emphasis id="strong1063" effect="bold">
+Tactile graphics
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1222">
+The image in the file named Phy1100e1.svg contains seven vectors of equal length emanating 
+out from a common point at the angles given above.
+
+</para>
+
+
+
+
+<para id="p1223">
+<link id="a1076" target-id="Figure_13">
+
+Figure 13
+
+</link>
+
+ shows the mirror image that is contained in 
+that file for the benefit of your assistant who will create the tactile graphic 
+for this exercise.
+
+</para>
+
+
+
+	
+
+
+<table id="table1012" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1012">
+<row id="tr1024">
+<entry id="th1012">
+
+
+
+<emphasis id="Figure_13" effect="bold">
+
+Figure 13
+
+</emphasis>
+
+. Mirror image from the file named Phy1100e1.svg. 
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1012">
+<row id="tr1025">
+<entry id="td1012">
+
+
+
+<media id="media1008" alt="Missing image" display="block">
+<image id="img1008" mime-type="image/png" src="../../media/Phy1100e1a.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1224">
+<link id="a1077" target-id="Figure_14">
+
+Figure 14
+
+</link>
+
+ shows a non-mirror-image version of the same 
+image.
+
+</para>
+
+
+
+
+<table id="table1013" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1013">
+<row id="tr1026">
+<entry id="th1013">
+
+
+
+<emphasis id="Figure_14" effect="bold">
+
+Figure 14
+
+</emphasis>
+
+. Non-mirror-image version of the image from the file named Phy1100e1.svg. 
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1013">
+<row id="tr1027">
+<entry id="td1013">
+
+
+
+<media id="media1009" alt="Missing image" display="block">
+<image id="img1009" mime-type="image/png" src="../../media/Phy1100e1b.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1225">
+<link id="a1078" target-id="Figure_15">
+
+Figure 15
+
+</link>
+
+ shows the key-value pairs that go with the 
+image in the file named Phy1100e1.svg.
+
+</para>
+
+
+
+
+
+
+<table id="table1014" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1014">
+<row id="tr1028">
+<entry id="th1014">
+
+
+
+<emphasis id="Figure_15" effect="bold">
+
+Figure 15
+
+</emphasis>
+
+. Key-value pairs for the image in the file named Phy1100e1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1014">
+<row id="tr1029">
+<entry id="td1014">
+
+
+
+<code id="pre1004" display="block">m: Tent pole exercise
+n: File: Phy1100e1.svg
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+<para id="p1226">
+<emphasis id="strong1064" effect="bold">
+Equilibrium
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1227">
+Is the tent pole in equilibrium? If not, why not? What new force would need to be 
+added to cause it to be in equilibrium?
+
+</para>
+
+
+
+
+<para id="p1228">
+You can probably solve this exercise in your head by inspection of the force 
+vectors because they are all of the same length and they emanate outward at regularly 
+spaced angles around the pole.
+
+</para>
+
+
+
+
+<para id="p1229">
+<emphasis id="strong1065" effect="bold">
+Could be more complex
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1230">
+Note, however, that the scenario could be much more complicated involving 
+force vectors with different lengths arranged at seemingly random angles around 
+the pole.
+
+</para>
+
+
+
+
+<para id="p1231">
+The important point is, the same general scheme would be used to solve the 
+more complicated problem as is used to solve this simple exercise. However, the 
+code in the script for the more complicated version would probably be somewhat 
+more messy.
+
+</para>
+
+
+
+
+<para id="p1232">
+<emphasis id="strong1066" effect="bold">
+The scheme for the solution
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1233">
+The solution is to compute the sum of the force vectors to determine if 
+the resultant vector is zero. If it is not zero, the tent pole would not be in 
+equilibrium. It would be necessary to add a 
+new force vector with the same magnitude as the resultant vector but in a 
+direction that is the exact opposite of the direction of the resultant vector to 
+cause the tent pole to be in equilibrium.
+
+</para>
+
+
+
+
+<para id="p1234">
+<emphasis id="strong1067" effect="bold">
+Create a script
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1235">
+Please copy the code from 
+
+<link id="a1079" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+ into an html file and open the file in 
+your browser.
+
+</para>
+
+
+
+
+
+<table id="table1015" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1015">
+<row id="tr1030">
+<entry id="th1015">
+
+
+
+<emphasis id="Listing_1" effect="bold">
+
+Listing 1
+
+</emphasis>
+
+. Tent pole exercise.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1015">
+<row id="tr1031">
+<entry id="td1015">
+
+
+
+<code id="pre1005" display="block">&lt;!---------------- File JavaScript01.html ---------------------&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+
+document.write("Start Script &lt;/br&gt;&lt;/br&gt;");
+
+//The purpose of this function is to receive the adjacent
+// and opposite side values for a right triangle and to
+// return the angle in degrees in the correct quadrant.
+function getAngle(x,y){
+  if((x == 0) &amp;&amp; (y == 0)){
+    //Angle is indeterminate. Just return zero.
+    return 0;
+  }else if((x == 0) &amp;&amp; (y &gt; 0)){
+    //Avoid divide by zero denominator.
+    return 90;
+  }else if((x == 0) &amp;&amp; (y &lt; 0)){
+    //Avoid divide by zero denominator.
+    return -90;
+  }else if((x &lt; 0) &amp;&amp; (y &gt;= 0)){
+    //Correct to second quadrant
+    return Math.atan(y/x)*180/Math.PI + 180;
+  }else if((x &lt; 0) &amp;&amp; (y &lt;= 0)){
+    //Correct to third quadrant
+    return Math.atan(y/x)*180/Math.PI + 180;
+  }else{
+    //First and fourth quadrants. No correction required.
+    return Math.atan(y/x)*180/Math.PI;
+  }//end else
+}//end function getAngle
+
+
+
+var resultX = 0;//magnitude in newtons
+var resultY = 0;//magnitude in newtons
+var ang = 0;//degrees
+var mag = 10;//newtons
+
+while(ang &lt;= 270){
+  resultX = resultX + mag*Math.cos(ang*Math.PI/180);
+  resultY = resultY + mag*Math.sin(ang*Math.PI/180);
+  ang = ang + 45;
+}//end while loop
+
+var resultAng = getAngle(resultX,resultY);
+var resultMag = Math.sqrt(resultX*resultX +
+                          resultY*resultY);
+
+document.write("The resultant is:" + "&lt;/br&gt;");
+document.write("Magnitude = " + resultMag.toFixed(2) +
+               "&lt;/br&gt;");
+document.write("Angle = " + resultAng.toFixed(2) +
+               "&lt;/br&gt;");
+
+document.write("&lt;/br&gt;End Script");
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1236">
+<emphasis id="strong1068" effect="bold">
+Screen output
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1237">
+The text shown in 
+
+<link id="a1080" target-id="Figure_16">
+
+Figure 
+	16
+
+</link>
+
+ should appear in your browser window when you 
+	open the html file in your browser.
+
+</para>
+
+
+
+
+
+
+<table id="table1016" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1016">
+<row id="tr1032">
+<entry id="th1016">
+
+
+
+<emphasis id="Figure_16" effect="bold">
+
+Figure 16
+
+</emphasis>
+
+. Screen output for Listing #1.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1016">
+<row id="tr1033">
+<entry id="td1016">
+
+
+
+<code id="pre1006" display="block">Start Script
+
+The resultant is:
+Magnitude = 10.00
+Angle = 135.00
+
+End Script </code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+	
+
+<para id="p1238">
+<emphasis id="strong1069" effect="bold">
+Analysis of the output
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1239">
+<link id="a1081" target-id="Figure_16">
+
+Figure 
+	16
+
+</link>
+
+ shows the resultant force when the vector forces shown
+
+
+<link id="a1082" target-id="the_following_angles">
+
+earlier
+
+</link>
+
+ are added.
+
+</para>
+
+
+
+
+<para id="p1240">
+<emphasis id="strong1070" effect="bold">
+<emphasis id="The_requirement_for_equilibrium" effect="bold">
+
+The requirement for equilibrium
+
+</emphasis>
+
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1241">
+Two or more coplanar forces concurrent at a point are in equilibrium if the 
+sums of their components, taken along two mutually perpendicular axes are zero.
+
+</para>
+
+
+
+
+<para id="p1242">
+<emphasis id="strong1071" effect="bold">
+The vector sum is not zero
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1243">
+As you can see from 
+
+<link id="a1083" target-id="Figure_16">
+
+Figure 
+	16
+
+</link>
+
+, the vector sum of the forces shown
+
+
+<link id="a1084" target-id="the_following_angles">
+
+earlier
+
+</link>
+
+ is not zero. The resultant vector 
+has a magnitude of 10 newtons and a direction of 135 degrees.
+
+</para>
+
+
+	
+
+<para id="p1244">
+Therefore, the tent 
+pole is not in equilibrium and is subject to falling down. If it 
+falls, it will probably fall in the direction of 135 degrees because there is a 
+resultant force of 10 newtons pulling it in that direction.
+
+</para>
+
+
+
+
+<para id="p1245">
+<emphasis id="strong1072" effect="bold">
+Add a 10-newton force at 315 degrees
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1246">
+To put the tent pole in equilibrium, we would need to add one more force of 
+10 newtons in the opposite direction of the resultant shown in 
+
+
+<link id="a1085" target-id="Figure_16">
+
+Figure 
+	16
+
+</link>
+
+. In 
+particular, one more guy wire is needed that adds a 10-newton pulling force in 
+the direction of 315 degrees.
+
+</para>
+
+
+
+
+<para id="p1247">
+<emphasis id="strong1073" effect="bold">
+Analysis of the code
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1248">
+We will deal with causing the tent pole to be in equilibrium shortly. Right now, let's make certain that we 
+understand the code shown in 
+
+<link id="a1086" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1249">
+I doubt that you will find anything new in this script because I explained 
+the use of components for computing vector sums in an earlier module.
+
+</para>
+
+
+
+
+<para id="p1250">
+<emphasis id="strong1074" effect="bold">
+A function named getAngle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1251">
+<link id="a1087" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+ begins with the definition of a function named getAngle that I 
+explained in an earlier module. Therefore, I won't explain that code again in 
+this module.
+
+</para>
+
+
+
+
+<para id="p1252">
+<emphasis id="strong1075" effect="bold">
+Declare working variables
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1253">
+Following the definition of the getAngle function, 
+
+<link id="a1088" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+ declares and initializes 
+several working variables.
+
+</para>
+
+
+
+
+<para id="p1254">
+<emphasis id="strong1076" effect="bold">
+Enter a while loop
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1255">
+Then control goes into a while loop that computes the sum of the x-components and the 
+sum of the y-components for each of the forces shown 
+
+<link id="a1089" target-id="the_following_angles">
+
+earlier
+
+</link>
+
+. 
+
+
+</para>
+
+
+
+
+<para id="p1256">
+Those forces are uniformly spaced around the tent pole with a 10-newton force vector every 
+45 degrees beginning at 0 and extending to 270 degrees inclusive. That makes it 
+easy to compute and add the components using a while loop.
+
+</para>
+
+
+
+
+<para id="p1257">
+The code in the while loop begins by computing the components of the force 
+vector at 0 degrees, and then computes and accumulates the x and y components for each 
+of the remaining force vectors with a new force vector every 45 degrees up to and including 
+the force vector at 270 degrees.
+
+</para>
+
+
+
+
+<para id="p1258">
+<emphasis id="strong1077" effect="bold">
+Storage locations for the vector sum
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1259">
+When the while loop exits, after computing the sum of the x-components and 
+the sum of the y-components for the seven forces shown 
+
+<link id="a1090" target-id="the_following_angles">
+
+earlier
+
+</link>
+
+, the sum 
+of the x-components is stored in the variable named resultX and the sum of the 
+y-components is stored in the variable named resultY.
+
+</para>
+
+
+
+
+<para id="p1260">
+<emphasis id="strong1078" effect="bold">
+Compute the magnitude and angle of the resultant vector
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1261">
+The magnitude of the resultant vector is computed as the square root of the 
+sum of the squares of the x and y components. The getAngle method is called to 
+get the angle of the resultant force vector.
+
+</para>
+
+
+	
+
+<para id="p1262">
+Then those values are displayed in the browser window as shown in 
+	
+
+<link id="a1091" target-id="Figure_16">
+
+Figure 
+	16
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1263">
+<emphasis id="strong1079" effect="bold">
+Now let's fix the problem
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1264">
+We said earlier that we can cause the tent pole to be in equilibrium by 
+adding one additional 10-newton force at an angle of 315 degrees. We can easily 
+accomplish this by making the changes shown in 
+
+<link id="a1092" target-id="Figure_17">
+
+Figure 17
+
+</link>
+
+ to the code in 
+
+
+<link id="a1093" target-id="Listing_1">
+
+Listing 
+1
+
+</link>
+
+.
+
+</para>
+
+
+
+	
+
+
+<table id="table1017" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1017">
+<row id="tr1034">
+<entry id="th1017">
+
+
+
+<emphasis id="Figure_17" effect="bold">
+
+Figure 17
+
+</emphasis>
+
+. Changes to Listing #1. 
+.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1017">
+<row id="tr1035">
+<entry id="td1017">
+
+
+
+<code id="pre1007" display="block">
+Change the code that reads:
+
+while(ang &lt;= 270){
+
+to read
+
+while(ang &lt;= 315){
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+<para id="p1265">
+This change will cause one more 10-newton force vector at an angle of 315 
+degrees to be added to the sum of the vectors.
+
+</para>
+
+
+
+
+<para id="p1266">
+<emphasis id="strong1080" effect="bold">
+Make the change
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1267">
+Make that change and open the modified html file in your browser. When you do, the 
+text shown in 
+
+<link id="a1094" target-id="Figure_18">
+
+Figure 18
+
+</link>
+
+ should appear in your browser window.
+
+</para>
+
+
+
+
+
+
+<table id="table1018" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1018">
+<row id="tr1036">
+<entry id="th1018">
+
+
+
+<emphasis id="Figure_18" effect="bold">
+
+Figure 18
+
+</emphasis>
+
+. Screen output for modified Listing #1.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1018">
+<row id="tr1037">
+<entry id="td1018">
+
+
+
+<code id="pre1008" display="block">Start Script
+
+The resultant is:
+Magnitude = 0.00
+Angle = 198.43
+
+End Script </code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+	
+
+<para id="p1268">
+<emphasis id="strong1081" effect="bold">
+Magnitude of resultant vector is zero
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1269">
+The significant thing about 
+
+<link id="a1095" target-id="Figure_18">
+
+Figure 18
+
+</link>
+
+ is that the magnitude of the resultant 
+vector is now 0, which satisfies the requirement for equilibrium stated
+
+
+<link id="a1096" target-id="The_requirement_for_equilibrium">
+
+earlier
+
+</link>
+
+.
+
+</para>
+
+
+	
+	
+
+<para id="p1270">
+Pay no attention to the angle shown in 
+
+<link id="a1097" target-id="Figure_18">
+
+Figure 18
+
+</link>
+
+. It is meaningless. It is 
+	not possible to compute a valid angle for a vector that has a magnitude of 
+	zero.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Run the scripts
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1271">
+I encourage you to run the script and perform the calculations that I have presented in this lesson to 
+confirm that you get the same results. Experiment with 
+the code and the calculations, making changes, and observing the results of your changes. Make 
+certain that you can explain why your changes behave as they do. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1272">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1273">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1082" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1018" list-type="bulleted">
+
+
+
+<item id="li1086">
+Module name: Force -- Vector Solutions for Coplanar Forces Concurrent at a 
+Point
+
+</item>
+
+
+
+
+<item id="li1087">
+File: Phy1100.htm
+
+
+</item>
+
+
+
+
+<item id="li1088">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1089">
+Keywords:
+
+<list id="ul1019" list-type="bulleted">
+
+		
+
+<item id="li1090">
+physics
+
+</item>
+
+
+		
+
+<item id="li1091">
+accessible
+
+</item>
+
+
+					
+
+<item id="li1092">
+blind
+
+</item>
+
+
+		
+
+<item id="li1093">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1094">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1095">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1096">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1097">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1098">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1099">
+coplanar forces
+
+</item>
+
+
+					
+
+<item id="li1100">
+law of sines
+
+</item>
+
+
+					
+
+<item id="li1101">
+law of cosines
+
+</item>
+
+
+					
+
+<item id="li1102">
+parallelogram rule
+
+</item>
+
+
+					
+
+<item id="li1103">
+triangle rule
+
+</item>
+
+
+					
+
+<item id="li1104">
+resultant
+
+</item>
+
+
+					
+
+<item id="li1105">
+equilibrium
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+<emphasis id="strong1083" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1274">
+<emphasis id="strong1084" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1085" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1275">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1086" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1276">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1087" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1277">
+<emphasis id="strong1088" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1278">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

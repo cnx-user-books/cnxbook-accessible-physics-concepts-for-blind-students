@@ -1,0 +1,5867 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1110: Force -- Moments, Torque, Couple, and Equilibrium</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38167</md:content-id>
+  <md:title>Phy1110: Force -- Moments, Torque, Couple, and Equilibrium</md:title>
+  <md:abstract>This module explains moments, torque, and couples in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>dee5f0b8-4977-4170-a720-5a113fc89a1f</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Figures">
+
+Figures
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1006">
+<link id="a1006" target-id="General_background_information">
+
+General background information
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1007">
+<link id="a1007" target-id="Discussion">
+
+Discussion and sample code
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1008">
+
+		
+
+<link id="a1008" target-id="Conditions_for_equilibrium">
+
+Conditions for equilibrium
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+
+		
+
+<link id="a1009" target-id="Equilibrium_for_a_body_with_an_arbitrary_shape">
+
+Equilibrium 
+		for a body with an arbitrary shape
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1010">
+
+		
+
+<link id="a1010" target-id="A_spring_balance_or_spring_scale">
+
+A spring balance or spring scale
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1011">
+
+		
+
+<link id="a1011" target-id="An_exercise_relating_pound-force_to_kilogram-force">
+
+Exercise relating pound-force to kilogram-force
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1012">
+
+		
+
+<link id="a1012" target-id="Exercise_involving_a_trapeze_bar">
+
+Exercise involving a trapeze 
+		bar
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1013">
+
+		
+
+<link id="a1013" target-id="A_more_general_case">
+
+A more general case for the trapeze 
+		bar
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1014">
+
+		
+
+<link id="a1014" target-id="Apply_the_weight_at_different_locations_on_the_trapeze">
+
+Apply 
+		the weight at different locations on the trapeze
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1015">
+
+		
+
+<link id="a1015" target-id="Hypothetical_replacement_by_a_single_upward_force">
+
+
+		Hypothetical replacement by a single upward force
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1016">
+
+		
+
+<link id="a1016" target-id="Exercise_involving_a_bar_supported_at_only_one_point">
+
+Exercise 
+		involving a bar supported at only one point
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1017">
+
+		
+
+<link id="a1017" target-id="Couples">
+
+Couples
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1018">
+<link id="a1018" target-id="Run_the_program">
+
+Complete the exercises
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1019">
+<link id="a1019" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1020">
+<link id="a1020" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a collection of modules designed to make physics 
+concepts accessible to blind students.
+
+</para>
+
+
+
+
+<para id="p1001">
+If you opened this page in the context of the book, a Table of Contents for 
+the book (or collection) should be available above and to the left of this 
+paragraph. Otherwise, click
+
+
+<link id="a1021" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+here
+
+</link>
+
+ 
+to open the book at the beginning.
+
+</para>
+
+
+
+
+<para id="p1002">
+This book is intended to supplement but not to replace the textbook in an 
+introductory high school or college physics course.
+
+</para>
+
+
+
+
+<para id="p1003">
+This module explains moments, torque, and couples in a format that is 
+accessible to blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1004" list-type="bulleted">
+
+	
+
+<item id="li1021">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1022" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1022">
+A protractor for measuring angles (
+
+<link id="a1023" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1023">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1024" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1024">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1025" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1025">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+<item id="li1026">
+The ability to create tactile graphics as described
+	
+
+<link id="a1026" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+here
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1005">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1027">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1028">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1027" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1029">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1028" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1030">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1029" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1031">
+An introductory understanding of JavaScript programming (
+
+<link id="a1030" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1031" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1032">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+	
+
+<item id="li1033">
+An understanding of the creation and use of tactile graphics as 
+	described
+	
+
+<link id="a1032" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+here
+
+</link>
+
+.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+ I recommend that you open another copy of this document in a separate 
+browser window and use the following link to easily find and view the figure while you are reading about 
+it.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+ 
+
+<emphasis id="Figures" effect="bold">
+
+Figures
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1034">
+<link id="a1033" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+. Mirror image from the file named Phy1110a1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1035">
+<link id="a1034" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+. Non-mirror-image version of the image 
+	from the file named Phy1110a1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1036">
+<link id="a1035" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+. Key-value pairs for the image in the file named Phy1110a1.svg.
+
+</item>
+
+
+	
+
+<item id="li1037">
+<link id="a1036" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+. Relationship between pound-force and kilogram-force. 
+	
+
+</item>
+
+
+	
+
+<item id="li1038">
+<link id="a1037" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+. Mirror image from the file named Phy1110b1.svg.
+	
+
+</item>
+
+
+	
+
+<item id="li1039">
+<link id="a1038" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+. Non-mirror-image version of the image from the file named Phy1110b1.svg.
+
+</item>
+
+
+	
+
+<item id="li1040">
+<link id="a1039" target-id="Figure_7">
+
+Figure 7
+
+</link>
+
+. Key-value pairs for the image in the file named Phy1110b1.svg.
+
+</item>
+
+
+	
+
+<item id="li1041">
+<link id="a1040" target-id="Figure_8">
+
+Figure 8
+
+</link>
+
+. Mirror image from the file named Phy1110c1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1042">
+<link id="a1041" target-id="Figure_9">
+
+Figure 9
+
+</link>
+
+. Non-mirror-image version of the image from the file named Phy1110c1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1043">
+<link id="a1042" target-id="Figure_10">
+
+Figure 10
+
+</link>
+
+. Key-value pairs for the image in the file named Phy1110c1.svg.
+
+</item>
+
+
+	
+
+<item id="li1044">
+<link id="a1043" target-id="Figure_11">
+
+Figure 11
+
+</link>
+
+. Mirror image from the file named Phy1110d1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1045">
+<link id="a1044" target-id="Figure_12">
+
+Figure 12
+
+</link>
+
+. Non-mirror-image version of the image from the file named Phy1110d1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1046">
+<link id="a1045" target-id="Figure_13">
+
+Figure 13
+
+</link>
+
+. Key-value pairs for the image in the file named Phy1110d1.svg.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h21003">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1007">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1046" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="General_background_information" effect="bold">
+
+General background 
+information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1008">
+<emphasis id="Creation_of_tactile_graphics" effect="bold">
+
+
+<emphasis id="strong1000" effect="bold">
+Creation of tactile graphics
+
+</emphasis>
+</emphasis>
+
+
+</para>
+
+
+
+
+<para id="p1009">
+The module titled
+
+
+<link id="a1047" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482/Phy1004-Manual-Creation-of-Tac">
+
+
+Manual Creation of Tactile Graphics
+
+</link>
+
+ explains how to create tactile graphics 
+from svg files that I will provide.
+
+</para>
+
+
+
+
+<para id="p1010">
+If you are going to have an assistant create tactile graphics for this 
+module, you will need to 
+
+<link id="a1048" url="Phy1110.zip">
+
+download the file named 
+Phy1110.zip
+
+</link>
+
+, which contains the svg files for this module. Extract the svg 
+files from the zip file and provide them to your assistant.
+
+</para>
+
+
+
+
+<para id="p1011">
+Also, if you are going to use tactile graphics, it probably won't be 
+necessary for you to perform the graph board exercises. However, you should 
+still walk through the graph board exercises in your mind because I will often 
+embed important physics concepts in the instructions for doing the graph board 
+exercises.
+
+</para>
+
+
+
+
+<para id="p1012">
+In each case where I am providing an svg file for the creation of tactile 
+graphics, I will identify the name of the appropriate svg file and display an 
+image of the contents of the file for the benefit of your assistant. As 
+explained 
+
+<link id="a1049" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+
+here
+
+</link>
+
+, those images will be mirror images of 
+the actual images so that your assistant can emboss the image from the back of 
+the paper and you can explore it from the front.
+
+</para>
+
+
+
+
+<para id="p1013">
+I will also display a non-mirror-image version of the image so that your 
+assistant can easily read the text in the image.
+
+</para>
+
+
+
+
+<para id="p1014">
+Also in those cases, I will provide a table of key-value pairs that explain 
+how the Braille keys in the image relate to text or objects in the image.
+
+</para>
+
+
+
+
+<para id="p1015">
+<emphasis id="strong1001" effect="bold">
+Conditions for equilibrium
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1016">
+You learned in earlier modules that the vector sum of all forces acting 
+on a body must be zero in order for that body to be in equilibrium. There is a 
+second, equally important condition for equilibrium:
+
+</para>
+
+
+
+
+<para id="p1017">
+<emphasis id="em1000" effect="italics">
+The sum of all torques acting upon a body in equilibrium measured about any 
+axis must be zero.
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1018">
+<emphasis id="strong1002" effect="bold">
+A see saw toy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1019">
+When I was a child, virtually every playground meant for children had one or 
+more tows commonly called see saws. I never see them any more. They have 
+probably been banned as a safety hazard along with swings and other toys.
+
+</para>
+
+
+
+
+<para id="p1020">
+Hopefully you have had the privilege of riding on a see saw, because riding on a see 
+saw can provide several different physics lessons.
+
+</para>
+
+
+
+
+<para id="p1021">
+<emphasis id="strong1003" effect="bold">
+A simple device
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1022">
+A see saw is a simple device. It can be as simple as a long board balanced on 
+a fulcrum near the center. A child sits on each end. As one child goes down, the 
+other child goes up. Each child uses their feet to propel their end of the board 
+upward. When one end goes up, the other end goes down.
+
+</para>
+
+
+
+
+<para id="p1023">
+<emphasis id="strong1004" effect="bold">
+It's the negative acceleration that hurts
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1024">
+Even under the worst of conditions a see saw can prove to be a good physics 
+lesson for a child. The lesson begins when the child on one end jumps off while 
+the child on the other end is high in the air. The remaining child suddenly 
+begins a free fall toward the center of the earth with an acceleration of 
+approximately 32.2 feet/sec^2.
+
+</para>
+
+
+
+
+<para id="p1025">
+After experiencing that once or twice, the child comes to learn that it is 
+not the high downward velocity that hurts. Instead, it is the very high negative 
+acceleration when the child makes contact with the ground that hurts.
+
+</para>
+
+
+
+
+<para id="p1026">
+<emphasis id="strong1005" effect="bold">
+Position relative to the fulcrum
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1027">
+Children also quickly learn that when two children of different body masses 
+play on a see saw, the one with the greatest body mass must sit closer to the 
+fulcrum. Otherwise, the see saw will only be in equilibrium when one end is touching 
+the ground and the other end is high in the air.
+
+</para>
+
+
+
+
+<para id="p1028">
+Children learn that if each child sits just the right distance from the 
+fulcrum with the more massive child closer to the fulcrum, they can cause the 
+board to balance and be in equilibrium, at least for a short period of time. 
+They also learn that is the seating position that provides the smoothest up and 
+down motion.
+
+</para>
+
+
+
+
+<para id="p1029">
+<emphasis id="strong1006" effect="bold">
+Each child exerts a downward force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1030">
+Although the children probably don't realize it, each child exerts a downward 
+force on the board equal to the body mass of the child multiplied by the 
+acceleration of gravity. Those forces are commonly referred to as the weights of 
+the children.
+
+</para>
+
+
+
+
+<para id="p1031">
+<emphasis id="strong1007" effect="bold">
+Balance and equilibrium
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1032">
+When the see saw is in equilibrium (with both ends off the ground), the fulcrum exerts an upward 
+force on the board that is equal to the combined weights of the children. 
+Otherwise, the see saw and the children would either fly off into space, or sink 
+into the earth.
+
+</para>
+
+
+
+
+<para id="p1033">
+In addition, when the see saw is in equilibrium with both ends off the ground, the product of each child's 
+weight and the distance of the child from the fulcrum is equal to the product of 
+the other child's weight and the distance of the other child from the fulcrum. 
+Children usually figure out how that works but I doubt that they understand why 
+it works.
+
+</para>
+
+
+
+
+<para id="p1034">
+<emphasis id="strong1008" effect="bold">
+The crank
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1035">
+I have an emergency light that has a crank on the side. When I turn the 
+crank, an electrical generator inside the light turns, which generates 
+electrical power that illuminates a light bulb in the end of the light.
+
+</para>
+
+
+
+
+<para id="p1036">
+There are many other examples of cranks in common use. For example, I have an 
+automobile jack with a crank that is used to raise the automobile in order to 
+replace a flat tire.
+
+</para>
+
+
+
+
+<para id="p1037">
+Sailboats have hand-operated windlasses with cranks that are used to shorten 
+the length of ropes to raise the sails. Awnings have cranks that are used to 
+raise or lower the awning to create more or less shade from the sun.
+
+</para>
+
+
+
+
+<para id="p1038">
+A toggle switch on the wall is a small crank with about a 30-degree angle of 
+travel that is used to turn the lights on and off. Pushing the handle in one 
+direction or the other causes an axel to turn inside the switch causing an 
+electrical contact to be closed or open.
+
+</para>
+
+
+
+
+<para id="p1039">
+<emphasis id="strong1009" effect="bold">
+The turning effect of a crank
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1040">
+When analyzing a crank, there are at least two factors that must be 
+considered. One factor is the force exerted on the handle. The second is the 
+length of the crank arm. The turning effect depends on the product of the force 
+and the length of the crank arm.
+
+</para>
+
+
+
+
+<para id="p1041">
+<emphasis id="strong1010" effect="bold">
+Moments or torques
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1042">
+Cranks are often used, (along with other mechanical devices such as screws) 
+to provide mechanical advantage. The same turning effect (torque) can be 
+achieved with a long crank arm and a small force, or a short crank arm and a 
+large force. (Remember, the torque is the product of the two.) For example, much 
+more torque is required to raise my automobile off the ground than is required 
+to open or close the electrical contacts inside a toggle switch. Therefore, the 
+crank arm on my automobile jack is much longer than the crank arm on a toggle 
+switch.
+
+</para>
+
+
+
+
+<para id="p1043">
+By definition, (see 
+
+<emphasis id="em1001" effect="italics">
+College Physics by Mendenhall, Keys, Eve, and Sutton)
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1044">
+<emphasis id="em1002" effect="italics">
+The 
+torque or moment of a force about an axis through the point O is defined as the 
+product of the force and the perpendicular distance from O to the line of action 
+of the force.
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1045">
+<emphasis id="strong1011" effect="bold">
+Do torque and moment of a force mean the same thing?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1046">
+This definition would have you believe that the torque of a force and the 
+moment of a force mean the same thing. If you Google the difference between 
+torque and moment, you will find many who agree that they mean the same thing 
+and many who disagree. However, for practical purposes in this module, we will 
+assume that they mean the same thing.
+
+</para>
+
+
+
+
+<para id="p1047">
+<emphasis id="strong1012" effect="bold">
+The turning action has a direction
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1048">
+Like force, the turning action of torque has a direction. Unlike force, however, for which the 
+direction is a line through a point, the direction of the turning action of a torque is rotational 
+about a point. The direction can be either clockwise or counter-clockwise. In 
+this module, we will assume that a counter-clockwise direction is positive and a 
+clockwise direction is negative.
+
+</para>
+
+
+
+
+<para id="p1049">
+<emphasis id="em1003" effect="italics">
+(Although the turning action of a torque is rotational about a point, the 
+true direction of a torque is said to be perpendicular to the plane containing 
+the forces. That topic is beyond the scope of this module.)
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1050">
+<emphasis id="strong1013" effect="bold">
+A machine that converts force to torque
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1051">
+A crank is a machine that converts force along a line into torque about a 
+point. When the crank arm on my automobile jack is horizontal with the crank handle to the right, and 
+I push down on the crank handle, a clockwise torque is developed about the axle 
+at the other end of the crank arm.
+
+</para>
+
+
+
+
+<para id="p1052">
+That axle is actually a large screw, and the 
+torque causes the screw to turn. The other end of that screw is threaded through 
+a mechanism that is often referred to as a "scissors jack." The rotational 
+motion of the screw causes a small platform to raise underneath my car to lift 
+it off the ground.
+
+</para>
+
+
+
+
+<para id="p1053">
+<emphasis id="strong1014" effect="bold">
+Oops, need to change direction
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1054">
+When I push down on the crank handle and the screw begins to turn, the crank 
+arm rotates along with the screw. Therefore, the crank arm is no longer 
+horizontal but is oriented at an angle slightly south of east. In order to keep 
+the screw turning, I must adjust the direction of my force to being a little 
+west of south instead of being straight down. As the process continues, I must 
+continually adjust the direction of the force to be perpendicular to the length 
+of the crank arm.
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Discussion and sample code
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1055">
+Let's begin the discussion by expanding the conditions for equilibrium beyond 
+the conditions that we have considered in earlier modules. 
+
+</para>
+
+
+
+
+<section id="h21004">
+<title>
+<emphasis id="Conditions_for_equilibrium" effect="bold">
+
+Conditions for equilibrium
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1056">
+In order for a body to be in equilibrium, 
+
+</para>
+
+
+
+
+<para id="p1057">
+<emphasis id="em1004" effect="italics">
+The vector sum of all forces acting 
+on the body must be zero and the sum of all torques acting on the body measured 
+about any axis must be zero.
+
+</emphasis>
+</para>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Equilibrium_for_a_body_with_an_arbitrary_shape" effect="bold">
+
+Equilibrium for a 
+body with an arbitrary shape
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1058">
+Achieving equilibrium may be easier said than done for a body with an 
+arbitrary shape. Let's consider what first appears to be a 
+simple example. Using your graph board, mark out a square that is four units on 
+each side. You should probably make it rather large using four or five divisions 
+on the graph board to represent one unit. Let this square represent a square 
+board that is free to move horizontally or vertically and is also free to 
+rotate.
+
+</para>
+
+
+
+
+<para id="p1059">
+<emphasis id="strong1015" effect="bold">
+Mark four points with pins
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1060">
+Assume that the lower left corner of the square is the origin with 
+coordinates of x=0 and y=0. Place pins at the following coordinate positions:
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1047">
+A. x=1, y=1
+
+</item>
+
+
+	
+
+<item id="li1048">
+B.x=1, y=2
+
+</item>
+
+
+	
+
+<item id="li1049">
+C. x=3, y=2
+
+</item>
+
+
+	
+
+<item id="li1050">
+D. x=2, y=1
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1061">
+<emphasis id="strong1016" effect="bold">
+<emphasis id="Draw_vectors" effect="bold">
+
+Draw vectors
+
+</emphasis>
+
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1062">
+Now use rubber bands or pipe cleaners to draw the following force vectors 
+originating at the locations of the pins. (Positive angles are measured counter-clockwise relative to the positive x 
+axis.)
+
+</para>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1051">
+A. 5 units magnitude at 180 degrees
+
+</item>
+
+
+	
+
+<item id="li1052">
+B. 2.8 units magnitude at 45 degrees
+
+</item>
+
+
+	
+
+<item id="li1053">
+C. 3 units magnitude at 0 degrees
+
+</item>
+
+
+	
+
+<item id="li1054">
+D. 2 units magnitude at -90 or +270 degrees
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1063">
+<emphasis id="strong1017" effect="bold">
+Tactile graphics
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1064">
+The svg file that is required to create tactile graphics for this exercise is 
+named Phy1110a1.svg. You should have 
+
+<link id="a1050" target-id="Creation_of_tactile_graphics">
+
+
+downloaded
+
+</link>
+
+ that file earlier. This file contains a vector diagram that 
+represents the instructions given 
+
+<link id="a1051" target-id="Draw_vectors">
+
+above
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1065">
+<link id="a1052" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+ shows the mirror image that is contained in 
+that file for the benefit of your assistant who will create the tactile graphic 
+for this exercise.
+
+</para>
+
+
+
+
+<table id="table1000" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1000">
+<row id="tr1000">
+<entry id="th1000">
+
+
+
+<emphasis id="Figure_1" effect="bold">
+
+Figure 1
+
+</emphasis>
+
+. Mirror image from the file named Phy1110a1.svg. 
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1000">
+<row id="tr1001">
+<entry id="td1000">
+
+
+
+<media id="media1000" alt="Missing image" display="block">
+<image id="img1000" mime-type="image/png" src="../../media/Phy1110a1a.png" width="600" height="464"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1066">
+<link id="a1053" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+ shows a non-mirror-image version of the same 
+image.
+
+</para>
+
+
+
+
+<table id="table1001" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1001">
+<row id="tr1002">
+<entry id="th1001">
+
+
+
+<emphasis id="Figure_2" effect="bold">
+
+Figure 2
+
+</emphasis>
+
+. Non-mirror-image version of the image from the file named Phy1110a1.svg. 
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1001">
+<row id="tr1003">
+<entry id="td1001">
+
+
+
+<media id="media1001" alt="Missing image" display="block">
+<image id="img1001" mime-type="image/png" src="../../media/Phy1110a1b.png" width="600" height="464"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1067">
+<link id="a1054" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+ shows the key-value pairs that go with the 
+image in the file named Phy1110a1.svg.
+
+</para>
+
+
+
+
+
+
+<table id="table1002" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1002">
+<row id="tr1004">
+<entry id="th1002">
+
+
+
+<emphasis id="Figure_3" effect="bold">
+
+Figure 3
+
+</emphasis>
+
+. Key-value pairs for the image in the file named Phy1110a1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1002">
+<row id="tr1005">
+<entry id="td1002">
+
+
+
+<code id="pre1000" display="block">m: Equilibrium for a body with an arbitrary shape
+n: B
+o: C
+p: D
+q: A
+r: File: Phy1110a1.svg
+s: The sum of the torques about point D is - 8.936.</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+<para id="p1068">
+<emphasis id="strong1018" effect="bold">
+Compute the vector sum of the forces
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1069">
+Begin by computing the horizontal and vertical components of the force at B. 
+As you know by now, the horizontal component is equal to the magnitude of 
+the vector (2.8) multiplied by the cosine of 45 degrees and the vertical 
+component is equal to the magnitude of the vector multiplied by the sine of 45 
+degrees. Both the sine and the cosine of 45 degrees is 0.707, so the horizontal 
+and vertical components are both equal to 2. (Obviously, I planned it that way.)
+
+</para>
+
+
+
+
+<para id="p1070">
+<emphasis id="strong1019" effect="bold">
+The horizontal and vertical components
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1071">
+The remaining vectors are either horizontal or vertical so no trigonometry is 
+required to compute their components.
+
+</para>
+
+
+
+
+<para id="p1072">
+The horizontal components of all the vectors consist of:
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1055">
+A. 5 units at 180 degrees = -5
+
+</item>
+
+
+	
+
+<item id="li1056">
+Bx. 2 units at 0 degrees = +2
+
+</item>
+
+
+	
+
+<item id="li1057">
+C. 3 units at 0 degrees = +3
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1073">
+The sum of the horizontal components is 0.
+
+</para>
+
+
+
+
+<para id="p1074">
+The vertical components of all the vectors consist of:
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1058">
+By. 2 units at 90 degrees = +2
+
+</item>
+
+
+	
+
+<item id="li1059">
+D. 2 units at -90 or +270 degrees = -2
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1075">
+The sum of the vertical components is also 0. Therefore, the system exhibits 
+the first condition of equilibrium.
+
+</para>
+
+
+
+
+<para id="p1076">
+<emphasis id="strong1020" effect="bold">
+Compute the moment or torque
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1077">
+The second condition for equilibrium states that the sum of all torques 
+acting on the body measured about any axis must be zero.
+
+</para>
+
+
+
+
+<para id="p1078">
+You can often reduce the complexity of the computation for computing torque 
+by judicious selection of the point about which the torque will be computed.
+
+</para>
+
+
+
+
+<para id="p1079">
+<emphasis id="strong1021" effect="bold">
+Compute the torque about point D
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1080">
+In this case, we can simplify the arithmetic by choosing an axis that goes through the point at D.
+
+</para>
+
+
+
+
+<para id="p1081">
+If you examine your graph, you will see that the line of action for forces A 
+and D both go through the point at D. Therefore, neither of those forces creates 
+a moment about point D so we can exclude them from our computation.
+
+</para>
+
+
+
+
+<para id="p1082">
+<emphasis id="strong1022" effect="bold">
+Forces B and C create a torque about D
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1083">
+Further examination of your graph will reveal that forces B and C both create 
+a torque about D, and they both create a clockwise or negative torque. Since 
+there are no more forces being exerted on the board, the sum of the torques 
+cannot be zero.
+
+</para>
+
+
+
+
+<para id="p1084">
+Thus, we can tell by inspection that this body is not in equilibrium.
+
+</para>
+
+
+
+
+<para id="p1085">
+<emphasis id="strong1023" effect="bold">
+For completeness...
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1086">
+Just for completeness, let's compute the torque about the point at D. If you 
+extend the line of action for force B down and to the left, you will see that 
+the distance from point D to that line, along a path that is perpendicular to 
+the line, is 2.12 units. (You can compute that distance using either 
+trigonometry or the Pythagorean theory.)
+
+</para>
+
+
+
+
+<para id="p1087">
+The components of the torque about the point at D are:
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1060">
+B. 2.12 * (-2.8) = -5.936
+
+</item>
+
+
+	
+
+<item id="li1061">
+C. 1 * (-3) = -3
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1088">
+The sum of the torques about point D is not zero. Instead, it is -8.936. Therefore, the 
+system does not satisfy the second condition for equilibrium.
+
+</para>
+
+
+
+
+<para id="p1089">
+<emphasis id="strong1024" effect="bold">
+Can equilibrium be achieved through the addition or modification of 
+forces?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1090">
+Obviously, if you add four more forces that are equal in magnitude and 
+opposite in direction to the four existing forces, the system will be in 
+equilibrium.
+
+</para>
+
+
+
+
+<para id="p1091">
+Also, if you allow the board to turn clockwise by several degrees, there is a 
+point at which it will stop turning and will be in equilibrium. 
+
+</para>
+
+
+
+
+<para id="p1092">
+Beyond those 
+possibilities, I am unable, simply by inspection, to identify any forces that 
+could be modified or added to bring the system into equilibrium. If 
+it is required to add or modify forces to achieve equilibrium, I would need to 
+construct and solve some simultaneous equations involving trigonometry. I have 
+decided to opt out of that and will leave that as an exercise for the student.
+
+</para>
+
+
+
+
+<para id="p1093">
+The examples that follow will 
+be less complicated than that.
+
+</para>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="A_spring_balance_or_spring_scale" effect="bold">
+
+A spring balance or spring scale
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1094">
+<emphasis id="strong1025" effect="bold">
+A fisherman's scale
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1095">
+What is a spring balance or spring scale? A spring scale is often called a 
+fisherman's scale because a lot of fishermen carry one in their tackle box. They 
+use it weigh the fish that they catch.
+
+</para>
+
+
+
+
+<para id="p1096">
+An old-fashioned spring scale consists of a stiff coil spring with a hook 
+connected to each end. The spring is enclosed in a case that has a vertical slot 
+with numbers along the side of the slot. There is a pointer attached to the 
+spring that sticks out through the slot.
+
+</para>
+
+
+
+
+<para id="p1097">
+When you hold the top hook with one hand and hang something on the bottom 
+hook, the spring extends causing the pointer to move downward. The distance that 
+the pointer moves is an indication of the weight of the mass connected to the 
+bottom hook.
+
+</para>
+
+
+
+
+<para id="p1098">
+<emphasis id="strong1026" effect="bold">
+A luggage scale
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1099">
+Because of the high fees that the airlines charge for overweight luggage, 
+I carry a modern version of a spring scale when I travel so that I can weigh my 
+luggage before check-in and make adjustments to the contents of each piece of 
+luggage as appropriate. My spring scale is 
+very similar to a fisherman's scale except that it is designed to weigh much 
+heavier items than fish and is more modern in appearance.
+
+</para>
+
+
+
+
+<para id="p1100">
+My spring scale is designed to 
+make it easy to measure the weight of a piece of luggage. (It also has a 
+built-in tape measure, calibrated in both inches and centimeters that can be 
+used to measure the dimensions of a piece of luggage, but that is not germane to 
+this discussion.)
+
+</para>
+
+
+
+
+<para id="p1101">
+<emphasis id="strong1027" effect="bold">
+Construction of my spring scale
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1102">
+My spring scale has:
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1062">
+A handle on the top
+
+</item>
+
+
+	
+
+<item id="li1063">
+A hook on the bottom
+
+</item>
+
+
+	
+
+<item id="li1064">
+A very stiff spring on the inside, and
+
+</item>
+
+
+	
+
+<item id="li1065">
+A circular dial with a red hand and a black hand on the front. The dial 
+	is calibrated both in lb (pounds-force) and 
+	in kg (kilograms-force).
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1103">
+<emphasis id="strong1028" effect="bold">
+The red and black hands
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1104">
+The red hand is normally in rotational equilibrium pointing to zero on the 
+dial. The black hand can be rotated 360 degrees using a knob on the front of the 
+scale.
+
+</para>
+
+
+
+
+<para id="p1105">
+<emphasis id="strong1029" effect="bold">
+Weighing a piece of luggage
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1106">
+You begin the process of weighing a piece of luggage by turning the black 
+hand to point to zero. Then you hook the scale onto the handle on the luggage and 
+pull up on the scale, causing the luggage to be lifted off the floor.
+
+</para>
+
+
+
+
+<para id="p1107">
+<emphasis id="strong1030" effect="bold">
+The red and black hands move
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1108">
+When you do that, the spring extends very slightly allowing the hook to move relative to the body of the 
+scale, 
+which in turn causes the entire scale to become slightly longer from top to 
+bottom. The change in 
+the state of the spring is proportional to the 
+downward force (weight) exerted by the luggage on the hook.
+
+</para>
+
+
+
+
+<para id="p1109">
+The internal mechanism causes the red hand to rotate 
+around the center of the dial. The position of the red hand indicates the 
+weight of the luggage when compared to the 
+printed calibrations on the face of the dial.
+
+</para>
+
+
+
+
+<para id="p1110">
+<emphasis id="strong1031" effect="bold">
+Equilibrium
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1111">
+When you are supporting the weight of the luggage with the spring scale, the luggage is being pulled down by the force of 
+gravity and is being pulled up by the hook and your muscles. This causes the 
+system to be in momentary equilibrium.
+
+</para>
+
+
+
+
+<para id="p1112">
+<emphasis id="strong1032" effect="bold">
+The black hand also moves
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1113">
+For convenience, the black hand moves along with the red hand, but unlike 
+the red hand, the black hand doesn't return to zero when the luggage is 
+allowed to settle back onto the floor. The position of the black hand, 
+therefore, 
+indicates the maximum angular excursion of the red hand, which indicates the 
+weight of the luggage in either lb or kg.
+
+</para>
+
+
+
+
+<para id="p1114">
+<emphasis id="strong1033" effect="bold">
+Applying a force manually
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1115">
+When I hold the handle in one hand and pull on the hook with the other hand 
+so that the overall length of the scale increases by about 1/4 inch, the red 
+hand moves to a position indicating a force of approximately 20 lb or 9 
+kg.
+
+</para>
+
+
+
+
+<para id="p1116">
+When a spring balance is used in the following exercises, we will assume that 
+the change in the overall length of the scale is negligible relative to the 
+overall dimensions of the problem.
+
+</para>
+
+
+
+
+<para id="p1117">
+<emphasis id="strong1034" effect="bold">
+The difference between force and mass
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1118">
+The SI unit for mass is the kilogram with a symbol of kg.
+
+</para>
+
+
+
+
+<para id="p1119">
+An often-used non-SI unit for mass is the pound.
+
+</para>
+
+
+
+
+<para id="p1120">
+<emphasis id="strong1035" effect="bold">
+An area of potential confusion
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1121">
+Does the relationship between 20 lb and 9 kg as printed on the dial of my 
+spring scale make sense? It only makes sense if you know what is meant by those 
+abbreviations. (They do not indicate a 20-pound mass or a 9-kg mass as the 
+abbreviations might lead you to believe.)
+
+</para>
+
+
+
+
+<para id="p1122">
+This 
+is an area of physics that can be confusing -- the difference between force and 
+mass.
+
+</para>
+
+
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="An_exercise_relating_pound-force_to_kilogram-force" effect="bold">
+
+Exercise 
+relating pound-force to kilogram-force
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1123">
+Let's work through an exercise using the following abbreviations and see if we can justify 
+the relationship between lb and kg indicated by the dial on my spring scale:
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1066">
+lbf means pounds-force
+
+</item>
+
+
+	
+
+<item id="li1067">
+pound means pounds mass
+
+</item>
+
+
+	
+
+<item id="li1068">
+kgf means kilograms-force
+
+</item>
+
+
+	
+
+<item id="li1069">
+kg means kilograms mass
+
+</item>
+
+
+	
+
+<item id="li1070">
+N means newtons
+
+</item>
+
+
+	
+
+<item id="li1071">
+m means meters
+
+</item>
+
+
+	
+
+<item id="li1072">
+s means seconds
+
+</item>
+
+
+	
+
+<item id="li1073">
+ft means feet
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1124">
+We will compute the relationship between pounds-force and kilograms-force using 
+the force unit of newtons an intermediary. 
+
+</para>
+
+
+
+
+<para id="p1125">
+We will assume that the 
+acceleration of gravity is either 32.17 ft/s^2 or 9.81 m/s^2.
+
+</para>
+
+
+
+
+<para id="p1126">
+The calculations are shown in 
+
+<link id="a1055" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+<table id="table1003" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1003">
+<row id="tr1006">
+<entry id="th1003">
+
+
+
+<emphasis id="Figure_4" effect="bold">
+
+Figure 4
+
+</emphasis>
+
+. Relationship between pound-force and 
+	kilogram-force.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1003">
+<row id="tr1007">
+<entry id="td1003">
+
+
+
+<code id="pre1001" display="block">
+Begin with known conversion factors:
+1 lbf = 1 pound * 32.17 * ft/s^2
+1 pound = 0.45 * kg
+
+Substitute kg for pound.
+1 lbf = 0.45 * kg * 32.17 * ft/s^2
+
+Substitute meters for feet.
+1 ft = 0.30 m
+1 lbf = 0.45 * kg * 32.17 * 0.30 * m/s^2
+
+Do the arithmetic and substitute (1 N) 
+for (1 kg*m/s^2)
+1 lbf = 4.34 * kg*m/s^2 = 4.34 N
+
+
+
+Now compute the relationship between kgf and N
+Begin with some more known quantities.
+1 kgf = 1 kg * 9.81 * m/s^2
+1 N = 1 kg*m/s^2
+
+Substitute (1 N) for (1 kg  * m/s^2)
+1 kgf = 9.81 N
+
+Now form a ratio between 1 lbf and 1 kgf
+1 lbf/1 kgf = (4.34 N)/(9.81 N)
+
+Cancel like terms, do the arithmetic, and
+multiply both sides by kgf.
+1 lbf = 0.44 kgf
+
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+	
+
+<para id="p1127">
+<emphasis id="strong1036" effect="bold">
+Is this the correct answer?
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1128">
+According to the
+	
+
+<link id="a1056" url="http://www.translatorscafe.com/cafe/units-converter/force/calculator/kilogram-force-[kgf]-to-newton-[N]/">
+
+
+	online units converter
+
+</link>
+
+, 
+
+</para>
+
+
+
+
+<para id="p1129">
+1 pound-force (lbf) = 0.45359237 kilogram-force (kgf)
+
+</para>
+
+
+
+
+<para id="p1130">
+Considering that I rounded all computations to two decimal digits, my result 
+is pretty close.
+
+</para>
+
+
+
+
+<para id="p1131">
+<emphasis id="strong1037" effect="bold">
+Apply conversion factor to the spring scale calibration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1132">
+We now have a conversion factor that allows us to convert between lbf and kgf:
+
+</para>
+
+
+
+
+<para id="p1133">
+1 pound-force (lbf) = 0.45359237 kilogram-force (kgf)
+
+</para>
+
+
+
+
+<para id="p1134">
+If we multiply 20 lbf by0.45 to convert that value to force in units of kgf, we get 
+9.0 kgf. This agrees with the calibrations on my spring scale.
+
+</para>
+
+
+
+
+<para id="p1135">
+<emphasis id="strong1038" effect="bold">
+What do these terms really mean?
+
+</emphasis>
+</para>
+
+
+	
+
+
+<para id="p1136">
+One lbf is the amount of force that is required to cause a one-pound mass to accelerate at 32.2 ft/s^2 due to the force of gravity.
+
+</para>
+
+
+
+
+<para id="p1137">
+One kgf is the amount of force required to cause a one-kg mass to accelerate 
+at 9.81 m/s^2 due to the force of gravity.
+
+</para>
+
+
+
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="Exercise_involving_a_trapeze_bar" effect="bold">
+
+Exercise involving a trapeze bar
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1138">
+Use your graph board to construct a picture that looks something like a very 
+long 
+trapeze bar. By this, I mean a horizontal bar with a rope tied to each end. The 
+other end of each rope is firmly attached to the ceiling. Make the horizontal 
+bar ten meters in length.
+
+</para>
+
+
+
+
+<para id="p1139">
+<emphasis id="strong1039" effect="bold">
+Tactile graphics
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1140">
+The file named Phy1110b1.svg contains an image that represents this scenario. 
+The image shows the trapeze bar, the ropes, and the spring scales. The image 
+also shows vectors that represent the forces acting on the trapeze bar.
+
+</para>
+
+
+
+	
+	
+
+<para id="p1141">
+<link id="a1057" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+ shows the mirror image that is contained 
+	in that file for the benefit of your assistant who will create the tactile 
+	graphic for this exercise.
+
+</para>
+
+
+	
+
+
+
+<table id="table1004" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1004">
+<row id="tr1008">
+<entry id="th1004">
+
+
+
+<emphasis id="Figure_5" effect="bold">
+
+Figure 5
+
+</emphasis>
+
+. Mirror image from the file named Phy1110b1.svg. 
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1004">
+<row id="tr1009">
+<entry id="td1004">
+
+
+
+<media id="media1002" alt="Missing image" display="block">
+<image id="img1002" mime-type="image/png" src="../../media/Phy1110b1a.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1142">
+<link id="a1058" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+ shows a non-mirror-image version of the same 
+image.
+
+</para>
+
+
+
+
+<table id="table1005" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1005">
+<row id="tr1010">
+<entry id="th1005">
+
+
+
+<emphasis id="Figure_6" effect="bold">
+
+Figure 6
+
+</emphasis>
+
+. Non-mirror-image version of the image from the file named Phy1110b1.svg.
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1005">
+<row id="tr1011">
+<entry id="td1005">
+
+
+
+<media id="media1003" alt="Missing image" display="block">
+<image id="img1003" mime-type="image/png" src="../../media/Phy1110b1b.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1143">
+<link id="a1059" target-id="Figure_7">
+
+Figure 7
+
+</link>
+
+ shows the key-value pairs that go with the 
+image in the file named Phy1110b1.svg.
+
+</para>
+
+
+
+
+
+
+<table id="table1006" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1006">
+<row id="tr1012">
+<entry id="th1006">
+
+
+
+<emphasis id="Figure_7" effect="bold">
+
+Figure 7
+
+</emphasis>
+
+. Key-value pairs for the image in the file named Phy1110b1.svg.
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1006">
+<row id="tr1013">
+<entry id="td1006">
+
+
+
+<code id="pre1002" display="block">m: Exercise involving a trapeze bar
+n: Rope
+o: Rope
+p: Spring scale
+q: Spring scale
+r: P = 8 N
+s: Q = 2 N
+t: a
+u: b
+v: A
+w: C = 2 m
+x: B
+y: 0 m
+z: Trapeze bar
+mm: 10 m
+mn: W = 10 N
+mo: File: Phy1110b1.svg
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+<para id="p1144">
+<emphasis id="strong1040" effect="bold">
+Insert a hypothetical spring scale in each rope
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1145">
+Now cut each rope somewhere along its length and insert something that is 
+meant to replicate a spring scale in each rope. Assume that the weights of the 
+ropes, the spring scales, and the bar are negligible. Also assume that the 
+extension of the spring scales caused by loading is negligible. (In other words, 
+the bar will remain horizontal even when downward forces are applied.)
+
+</para>
+
+
+
+
+<para id="p1146">
+Each spring scale will exert an upward force on the bar and 
+will, at the same time indicate the amount of force with which that end of the 
+bar is pulling down on the rope that supports it.
+
+</para>
+
+
+
+
+<para id="p1147">
+<emphasis id="strong1041" effect="bold">
+The bar is in equilibrium
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1148">
+By default, the bar is in equilibrium. By that I mean that the bar doesn't 
+accelerate in any direction, nor does it rotate about any axis. Furthermore, the 
+weight being registered on each spring scale is negligible.
+
+</para>
+
+
+
+
+<para id="p1149">
+<emphasis id="strong1042" effect="bold">
+Label points and distances on your drawing
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1150">
+Use your Braille labeler to label the left end of the bar A and the right end 
+of the bar B. Use pins to subdivide the bar into ten units.
+
+</para>
+
+
+
+
+<para id="p1151">
+Now assume that you will hang a 10 N weight 
+somewhere on the bar between the ropes. Label that point C. Label the distance 
+from C to A as a, and label the distance from C to B as b. Label the weight as 
+W.
+
+</para>
+
+
+
+
+<para id="p1152">
+<emphasis id="strong1043" effect="bold">
+Add the weight to the bar
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1153">
+The situation changes when you add the 10 N weight to the bar. Each spring scale now exerts an upward force 
+on its end of the bar that is no longer negligible. Label the upward force on 
+the left end P and label the upward force on the right end Q.
+
+</para>
+
+
+
+
+<para id="p1154">
+<emphasis id="strong1044" effect="bold">
+Is the bar in equilibrium
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+<para id="p1155">
+I believe that most of you will know, based on experience with the trapeze bar 
+on the playground, that the bar will still be in equilibrium. When you hung 
+quietly on a trapeze bar as a child, it didn't accelerate off in some 
+direction, nor did it rotate about any axis. So, we know from experience that 
+the bar is still in equilibrium.
+
+</para>
+
+
+
+
+<para id="p1156">
+<emphasis id="strong1045" effect="bold">
+Three forces
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1157">
+There are now three forces being exerted on the bar: P, Q, and W. We know from 
+earlier modules that the vector sum of those three forces must be zero in order 
+for the bar to be in equilibrium. This system is simple enough that we can perform the 
+vector sum in our heads. We don't need to draw a vector diagram. We see that
+
+</para>
+
+
+
+
+<para id="p1158">
+P + Q - W = 0
+
+</para>
+
+
+
+
+<para id="p1159">
+Adding W to both sides of the equation gives us:
+
+</para>
+
+
+
+
+<para id="p1160">
+P + Q = W (
+
+<emphasis id="eq_a1" effect="bold">
+
+eq. a1
+
+</emphasis>
+
+)
+
+</para>
+
+
+
+
+<para id="p1161">
+<emphasis id="strong1046" effect="bold">
+The values for P and Q
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1162">
+What are the values for P and Q? We know that wherever we place the weight 
+along the horizontal length of the bar, the bar will continue to be in 
+equilibrium. Therefore, the sum of P and Q must be equal to W regardless of the 
+position of W (so long as the position of W is between the ropes and the ropes 
+don't break).
+
+</para>
+
+
+
+
+<para id="p1163">
+<emphasis id="strong1047" effect="bold">
+Compute the torque about C
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1164">
+Assume that positive coordinates are to the right with the origin at the left 
+end of the bar. Computing the torque 
+about the point C gives us:
+
+</para>
+
+
+
+
+<para id="p1165">
+(C-A)*(P) + (C-B)*(Q) = 0
+
+</para>
+
+
+
+
+<para id="p1166">
+Let's put some numbers in the problem now.
+
+</para>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1074">
+Let C = 2
+
+</item>
+
+
+	
+
+<item id="li1075">
+Let A = 0
+
+</item>
+
+
+	
+
+<item id="li1076">
+Let B = 10
+
+</item>
+
+
+	
+
+<item id="li1077">
+Let W = 10
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1167">
+Substituting numbers in the above equation gives us: 
+
+</para>
+
+
+
+
+<para id="p1168">
+(2)*(P) + (-8)*(Q) = 0
+
+</para>
+
+
+
+
+<para id="p1169">
+<emphasis id="strong1048" effect="bold">
+Simplify and rearrange terms
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1170">
+Simplifying, rearranging terms, and dividing both sides by 2 gives us:
+
+</para>
+
+
+
+
+<para id="p1171">
+P = 4*Q (
+
+<emphasis id="eq_a2" effect="bold">
+
+eq. a2
+
+</emphasis>
+
+)
+
+</para>
+
+
+
+
+<para id="p1172">
+<emphasis id="strong1049" effect="bold">
+Two equations and two unknowns
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1173">
+Including 
+
+<link id="a1060" target-id="eq_a1">
+
+eq. a1
+
+</link>
+
+, (repeated below) we now have two equations and two unknowns.
+
+</para>
+
+
+
+
+<para id="p1174">
+P + Q = W
+
+</para>
+
+
+
+
+<para id="p1175">
+Inserting the numeric value for W gives us
+
+</para>
+
+
+
+
+<para id="p1176">
+P + Q = 10, or
+
+</para>
+
+
+
+
+<para id="p1177">
+Q = 10 - P (
+
+<emphasis id="eq_a3" effect="bold">
+
+eq. a3
+
+</emphasis>
+
+)
+
+</para>
+
+
+
+
+<para id="p1178">
+Substituting this value of Q into 
+
+<link id="a1061" target-id="eq_a2">
+
+eq. a2
+
+</link>
+
+ gives us
+
+</para>
+
+
+
+
+<para id="p1179">
+P = 4*(10 - P), or
+
+</para>
+
+
+
+
+<para id="p1180">
+P = 40 - 4*P, or
+
+</para>
+
+
+
+
+<para id="p1181">
+5*P = 40, or
+
+</para>
+
+
+
+
+<para id="p1182">
+<emphasis id="strong1050" effect="bold">
+P = 8
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1183">
+which is one of the answers that we are looking for.
+
+</para>
+
+
+
+
+<para id="p1184">
+Inserting the value for P into 
+
+<link id="a1062" target-id="eq_a3">
+
+eq. a3
+
+</link>
+
+ gives us
+
+</para>
+
+
+
+
+<para id="p1185">
+Q = 10 - 8, or
+
+</para>
+
+
+
+
+<para id="p1186">
+<emphasis id="strong1051" effect="bold">
+Q = 2
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1187">
+which is the other answer that we are looking for.
+
+</para>
+
+
+
+
+</section>
+<section id="h21009">
+<title>
+<emphasis id="A_more_general_case" effect="bold">
+
+A more general case of the trapeze bar
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1188">
+Let's pick another point, label it X, and compute the moments about that 
+point. Those moments must also sum to zero for the bar to be in equilibrium. 
+(The moments computed about any point on the bar must sum to zero for the bar to 
+be in equilibrium.)
+
+</para>
+
+
+
+
+<para id="p1189">
+The moments about X produced by the three forces are:
+
+</para>
+
+
+
+
+<list id="ul1015" list-type="bulleted">
+
+	
+
+<item id="li1078">
+P: (X-A)*(P)
+
+</item>
+
+
+	
+
+<item id="li1079">
+W: (X-C)*(W) 
+
+</item>
+
+
+	
+
+<item id="li1080">
+Q: (X-B)*(Q)
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1190">
+Let X = 5
+
+</para>
+
+
+
+
+<para id="p1191">
+Substituting for X gives us:
+
+</para>
+
+
+
+
+<para id="p1192">
+(5)*(P) - (3)*(10) + (-5)*(Q) = 0
+
+</para>
+
+
+
+
+<para id="p1193">
+Simplifying, rearranging terms, and diving both sides by 5 gives us:
+
+</para>
+
+
+
+
+<para id="p1194">
+P - Q - 6 = 0, or
+
+</para>
+
+
+
+
+<para id="p1195">
+P = Q + 6 (
+
+<emphasis id="eq_a4" effect="bold">
+
+eq. a4
+
+</emphasis>
+
+)
+
+</para>
+
+
+
+
+<para id="p1196">
+Now we can use this equation along with 
+
+<link id="a1063" target-id="eq_a1">
+
+eq.a1
+
+</link>
+
+ to solve for Q.
+
+</para>
+
+
+
+
+<para id="p1197">
+P + Q = 10, from 
+
+<link id="a1064" target-id="eq_a1">
+
+eq.a1
+
+</link>
+
+, or
+
+</para>
+
+
+
+
+<para id="p1198">
+Q = 10 - P
+
+</para>
+
+
+
+
+<para id="p1199">
+Substituting this value for Q in 
+
+<link id="a1065" target-id="eq_a4">
+
+eq. a4
+
+</link>
+
+ gives us,
+
+</para>
+
+
+
+
+<para id="p1200">
+P = 10 - P + 6
+
+</para>
+
+
+
+
+<para id="p1201">
+Simplifying and dividing both sides by 2 gives us,
+
+</para>
+
+
+
+
+<para id="p1202">
+<emphasis id="strong1052" effect="bold">
+P = 8
+
+</emphasis>
+, which is the same answer as before (which it should 
+be)
+
+</para>
+
+
+
+
+<para id="p1203">
+Substitution of P back into eq. a1 gives us,
+
+</para>
+
+
+
+
+<para id="p1204">
+<emphasis id="strong1053" effect="bold">
+Q = 2
+
+</emphasis>
+</para>
+
+
+
+
+</section>
+<section id="h21010">
+<title>
+<emphasis id="Apply_the_weight_at_different_locations_on_the_trapeze" effect="bold">
+
+Apply the 
+weight at different locations on the trapeze
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1205">
+If you solve for P and Q for any location of the weight between the ropes, 
+you will find that the values for the upward forces at each end of the bar are 
+inversely proportional to the distance from the weight to that end of the bar.
+
+</para>
+
+
+
+
+<para id="p1206">
+For example, for equilibrium, using the dimension symbols established for 
+your drawing earlier:
+
+</para>
+
+
+
+
+<para id="p1207">
+a*P = b*Q
+
+</para>
+
+
+
+
+<para id="p1208">
+Dividing both sides by a gives:
+
+</para>
+
+
+
+
+<para id="p1209">
+P = (b/a)*Q
+
+</para>
+
+
+
+
+<para id="p1210">
+<emphasis id="strong1054" effect="bold">
+Weight is centered
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1211">
+If b/a = 1 (weight is centered), then:
+
+</para>
+
+
+
+
+<para id="p1212">
+P = Q meaning that both upward forces are equal.
+
+</para>
+
+
+
+
+<para id="p1213">
+<emphasis id="strong1055" effect="bold">
+Weight towards the left end
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1214">
+If b/a = 4 (weight at 2), then:
+
+</para>
+
+
+
+
+<para id="p1215">
+P = 4*Q meaning that most of the force is being exerted by the rope on the 
+left end.
+
+</para>
+
+
+
+
+<para id="p1216">
+<emphasis id="strong1056" effect="bold">
+Weight toward the right
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1217">
+If b/a = 1/4 (weight at 8), then
+
+</para>
+
+
+
+
+<para id="p1218">
+P = Q/4 meaning that most of the force is being exerted by the rope on the 
+right end.
+
+</para>
+
+
+
+
+<para id="p1219">
+<emphasis id="strong1057" effect="bold">
+Weight at the right end
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1220">
+If b/a = 0 (weight at 10, right end of the bar)
+
+</para>
+
+
+
+
+<para id="p1221">
+P = 0 meaning that all of the force is being exerted by the rope on the right 
+end of the bar.
+
+</para>
+
+
+
+
+<para id="p1222">
+Because P + Q = W, we conclude that Q = W
+
+</para>
+
+
+
+
+<para id="p1223">
+<emphasis id="strong1058" effect="bold">
+The bar is essentially eliminated
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1224">
+The scenario where b/a = 0 essentially eliminates the bar from consideration. 
+The weight is hanging directly on the rope on the right end of the bar and the 
+weightless bar and the other rope are simply floating in the air.
+
+</para>
+
+
+
+
+</section>
+<section id="h21011">
+<title>
+<emphasis id="Hypothetical_replacement_by_a_single_upward_force" effect="bold">
+
+Hypothetical 
+replacement by a single upward force
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1225">
+If we were to draw an imaginary force labeled R pointing directly up from the 
+point C where R is equal to P + Q, we could imagine the forces P and Q as being 
+replaced by R. In that case, R would be the resultant of P and Q and would be 
+equal in magnitude and opposite in direction to the downward force W.
+
+</para>
+
+
+
+
+<para id="p1226">
+In the absence of the forces P and Q, the force R would produce the same 
+turning effect on the bar as do the forces P and Q jointly.
+
+</para>
+
+
+
+
+<para id="p1227">
+If the magnitude of R were not equal to the magnitude of W, the vector sum of 
+the forces would not be zero, there would be a torque about any point on the bar 
+other than at the point C, and the bar would not be in equilibrium.
+
+</para>
+
+
+
+
+</section>
+<section id="h21012">
+<title>
+<emphasis id="Exercise_involving_a_bar_supported_at_only_one_point" effect="bold">
+
+Exercise 
+involving a bar supported at only one point
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1228">
+<emphasis id="strong1059" effect="bold">
+Tactile graphics
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1229">
+The file named Phy1110c1.svg contains a vector diagram that represents this 
+scenario. All of the action occurs near the right end of the bar, so only the 
+right end is shown in the image.
+
+</para>
+
+
+
+
+<para id="p1230">
+<link id="a1066" target-id="Figure_8">
+
+Figure 8
+
+</link>
+
+ shows the mirror image that is contained in 
+that file for the benefit of your assistant who will create the tactile graphic 
+for this exercise.
+
+</para>
+
+
+	
+
+
+
+<table id="table1007" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1007">
+<row id="tr1014">
+<entry id="th1007">
+
+
+
+<emphasis id="Figure_8" effect="bold">
+
+Figure 8
+
+</emphasis>
+
+. Mirror image from the file named Phy1110c1.svg.
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1007">
+<row id="tr1015">
+<entry id="td1007">
+
+
+
+<media id="media1004" alt="Missing image" display="block">
+<image id="img1004" mime-type="image/png" src="../../media/Phy1110c1a.png" width="600" height="464"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1231">
+<link id="a1067" target-id="Figure_9">
+
+Figure 9
+
+</link>
+
+ shows a non-mirror-image version of the same 
+image.
+
+</para>
+
+
+
+
+<table id="table1008" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1008">
+<row id="tr1016">
+<entry id="th1008">
+
+
+
+<emphasis id="Figure_9" effect="bold">
+
+Figure 9
+
+</emphasis>
+
+. Non-mirror-image version of the image from the file named Phy1110c1.svg. 
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1008">
+<row id="tr1017">
+<entry id="td1008">
+
+
+
+<media id="media1005" alt="Missing image" display="block">
+<image id="img1005" mime-type="image/png" src="../../media/Phy1110c1b.png" width="600" height="464"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1232">
+<link id="a1068" target-id="Figure_10">
+
+Figure 10
+
+</link>
+
+ shows the key-value pairs that go with the 
+image in the file named Phy1110c1.svg.
+
+</para>
+
+
+
+
+
+
+<table id="table1009" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1009">
+<row id="tr1018">
+<entry id="th1009">
+
+
+
+<emphasis id="Figure_10" effect="bold">
+
+Figure 10
+
+</emphasis>
+
+. Key-value pairs for the image in the file named Phy1110c1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1009">
+<row id="tr1019">
+<entry id="td1009">
+
+
+
+<code id="pre1003" display="block">m: P = 15 N
+n: File: Phy1110c1.svg
+o: B = 0
+p: a = 1
+q: b = 2
+r: C = 3
+s: W = -10 N
+t: A = 1
+u: Bar
+v: Q = -5 N
+w: Exercise involving a bar supported at only one point
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+<para id="p1233">
+<emphasis id="strong1060" effect="bold">
+Unlike
+
+</emphasis>
+ or 
+
+<emphasis id="strong1061" effect="bold">
+
+antiparallel
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1234">
+It's time to modify your drawing to reflect a different scenario.
+
+</para>
+
+
+
+
+<para id="p1235">
+Make your bar 20 units in length. Draw a downward force labeled Q at the 
+right end of the bar. Label this as point C on the bar.
+
+</para>
+
+
+
+
+<para id="p1236">
+Draw an upward force labeled P somewhere on the bar. Label 
+the location of this point on the bar as A
+
+</para>
+
+
+
+
+<para id="p1237">
+In this case, we have two parallel forces, P and Q pulling in opposite 
+directions but not in the same line of action. These forces are said to be 
+
+<emphasis id="strong1062" effect="bold">
+unlike
+
+</emphasis>
+ or 
+
+<emphasis id="strong1063" effect="bold">
+
+antiparallel
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1238">
+<emphasis id="strong1064" effect="bold">
+Add another downward force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1239">
+Draw a downward force labeled W somewhere to the left of A. Label this point 
+as B and consider it to be the horizontal origin. Directions to the right of B 
+are positive directions.
+
+</para>
+
+
+
+
+<para id="p1240">
+Label the horizontal distance from B to A as a. Label the horizontal distance 
+from A to C as b.
+
+</para>
+
+
+
+
+<para id="p1241">
+<emphasis id="strong1065" effect="bold">
+What is required for equilibrium?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1242">
+We can look at this scenario and tell that the forces labeled W and P, 
+both of which point down, must be on opposite sides of the force labeled P. 
+Otherwise, the bar will rotate in a clockwise direction.
+
+</para>
+
+
+
+
+<para id="p1243">
+The following two conditions must be true for the bar to be in equilibrium.
+
+</para>
+
+
+
+
+<para id="p1244">
+P + W + Q = 0, or
+
+</para>
+
+
+
+
+<para id="p1245">
+P = - (W + Q) (vector sum must be zero)
+
+</para>
+
+
+
+
+<para id="p1246">
+a*P + (a+b) * Q = 0 (moments around point B)
+
+</para>
+
+
+
+
+<para id="p1247">
+<emphasis id="strong1066" effect="bold">
+The plan
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1248">
+We will set values for all the variables in the two 
+conditions other than a and P and then solve for values of a and P that will 
+result in the bar being 
+
+<emphasis id="in_equilibrium" effect="bold">
+
+in equilibrium
+
+</emphasis>
+
+.
+
+</para>
+
+
+
+
+<list id="ul1016" list-type="bulleted">
+
+	
+
+<item id="li1081">
+Let W = -10
+
+</item>
+
+
+	
+
+<item id="li1082">
+Let Q = -5
+
+</item>
+
+
+	
+
+<item id="li1083">
+Let b = 2
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1249">
+<emphasis id="strong1067" effect="bold">
+The computations
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1250">
+Substituting these values into the two conditions and rearranging terms gives 
+us:
+
+</para>
+
+
+
+
+<para id="p1251">
+P = -(W + Q), or
+
+</para>
+
+
+
+
+<para id="p1252">
+<emphasis id="strong1068" effect="bold">
+P = 15
+
+</emphasis>
+, this is one of the answers
+
+</para>
+
+
+
+
+<para id="p1253">
+a*P +(a+2)*(-5) = 0, or
+
+</para>
+
+
+
+
+<para id="p1254">
+15*a -5*a -10 = 0, or
+
+</para>
+
+
+
+
+<para id="p1255">
+10*a = 10, or
+
+</para>
+
+
+
+
+<para id="p1256">
+<emphasis id="strong1069" effect="bold">
+a = 1
+
+</emphasis>
+, this is the other answer
+
+</para>
+
+
+
+
+<para id="p1257">
+<emphasis id="strong1070" effect="bold">
+The answers
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1258">
+Therefore, for the values of W, Q, and b given 
+
+<link id="a1069" target-id="in_equilibrium">
+
+
+above
+
+</link>
+
+, P must be equal to 15 and a must be equal to 1 for the bar to be in 
+equilibrium.
+
+</para>
+
+
+
+
+<para id="p1259">
+<emphasis id="strong1071" effect="bold">
+Variation of a and P with changes in Q
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1260">
+Now let's see how P and a vary with respect to the value of Q
+
+</para>
+
+
+
+
+<list id="ul1017" list-type="bulleted">
+
+	
+
+<item id="li1084">
+Let W = -10
+
+</item>
+
+
+	
+
+<item id="li1085">
+Let Q = -20
+
+</item>
+
+
+	
+
+<item id="li1086">
+Let b = 2
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1261">
+P = -(W + Q) = 30
+
+</para>
+
+
+
+
+<para id="p1262">
+a*P +(a+2)*(-20) = 0, or
+
+</para>
+
+
+
+
+<para id="p1263">
+30*a -20*a -40 = 0, or
+
+</para>
+
+
+
+
+<para id="p1264">
+10*a = 40, or
+
+</para>
+
+
+
+
+<para id="p1265">
+a = 4
+
+</para>
+
+
+
+
+<para id="p1266">
+As you can see, keeping the location of P constant and increasing the value 
+for Q requires the value of P to increase and the location of W to move further 
+to the left.
+
+</para>
+
+
+
+
+</section>
+<section id="h21013">
+<title>
+<emphasis id="Couples" effect="bold">
+
+Couples
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1267">
+Now draw a new scenario where antiparallel forces, each having a magnitude of 10 
+newtons are acting in opposite directions on a bar, with each force in the same plane and both forces 
+perpendicular to the bar. Label one force P and the other force Q.
+
+</para>
+
+
+
+
+<para id="p1268">
+<emphasis id="strong1072" effect="bold">
+Tactile graphics
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1269">
+The file named Phy1110d1.svg contains a vector diagram that represents this 
+scenario. It shows two 10 N forces labeled P and Q along with an unknown force 
+labeled X.
+
+</para>
+
+
+
+
+<para id="p1270">
+<link id="a1070" target-id="Figure_11">
+
+Figure 11
+
+</link>
+
+ shows the mirror image that is contained in 
+that file for the benefit of your assistant who will create the tactile graphic 
+for this exercise.
+
+</para>
+
+
+
+	
+
+
+<table id="table1010" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1010">
+<row id="tr1020">
+<entry id="th1010">
+
+
+
+<emphasis id="Figure_11" effect="bold">
+
+Figure 11
+
+</emphasis>
+
+. Mirror image from the file named Phy1110d1.svg.
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1010">
+<row id="tr1021">
+<entry id="td1010">
+
+
+
+<media id="media1006" alt="Missing image" display="block">
+<image id="img1006" mime-type="image/png" src="../../media/Phy1110d1a.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1271">
+<link id="a1071" target-id="Figure_12">
+
+Figure 12
+
+</link>
+
+ shows a non-mirror-image version of the same 
+image.
+
+</para>
+
+
+
+
+<table id="table1011" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1011">
+<row id="tr1022">
+<entry id="th1011">
+
+
+
+<emphasis id="Figure_12" effect="bold">
+
+Figure 12
+
+</emphasis>
+
+. Non-mirror-image version of the image from the file named Phy1110d1.svg.
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1011">
+<row id="tr1023">
+<entry id="td1011">
+
+
+
+<media id="media1007" alt="Missing image" display="block">
+<image id="img1007" mime-type="image/png" src="../../media/Phy1110d1b.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1272">
+<link id="a1072" target-id="Figure_13">
+
+Figure 13
+
+</link>
+
+ shows the key-value pairs that go with the 
+image in the file named Phy1110d1.svg.
+
+</para>
+
+
+
+
+
+
+<table id="table1012" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1012">
+<row id="tr1024">
+<entry id="th1012">
+
+
+
+<emphasis id="Figure_13" effect="bold">
+
+Figure 13
+
+</emphasis>
+
+. Key-value pairs for the image in the file named Phy1110d1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1012">
+<row id="tr1025">
+<entry id="td1012">
+
+
+
+<code id="pre1004" display="block">m: An exercise on couples
+n: P = 10 N
+o: X = ?
+p: Bar
+q: Location of X = ?
+r: Q = 10 N
+s: File: Phy1110d1.svg
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+<para id="p1273">
+<emphasis id="strong1073" effect="bold">
+The moments about a point
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1274">
+If you compute the moments about any point on this bar, they won't sum to 
+zero. Therefore, the bar isn't in equilibrium. Can you find the location and 
+magnitude of a single force that can be applied to the bar to cause it to be in 
+equilibrium?
+
+</para>
+
+
+
+
+<para id="p1275">
+<emphasis id="strong1074" effect="bold">
+Consider the first condition for equilibrium
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1276">
+The vector sum of the forces 
+must be zero.
+
+</para>
+
+
+
+
+<para id="p1277">
+In this case, the vector sum of the forces is
+
+</para>
+
+
+
+
+<para id="p1278">
+P - Q + X = 0
+
+</para>
+
+
+
+
+<para id="p1279">
+10 - 10 + X = 0
+
+</para>
+
+
+
+
+<para id="p1280">
+where X is an unknown force.
+
+</para>
+
+
+
+
+<para id="p1281">
+As you can see, there is no value for X that will satisfy this condition 
+other than X=0. If X=0, there is no force, so there is no single force that 
+can be applied to the bar to cause it to be in equilibrium.
+
+</para>
+
+
+
+
+<para id="p1282">
+<emphasis id="strong1075" effect="bold">
+A couple
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1283">
+<emphasis id="em1005" effect="italics">
+Two forces equal in magnitude but opposite in direction and not in the same 
+line constitute a 
+
+</emphasis>
+ 
+
+<emphasis id="strong1076" effect="bold">
+<emphasis id="em1006" effect="italics">
+couple
+
+</emphasis>
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1284">
+Stated differently, 
+
+</para>
+
+
+
+
+<para id="p1285">
+<emphasis id="em1007" effect="italics">
+A couple is a system of forces with a non-zero moment but no resultant force. 
+In other words, the vector sum of the forces is zero but the sum of the moments 
+is not zero.
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1286">
+<emphasis id="strong1077" effect="bold">
+A simple couple
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1287">
+The simplest kind of couple consists of two equal and opposite forces whose lines of action do not coincide. This is 
+often called a "simple couple."
+
+</para>
+
+
+
+
+<para id="p1288">
+<emphasis id="strong1078" effect="bold">
+The units for a couple
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1289">
+The SI unit for the torque is the newton meter, which when expanded into SI 
+base units is kg*m^2/s^2.
+
+</para>
+
+
+
+
+<para id="p1290">
+<emphasis id="strong1079" effect="bold">
+The moment of force for a couple is unique
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1291">
+The moment of a force is only defined with respect to a certain point P (it is said to be the "moment about P"). 
+In general when P is changed, the moment changes. 
+
+</para>
+
+
+
+
+<para id="p1292">
+However, the moment (torque) of a couple is independent of the reference point P. Any point will give the same moment.
+
+</para>
+
+
+
+
+<para id="p1293">
+<emphasis id="strong1080" effect="bold">
+Let's prove that
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1294">
+The moment of a couple is independent of the point about which it is 
+measured. Can we prove the truth of that statement?
+
+</para>
+
+
+
+
+<para id="p1295">
+Imagine a horizontal bar that is five units long. Imagine an upward force at the 
+right end of the bar with a magnitude of P. Imagine a downward force with the same 
+magnitude d units to the left of the first force. Imagine that the location of this 
+force is labeled as X. 
+
+</para>
+
+
+
+
+<para id="p1296">
+Imagine that the left end of the bar is labeled A and the distance from point A to point 
+X is labeled as b. Imagine another point somewhere between A and X that is 
+labeled as B. Imagine that the distance from A to B is labeled as c.
+
+</para>
+
+
+
+
+<para id="p1297">
+<emphasis id="strong1081" effect="bold">
+Compute the moments about the point A
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1298">
+Ma = (b+d)*P-b*P, or
+
+</para>
+
+
+
+
+<para id="p1299">
+Ma = b*P+d*P-b*p, or
+
+</para>
+
+
+
+
+<para id="p1300">
+Ma = d*p
+
+</para>
+
+
+
+
+<para id="p1301">
+Now compute the moments about the point B.
+
+</para>
+
+
+
+
+<para id="p1302">
+Mb = (b-c+d)*P-(b-c)*P, or
+
+</para>
+
+
+
+
+<para id="p1303">
+Mb = b*P-c*P+d*P-b*P+c*P, or
+
+</para>
+
+
+
+
+<para id="p1304">
+Mb = d*P
+
+</para>
+
+
+
+
+<para id="p1305">
+The moments are the same regardless of the point about which they are 
+computed. The value d*P is called the moment or torque of a couple.
+
+</para>
+
+
+
+
+<para id="p1306">
+<emphasis id="strong1082" effect="bold">
+The torque of a couple
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1307">
+The torque of a couple is the product of either force and the perpendicular 
+distance between the lines of actions of the forces.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Complete the exercises
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1308">
+I encourage you to complete the exercises that I have presented in this lesson to 
+confirm that you get the same results. Experiment with 
+the procedures, making changes, and observing the results of your changes. Make 
+certain that you can explain why your changes behave as they do. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1309">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1310">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1083" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1018" list-type="bulleted">
+
+
+
+<item id="li1087">
+Module name: Force -- Moments, Torque, Couple, and Equilibrium
+
+</item>
+
+
+
+
+<item id="li1088">
+File: Phy1110.htm
+
+
+</item>
+
+
+
+
+<item id="li1089">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1090">
+Keywords:
+
+<list id="ul1019" list-type="bulleted">
+
+		
+
+<item id="li1091">
+physics
+
+</item>
+
+
+		
+
+<item id="li1092">
+accessible
+
+</item>
+
+
+					
+
+<item id="li1093">
+blind
+
+</item>
+
+
+		
+
+<item id="li1094">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1095">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1096">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1097">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1098">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1099">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1100">
+moment
+
+</item>
+
+
+					
+
+<item id="li1101">
+torque
+
+</item>
+
+
+					
+
+<item id="li1102">
+couple
+
+</item>
+
+
+					
+
+<item id="li1103">
+equilibrium
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+<emphasis id="strong1084" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1311">
+<emphasis id="strong1085" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1086" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1312">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1087" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1313">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1088" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1314">
+<emphasis id="strong1089" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1315">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

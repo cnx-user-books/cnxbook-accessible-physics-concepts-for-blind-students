@@ -1,0 +1,4059 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1150: Force and Motion -- Units of Force</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38211</md:content-id>
+  <md:title>Phy1150: Force and Motion -- Units of Force</md:title>
+  <md:abstract>This module explains various units of force in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>16d1b592-5126-458f-883e-3ae872cc18c0</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Figures">
+
+Figures
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1006">
+<link id="a1006" target-id="General_background_information">
+
+Background information
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="Creation_of_tactile_graphics">
+
+Creation of tactile graphics
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="Things_can_be_confusing">
+
+Things can be confusing
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="SI_units">
+
+SI units and the newton
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="A_practical_example_using_the_Google_calculator">
+
+A practical example 
+using the Google calculator
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1011">
+<link id="a1011" target-id="Other_units">
+
+Other units
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+			
+
+<item id="li1012">
+<link id="a1012" target-id="poundal">
+
+poundal
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1013">
+<link id="a1013" target-id="dyne">
+
+dyne
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1014">
+<link id="a1014" target-id="Acceleration_of_gravity">
+
+Acceleration of gravity
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+			
+
+<item id="li1015">
+<link id="a1015" target-id="poundforce">
+
+pound-force
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1016">
+<link id="a1016" target-id="gramforce">
+
+gram-force
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1017">
+<link id="a1017" target-id="kilogramforce">
+
+kilogram-force
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1018">
+<link id="a1018" target-id="Weight_and_force">
+
+Weight is a force
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1019">
+<link id="a1019" target-id="Discussion">
+
+Sample problems
+
+</link>
+
+
+	
+
+<list id="ul1006" list-type="bulleted">
+
+		
+
+<item id="li1020">
+<link id="a1020" target-id="A_statics_problem">
+
+A static scenario
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1021">
+<link id="a1021" target-id="A_dynamics_problem">
+
+First dynamic scenario
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1022">
+<link id="a1022" target-id="Second_dynamic_scenario">
+
+Second dynamic scenario
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1023">
+<link id="a1023" target-id="Third_dynamic_scenario">
+
+Third dynamic scenario
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1024">
+<link id="a1024" target-id="Run_the_program">
+
+Do the calculations
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1025">
+<link id="a1025" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1026">
+<link id="a1026" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1027" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains various units of force in a format that is accessible to blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1027">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1028" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1028">
+A protractor for measuring angles (
+
+<link id="a1029" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1029">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1030" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1030">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1031" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1031">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+<item id="li1032">
+The ability to create tactile graphics as described
+	
+
+<link id="a1032" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+here
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1033">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1034">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1033" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1035">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1034" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1036">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1035" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1037">
+An introductory understanding of JavaScript programming (
+
+<link id="a1036" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1037" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1038">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+	
+
+<item id="li1039">
+An understanding of the creation and use of tactile graphics as 
+	described
+	
+
+<link id="a1038" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+here
+
+</link>
+
+.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+I recommend that you open another copy of this document in a separate browser 
+window and use the following links to easily find and view the figures while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+<emphasis id="Figures" effect="bold">
+
+Figures
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1040">
+<link id="a1039" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+. SI base units. 
+
+</item>
+
+
+	
+
+<item id="li1041">
+<link id="a1040" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+. Examples of SI derived units. 
+
+</item>
+
+
+	
+
+<item id="li1042">
+<link id="a1041" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+. Mirror image of the image from the file named Phy1150a1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1043">
+<link id="a1042" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+. Non-mirror image of the image from the file named Phy1150a1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1044">
+<link id="a1043" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+. Key-value pairs for the image in the file named Phy1150a1.svg. 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h21003">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1044" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="General_background_information" effect="bold">
+
+Background 
+information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21004">
+<title>
+<emphasis id="Creation_of_tactile_graphics" effect="bold">
+
+Creation of tactile graphics
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+The module titled
+
+
+<link id="a1045" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482/Phy1004-Manual-Creation-of-Tac">
+
+
+Manual Creation of Tactile Graphics
+
+</link>
+
+ explains how to create tactile graphics 
+from svg files that I will provide.
+
+</para>
+
+
+
+
+<para id="p1007">
+If you are going to have an assistant create tactile graphics for this 
+module, you will need to 
+
+<link id="a1046" url="Phy1150.zip">
+
+download the file 
+named Phy1150.zip
+
+</link>
+
+, which contains the svg file for this module. Extract the 
+svg file from the zip file and provide them to your assistant.
+
+</para>
+
+
+
+
+<para id="p1008">
+Also, if you are going to use tactile graphics, it probably won't be 
+necessary for you to perform the graph board exercises. However, you should 
+still walk through the graph board exercises in your mind because I will often 
+embed important physics concepts in the instructions for doing the graph board 
+exercises.
+
+</para>
+
+
+
+
+<para id="p1009">
+In each case where I am providing an svg file for the creation of tactile 
+graphics, I will identify the name of the appropriate svg file and display an 
+image of the contents of the file for the benefit of your assistant. As 
+explained 
+
+<link id="a1047" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+
+here
+
+</link>
+
+, those images will be mirror images of 
+the actual images so that your assistant can emboss the image from the back of 
+the paper and you can explore it from the front.
+
+</para>
+
+
+
+
+<para id="p1010">
+I will also display a non-mirror-image version of the image so that your 
+assistant can easily read the text in the image.
+
+</para>
+
+
+
+
+<para id="p1011">
+Also in those cases, I will provide a table of key-value pairs that explain 
+how the Braille keys in the image relate to text or objects in the image.
+
+</para>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Things_can_be_confusing" effect="bold">
+
+Things can be confusing
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1012">
+One of the more confusing things about physics textbooks can be their 
+treatment of the units in which force is measured and reported. Several 
+different units are often used including:
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1045">
+newton
+
+</item>
+
+
+	
+
+<item id="li1046">
+poundal
+
+</item>
+
+
+	
+
+<item id="li1047">
+dyne
+
+</item>
+
+
+	
+
+<item id="li1048">
+pound-force
+
+</item>
+
+
+	
+
+<item id="li1049">
+gram-force
+
+</item>
+
+
+	
+
+<item id="li1050">
+kilogram-force
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1013">
+The first three units in the above list are said to be 
+
+<emphasis id="strong1000" effect="bold">
+absolute units 
+of force
+
+</emphasis>
+ because they are measured in fundamental units of mass, 
+length, and time. The last three units are tied directly to the gravitational 
+attraction between the earth and other objects.
+
+</para>
+
+
+
+
+<para id="p1014">
+The newton, which is an SI derived unit, is possibly the most universally 
+accepted unit of force in the year 2011.
+
+</para>
+
+
+
+	
+
+
+<para id="p1015">
+<emphasis id="strong1001" effect="bold">
+Force equals the product of mass and acceleration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1016">
+You learned in an earlier module that the force that is required to cause a 
+given mass to be accelerated by a given amount is proportional to the product of 
+the mass and the acceleration. If we specify mass and acceleration in consistent 
+units, we can write 
+
+</para>
+
+
+
+
+<para id="p1017">
+f = m * a
+
+</para>
+
+
+
+
+<para id="p1018">
+where 
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1051">
+f is force
+
+</item>
+
+
+	
+
+<item id="li1052">
+m is mass
+
+</item>
+
+
+	
+
+<item id="li1053">
+a is acceleration
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="SI_units" effect="bold">
+
+SI units and the newton
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1019">
+Many 
+physics books use a system of units called 
+
+<emphasis id="strong1002" effect="bold">
+SI units
+
+</emphasis>
+. SI is an abbreviation for a 
+French name, which I am unable to pronounce, and 
+which is probably also not compatible with your screen reader and your Braille 
+display.
+
+</para>
+
+
+
+
+<para id="p1020">
+I won't attempt to explain much about SI units in this module. I provided 
+some information in an earlier module titled 
+
+
+<link id="a1048" url="http://cnx.org/contents/c595fef6-42c1-4219-ac6c-0becf9651733/Phy1050-Units-and-Dimensional-">
+
+Units and Dimensional Analysis
+
+</link>
+
+. 
+Also, you can probably find a good 
+explanation in your textbook, and if not, you can Google SI units and find 
+hundreds of web pages that explain the system in varying levels of detail.
+
+</para>
+
+
+
+
+<para id="p1021">
+<emphasis id="strong1003" effect="bold">
+Tables of SI units
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1022">
+Most of those references will probably also provide tables for the units, but 
+those tables may be partially incompatible with your screen reader and 
+Braille display due to the extensive use of superscripts. Therefore, I will provide tables 
+that should be accessible in 
+
+<link id="a1049" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+ and 
+
+<link id="a1050" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1023">
+<emphasis id="strong1004" effect="bold">
+Base units and derived units
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1024">
+When reading about SI units, you will find that they are often divided into base 
+units and derived units. I will put the base units in 
+
+<link id="a1051" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+ and some 
+sample derived 
+units in 
+
+<link id="a1052" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+.
+
+</para>
+
+
+
+	
+
+
+<table id="table1000" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1000">
+<row id="tr1000">
+<entry id="th1000">
+
+
+
+<emphasis id="Figure_1" effect="bold">
+
+Figure 1
+
+</emphasis>
+
+. SI base units.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1000">
+<row id="tr1001">
+<entry id="td1000">
+
+
+
+<code id="pre1000" display="block">Base Quantity               Name        Symbol
+
+length                      meter       m
+mass                        kilogram    kg
+time                        second      s
+electric current            ampere      A
+thermodynamic temperature   kelvin      K
+amount of substance         mole        mol
+luminous intensity          candela     cd</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+	
+
+<para id="p1025">
+Note that the list of derived units in 
+
+<link id="a1053" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+ is only a sampling of 
+	different units that can be derived from the base units.
+
+</para>
+
+
+
+
+<para id="p1026">
+<emphasis id="strong1005" effect="bold">
+The exponentiation indicator
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1027">
+As is the case throughout these modules, the character "^" that you see used 
+extensively in 
+
+<link id="a1054" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+ indicates that the character 
+following the ^ is an exponent. Note also that when the exponent is negative, it 
+is enclosed along with its minus sign in parentheses for clarity.
+
+</para>
+
+
+
+	
+
+
+<table id="table1001" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1001">
+<row id="tr1002">
+<entry id="th1001">
+
+
+
+<emphasis id="Figure_2" effect="bold">
+
+Figure 2
+
+</emphasis>
+
+. Examples of SI derived units.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1001">
+<row id="tr1003">
+<entry id="td1001">
+
+
+
+<code id="pre1001" display="block">
+force            newton                    kg*m/s^2
+area             square meter              m^2
+volume           cubic meter               m^3
+speed, velocity  meter per second          m/s
+acceleration     meter per second squared  m/s^2
+wave number      reciprocal meter          m^(-1)
+mass density     kilogram per cubic meter  kg/m^3
+specific volume  cubic meter per kilogram  m^3/kg
+current density  ampere per square meter   A/m^2</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+<para id="p1028">
+<emphasis id="strong1006" effect="bold">
+The newton
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1029">
+The first derived unit listed in 
+
+<link id="a1055" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+ is the newton, which is the product 
+of the base unit for mass (kg) and the base unit for acceleration (m/s^2). Thus, 
+the units for the newton are
+
+</para>
+
+
+
+
+<para id="p1030">
+kg*m/s^2
+
+</para>
+
+
+
+
+<para id="p1031">
+A newton is a unit of force that causes a mass of one kilogram to be 
+accelerated by one meter per second squared (1 m/s^2).
+
+</para>
+
+
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="A_practical_example_using_the_Google_calculator" effect="bold">
+
+A practical example 
+using the Google calculator
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1032">
+When making physics calculations, It is extremely important that you 
+understand and keep track of the units that you are using. The Google search box 
+can serve your needs as a scientific calculator if you are careful how you use 
+it. For example, if you enter an expression such as 
+3+5 in the Google search box and press the Enter key, the result of evaluating that expression will be 
+displayed immediately below the search box.
+
+</para>
+
+
+
+
+<para id="p1033">
+<emphasis id="strong1007" effect="bold">
+A physics problem
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1034">
+A typical problem in a physics textbook states that a 2-kg mass is moving in a circular path 
+with a constant angular velocity of 5 radians per second and with a tangential velocity of 3 m/sec. 
+The objective is to find the centripetal force on the mass.
+
+</para>
+
+
+
+
+<para id="p1035">
+You will learn all that you need to know to solve this problem in future 
+modules. For now, just bear with me and concentrate on the use of the Google 
+search box as a scientific calculator.
+
+</para>
+
+
+
+
+<para id="p1036">
+As you will learn in a future module, a radian is a dimensionless quantity, 
+and the proper units for an angular velocity of 5 radians per second is simply 5/s. 
+(It also works to spell radians out, but abbreviations for radians may not 
+work in the Google calculator.)
+
+</para>
+
+
+
+
+<para id="p1037">
+<emphasis id="strong1008" effect="bold">
+The algebraic solution
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1038">
+Once you work through the algebra for this problem, you will have determined that the answer to the 
+problem is given by the following expression:
+
+</para>
+
+
+
+
+<para id="p1039">
+centripetal force = 2kg * (5/s) *(3m/s)
+
+</para>
+
+
+
+
+<para id="p1040">
+<emphasis id="strong1009" effect="bold">
+Let Google do the work
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1041">
+Enter the following expression into the Google search box and press the Enter 
+key:
+
+</para>
+
+
+
+
+<para id="p1042">
+2kg * (5/s) *(3m/s)
+
+</para>
+
+
+
+
+<para id="p1043">
+The following text should appear immediately below the search box.
+
+</para>
+
+
+
+
+<para id="p1044">
+2 kg * (5 / s) * (3 (m / s)) = 30 newtons
+
+</para>
+
+
+
+
+<para id="p1045">
+Note that in this case, I used the correct symbols for SI units.
+
+</para>
+
+
+
+
+<para id="p1046">
+<emphasis id="strong1010" effect="bold">
+Do it again with the units spelled differently
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1047">
+Enter the following expression into the search box and press the Enter key.
+
+</para>
+
+
+
+
+<para id="p1048">
+2 kilograms * (5 radians/second) * (3 meters/second)
+
+</para>
+
+
+
+
+<para id="p1049">
+The following text should appear immediately below the search box.
+
+</para>
+
+
+
+
+<para id="p1050">
+2 kilograms * ((5 radians) / second) * (3 (meters / second)) = 30 newtons
+
+</para>
+
+
+
+
+<para id="p1051">
+<emphasis id="strong1011" effect="bold">
+Do it one more time
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1052">
+Let's do it one more time, this time mixing metric and English units. Enter 
+the following expression into the search box and press the Enter key.
+
+</para>
+
+
+
+
+<para id="p1053">
+2 kilograms * (5 radians/second) * (9.8425197 feet/second)
+
+</para>
+
+
+
+
+<para id="p1054">
+The following output should appear below the search box:
+
+</para>
+
+
+
+
+<para id="p1055">
+2 kilograms * ((5 radians) / second) * (9.8425197 (feet / second)) = 30 newtons
+
+</para>
+
+
+
+
+<para id="p1056">
+<emphasis id="strong1012" effect="bold">
+The conclusion
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1057">
+Given an input with units in the correct format, the Google calculator 
+is not only able to deal with those units and perform the calculation correctly, it is also able to properly convert 
+the result to the correct value in derived units (newtons in this case).
+
+</para>
+
+
+
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="Other_units" effect="bold">
+
+Other units
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1058">
+When analyzing a physics problem, the safest approach is probably to convert 
+all of the given information into SI units and solve the problem in SI units, 
+converting the result back to some other system of units if required. However, 
+some textbooks and some physics professors may not allow that approach. 
+Therefore, you need to know something about the other units of force that you 
+may encounter.
+
+</para>
+
+
+
+
+<section id="h31001">
+<title>
+<emphasis id="poundal" effect="bold">
+
+poundal
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1059">
+As you learned in an earlier module, the 
+
+<emphasis id="strong1013" effect="bold">
+pound
+
+</emphasis>
+ is a unit of mass.
+
+</para>
+
+
+
+
+<para id="p1060">
+There is a very handy online mass unit converter at
+
+
+<link id="a1056" url="http://www.onlineconversion.com/weight_common.htm">
+
+
+http://www.onlineconversion.com/weight_common.htm
+
+</link>
+
+. However, I don't know if 
+it is accessible for screen readers and Braille displays. According to that 
+converter,
+
+</para>
+
+
+
+
+<para id="p1061">
+1 pound = 0.45359237 kilograms
+
+</para>
+
+
+
+
+<para id="p1062">
+<emphasis id="strong1014" effect="bold">
+Can use Google for conversion
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1063">
+Even if that converter isn't accessible, you can use the Google calculator to make such conversions. 
+Enter the following in the Google search box and press the Enter key:
+
+</para>
+
+
+
+
+<para id="p1064">
+conversion pound to kilogram
+
+</para>
+
+
+
+
+<para id="p1065">
+The following text should appear immediately below the search box:
+
+</para>
+
+
+
+
+<para id="p1066">
+1 pound = 0.45359237 kilograms
+
+</para>
+
+
+
+
+<para id="p1067">
+<emphasis id="strong1015" effect="bold">
+The foot
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1068">
+A foot is a unit of length commonly used for measurements in the United 
+States.
+
+</para>
+
+
+
+
+<para id="p1069">
+1 foot = 0.3048 meters
+
+</para>
+
+
+
+
+<para id="p1070">
+<emphasis id="strong1016" effect="bold">
+The poundal unit of force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1071">
+A poundal is a unit of force that causes a mass of one pound to accelerate at one foot per second squared (1 ft/s^2).
+
+</para>
+
+
+
+
+<para id="p1072">
+Because the poundal and the newton are both units of force, we can convert 
+from one to the other as follows:
+
+</para>
+
+
+
+
+<para id="p1073">
+1 poundal = 0.138254954 newton
+
+</para>
+
+
+
+
+</section>
+<section id="h31002">
+<title>
+<emphasis id="dyne" effect="bold">
+
+dyne
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1074">
+The gram is another unit of mass and the centimeter is another unit of 
+length. 
+
+</para>
+
+
+
+
+<para id="p1075">
+1 gram = 0.001 kilogram
+
+</para>
+
+
+
+
+<para id="p1076">
+1 centimeter = 0.01 meter
+
+</para>
+
+
+
+
+<para id="p1077">
+<emphasis id="strong1017" effect="bold">
+The dyne unit of force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1078">
+A dyne is a unit for force that causes a mass of one gram to accelerate at 
+one centimeter per second squared (1 cm/s^2). Once again, we can convert back 
+and forth between dynes and newtons using the following relationship:
+
+</para>
+
+
+
+
+<para id="p1079">
+1 dyne = 0.00001 newton
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21009">
+<title>
+<emphasis id="Acceleration_of_gravity" effect="bold">
+
+Acceleration of gravity
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1080">
+The values for the next three units of force that I will explain depend on 
+the gravitational attraction between the earth and other objects.
+
+</para>
+
+
+
+
+<para id="p1081">
+The universal law of gravitation tells us that objects having mass are 
+attracted to one another by a force that is proportional to the product of 
+their masses and inversely proportional to the distance between them.
+
+</para>
+
+
+
+
+<para id="p1082">
+<emphasis id="attraction_" effect="bold">
+
+attractive force
+
+</emphasis>
+
+ = G*m1*m2/d^2
+
+</para>
+
+
+
+
+<para id="p1083">
+where 
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1054">
+G is the gravitational constant 6.673*10^(-11)*m^3*kg^(-1)*s^(-2)
+
+</item>
+
+
+	
+
+<item id="li1055">
+m1 and m2 are the masses involved
+
+</item>
+
+
+	
+
+<item id="li1056">
+d is the distance between the masses
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1084">
+It is also true that for large spherical masses like the earth, the effect is 
+as if all of the mass is concentrated at a point located at the center of the 
+sphere.
+
+</para>
+
+
+
+
+<para id="p1085">
+<emphasis id="strong1018" effect="bold">
+Objects are attracted to the earth
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1086">
+Therefore, all objects on or near the surface of the earth are attracted 
+toward the center of the earth by an amount given by the above
+
+
+<link id="a1057" target-id="attraction_">
+
+equation
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1087">
+Neglecting friction such as air resistance, 
+objects near the surface at different points on earth fall with an acceleration somewhere 
+between about 9.78 m/s^2 and 9.82 m/s^2 depending on latitude.
+
+</para>
+
+
+
+
+<section id="h31003">
+<title>
+<emphasis id="poundforce" effect="bold">
+
+pound-force
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1088">
+The unit of force named pound-force incorporates the gravitational pull of 
+the earth in its definition. One pound-force is the force required to cause a mass of one 
+standard pound to be accelerated by an amount equal to the standard acceleration 
+of gravity that exists near the surface of the earth.
+
+</para>
+
+
+
+
+<para id="p1089">
+In accordance with the 
+
+
+<link id="a1058" url="http://en.wikipedia.org/wiki/General_Conference_on_Weights_and_Measures">
+
+General Conference on Weights and Measures
+
+</link>
+
+, standard gravity is usually taken to be 9.80665 m/s^2 (32.174049 ft/s^2).
+
+</para>
+
+
+
+
+<para id="p1090">
+The acceleration of the standard gravitational field and the 
+
+
+<link id="a1059" url="http://en.wikipedia.org/wiki/Pound_(mass)#International_pound">
+
+international avoirdupois pound
+
+</link>
+
+ define the pound-force as:
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1057">
+1 pound-force = 1 pound * 32.174049 ft/s^2
+
+</item>
+
+
+	
+
+<item id="li1058">
+1 pound-force = 0.45359237kg * 9.80665 m/s^2
+
+</item>
+
+
+	
+
+<item id="li1059">
+1 pound-force = 4.44822162 newton
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31004">
+<title>
+<emphasis id="gramforce" effect="bold">
+
+gram-force
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1091">
+As with pound-force, the unit of force named gram-force also incorporates the 
+gravitational pull of the earth in its definition. One gram force is the force required to cause a one-gram mass to be 
+accelerated by 980.665 cm/s^2.
+
+</para>
+
+
+
+
+<para id="p1092">
+We can convert force back and forth between units of gram-force and units of 
+newton using the following relationship.
+
+</para>
+
+
+
+
+<para id="p1093">
+1 gram-force = 0.00980665 newton
+
+</para>
+
+
+
+
+</section>
+<section id="h31005">
+<title>
+<emphasis id="kilogramforce" effect="bold">
+
+kilogram-force
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1094">
+Finally, the unit of force named kilogram-force also incorporates the 
+gravitational pull of the earth in its definition. One kilogram-force is the force required to cause a one-kilogram mass to be 
+accelerated 9.80665 m/s^2.
+
+</para>
+
+
+
+
+<para id="p1095">
+Once again, we can convert between force units of kilogram-force and newton 
+using the following relationship.
+
+</para>
+
+
+
+
+<para id="p1096">
+1 kilogram-force = 9.80665 newton
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21010">
+<title>
+<emphasis id="Weight_and_force" effect="bold">
+
+Weight is a force
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1097">
+Despite the fact that scales in the grocery stores in the United States have 
+displays that read in pounds (which is a unit of mass), weight is not a measure 
+of mass. Weight is a measure of force. 
+
+</para>
+
+
+
+
+<para id="p1098">
+<emphasis id="strong1019" effect="bold">
+What exactly is the weight of an object?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1099">
+The measurement that we normally think of as the weight of an object with a 
+given mass is 
+the force exerted on that object at the surface of the earth by the 
+gravitational attraction between that object and the earth.
+
+</para>
+
+
+
+
+<para id="p1100">
+The weight of that same object on the surface of the moon would be the force 
+exerted on that object by the gravitational attraction between that object and 
+the moon.
+
+</para>
+
+
+
+
+<para id="p1101">
+<emphasis id="strong1020" effect="bold">
+Weighing a package of hamburger
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1102">
+Assume that you have a package that contains a one-pound mass of hamburger. You put it on a scale on the 
+surface of the earth and the display reads 1 pound.
+
+</para>
+
+
+
+
+<para id="p1103">
+Now assume that you take the 
+same scale and the same package of hamburger to the surface of the moon and place the 
+package on 
+the scale. The display would no longer read 1 pound.
+
+</para>
+
+
+
+
+<para id="p1104">
+The weight indicated by the scale would be different because the gravitational 
+attraction between the mass of the hamburger and the mass of the moon would be less than 
+the gravitational attraction between the mass of the hamburger and the mass of 
+the earth.
+
+</para>
+
+
+
+
+<para id="p1105">
+According to the calculator at
+
+
+<link id="a1060" url="http://www.moonconnection.com/moon_gravity.phtml">
+
+http://www.moonconnection.com/moon_gravity.phtml
+
+</link>
+
+, 
+the scale would read 0.2 pounds on the moon.
+
+</para>
+
+
+
+
+<para id="p1106">
+<emphasis id="strong1021" effect="bold">
+What does the output of the scale really mean?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1107">
+When you see a scale with a display that reads pound, it should read 
+pound-force instead. If it reads kilogram, it should read kilogram-force 
+instead. Pound-force, kilogram-force, and gram-force are units that are tied 
+directly to the gravitational attraction between the earth and other objects.
+
+</para>
+
+
+
+
+<para id="p1108">
+<emphasis id="strong1022" effect="bold">
+Weightlessness
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1109">
+When astronauts go into space and speak of being weightless, they probably 
+aren't completely weightless. However, their weight is probably so low that it seems 
+to them to be zero.
+
+</para>
+
+
+
+
+<para id="p1110">
+The reduction in an astronaut's weight occurs because 
+the distance between the astronaut and any large massive object (such as the 
+earth or the moon) is so great that 
+the gravitational attraction between them is very small.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Sample problems
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1111">
+Let's work through several sample problems involving forces. The first 
+will be a statics problem and the last three will be dynamics problems.
+
+</para>
+
+
+
+
+<section id="h21011">
+<title>
+<emphasis id="A_statics_problem" effect="bold">
+
+A static scenario
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1112">
+It will probably help you to keep track of everything if you draw the 
+scenario on your graph board.
+
+</para>
+
+
+
+
+<para id="p1113">
+Draw a side view of two cubes 
+with different masses on the top of a flat level horizontal 
+friction-free table. Label them Mass C and Mass B. Mass C is on the left and 
+Mass B is on the right. 
+
+</para>
+
+
+
+
+<para id="p1114">
+Mass B is close to the rightmost edge of the table and Mass C is to the 
+left of Mass B.
+
+</para>
+
+
+
+
+<para id="p1115">
+Label Mass C as 3 kg and label Mass B as 2 kg.
+
+</para>
+
+
+
+
+<para id="p1116">
+<emphasis id="strong1023" effect="bold">
+A mass hanging on a cord
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1117">
+Draw a strong but lightweight cord, connected to the right side of Mass B and 
+thread the cord over a very 
+light frictionless pulley that changes the orientation of the cord from 
+horizontal to vertical. The pulley is attached to the right edge of the table.
+
+</para>
+
+
+
+
+<para id="p1118">
+Draw a triangle-shaped mass connected to the cord that hangs down from the 
+pulley. Label this Mass A and label it as 5 kg.
+
+</para>
+
+
+
+
+<para id="p1119">
+<emphasis id="strong1024" effect="bold">
+Two additional cords
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1120">
+Draw a strong but lightweight cord connecting Mass B to 
+Mass C.
+
+</para>
+
+
+
+
+<para id="p1121">
+Draw another strong but lightweight cord connecting Mass C to a 
+vertical wall on the left side of Mass C. That cord prevents any of the masses from moving and keeps the entire 
+system in equilibrium with the 5-kg mass suspended from the cord that is 
+threaded over the pulley.
+
+</para>
+
+
+
+
+<para id="p1122">
+<emphasis id="strong1025" effect="bold">
+Everything should be lined up
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1123">
+The pulley, both masses, and all three horizontal segments of cord above the 
+tabletop should be in a 
+straight line. The attachment heights of the cords and the top of the pulley 
+should be 
+such that all of the cords above the tabletop are horizontal. In other words, 
+there should be no vertical components in any of the forces that act on the cords 
+above the tabletop.
+
+</para>
+
+
+
+
+<para id="p1124">
+<emphasis id="strong1026" effect="bold">
+Label the tension in each cord
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1125">
+Label the tension in the cord between Mass B and Mass A as P. Label the 
+tension in the cord between Mass C and Mass B as Q Label the tension in the cord 
+between the wall and Mass C as R.
+
+</para>
+
+
+
+
+<para id="p1126">
+<emphasis id="strong1027" effect="bold">
+Tactile graphics
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1127">
+The svg file that is required to create tactile graphics for this exercise is 
+named Phy1150a1.svg. You should have 
+
+<link id="a1061" target-id="Creation_of_tactile_graphics">
+
+
+downloaded
+
+</link>
+
+ that file earlier. This file contains an image that 
+represents the instructions given 
+
+<link id="a1062" target-id="A_statics_problem">
+
+above
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1128">
+<link id="a1063" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+ shows the mirror image that is contained in 
+that file for the benefit of your assistant who will create the tactile graphic 
+for this exercise.
+
+</para>
+
+
+	
+
+
+
+<table id="table1002" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1002">
+<row id="tr1004">
+<entry id="th1002">
+
+
+
+<emphasis id="Figure_3" effect="bold">
+
+Figure 3
+
+</emphasis>
+
+. Mirror image of the image from the file named 
+Phy1150a1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1002">
+<row id="tr1005">
+<entry id="td1002">
+
+
+
+<media id="media1000" alt="Missing image" display="block">
+<image id="img1000" mime-type="image/png" src="../../media/Phy1150a1a.png" width="600" height="464"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1129">
+<link id="a1064" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+ shows a non-mirror-image version of the same image.
+
+</para>
+
+
+
+
+<table id="table1003" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1003">
+<row id="tr1006">
+<entry id="th1003">
+
+
+
+<emphasis id="Figure_4" effect="bold">
+
+Figure 4
+
+</emphasis>
+
+. Non-mirror image of the image from the file 
+named Phy1150a1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1003">
+<row id="tr1007">
+<entry id="td1003">
+
+
+
+<media id="media1001" alt="Missing image" display="block">
+<image id="img1001" mime-type="image/png" src="../../media/Phy1150a1b.png" width="600" height="464"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1130">
+<link id="a1065" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+ shows the key-value pairs that go with the image in the file named 
+Phy1150a1.svg
+
+</para>
+
+
+
+
+
+
+<table id="table1004" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1004">
+<row id="tr1008">
+<entry id="th1004">
+
+
+
+<emphasis id="Figure_5" effect="bold">
+
+Figure 5
+
+</emphasis>
+
+. Key-value pairs for the image in the file named Phy1150a1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1004">
+<row id="tr1009">
+<entry id="td1004">
+
+
+
+<code id="pre1002" display="block">m: R
+n: Q
+o: Friction free pulley
+p: Friction free table
+q: P
+r: Mass A 5 kg
+s: Mass C 3 kg
+t: Mass B 2 kg
+u: A static scenario
+v: File: Phy1150a1.svg
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+<para id="p1131">
+<emphasis id="strong1028" effect="bold">
+The question
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1132">
+What are the tensions P, Q, and R in the individual cord segments when the 
+system is in equilibrium and nothing is moving?
+
+</para>
+
+
+
+
+<para id="p1133">
+<emphasis id="strong1029" effect="bold">
+The answers
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1134">
+Mass A is in equilibrium because the upward force exerted by the cord 
+attached to the top of Mass A is equal to the downward force of gravity that is 
+exerted on Mass A.
+
+</para>
+
+
+
+
+<para id="p1135">
+Therefore, when the system is in equilibrium, the tension P is equal to the 
+weight of Mass A, which is equal to the product of its mass and the acceleration 
+of gravity.
+
+</para>
+
+
+
+
+<para id="p1136">
+P = 5*kg*9.81*m/s^2 = 49.05 newtons
+
+</para>
+
+
+
+
+<para id="p1137">
+<emphasis id="strong1030" effect="bold">
+The effect of the pulley
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1138">
+A single-wheel, frictionless, lightweight pulley as described here changes the direction of the cord, but does not 
+change the tension P in the cord. The tension in the cord is the same on both 
+sides of the pulley.
+
+</para>
+
+
+
+
+<para id="p1139">
+<emphasis id="strong1031" effect="bold">
+Support from the table
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1140">
+Mass B and Mass C are both in vertical equilibrium because their weight is 
+being supported by the table.
+
+</para>
+
+
+
+
+<para id="p1141">
+<emphasis id="strong1032" effect="bold">
+Horizontal equilibrium
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1142">
+Mass B is in horizontal equilibrium because the force exerted on one side of 
+the mass by tension Q is equal to the force exerted on the other side of the 
+mass by tension P, which is 49.05 newtons.
+
+</para>
+
+
+
+
+<para id="p1143">
+Mass C is in horizontal equilibrium because the force exerted on one side of 
+the mass by tension R is equal to the force exerted on the other side of the 
+mass by tension Q, which as explained above, is 49.05 newtons.
+
+</para>
+
+
+
+
+<para id="p1144">
+The wall exerts a force that is equal in magnitude and opposite 
+in direction to tension R in the cord that attaches Mass C to the wall. 
+
+
+</para>
+
+
+
+
+<para id="p1145">
+<emphasis id="strong1033" effect="bold">
+Tensions are all the same
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1146">
+Therefore, the tensions in all three cords are the same and the force exerted by 
+the wall supports the weight of Mass A hanging by the cord on the other end of 
+the chain.
+
+</para>
+
+
+
+
+<para id="p1147">
+P = Q = R = 49.05 newtons
+
+</para>
+
+
+
+
+</section>
+<section id="h21012">
+<title>
+<emphasis id="A_dynamics_problem" effect="bold">
+
+First dynamic scenario
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1148">
+Now assume that someone cuts the cord that attaches Mass A to Mass B. What 
+happens to the tension in each cord? Which, if any of the masses move, and if 
+they move, what is their acceleration?
+
+</para>
+
+
+
+
+<para id="p1149">
+We probably don't need to do any calculations to answer these questions. Life 
+experience tells us that the tension in each cord immediately goes to 
+zero when the cord holding up the weight is cut.
+
+</para>
+
+
+
+
+<para id="p1150">
+<emphasis id="strong1034" effect="bold">
+Movement
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1151">
+Mass B and Mass C remain in equilibrium with no horizontal forces acting on 
+them and their weights being supported by the table. They don't move.
+
+</para>
+
+
+
+
+<para id="p1152">
+Mass A immediately begins a free fall toward the floor with an acceleration 
+that is equal to the acceleration of gravity at 9.81 m/s^2. A short segment of 
+cord trails out behind Mass A like an unopened parachute.
+
+</para>
+
+
+
+
+</section>
+<section id="h21013">
+<title>
+<emphasis id="Second_dynamic_scenario" effect="bold">
+
+Second dynamic scenario
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1153">
+Now assume that we start over with the original static scenario and someone cuts the cord that attaches 
+Mass A to Mass B. What 
+happens to the tension in each cord? Which, if any of the masses move, and if 
+they move, what is their acceleration?
+
+</para>
+
+
+
+
+<para id="p1154">
+This situation is a little more complicated and will probably require some 
+calculations to sort out. 
+
+</para>
+
+
+
+
+<para id="p1155">
+It seem obvious that the tensions labeled Q and R immediately go to zero, 
+but the tension labeled P does not go to zero.
+
+</para>
+
+
+
+
+<para id="p1156">
+<emphasis id="strong1035" effect="bold">
+Movement
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1157">
+Mass C remains in equilibrium with no horizontal forces acting on 
+it and its weight being supported by the table. It does not move.
+
+</para>
+
+
+
+
+<para id="p1158">
+However, Mass A starts falling toward the floor, dragging Mass B horizontally 
+towards the pulley.
+
+</para>
+
+
+
+
+<para id="p1159">
+<emphasis id="strong1036" effect="bold">
+The driving force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1160">
+The only force causing Mass A and Mass B to move is the weight of Mass A 
+(49.05 newtons), which has not changed. However, that force is now trying to 
+move a total of 7 kg instead of only 5 kg as in the first dynamic scenario above.
+
+</para>
+
+
+
+
+<para id="p1161">
+A 
+force of 49.05 newtons is not sufficient to cause a mass of 7 kg to accelerate 
+at 9.81 m/s^2. Instead, the acceleration of each mass is proportional to the 
+force and inversely proportional to the total mass.
+
+</para>
+
+
+
+
+<para id="p1162">
+a = f/m = (49.05*newtons)/(7*kg)
+
+</para>
+
+
+
+
+<para id="p1163">
+Entering the rightmost expression into the Google search box and pressing 
+Enter tells us that
+
+</para>
+
+
+
+
+<para id="p1164">
+ 	
+a = 7.0 m / s^2
+
+</para>
+
+
+
+
+<para id="p1165">
+ 	
+Thus, the acceleration of Mass A and Mass B is 7 m/s^2, a little less than the 
+acceleration of gravity.
+
+</para>
+
+
+
+
+<para id="p1166">
+<emphasis id="strong1037" effect="bold">
+What is the value of tension P?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1167">
+Tension P is exerting a horizontal force on the right side of Mass B that is 
+causing that mass to accelerate at 7.0 m / s^2. The force required to achieve 
+that acceleration on a mass of 2 kg is
+
+</para>
+
+
+
+
+<para id="p1168">
+P = m*a = 2 kg*7.0 m / s^2
+
+</para>
+
+
+
+
+<para id="p1169">
+Once again using the Google calculator, we learn that
+
+</para>
+
+
+
+
+<para id="p1170">
+P = 14 newtons
+
+</para>
+
+
+
+
+<para id="p1171">
+Thus, although the tension at P did not go to zero when the cord was cut at 
+Q, the resulting tension in the cord at P was substantially reduced relative to 
+the tension at P while the system was in equilibrium.
+
+</para>
+
+
+
+
+</section>
+<section id="h21014">
+<title>
+<emphasis id="Third_dynamic_scenario" effect="bold">
+
+Third dynamic scenario
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1172">
+Now assume that we start over with the original static scenario and someone cuts the cord that attaches 
+Mass C to the wall. What 
+happens to the tension in each cord? Which, if any of the masses move, and if 
+they move, what is their acceleration?
+
+</para>
+
+
+
+
+<para id="p1173">
+This situation is considerably more complicated and will definitely require some 
+calculations.
+
+The tension labeled R goes to zero immediately, but the tensions labeled P and Q do not go to zero.
+
+</para>
+
+
+
+
+<para id="p1174">
+<emphasis id="strong1038" effect="bold">
+Movement
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1175">
+None of the masses remain in equilibrium. Mass A starts falling toward the floor, dragging 
+Mass B 
+and Mass C horizontally toward the pulley.
+
+</para>
+
+
+
+
+<para id="p1176">
+<emphasis id="strong1039" effect="bold">
+The driving force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1177">
+Once again, the only force causing all three masses to move is the weight of 
+Mass A (49.05 newtons), which has not changed. However, 
+that force is now trying to move a total of 10 kg instead of only 5 kg or 7 kg 
+as in the two scenarios described above.
+
+</para>
+
+
+
+
+<para id="p1178">
+A force of 49.05 newtons is not sufficient to cause a mass of 
+10 kg to accelerate at 9.81 m/s^2. Instead, the acceleration of each mass is proportional to the force and inversely proportional to the total mass.
+
+</para>
+
+
+
+
+<para id="p1179">
+a = f/m = (49.05*newtons)/(10*kg)
+
+</para>
+
+
+
+
+<para id="p1180">
+Entering the rightmost expression into the Google search box and pressing Enter tells us that
+
+</para>
+
+
+
+
+<para id="p1181">
+a = 4.9 m / s^2
+
+</para>
+
+
+
+
+<para id="p1182">
+<emphasis id="strong1040" effect="bold">
+Half the acceleration of gravity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1183">
+Note that this is half the acceleration of gravity. This makes sense, because 
+the force attributable to gravitational attraction acting on a mass of 5 kg is 
+being applied to 10 kg of mass. It follows, therefore, that the acceleration 
+that is achieved will be only half the acceleration of gravity.
+
+</para>
+
+
+
+
+<para id="p1184">
+<emphasis id="strong1041" effect="bold">
+What is the value of tension P?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1185">
+Tension P is exerting a horizontal force on the right side of Mass B that is causing that 
+mass and Mass C to accelerate at 4.9 m / s^2. The force required to achieve that acceleration on a mass of 
+5 kg is
+
+</para>
+
+
+
+
+<para id="p1186">
+P = m*a = 5*kg*4.9 m / s^2
+
+</para>
+
+
+
+
+<para id="p1187">
+Once again using the Google calculator, we learn that 
+
+</para>
+
+
+
+
+<para id="p1188">
+P = 24.5 newtons
+
+</para>
+
+
+
+
+<para id="p1189">
+Mass B and Mass C together represent 50-percent of the total mass, and 
+tension P is 50-percent of the force applied to the total mass. 
+
+</para>
+
+
+
+
+<para id="p1190">
+<emphasis id="strong1042" effect="bold">
+What is the value of tension Q?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1191">
+Tension Q is exerting a horizontal force on the right side of Mass C that is 
+causing Mass C to accelerate at 4.9 m / s^2. The force required to achieve that acceleration on a mass of 
+3 kg is
+
+</para>
+
+
+
+
+<para id="p1192">
+Q = m*a = 3*kg*4.9 m / s^2
+
+</para>
+
+
+
+
+<para id="p1193">
+Once again using the Google calculator, we learn that 
+
+</para>
+
+
+
+
+<para id="p1194">
+Q = 14.7 newtons
+
+</para>
+
+
+
+
+<para id="p1195">
+Mass C is 30-percent of the total mass, and tension Q is 30-percent of the 
+force applied to the total mass.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Do the calculations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1196">
+I encourage you to repeat the calculations that I have presented in this lesson to 
+confirm that you get the same results. Experiment with 
+the scenarios, making changes, and observing the results of your changes. Make 
+certain that you can explain why your changes behave as they do. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1197">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1198">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1043" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+
+
+<item id="li1060">
+Module name: Force and Motion -- Units of Force
+
+</item>
+
+
+
+
+<item id="li1061">
+File: Phy1150.htm
+
+
+</item>
+
+
+
+
+<item id="li1062">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1063">
+Keywords:
+
+<list id="ul1015" list-type="bulleted">
+
+		
+
+<item id="li1064">
+physics
+
+</item>
+
+
+		
+
+<item id="li1065">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1066">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1067">
+blind
+
+</item>
+
+
+		
+
+<item id="li1068">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1069">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1070">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1071">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1072">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1073">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1074">
+newton
+
+</item>
+
+
+					
+
+<item id="li1075">
+poundal
+
+</item>
+
+
+					
+
+<item id="li1076">
+dyne
+
+</item>
+
+
+		
+
+<item id="li1077">
+weight
+
+</item>
+
+
+		
+
+<item id="li1078">
+weightlessness
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+<emphasis id="strong1044" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1199">
+<emphasis id="strong1045" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1046" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1200">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1047" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1201">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1048" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1202">
+<emphasis id="strong1049" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1203">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

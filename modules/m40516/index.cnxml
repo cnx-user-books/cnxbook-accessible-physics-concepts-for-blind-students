@@ -1,0 +1,4025 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1006: A small-scale demonstration of the IVEO Learning System</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m40516</md:content-id>
+  <md:title>Phy1006: A small-scale demonstration of the IVEO Learning System</md:title>
+  <md:abstract><para>The IVEO Hands-on-Learning System teaches using touch, sound, and sight combined. This method utilizes any or all three learning modalities to help students learn faster and retain information longer, meanwhile, making learning more fun and interactive.</para>
+<para>
+It may not be practical for you to get a hands-on demonstration. This module explains how you might be able to create your own small-scale demonstration at little or no cost.</para></md:abstract>
+  <md:uuid>3c4e9289-a0d5-41fb-bd2d-7ac2eed5d75d</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Figures">
+
+Figures
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1005">
+<link id="a1005" target-id="Listings">
+
+Listings
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1007">
+<link id="a1007" target-id="Discussion">
+
+Discussion
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="Creation_of_tactile_graphics">
+
+Creation of tactile graphics
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="What_is_the_IVEO_HandsOn_Learning_System">
+
+What is the IVEO 
+		Hands-on-Learning System?
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+			
+
+<item id="li1010">
+<link id="a1010" target-id="A_disclaimer">
+
+A disclaimer
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1011">
+<link id="a1011" target-id="A_description_by_the_manufacturer">
+
+A description by the manufacturer
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1012">
+<link id="a1012" target-id="The_component_parts">
+
+The component parts
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1013">
+<link id="a1013" target-id="Operational_description">
+
+Brief operational description
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1014">
+<link id="a1014" target-id="A_program_to_create_a_drawing">
+
+A program to create a drawing
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1015">
+<link id="a1015" target-id="Instructions">
+
+Instructions
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+			
+
+<item id="li1016">
+<link id="a1016" target-id="Acquire_a_USB_digitizer_tablet">
+
+Acquire a USB 
+			digitizer tablet
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1017">
+<link id="a1017" target-id="Create_the_SVG_file">
+
+Create the SVG file
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1018">
+<link id="a1018" target-id="Install_Inkscape">
+
+Install Inkscape
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1019">
+<link id="a1019" target-id="Print_a_mirror_image">
+
+Print a mirror image
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1020">
+<link id="a1020" target-id="Manually_emboss_the_image">
+
+Manually emboss the image
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1021">
+<link id="a1021" target-id="Open_the_SVG_file_in_the_IVEO_Viewer">
+
+Load the SVG 
+			file into the IVEO Viewer
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1022">
+<link id="a1022" target-id="Explore_the_image_with_your_fingers">
+
+Explore the image 
+			with your fingers
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1023">
+<link id="a1023" target-id="Tactile_audio_and_visual_information">
+
+Tactile, audio, and visual information
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1024">
+<link id="a1024" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1025">
+<link id="a1025" target-id="Complete_program_listings">
+
+Complete program listings
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1026">
+<link id="a1026" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a collection of modules designed to make physics 
+concepts accessible to blind students.
+
+</para>
+
+
+
+
+<para id="p1001">
+If you opened this page in the context of the book, a Table of Contents for 
+the book (or collection) should be available above and to the left of this 
+paragraph. Otherwise, click
+
+
+<link id="a1027" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+here
+
+</link>
+
+ 
+to open the book at the beginning.
+
+</para>
+
+
+
+
+<para id="p1002">
+This book is intended to supplement but not to replace the textbook in an 
+introductory high school or college physics course. 
+
+</para>
+
+
+
+
+<para id="p1003">
+<emphasis id="According_to_the_manufacturer" effect="bold">
+
+According to the
+
+</emphasis>
+
+
+
+
+<link id="a1028" url="http://www.viewplus.com/">
+
+manufacturer
+
+</link>
+
+, 
+
+<emphasis id="em1000" effect="italics">
+"The 
+
+</emphasis>
+ 
+
+<link id="a1029" url="http://www.viewplus.com/solutions/touch-audio-learning/">
+
+
+
+
+<emphasis id="em1001" effect="italics">
+IVEO Hands-on-Learning System
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1002" effect="italics">
+ teaches using touch, sound, and sight combined. This method utilizes any or all three learning modalities to help students learn faster and retain information longer, meanwhile, making learning more fun and interactive."
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1004">
+Unfortunately, it may not be practical for you to get a hands-on demonstration. This module explains how you might be able to create your own small-scale demonstration at little or no cost.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1027">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1030" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1028">
+A protractor for measuring angles (
+
+<link id="a1031" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1029">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1032" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1030">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1033" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1031">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+<item id="li1032">
+The ability to create tactile graphics as described 
+	
+
+<link id="a1034" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+
+	here
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1006">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1033">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1034">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1035" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1035">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1036" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1036">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1037" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1037">
+An introductory understanding of JavaScript programming (
+
+<link id="a1038" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1039" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1038">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+	
+
+<item id="li1039">
+An understanding of the creation and use of tactile graphics as 
+	described 
+	
+
+<link id="a1040" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+
+	here
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1040">
+An understanding of and the ability to use my SVG graphics library to 
+	draw diagrams as described
+	
+
+<link id="a1041" url="http://cnx.org/contents/0803a1bf-9c6d-435a-a5f1-e21b1dbd978c">
+
+here
+
+</link>
+
+.
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1007">
+ I recommend that you open another copy of this document in a separate 
+browser window and use the following links to easily find and view the figures 
+and listings while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+ 
+
+<emphasis id="Figures" effect="bold">
+
+Figures
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1041">
+<link id="a1042" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+. Image from the file named Svg23.svg.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31001">
+<title>
+ 
+
+<emphasis id="Listings" effect="bold">
+
+Listings
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1042">
+<link id="a1043" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+. Code requiring changes. 
+
+</item>
+
+
+	
+
+<item id="li1043">
+<link id="a1044" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+. Complete listing of the program named Svg23.java. 
+
+</item>
+
+
+	
+
+<item id="li1044">
+<link id="a1045" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+. Batch file to compile and run the program named Svg23.java. 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h21003">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1008">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1046" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21004">
+<title>
+<emphasis id="Creation_of_tactile_graphics" effect="bold">
+
+Creation of tactile graphics
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1009">
+The module titled
+
+
+<link id="a1047" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482/Phy1004-Manual-Creation-of-Tac">
+
+
+Manual Creation of Tactile Graphics
+
+</link>
+
+ explains how to create tactile 
+graphics from svg files that I will provide.
+
+</para>
+
+
+
+
+<para id="p1010">
+Normally in these modules, I provide the SVG files that you need to create 
+tactile graphic. However, in this module, you will create your own SVG file by 
+editing, compiling and running a program that I will provide named 
+
+<emphasis id="strong1000" effect="bold">
+
+Svg23.java
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="What_is_the_IVEO_HandsOn_Learning_System" effect="bold">
+
+What is the IVEO 
+Hands-on-Learning System
+
+</emphasis>
+
+?
+
+</title>
+
+
+
+
+<section id="h31002">
+<title>
+<emphasis id="A_disclaimer" effect="bold">
+
+A disclaimer
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1011">
+I have no affiliation with
+
+
+<link id="a1048" url="http://www.viewplus.com/solutions/touch-audio-learning/">
+
+ViewPlus 
+Technologies Inc.
+
+</link>
+
+, the manufacturer of the 
+
+
+<link id="a1049" url="http://www.viewplus.com/solutions/touch-audio-learning/">
+
+IVEO
+
+</link>
+
+ system, other than being an 
+acquaintance and admirer of Dr. John Gardner, President and Chief Technical Officer of the 
+company. However, as an independent observer, I believe that 
+
+
+<link id="a1050" url="http://www.viewplus.com/solutions/touch-audio-learning/">
+
+IVEO
+
+</link>
+
+ is a 
+great system and I wish it were possible for every student to have access to 
+such a system.
+
+</para>
+
+
+
+
+<para id="p1012">
+The words that you see here are my words, except for a few words that I 
+copied from the
+
+
+<link id="a1051" url="http://www.viewplus.com/solutions/touch-audio-learning/">
+
+ViewPlus
+
+</link>
+
+ 
+website and presented in quotation marks
+
+
+<link id="a1052" target-id="According_to_the_manufacturer">
+
+earlier
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="A_description_by_the_manufacturer" effect="bold">
+
+A description by the manufacturer
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1013">
+I will begin by referring you to an article written by John Gardner titled 
+
+
+<emphasis id="em1003" effect="italics">
+Accessing Graphical Information with IVEO SVG
+
+</emphasis>
+ at
+
+
+<link id="a1053" url="http://www.access2science.com/jagqn/iveo.html">
+
+
+http://www.access2science.com/jagqn/iveo.html
+
+</link>
+
+. I recommend that you read 
+that article first and then come back and finish reading this module.
+
+</para>
+
+
+
+
+</section>
+<section id="h31004">
+<title>
+<emphasis id="The_component_parts" effect="bold">
+
+The component parts
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1014">
+If I understand it correctly, a complete 
+
+<link id="a1054" url="http://www.viewplus.com/solutions/touch-audio-learning/">
+
+
+IVEO System
+
+</link>
+
+ consists of the following components:
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1045">
+A computer
+
+</item>
+
+
+	
+
+<item id="li1046">
+An embossing machine capable of producing embossed or tactile graphics
+
+</item>
+
+
+	
+
+<item id="li1047">
+A free program called the 
+	
+
+<emphasis id="strong1001" effect="bold">
+IVEO Viewer
+
+</emphasis>
+ that can be downloaded from
+	
+
+<link id="a1055" url="http://downloads.viewplus.com/software/IVEOViewer/">
+
+
+	http://downloads.viewplus.com/software/IVEOViewer/
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1048">
+A large 11x14 touchpad
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1015">
+In this module, I will assume that you have the necessary computer. I will 
+also 
+assume that you don't have a suitable graphics embossing machine but instead 
+you have a friendly sighted assistant who is willing to manually emboss the 
+required printed image for you.
+
+</para>
+
+
+
+
+<para id="p1016">
+I will assume that you can download the 
+
+
+<link id="a1056" url="http://downloads.viewplus.com/software/IVEOViewer/">
+
+IVEO Viewer
+
+</link>
+
+ software.
+
+</para>
+
+
+
+
+<para id="p1017">
+I will assume that you do not have an 11x14 touchpad, but instead you are 
+able to come up with a suitable USB digitizing tablet. I will write this module 
+around the use of a rather antiquated Wacom 5.0 x 3.62-inch digitizing tablet that I have 
+owned for quite a few years. Your digitizing tablet will probably be a different 
+size, so I will explain how to accommodate the difference is size.
+
+</para>
+
+
+
+
+<para id="p1018">
+I will also assume that you can download and 
+install the free 
+
+<emphasis id="strong1002" effect="bold">
+Inkscape
+
+</emphasis>
+ program from 
+
+<link id="a1057" url="http://inkscape.org/download/">
+
+
+http://inkscape.org/download/
+
+</link>
+
+. That program will be needed to flip and print 
+an SVG file to produce a mirror image that your assistant can manually emboss 
+from the back side.
+
+</para>
+
+
+
+
+</section>
+<section id="h31005">
+<title>
+<emphasis id="Operational_description" effect="bold">
+
+Brief operational description
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1019">
+The operation of the 
+
+<link id="a1058" url="http://www.viewplus.com/solutions/touch-audio-learning/">
+
+
+IVEO System
+
+</link>
+
+ essentially consists of the following steps. These 
+steps assume that your hardware and software system has been installed and 
+tested.
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1049">
+Open the SVG file in the 	
+
+<link id="a1059" url="http://downloads.viewplus.com/software/IVEOViewer/">
+
+IVEO Viewer
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1050">
+Make adjustments, if necessary, in the 
+
+<emphasis id="strong1003" effect="bold">
+Page Setup
+
+</emphasis>
+ item 
+	on the 
+
+<emphasis id="strong1004" effect="bold">
+File
+
+</emphasis>
+ menu to specify the size of the page containing 
+	the drawing.
+
+</item>
+
+
+	
+
+<item id="li1051">
+Print the drawing from the 
+
+<emphasis id="strong1005" effect="bold">
+File
+
+</emphasis>
+ menu on an embossing 
+	graphic printer.
+
+</item>
+
+
+	
+
+<item id="li1052">
+Place the embossed graphic image on the touchpad and clamp it in 
+	position.
+
+</item>
+
+
+	
+
+<item id="li1053">
+Press 
+
+<emphasis id="strong1006" effect="bold">
+Ctrl+U
+
+</emphasis>
+ and step through a spoken process of calibrating the 
+	touchpad with the current image.
+
+</item>
+
+
+	
+
+<item id="li1054">
+Explore the embossed graphic image with your fingers, pressing with a 
+	single finger on those features of the embossed image that interest you. If 
+	you press on a feature and you hear spoken information about that feature, press
+	
+
+<emphasis id="strong1007" effect="bold">
+Ctrl+d
+
+</emphasis>
+ and you may or may not hear additional information 
+	about the feature. This will depend on whether additional information was 
+	provided by the author of the SVG file.
+
+</item>
+
+
+	
+
+<item id="li1055">
+Exercise other features, such as a feature that allows you to zoom in on specific areas of the 
+	image.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1020">
+Since I am assuming that you don't have access to either a touchpad or an embossing 
+graphics printer, I 
+will show you how to work around some of these steps. However, even with the 
+workarounds, you should still be able to 
+get a feel for the behavior of the system.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21006">
+<title>
+<emphasis id="A_program_to_create_a_drawing" effect="bold">
+
+A program to create a drawing
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1021">
+A complete Java program named 
+
+<emphasis id="strong1008" effect="bold">
+Svg23.java
+
+</emphasis>
+ is provided in 
+
+
+<link id="a1060" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1022">
+The purpose of this program is to demonstrate how to use
+my graphics library named 
+
+<emphasis id="strong1009" effect="bold">
+SvgLib21
+
+</emphasis>
+ 
+
+<emphasis id="em1004" effect="italics">
+(see
+Listing 26
+
+
+<link id="a1061" url="http://cnx.org/contents/0803a1bf-9c6d-435a-a5f1-e21b1dbd978c">
+
+here
+
+</link>
+
+) 
+
+</emphasis>
+to create an
+SVG file containing a simple drawing that can be used with a common USB digitizer
+tablet and the 
+
+<link id="a1062" url="http://www.viewplus.com/solutions/touch-audio-learning/">
+
+
+IVEO System
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1023">
+All dimensions in the program are written in terms of the variables named 
+
+
+<emphasis id="strong1010" effect="bold">
+width
+
+</emphasis>
+ and 
+
+<emphasis id="strong1011" effect="bold">
+height
+
+</emphasis>
+.
+Therefore, the only change that that you should need to make is to
+replace the dimensions of my digitizer tablet with the dimensions of your 
+digitizer tablet in the code fragment shown in 
+
+<link id="a1063" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1024">
+Having done that, you should be able to compile and run the program and it 
+should produce an output file named 
+
+<emphasis id="strong1012" effect="bold">
+Svg23.svg
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+
+
+
+
+<table id="table1000" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1000">
+<row id="tr1000">
+<entry id="th1000">
+
+
+
+<emphasis id="Listing_1" effect="bold">
+
+Listing 1
+
+</emphasis>
+
+. Code requiring changes.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1000">
+<row id="tr1001">
+<entry id="td1000">
+
+
+
+<code id="pre1000" display="block">    //Change the following two values to the width and
+    // the height of your digitizing pad in inches.
+    double width = 5.0;
+    double height = 3.62;</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1025">
+<emphasis id="strong1013" effect="bold">
+The image
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1026">
+For the benefit of your assistant who will emboss your image, 
+
+<link id="a1064" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+ shows a reduced-size version of 
+the image in the output SVG file for the dimensions of my digitizer tablet. The 
+image should be very similar for the dimensions of your digitizer tablet.
+
+</para>
+
+
+
+
+
+
+<table id="table1001" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+	
+
+<thead id="thead1001">
+
+		
+
+<row id="tr1002">
+
+			
+
+<entry id="th1001">
+<emphasis id="Figure_1" effect="bold">
+
+Figure 1
+
+</emphasis>
+
+. Image from the file 
+			named Svg23.svg. 
+
+</entry>
+
+		
+
+</row>
+
+	
+
+</thead>
+
+
+
+
+<tbody id="tbody1001">
+
+	
+
+<row id="tr1003">
+
+		
+
+<entry id="td1001">
+
+		
+
+<media id="media1000" alt="Missing image" display="block">
+<image id="img1000" mime-type="image/png" src="../../media/Svg23.png" width="275" height="200"/>
+</media>
+
+
+		
+
+</entry>
+
+	
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+<para id="p1027">
+<emphasis id="strong1014" effect="bold">
+Description of the image
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1028">
+For your benefit, the image consists of a rectangle drawn with a thin line that 
+is the same size as the active area on my digitizer tablet 
+
+<emphasis id="em1005" effect="italics">
+(5.0 x 3.62 inches)
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1029">
+A circle with a radius of one inch is centered in the left half of the drawing.
+
+</para>
+
+
+
+
+<para id="p1030">
+A triangle, with its base parallel to the horizontal axis, is horizontally centered in the 
+right half of the drawing.
+
+</para>
+
+
+
+
+<para id="p1031">
+A diagonal line extends from the lower left corner to the 
+upper right corner of the drawing.
+
+</para>
+
+
+
+
+<para id="p1032">
+Some text shows in the upper-left corner 
+of the drawing.
+
+</para>
+
+
+
+
+<para id="p1033">
+There is a small circle below the triangle, which I will refer 
+to as a 
+
+<emphasis id="em1006" effect="italics">
+<emphasis id="pseudoText" effect="bold">
+
+pseudo-text
+
+</emphasis>
+
+ marker
+
+</emphasis>
+. I will explain the purpose of the pseudo-text marker 
+later.
+
+</para>
+
+
+
+
+<para id="p1034">
+Although the dimensions of your digitizer tablet will probably be 
+different than mine, the overall layout of the shapes in your SVG file should be 
+very similar to mine.
+
+</para>
+
+
+
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="Instructions" effect="bold">
+
+Instructions
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+<para id="p1035">
+In this section, I will provide instructions and explain the steps that you 
+and your assistant will need to take in order to create your own small-scale 
+demonstration of the 
+
+
+<link id="a1065" url="http://www.viewplus.com/solutions/touch-audio-learning/">
+
+IVEO System
+
+</link>
+
+.
+
+
+
+</para>
+
+
+<section id="h31006">
+<title>
+
+
+
+<emphasis id="Acquire_a_USB_digitizer_tablet" effect="bold">
+
+Acquire a USB digitizer tablet
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+<para id="p1036">
+I put this instruction at the beginning of the list because 
+without a USB digitizer tablet 
+
+<emphasis id="em1007" effect="italics">
+(or something to suitably replace the 
+touchpad)
+
+</emphasis>
+, there can be no demonstration. Assuming that you 
+don't have such a tablet, you should check with your friends, take a look on Ebay, etc.
+
+</para>
+
+
+
+
+<para id="p1037">
+<emphasis id="em1008" effect="italics">
+(I will point out, however, that if you have low vision but can still see 
+the computer screen and can use a mouse, you may be able to create this demonstration 
+without the need for a digitizer tablet.)
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1038">
+The brand and size of the tablet isn't terribly important, although 
+the larger the tablet, the closer your small-scale demonstration will come to 
+representing the real thing.
+
+</para>
+
+
+
+
+<para id="p1039">
+It is critical that the tablet connects to the 
+computer via a USB port. It is also critical that the operation of the tablet 
+emulates a mouse. By this, I mean that when you touch the tactile image on the 
+tablet in a given location, the effect must be the same as if you were to use a mouse and click the corresponding location on the image on the screen.
+
+</para>
+
+
+
+
+<para id="p1040">
+Some tablets work only with a stylus, some work from either a finger 
+touch or a stylus, and possibly some only work from a finger touch. Once again, 
+this isn't too important, but the use of a tablet that works from a finger touch 
+will be closer to the real thing than one that requires a stylus. 
+
+<emphasis id="em1009" effect="italics">
+(Mine requires a stylus.)
+
+</emphasis>
+</para>
+
+
+
+
+
+</section>
+<section id="h31007">
+<title>
+
+
+
+<emphasis id="Create_the_SVG_file" effect="bold">
+
+Create the SVG file
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1041">
+Once you have acquired your digitizer tablet and you know the dimensions of 
+the active area on your tablet, it is time to create an SVG file that you can 
+use for testing.
+
+</para>
+
+
+<para id="p1042">
+Copy the Java code from 
+
+
+<link id="a1066" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ into a text file with the name 
+
+<emphasis id="strong1015" effect="bold">
+Svg23.java
+
+</emphasis>
+. Make the 
+changes shown in 
+
+<link id="a1067" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+ to replace the dimensions of my tablet with the 
+dimensions of your tablet. Note that dimensions are in inches.
+
+</para>
+
+
+<para id="p1043">
+Copy the text 
+from 
+
+<link id="a1068" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+ into a text file with the name 
+
+<emphasis id="strong1016" effect="bold">
+Svg23.bat
+
+</emphasis>
+.
+
+</para>
+
+
+<para id="p1044">
+Using 
+the two files listed above, along with the instructions in the module titled
+
+
+<link id="a1069" url="http://cnx.org/contents/0803a1bf-9c6d-435a-a5f1-e21b1dbd978c">
+
+If You Can Imagine T, You Can 
+Draw It using SVG
+
+</link>
+
+, and 
+
+<emphasis id="em1010" effect="italics">
+Listing 26
+
+
+<link id="a1070" url="http://cnx.org/contents/0803a1bf-9c6d-435a-a5f1-e21b1dbd978c">
+
+here
+
+</link>
+
+)
+
+</emphasis>
+, compile and run the 
+program named 
+
+<emphasis id="strong1017" effect="bold">
+Svg23.java
+
+</emphasis>
+, producing an output file named
+
+
+<emphasis id="strong1018" effect="bold">
+Svg23.svg
+
+</emphasis>
+.
+
+</para>
+
+
+</section>
+<section id="h31008">
+<title>
+<emphasis id="Install_Inkscape" effect="bold">
+
+Install Inkscape
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1045">
+This would be a good time for you to download and install the
+
+
+<link id="a1071" url="http://inkscape.org/download/">
+
+Inkscape
+
+</link>
+
+ program. You will be 
+needing it shortly so that your assistant can 
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1056">
+create a mirror image of the image in the SVG file, and 
+
+</item>
+
+
+	
+
+<item id="li1057">
+print the mirror image for manual embossing.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31009">
+<title>
+<emphasis id="Print_a_mirror_image" effect="bold">
+
+Print a mirror image
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<para id="p1046">
+The Inkscape program is a relatively complex program, and an inexperienced 
+user could easily damage or modify an SVG file. Therefore, the instructions in 
+this section should be performed using a copy of the file named 
+
+<emphasis id="strong1019" effect="bold">
+
+Svg23.svg
+
+</emphasis>
+. 
+
+</para>
+
+
+
+
+</note>
+
+
+
+
+	
+	
+
+<para id="p1047">
+Ask your assistant to start the 
+
+<emphasis id="strong1020" effect="bold">
+Inkscape
+
+</emphasis>
+  program and to open 
+a copy of the file named
+
+
+<emphasis id="strong1021" effect="bold">
+Svg23.svg
+
+</emphasis>
+ in that program.
+
+</para>
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1058">
+Press 
+
+<emphasis id="strong1022" effect="bold">
+Ctrl+Alt+A
+
+</emphasis>
+ to prepare the image for a horizontal 
+	flip. Your assistant should see a bunch of little arrows on the screen 
+	indicating that all of the objects in the image have been selected.
+
+</item>
+
+
+	
+
+<item id="li1059">
+Pull down the 
+
+<emphasis id="strong1023" effect="bold">
+Object
+
+</emphasis>
+ menu and select 
+
+<emphasis id="strong1024" effect="bold">
+Flip 
+	Horizontal
+
+</emphasis>
+. Your assistant should see the image flipped from its 
+	normal state to a mirror image of its normal state.
+
+</item>
+
+
+	
+
+<item id="li1060">
+Press 
+
+<emphasis id="strong1025" effect="bold">
+Ctrl+P
+
+</emphasis>
+  to cause the flipped image to be printed.
+
+</item>
+
+
+	
+
+<item id="li1061">
+Press 
+
+<emphasis id="strong1026" effect="bold">
+Ctrl+Q
+
+</emphasis>
+ to quit. When the opportunity presents 
+	itself, click the button labeled 
+
+<emphasis id="strong1027" effect="bold">
+Close without saving
+
+</emphasis>
+..
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1048">
+<emphasis id="strong1028" effect="bold">
+The printed output
+
+</emphasis>
+</para>
+
+
+<para id="p1049">
+Your assistant should see the mirror image of an image that is very similar 
+to 
+
+<link id="a1072" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+. However, the overall size of the image will be different from 
+
+
+<link id="a1073" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+ due to the differing sizes of our respective tablets.
+
+</para>
+
+
+<para id="p1050">
+All of the 
+shapes in the image should be contained inside a rectangle that is very close to 
+the size of the active area on your tablet. If that is not the case, something 
+is wrong and you will need to backtrack and fix the problem.
+
+</para>
+
+
+</section>
+<section id="h31010">
+<title>
+
+
+
+<emphasis id="Manually_emboss_the_image" effect="bold">
+
+Manually emboss the image
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1051">
+Ask your assistant to use a tracing wheel or something similar to manually 
+emboss the printed mirror image. Ask him or her to try to emboss the heavy lines 
+as double lines to make them easier for you to locate and identify with your 
+fingers.
+
+</para>
+
+
+<para id="p1052">
+<emphasis id="strong1029" effect="bold">
+A text block
+
+</emphasis>
+</para>
+
+
+<para id="p1053">
+There will be 
+some text in the upper-right corner of the mirror image. It won't be necessary to 
+emboss the characters in that text. Simply emboss some marks that will alert you 
+to the location of the text.
+
+</para>
+
+
+<para id="p1054">
+<emphasis id="strong1030" effect="bold">
+A pseudo-text marker
+
+</emphasis>
+</para>
+
+
+<para id="p1055">
+There is also a small circle underneath the 
+triangle. 
+
+<emphasis id="em1011" effect="italics">
+(Depending on the size of your digitizer tablet, the circle may 
+actually appear on top of the triangle.)
+
+</emphasis>
+ Once again, it won't be necessary to emboss that circle 
+as a circle. Simply emboss 
+an X there so that you will be able to discern the location of that circle. 
+
+<emphasis id="em1012" effect="italics">
+
+(This is the pseudo-text marker that I referred to 
+
+<link id="a1074" target-id="pseudoText">
+
+earlier
+
+</link>
+
+. 
+I will explain its purpose later.)
+
+</emphasis>
+</para>
+
+
+<para id="p1056">
+
+
+
+<emphasis id="strong1031" effect="bold">
+Attach the image to the digitizer tablet
+
+</emphasis>
+</para>
+
+
+<para id="p1057">
+
+Once the image has been embossed, trim the image very carefully at the rectangular 
+border. Using masking tape or something similar turn the image over with the ink 
+side down and affix it to the active area of your tablet. Be very careful 
+because proper alignment is critical at this point.
+
+</para>
+
+
+<para id="p1058">
+Ask your assistant to 
+somehow mark the upper-left and lower-right corners of the rectangle so that you 
+can discern them later when times comes to calibrate the touchpad.
+
+</para>
+
+
+</section>
+<section id="h31011">
+<title>
+
+Load
+
+<emphasis id="Open_the_SVG_file_in_the_IVEO_Viewer" effect="bold">
+
+ the SVG file into the IVEO 
+Viewer
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1059">
+Start the 
+	
+
+<link id="a1075" url="http://downloads.viewplus.com/software/IVEOViewer/">
+
+IVEO Viewer
+
+</link>
+
+ 
+program running. When it is running and ready for action, you should hear a 
+welcome message.
+
+</para>
+
+
+<para id="p1060">
+<emphasis id="strong1032" effect="bold">
+Open the SVG file
+
+</emphasis>
+</para>
+
+
+<para id="p1061">
+Press 
+
+<emphasis id="strong1033" effect="bold">
+Ctrl+O
+
+</emphasis>
+ to open the SVG file. Navigate 
+the disk and open the file named 
+
+<emphasis id="strong1034" effect="bold">
+Svg23.svg
+
+</emphasis>
+. When the file opens 
+in IVEO, you should hear something like the following:
+
+</para>
+
+
+<para id="p1062">
+<emphasis id="em1013" effect="italics">
+"Document title 
+description of the document"
+
+</emphasis>
+</para>
+
+
+<para id="p1063">
+<emphasis id="strong1035" effect="bold">
+The page setup operation
+
+</emphasis>
+</para>
+
+
+<para id="p1064">
+Open the 
+
+<emphasis id="strong1036" effect="bold">
+File
+
+</emphasis>
+ menu and select 
+the item named 
+
+<emphasis id="strong1037" effect="bold">
+Page Setup
+
+</emphasis>
+.
+
+</para>
+
+
+<para id="p1065">
+Select 
+
+<emphasis id="strong1038" effect="bold">
+Letter (Landscape)
+
+</emphasis>
+ 
+if your rectangle is wider than it is tall. Select 
+
+<emphasis id="strong1039" effect="bold">
+Letter (Portrait)
+
+</emphasis>
+ 
+if your rectangle is taller than it is wide.
+
+</para>
+
+
+<para id="p1066">
+Then click the 
+
+<emphasis id="strong1040" effect="bold">
+OK
+
+</emphasis>
+  button.
+
+</para>
+
+
+<para id="p1067">
+You may be asked 
+
+
+<emphasis id="em1014" effect="italics">
+"Do you want to 
+fit the image to the new page size?"
+
+</emphasis>
+ If so, click the 
+
+<emphasis id="strong1041" effect="bold">
+Yes
+
+</emphasis>
+ button.
+
+</para>
+
+
+<para id="p1068">
+
+
+
+<emphasis id="strong1042" effect="bold">
+Calibrate the touchpad
+
+</emphasis>
+</para>
+
+
+<para id="p1069">
+Press 
+
+<emphasis id="strong1043" effect="bold">
+
+Ctrl+U
+
+</emphasis>
+ to calibrate the touchpad to your image.
+
+</para>
+
+
+<para id="p1070">
+You will be asked to 
+
+
+<emphasis id="em1015" effect="italics">
+"Touch top left corner of the image."
+
+</emphasis>
+</para>
+
+
+<para id="p1071">
+At this point, you 
+should touch the top left corner 
+of the image that is taped onto your tablet. Follow the verbal instruction and 
+press the space bar to confirm.
+
+</para>
+
+
+<para id="p1072">
+You will then be asked to 
+
+<emphasis id="em1016" effect="italics">
+"Touch bottom 
+right corner of the image."
+
+</emphasis>
+ Touch the bottom right corner of the image that 
+is taped onto your tablet, and press the space bar to confirm.
+
+</para>
+
+
+<para id="p1073">
+You should hear
+
+
+<emphasis id="em1017" effect="italics">
+"calibration 
+finished."
+
+</emphasis>
+</para>
+
+
+</section>
+<section id="h31012">
+<title>
+<emphasis id="Explore_the_image_with_your_fingers" effect="bold">
+
+Explore the image 
+with your fingers
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1074">
+You are now ready to begin the exploration of the image using your fingers, 
+or a combination of your fingers and a stylus depending on the kind of tablet 
+that you are using.
+
+</para>
+
+
+	
+
+
+
+<note id="note1001" type="">
+
+
+
+
+
+Even though you are probably accustomed to exploring with multiple fingers, when 
+time comes to touch an object and elicit a spoken response, you should touch 
+with only one finger. Otherwise the system won't know which touch to pay 
+attention to and you probably won't get the desired result.
+
+</note>
+
+
+
+
+	
+	
+
+<para id="p1075">
+<emphasis id="strong1044" effect="bold">
+<emphasis id="Touch_the_text_object" effect="bold">
+
+Touch the text 
+object
+
+</emphasis>
+
+
+</emphasis>
+</para>
+
+
+<para id="p1076">
+If you touch the area near the upper-left corner that your assistant 
+has identified as 
+containing text, you should hear 
+
+<emphasis id="em1018" effect="italics">
+"This is a text object."
+
+</emphasis>
+ If you are interested 
+in doing so, you can locate the code in 
+
+<link id="a1076" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+  responsible for this behavior 
+by searching that listing for the matching text.
+
+</para>
+
+
+
+
+<para id="p1077">
+
+
+
+<emphasis id="strong1045" effect="bold">
+Touch the circle
+
+</emphasis>
+</para>
+
+
+<para id="p1078">
+Touch anywhere inside the circle in the left 
+half of your image and you 
+should hear 
+
+<emphasis id="em1019" effect="italics">
+"Circle."
+
+</emphasis>
+</para>
+
+
+<para id="p1079">
+Then press 
+
+<emphasis id="strong1046" effect="bold">
+Ctrl+d
+
+</emphasis>
+ and you should hear 
+
+
+<emphasis id="em1020" effect="italics">
+"Circle Description of the circle."
+
+</emphasis>
+</para>
+
+
+<para id="p1080">
+In other words, once you touch one of the 
+objects and hear a voice that identifies the object, you can press 
+
+<emphasis id="strong1047" effect="bold">
+
+Ctrl+d
+
+</emphasis>
+ to hear more information about the object.
+
+</para>
+
+
+<para id="p1081">
+Once again, if you 
+are interested in doing so, you can search for this text in the Java code in 
+
+
+<link id="a1077" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ and see the code that is responsible for this behavior.
+
+</para>
+
+
+<para id="p1082">
+<emphasis id="strong1048" effect="bold">
+
+Touch the triangle
+
+</emphasis>
+</para>
+
+
+<para id="p1083">
+If you touch anywhere inside the triangle in the 
+right half of your image, you 
+should hear 
+
+<emphasis id="em1021" effect="italics">
+"Triangle."
+
+</emphasis>
+ Pressing 
+
+<emphasis id="strong1049" effect="bold">
+Ctrl+d
+
+</emphasis>
+ at 
+that point will provide additional 
+information about the triangle.
+
+</para>
+
+
+<para id="p1084">
+<emphasis id="strong1050" effect="bold">
+Touch the pseudo-text marker
+
+</emphasis>
+</para>
+
+
+<para id="p1085">
+
+If you touch the marker underneath 
+
+<emphasis id="em1022" effect="italics">
+(or perhaps on)
+
+</emphasis>
+ the triangle, you should hear 
+
+
+<emphasis id="em1023" effect="italics">
+"This is pseudo 
+text identified by a text marker."
+
+</emphasis>
+</para>
+
+
+<para id="p1086">
+
+This is an alternative to actually putting 
+text in the drawing as was done 
+
+<link id="a1078" target-id="Touch_the_text_object">
+
+above
+
+</link>
+
+. This 
+approach can be used to include text in the drawing without allowing the text to 
+cause the drawing to become messy. It is useful when there is a lot text that 
+needs to be included in the drawing. It is also useful when two ordinary text 
+objects would overlap.
+
+</para>
+
+
+<para id="p1087">
+
+The downside is that a sighted teacher or a low-vision student can't see the 
+text. It only becomes exposed when the SVG file is processed using the
+
+
+<link id="a1079" url="http://www.viewplus.com/solutions/touch-audio-learning/">
+
+IVEO system
+
+</link>
+
+. 
+
+</para>
+
+
+<para id="p1088">
+<emphasis id="strong1051" effect="bold">
+Touch the line
+
+</emphasis>
+</para>
+
+
+<para id="p1089">
+Try to touch the line 
+that extends from the lower left to the upper right corner of the rectangle. This can 
+sometimes be difficult, particularly if the printed and embossed version of the 
+drawing isn't well registered on the touchpad.
+
+</para>
+
+
+<para id="p1090">
+If you succeed in touching the 
+line, you should hear 
+
+<emphasis id="em1024" effect="italics">
+"Diagonal line."
+
+</emphasis>
+ Pressing 
+
+<emphasis id="strong1052" effect="bold">
+Ctrl+d
+
+</emphasis>
+ should 
+then result in a voice saying 
+
+<emphasis id="em1025" effect="italics">
+"Diagonal line Description of diagonal line."
+
+</emphasis>
+</para>
+
+
+<para id="p1091">
+
+The difficulty of touching the line is one illustration of the need for a large 
+touchpad for use with IVEO. If this same drawing were enlarged to fit on the 
+11x14 inch IVEO touchpad, the line would be much thicker and easier to touch.
+
+</para>
+
+
+<para id="p1092">
+
+
+
+<emphasis id="strong1053" effect="bold">
+The border rectangle
+
+</emphasis>
+</para>
+
+
+<para id="p1093">
+There is a good possibility that when 
+you attempted to touch the line, you heard 
+
+<emphasis id="em1026" effect="italics">
+"Border rectangle"
+
+</emphasis>
+ instead of 
+
+
+<emphasis id="em1027" effect="italics">
+"Diagonal line."
+
+</emphasis>
+ This is because all of the area within the rectangular border 
+not covered by one of the other objects belongs to the rectangular object that 
+forms the border.
+
+</para>
+
+
+<para id="p1094">
+If you did hear 
+
+<emphasis id="em1028" effect="italics">
+"Border rectangle"
+
+</emphasis>
+ and you were to 
+press 
+
+<emphasis id="strong1054" effect="bold">
+Ctrl+d
+
+</emphasis>
+, you should hear 
+
+<emphasis id="em1029" effect="italics">
+"Border rectangle 
+Description of border rectangle."
+
+</emphasis>
+</para>
+
+
+<para id="p1095">
+<emphasis id="strong1055" effect="bold">
+The document title
+
+</emphasis>
+</para>
+
+
+<para id="p1096">
+If 
+you press the d key at 
+any time, you should hear 
+
+<emphasis id="em1030" effect="italics">
+"Document title Description of the 
+document."
+
+</emphasis>
+ This is the same thing that you should have heard when the SVG file 
+was opened in the 
+	
+
+<link id="a1080" url="http://downloads.viewplus.com/software/IVEOViewer/">
+
+IVEO Viewer
+
+</link>
+
+.
+
+</para>
+
+
+</section>
+</section>
+<section id="h21008">
+<title>
+
+
+
+<emphasis id="Tactile_audio_and_visual_information" effect="bold">
+
+Tactile, audio, and visual information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1097">
+The words that are spoken 
+when you touch an object or press 
+
+<emphasis id="strong1056" effect="bold">
+Ctrl+d
+
+</emphasis>
+ are defined by the 
+author of the SVG file when the file is created. The purpose is to provide 
+information that can't easily be provided solely through tactile means.
+
+</para>
+
+
+<para id="p1098">
+In 
+other words, there is a limit to the amount of information about a drawing or an 
+image that can be provided solely through touch. For the blind student, IVEO makes it possible 
+to supplement the tactile information with additional information that is 
+delivered by voice. Thus, a blind student has access to both tactile and audible 
+information when exploring the drawing.
+
+</para>
+
+
+<para id="p1099">
+If a student has low vision but still has some ability to see the 
+screen, visual information is also presented in the form of the drawing 
+on the screen. The low-vision student may be able to explore the drawing using a 
+mouse and receive the same audible information and may not need a touchpad. Thus, a low-vision student has access to tactile, 
+audible, and visual information.
+
+</para>
+
+
+<para id="p1100">
+<emphasis id="strong1057" effect="bold">
+Not much information in this 
+demonstration file
+
+</emphasis>
+</para>
+
+
+<para id="p1101">
+I was the author of this demonstration SVG 
+file. Because it is a demonstration, I didn't include much real information in 
+the audible realm. My objective was simply to give your an opportunity to see 
+how the system works.
+
+</para>
+
+
+<para id="p1102">
+As you read earlier in the article titled 
+
+
+<link id="a1081" url="http://www.access2science.com/jagqn/iveo.html">
+
+Accessing Graphical Information with IVEO SVG
+
+</link>
+
+, 
+the 
+
+<link id="a1082" url="http://www.viewplus.com/solutions/touch-audio-learning/">
+
+IVEO 
+System
+
+</link>
+
+  provides some other features as well. However, now 
+that you have reached this point, you can explore those other features on 
+your own. Just remember that some features, such as zooming for example, 
+probably can't be demonstrated with a small digitizing tablet.
+
+</para>
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1103">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Complete_program_listings" effect="bold">
+
+Complete program listings
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+<para id="p1104">
+<link id="a1083" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ contains the Java code to produce the SVG 
+file needed for this demonstration.
+
+</para>
+
+
+
+
+<table id="table1002" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1002">
+<row id="tr1004">
+<entry id="th1002">
+
+
+
+<emphasis id="Listing_2" effect="bold">
+
+Listing 2
+
+</emphasis>
+
+. Complete listing of the program named 
+Svg23.java.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1002">
+<row id="tr1005">
+<entry id="td1002">
+
+
+
+<code id="pre1001" display="block">/*File Svg23.java,
+The purpose of this program is to demonstrate how to use
+my graphics library named SvgLib21 to create a simple
+SVG file that can be used with a small Wacom digitizer
+tablet with the IVEO learning system.
+
+All dimensions are written in terms of width and height.
+Therefore, the only change that should be needed is to
+change the hard-coded values for width and height in 
+inches where indicated.
+*********************************************************/
+import java.io.*;
+import org.jdom.*;
+
+public class Svg23{
+  public static void main(String[] args){
+
+    //DO NOT MODIFY ANY OF THE CODE ABOVE THIS LINE.
+    //##################################################//
+    //ONLY THE CODE BELOW THIS LINE CAN BE MODIFIED
+    
+    /**
+     *CREATE A DRAWING CANVAS
+     *This must be the first statement that you write in
+     *the program and it must appear only once.
+     *The following statement creates a canvas that is
+     *8.5x11 inches in size in a portrait layout. The
+     *size was chosen to match my printer page size.
+     *I will actually restrict the size of my drawing
+     *to 5.0x3.62 inches by drawing a border rectangle of
+     *that size and then drawing everything inside that
+     *rectangle. This size was chosen to match the size
+     *of my Wacom digitizer pad. The title is "Document
+     *Title", which will be spoken by IVEO when the
+     *SVG file is loaded into IVEO.
+     */
+     Element svg = SvgLib21.makeSvg(ns,
+                                    "Document Title",
+                                    8.5,
+                                    11
+                                    );
+
+
+    //DO NOT MODIFY THE FOLLOWING STATEMENT
+    //This statement must immediately follow the call to
+    // the makeSvg method above and this statement MUST
+    // NOT BE MODIFIED.
+    Document doc = new Document(svg,docType);
+    
+    /**
+     *Add a description element to the document.
+     *The description can be spoken in IVEO by pressing
+     *the d key.
+     */
+    SvgLib21.setDescription(
+                           svg,
+                           ns,
+                           "Description of the document");
+
+    
+    //Change the following two values to the width and
+    // the height of your digitizing pad in inches.
+    double width = 5.0;
+    double height = 3.62;
+
+    /**
+     *Draw a border rectangle whose size defines the
+     *working area that will be processed in IVEO. Avoid
+     *the edges of the page in order to avoid potential
+     *issues with printing near the edges of the page.
+     *The lower left corner of this rectangle is located
+     *at x=1 inch and y=1 inch. The width is 5 inches
+     *and the height is 3.62 inches. The title is 
+     *"Border rectangle". The title can be spoken in
+     *IVEO by selecting the object. The default stroke
+     *width is one pixel. It should be left that way
+     *to provide for more accurate triming of the printed
+     *version of the drawing. A printed and embossed
+     *version of the drawing will be required along with
+     *the digitizer pad to use this file with IVEO. 
+     *Don't make any changes to the following code.
+     */
+    Element borderRectangle = SvgLib21.makeRect(
+                                       svg,
+                                       ns,
+                                       "Border rectangle",
+                                       1.0,
+                                       1.0,
+                                       width,
+                                       height
+                                       );
+
+    /**
+     *Add a description element to the border rectangle.
+     *The description can be spoken in IVEO by first
+     *selecting the border rectangle and then pressing
+     *Ctrl+d.
+     */
+    SvgLib21.setDescription(
+                       borderRectangle,
+                       ns,
+                       "Description of borderRectangle");
+
+
+    /**
+     *Draw a circle with a radius of 1 inch centered in
+     *the left half of the border rectangle. Remember
+     *that the border rectangle has been offset by one
+     *inch in both the horizontal and vertical directions
+     *to avoid potential printing problems at the edge
+     *of the paper. The title is "circle".
+     *Don't make any changes to the following code.
+     */
+    Element theCircle = SvgLib21.makeCircle(svg,
+                                            ns,
+                                            "circle",
+                                            1+width/4,
+                                            1+height/2,
+                                            1.0
+                                            );
+    /**
+     *Set the stroke width of the circle to 0.05 inch.
+     *With the exception of the border rectangle, this
+     *is probably the minimum width to use for any shape
+     *to help ensure that you can locate the line with
+     *your fingers.
+     */
+    SvgLib21.setStrokeWidth(theCircle,0.05);
+    
+    /**
+     *Add a description element to theCircle.
+     */
+    SvgLib21.setDescription(
+                           theCircle,
+                           ns,
+                           "Description of the circle.");
+
+    /**
+     *Draw a triangle that is centered in the right half
+     *of the border rectangle.
+     */
+    Element theTriangle = SvgLib21.makePolygon(
+                                svg,
+                                ns,
+                                "triangle",
+                                new double[]{
+                                  1+9*width/16,2.0,
+                                  1+15*width/16,2.0,
+                                  1+3*width/4,height
+                                });
+    /**
+     *Set the stroke width of the theTriangle to 
+     *0.05 inch.
+     */
+    SvgLib21.setStrokeWidth(theTriangle,0.05);
+    
+    /**
+     *Add a description element to theTriangle.
+     */
+    SvgLib21.setDescription(
+                         theTriangle,
+                         ns,
+                         "Description of the triangle.");
+    
+    /**
+     *Draw a line from the lower-left to the upper-right
+     *corner of the border rectangle.
+     */
+    Element diagonalLine = SvgLib21.makeLine(
+                                          svg,
+                                          ns,
+                                          "Diagonal line",
+                                          1.0,
+                                          1.0,
+                                          1+width,
+                                          1+height
+                                          );
+
+    /**
+     *Set the stroke width of the diagonal line 
+     *to 0.05 inch.
+     */
+    SvgLib21.setStrokeWidth(diagonalLine,0.05);
+    
+    /**
+     *Add a description element to diagonalLine.
+     */
+    SvgLib21.setDescription(
+                     diagonalLine,
+                     ns,
+                     "Description of the diagonal line.");
+    
+
+    /**
+     *Draw text with a size of 20 points and an arial 
+     *font face in the upper-left corner of the drawing.
+     */
+    Element textA = SvgLib21.makeText(
+                                  svg,
+                                  ns,
+                                  1+width/16,
+                                  1+height-0.32,
+                                  "arial",
+                                  20,
+                                  "This is a text object."
+                                  );
+
+    /**
+     *Draw a circular marker for pseudo-text below
+     *the theTriangle. The text is spoken in IVEO by 
+     *selecting the marker. The purpose of pseudo-text
+     *markers is to reduce the clutter and overlap that
+     *can occur when there is a need for a lot of text
+     *in the drawing or there is a need for text objects
+     *that overlap one another.
+     */
+    Element textMarker = SvgLib21.makeCircle(
+      svg,
+      ns,
+      "This is pseudo-text identified by a text marker.",
+      1+3*width/4,
+      1+0.2*height,
+      .125
+      );
+
+    /**
+     *Set the stroke width of the textMarker to 0.05 inch.
+     */
+    SvgLib21.setStrokeWidth(textMarker,0.05);
+    /**
+     *Write the output file
+     */
+    SvgLib21.writePrettyFile("Svg23",doc);
+    
+    //ONLY THE CODE ABOVE THIS LINE CAN BE MODIFIED
+    //##################################################//
+    //DO NOT MODIFY ANY OF THE FOLLOWING CODE.    
+  }//end main
+  //----------------------------------------------------//
+
+  //Create a String variable containing the namespace
+  // URI to reduce the amount of typing that is required
+  // later. Note that the variable name is short and
+  // easy to type.
+  static String ns = "http://www.w3.org/2000/svg";
+  
+  //For clarity, create strings containing the name of
+  // the element that is constrained by the DTD (the
+  // root element), the Public ID of the DTD, and the
+  // System ID of the DTD.
+  static String dtdConstrainedElement = "svg";
+  static String dtdPublicID = "-//W3C//DTD SVG 1.1//EN";
+  static String dtdSystemID = 
+     "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd";
+   
+  static DocType docType = new DocType(
+         dtdConstrainedElement,dtdPublicID,dtdSystemID);
+}}//end class Svg23</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1105">
+<link id="a1084" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+ contains the commands for a batch file that can be used, 
+with modifications, to compile 
+and run the program named 
+
+<emphasis id="strong1058" effect="bold">
+Svg23.java
+
+</emphasis>
+. See
+
+
+<link id="a1085" url="http://cnx.org/contents/0803a1bf-9c6d-435a-a5f1-e21b1dbd978c">
+
+If You Can Imagine It, You Can Draw It using SVG
+
+</link>
+
+ for instructions on how to use the 
+batch file.
+
+</para>
+
+
+
+
+<table id="table1003" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1003">
+<row id="tr1006">
+<entry id="th1003">
+
+
+
+<emphasis id="Listing_3" effect="bold">
+
+Listing 3
+
+</emphasis>
+
+. Batch file to compile and run the program 
+named Svg23.java.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1003">
+<row id="tr1007">
+<entry id="td1003">
+
+
+
+<code id="pre1002" display="block">cls
+
+set classpath=.;C:\Program Files (x86)\Java\jdom-1.1.1\build\jdom.jar
+del *.class
+del Svg23.svg
+javac SvgLib21.java
+javac Svg23.java
+java Svg23
+start Firefox.exe Svg23.svg
+pause</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1106">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1002" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1059" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+
+
+<item id="li1062">
+Module name: A small-scale demonstration of the 
+
+IVEO Learning System
+
+</item>
+
+
+
+
+<item id="li1063">
+File: Phy1006.htm
+
+
+</item>
+
+
+
+
+<item id="li1064">
+Revised: 09/30/15
+
+</item>
+
+
+	
+
+<item id="li1065">
+Keywords:
+
+<list id="ul1015" list-type="bulleted">
+
+		
+
+<item id="li1066">
+physics
+
+</item>
+
+
+		
+
+<item id="li1067">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1068">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1069">
+blind
+
+</item>
+
+
+		
+
+<item id="li1070">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1071">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1072">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1073">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1074">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1075">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1076">
+touchpad
+
+</item>
+
+
+		
+
+<item id="li1077">
+digitizer tablet
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1003" type="">
+
+
+
+
+<emphasis id="strong1060" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1107">
+<emphasis id="strong1061" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1062" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1108">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1063" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1109">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1064" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1110">
+<emphasis id="strong1065" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1111">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

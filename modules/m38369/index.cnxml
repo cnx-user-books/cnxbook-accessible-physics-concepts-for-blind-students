@@ -1,0 +1,2660 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1220: Relationships Among Kinematics, Newton's Laws, Vectors, 2D Motion, 2D Forces, Momentum, Work, Energy, and Power</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38369</md:content-id>
+  <md:title>Phy1220: Relationships Among Kinematics, Newton's Laws, Vectors, 2D Motion, 2D Forces, Momentum, Work, Energy, and Power</md:title>
+  <md:abstract>This module illustrates relationships among kinematics, Newton's laws, vectors, 2D motion, 2D forces, momentum, work, energy, and power in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>bf507bf5-74f0-4547-8307-ab5fd861bc26</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" target-id="General_background_information">
+
+Discussion
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="An_ideal_rocket_example">
+
+An ideal rocket example
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+			
+
+<item id="li1006">
+<link id="a1006" target-id="Leg_A">
+
+Leg A
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1007">
+<link id="a1007" target-id="Leg_B">
+
+Leg B
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1008">
+<link id="a1008" target-id="Leg_C">
+
+Leg C
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1009">
+<link id="a1009" target-id="Leg_D">
+
+Leg D
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1010">
+<link id="a1010" target-id="Run_the_program">
+
+Do the calculations
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1011">
+<link id="a1011" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1012">
+<link id="a1012" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1013" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module illustrates relationships among kinematics, Newton's laws, 
+vectors, 2D linear motion, 2D forces, momentum, work, energy, and power in a 
+format that is accessible to blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1004" list-type="bulleted">
+
+	
+
+<item id="li1013">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1014" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1014">
+A protractor for measuring angles (
+
+<link id="a1015" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1015">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1016" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1016">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1017" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1017">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1018">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1019">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1018" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1020">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1019" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1021">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1020" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1022">
+An introductory understanding of JavaScript programming (
+
+<link id="a1021" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1022" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1023">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1023" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="General_background_information" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+<emphasis id="strong1000" effect="bold">
+A wrap-up module
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1006">
+The next module following this one will involve circular motion, which will 
+be a major change in direction (no pun intended). Therefore, in this module, I 
+will work through a major example involving a rocket that will tie together much 
+of what you have learned in earlier modules.
+
+</para>
+
+
+
+
+<para id="p1007">
+Before we get to that example, however, let's do a quick review on external and 
+internal forces.
+
+</para>
+
+
+
+
+<para id="p1008">
+<emphasis id="strong1001" effect="bold">
+A quick review of external forces
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1009">
+You learned in an earlier module that when work is done on an object by 
+
+<emphasis id="em1001" effect="italics">
+external
+
+</emphasis>
+ forces, the total mechanical energy 
+possessed by the object, consisting of kinetic energy plus potential energy, 
+must change.
+
+</para>
+
+
+
+
+<para id="p1010">
+The work done on the object by external forces can be positive, in which case the total mechanical energy will increase. The work can be negative, in which case the total mechanical energy will decrease. The change in mechanical energy will be equal to the net work that is done on the object.
+
+</para>
+
+
+
+
+<para id="p1011">
+In this case, the total mechanical energy is not 
+
+<emphasis id="em1002" effect="italics">
+conserved
+
+</emphasis>
+. 
+Therefore, external forces are often referred to as 
+
+<emphasis id="em1003" effect="italics">
+non-conservative
+
+</emphasis>
+ 
+forces.
+
+</para>
+
+
+
+
+<para id="p1012">
+<emphasis id="strong1002" effect="bold">
+A quick review of internal forces
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1013">
+On the other hand, you also learned that if work is done on an object only by 
+
+<emphasis id="em1004" effect="italics">
+internal
+
+</emphasis>
+ forces, the total mechanical energy possessed by the object 
+cannot change. However, it can be transformed from potential energy to kinetic 
+energy and vice versa.
+
+</para>
+
+
+
+
+<para id="p1014">
+In this case, the total mechanical energy is 
+
+<emphasis id="em1005" effect="italics">
+conserved
+
+</emphasis>
+. Therefore, 
+internal forces are often referred to as 
+
+<emphasis id="em1006" effect="italics">
+conservative
+
+</emphasis>
+ forces.
+
+</para>
+
+
+
+
+<para id="p1015">
+<emphasis id="strong1003" effect="bold">
+A quantitative relationship
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1016">
+The quantitative relationship between work and mechanical energy can be 
+stated as follows:
+
+</para>
+
+
+
+
+<para id="p1017">
+MEf = MEi + We
+
+</para>
+
+
+
+
+<para id="p1018">
+where
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1024">
+MEf and MEi represent the final and initial total mechanical energy 
+	possessed by the object respectively.
+
+</item>
+
+
+	
+
+<item id="li1025">
+We represents the work done on the object by external forces.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1019">
+This equation states that the final amount of mechanical energy possessed by 
+an object is equal to the initial mechanical energy plus the work done on the 
+object by external forces.
+
+</para>
+
+
+
+
+<para id="p1020">
+<emphasis id="strong1004" effect="bold">
+Potential energy plus kinetic energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1021">
+The total mechanical energy at any point in time can be the sum of potential 
+energy 
+
+<emphasis id="em1007" effect="italics">
+(gravitational or elastic potential energy)
+
+</emphasis>
+ and kinetic energy 
+due to motion.
+
+</para>
+
+
+
+
+<para id="p1022">
+Given that, we can rewrite the earlier equation as:
+
+</para>
+
+
+
+
+<para id="p1023">
+KEf + PEf = KEi + PEi + We
+
+</para>
+
+
+
+
+<para id="p1024">
+where
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1026">
+KEf and PEf represent the final kinetic and potential energy 
+	respectively.
+
+</item>
+
+
+	
+
+<item id="li1027">
+KEi and PEi represent the initial kinetic and potential energy 
+	respectively.
+
+</item>
+
+
+	
+
+<item id="li1028">
+We represents the work done on the object by external forces.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1025">
+As mentioned, the work done by external forces can be either positive or 
+negative work. Whether the work is positive or negative depends on the cosine of 
+the angle between the direction of the force and the direction of the 
+displacement of the object.
+
+</para>
+
+
+
+
+<section id="h21003">
+<title>
+<emphasis id="An_ideal_rocket_example" effect="bold">
+
+An ideal rocket example
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1026">
+Consider the following scenario. The owners of an experimental rocket lift the rocket 
+onto a platform above ground level and set it up for firing.
+
+</para>
+
+
+
+
+<para id="p1027">
+Later, when they fire the 
+rocket, it goes straight up while the rocket engine is burning. When the rocket 
+engine runs 
+out of fuel and stops burning, the rocket coasts to its apex and stops climbing. 
+Then it falls back to the surface of the earth in an unglamorous free fall.
+
+</para>
+
+
+
+
+<para id="p1028">
+<emphasis id="strong1005" effect="bold">
+Simplifying assumptions
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1029">
+We will make some simplifying assumptions:
+
+</para>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1029">
+The mass of the fuel is insignificant relative to the combined mass of 
+	the rocket and its payload. Therefore, expenditure of fuel doesn't affect 
+	the mass of the rocket in a significant way.
+
+</item>
+
+
+	
+
+<item id="li1030">
+Air resistance is negligible. The rocket acts as if in a vacuum.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1030">
+<emphasis id="strong1006" effect="bold">
+Initial conditions
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1031">
+Here are the initial conditions for the rocket experiment:
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1031">
+Platform height = 15 meters.
+
+</item>
+
+
+	
+
+<item id="li1032">
+Mass of rocket and payload = 10kg.
+
+</item>
+
+
+	
+
+<item id="li1033">
+Thrust of rocket is constant at 150 newtons during burn.
+
+</item>
+
+
+	
+
+<item id="li1034">
+Burn time for the rocket = 10 seconds.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1032">
+<emphasis id="strong1007" effect="bold">
+Legs of the trip
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1033">
+We will analyze the rocket's round trip from the ground, into the air, and 
+back to the ground in several legs as described below:
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1035">
+Leg A: Manually lifting the rocket from the ground to the platform.
+
+</item>
+
+
+	
+
+<item id="li1036">
+Leg B: Displacement of the rocket under rocket-engine power straight up.
+
+</item>
+
+
+	
+
+<item id="li1037">
+Leg C: Displacement of the rocket without power while coasting to the apex.
+
+</item>
+
+
+	
+
+<item id="li1038">
+Leg D: Displacement of the rocket in free fall from the apex back to the 
+	ground.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1034">
+We will analyze several aspects of the state of the rocket at the end of each 
+leg. We will also compare alternative ways of computing the state of the rocket.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+<emphasis id="Leg_A" effect="bold">
+
+Leg A
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1035">
+During this leg, the rocket is manually lifted from the ground to the platform. 
+The rocket has 
+no potential or kinetic energy while on the ground, so it begins with zero 
+mechanical energy.
+
+</para>
+
+
+
+
+<para id="p1036">
+An external force must be provided to lift the rocket from the ground to the 
+platform in order to overcome the internal force of gravity. As an external 
+force, this force is capable of changing its mechanical energy, which it does.
+
+</para>
+
+
+
+
+<para id="p1037">
+When the rocket has been lifted onto the platform, the mechanical energy of 
+the rocket consists of its gravitational potential energy, which is equal to 
+the work done to lift it to the platform. The kinetic energy will be 0 at that 
+point because the rocket isn't moving.
+
+</para>
+
+
+
+
+<para id="p1038">
+Weight of the rocket = m*g = 10kg*9.8m/s^2 = 98 newtons
+
+</para>
+
+
+
+
+<para id="p1039">
+Work = f * d = 98N * 15m = 1470 joules
+
+</para>
+
+
+
+
+<para id="p1040">
+<emphasis id="strong1008" effect="bold">
+State at the end of Leg A
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1041">
+Thus, the total mechanical energy possessed by the rocket at the end of Leg A is 1470 joules.
+
+</para>
+
+
+
+
+</section>
+<section id="h31001">
+<title>
+<emphasis id="Leg_B" effect="bold">
+
+Leg B
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1042">
+During this leg, which begins when the rocket engine fires, the rocket flies straight up as a result of a constant 
+upward force exerted by the rocket engine.
+
+</para>
+
+
+
+
+<para id="p1043">
+<emphasis id="strong1009" effect="bold">
+The net acceleration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1044">
+For this leg, we need to determine 
+the net acceleration that is applied to the rocket. The net acceleration 
+consists of the upward or positive acceleration due to the force of the rocket 
+engine and the downward or negative acceleration of gravity.
+
+</para>
+
+
+
+
+<para id="p1045">
+Aup = 150N/10kg = 15 m/s^2
+
+</para>
+
+
+
+
+<para id="p1046">
+Ag = -9.8 m/s^2
+
+</para>
+
+
+
+
+<para id="p1047">
+Anet = 15 m/s^2 - 9.8 m/s^2 = 5.2 m/s^2
+
+</para>
+
+
+
+
+<para id="p1048">
+<emphasis id="strong1010" effect="bold">
+How far will the rocket go?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1049">
+The initial velocity of the rocket is zero. Given that, you learned in an earlier module 
+that the distance that the rocket will travel during the burn is
+
+</para>
+
+
+
+
+<para id="p1050">
+d = 0.5*Anet*t^2 = 0.5 * (5.2 m/s^2) * (10s)^2, or
+
+</para>
+
+
+
+
+<para id="p1051">
+d = 260 meters
+
+</para>
+
+
+
+
+<para id="p1052">
+<emphasis id="strong1011" effect="bold">
+260 meters straight up
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1053">
+In other words, when the rocket runs out of fuel at the end of the 10-second 
+burn, the rocket has traveled 
+straight up by 260 meters. Given that it started 15 meters above the ground, it 
+is at a height of 275 meters above the ground at that point in time.
+
+</para>
+
+
+
+
+<para id="p1054">
+<emphasis id="strong1012" effect="bold">
+Total mechanical energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1055">
+At that point in time, the total mechanical energy possessed by the rocket consists of 
+its gravitational potential energy plus its kinetic energy.
+
+</para>
+
+
+
+
+<para id="p1056">
+<emphasis id="strong1013" effect="bold">
+The kinetic energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1057">
+To compute the kinetic energy, we need to know the velocity. You learned in 
+an earlier module that we can compute 
+the velocity as
+
+</para>
+
+
+
+
+<para id="p1058">
+v = Anet * t = (5.2 m/s^2) * 10s = 52 m/s
+
+</para>
+
+
+
+
+<para id="p1059">
+You also learned earlier that the kinetic energy is equal to
+
+</para>
+
+
+
+
+<para id="p1060">
+KE = 0.5 * m * v^2 = 0.5 * 10 kg * (52 m/s)^2 = 13520 joules
+
+</para>
+
+
+
+
+<para id="p1061">
+<emphasis id="strong1014" effect="bold">
+Gravitational potential energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1062">
+You learned in an earlier module that the gravitational potential energy of 
+an object due to its height above the surface of the earth is equal to
+
+</para>
+
+
+
+
+<para id="p1063">
+PEg = m * g * h = 10 kg * (9.8m/s^2) * 275 m = 26950 joules
+
+</para>
+
+
+
+
+<para id="p1064">
+Note that this value is computed using the height above the ground and not 
+the height above the platform, which is 260 meters.
+
+</para>
+
+
+
+
+<para id="p1065">
+<emphasis id="strong1015" effect="bold">
+The total mechanical energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1066">
+Thus, the total mechanical energy at this point in time is
+
+</para>
+
+
+
+
+<para id="p1067">
+<emphasis id="ME01" effect="bold">
+
+ME
+
+</emphasis>
+
+ = 13520 joules + 26950 joules = 40470 joules
+
+</para>
+
+
+
+
+<para id="p1068">
+<emphasis id="strong1016" effect="bold">
+Validation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1069">
+Let's see if we can validate that result in some other way.
+
+</para>
+
+
+
+
+<para id="p1070">
+We know that the mechanical energy of the rocket at rest on the platform was 
+equal to 1470 joules.
+
+</para>
+
+
+
+
+<para id="p1071">
+We can compute the work done in moving the rocket up by 260 meters by 
+multiplying that distance by the upward force. Thus,
+
+</para>
+
+
+
+
+<para id="p1072">
+work = distance * thrust, or
+
+</para>
+
+
+
+
+<para id="p1073">
+work = 260 m * 150N = 39000 joules
+
+</para>
+
+
+
+
+<para id="p1074">
+<emphasis id="strong1017" effect="bold">
+Additional mechanical energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1075">
+This is the mechanical energy added to the rocket after it left the platform 
+while the engine was burning. 
+The total mechanical energy when the burn ends is the sum of that value and the 
+mechanical energy that it had while at rest on the platform. Thus, the total 
+mechanical energy at the end of the burn is:
+
+</para>
+
+
+
+
+<para id="p1076">
+ME = 1470 joules + 39000 joules = 40470 joules
+
+</para>
+
+
+
+
+<para id="p1077">
+<emphasis id="strong1018" effect="bold">
+A good match
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1078">
+This value matches the value computed 
+
+<link id="a1024" target-id="ME01">
+
+earlier
+
+</link>
+
+ on the 
+basis of the height of the rocket above the surface of the earth and the 
+velocity of the rocket. Thus, the two approaches agree with one another up to 
+this point.
+
+</para>
+
+
+
+
+<para id="p1079">
+<emphasis id="strong1019" effect="bold">
+State at the end of Leg B
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1080">
+Therefore, at the end of Leg B, 
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1039">
+<emphasis id="The_total_mechanical_energy" effect="bold">
+
+The total mechanical energy
+
+</emphasis>
+
+ possessed by the rocket is equal to 40470 
+	joules. 
+
+</item>
+
+
+	
+
+<item id="li1040">
+The gravitational potential energy is 26950 joules
+
+</item>
+
+
+	
+
+<item id="li1041">
+The kinetic energy is 13520 joules
+
+</item>
+
+
+	
+
+<item id="li1042">
+The rocket is out of fuel and is coasting upward with a velocity of 52 
+	m/s.
+
+</item>
+
+
+	
+
+<item id="li1043">
+The only force acting on the rocket is an internal downward force due to gravity, 
+	which is equal to 10kg * 9.8m/s^2 = 98 newtons.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31002">
+<title>
+<emphasis id="Leg_C" effect="bold">
+
+Leg C
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1081">
+This is the part of the trip where the rocket coasts from its height at the 
+end of Leg B to the apex of its trip. The continued upward motion is due solely to its kinetic energy at the end 
+of Leg B.
+
+</para>
+
+
+
+
+<para id="p1082">
+From the end of Leg B when the rocket engine stops burning, until the rocket crashes on the surface of the earth, the only 
+forces acting on the rocket will be the internal force of gravity.
+
+</para>
+
+
+
+
+<para id="p1083">
+<emphasis id="strong1020" effect="bold">
+Total mechanical energy is conserved
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1084">
+Since 
+internal forces cannot change the mechanical energy possessed by an object, the 
+total mechanical energy for the rocket must remain at 
+
+<emphasis id="x40470_joules" effect="bold">
+
+
+40470 joules
+
+</emphasis>
+
+ for the remainder of the trip.
+
+</para>
+
+
+
+
+<para id="p1085">
+<emphasis id="strong1021" effect="bold">
+How long to reach the apex?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1086">
+We can compute the time required for the rocket to reach the apex as
+
+</para>
+
+
+
+
+<para id="p1087">
+t = v/g = (52m/s)/(9.8m/s^2) = 5.31 seconds
+
+</para>
+
+
+
+
+<para id="p1088">
+<emphasis id="strong1022" effect="bold">
+How far will the rocket travel?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1089">
+Knowing the time required to reach the apex, we can compute the distance to 
+the apex (during this leg only) as
+
+</para>
+
+
+
+
+<para id="p1090">
+d = v0*t - 0.5*g*t^2, or
+
+</para>
+
+
+
+
+<para id="p1091">
+d = (52m/s) * (5.31s) - (0.5) * (9.8m/s^2)*(5.31s)^2, or
+
+</para>
+
+
+
+
+<para id="p1092">
+d = 138 meters
+
+</para>
+
+
+
+
+<para id="p1093">
+<emphasis id="strong1023" effect="bold">
+An additional 138 meters
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1094">
+In other words, the rocket travels an additional 138 meters straight up after 
+the rocket-engine stops burning. This additional travel is due solely to the 
+kinetic energy possessed by the rocket at the end of the burn.
+
+</para>
+
+
+
+
+<para id="p1095">
+<emphasis id="strong1024" effect="bold">
+The total height of the apex
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1096">
+Adding 138 more meters to the height at the end of the burn causes the height at the apex to be
+
+</para>
+
+
+
+
+<para id="p1097">
+height at apex = 275m + 138m = 413 meters
+
+</para>
+
+
+
+
+<para id="p1098">
+<emphasis id="strong1025" effect="bold">
+Mechanical energy equals potential energy alone
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1099">
+At that point, the total mechanical energy is equal to the gravitational 
+potential energy because the rocket isn't moving and the kinetic energy has gone to zero.
+
+</para>
+
+
+
+
+<para id="p1100">
+<emphasis id="strong1026" effect="bold">
+Validation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1101">
+We can compute the total mechanical energy at this point as
+
+</para>
+
+
+
+
+<para id="p1102">
+PEg = m*g*h = 10kg * (9.8m/s^2) * 413m = 40474 joules
+
+</para>
+
+
+
+
+<para id="p1103">
+This result is close enough to 
+
+<link id="a1025" target-id="The_total_mechanical_energy">
+
+the total mechanical energy
+
+</link>
+
+ at the end of Leg 
+B to validate the computations. In this case, we determined the height using 
+time, velocity, and acceleration, and validated that height using work/energy 
+concepts.
+
+</para>
+
+
+
+
+<para id="p1104">
+<emphasis id="strong1027" effect="bold">
+State at the end of Leg C
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1105">
+At the completion of Leg C:
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1044">
+The rocket is at the apex at a height of 413 meters.
+
+</item>
+
+
+	
+
+<item id="li1045">
+The total mechanical energy is 40470 joules.
+
+</item>
+
+
+	
+
+<item id="li1046">
+The kinetic energy is 0 because for an instant, the rocket isn't moving.
+
+</item>
+
+
+	
+
+<item id="li1047">
+The mechanical energy consists totally of gravitational potential 
+	energy.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="Leg_D" effect="bold">
+
+Leg D
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1106">
+Leg D of the trip is fairly simple. The rocket falls for a 
+distance of 413 meters under the influence of the internal gravitational force. 
+
+</para>
+
+
+
+
+<para id="p1107">
+<emphasis id="strong1028" effect="bold">
+No change in mechanical energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1108">
+Once again, because the force is an internal force, the total mechanical 
+energy cannot be changed by the work done by the force. However, the mechanical 
+energy can be transformed from potential energy to kinetic energy.
+
+</para>
+
+
+
+
+<para id="p1109">
+At the instant before the rocket strikes the ground, it must still have a 
+total mechanical energy value of 40470 joules.
+
+</para>
+
+
+
+
+<para id="p1110">
+<emphasis id="strong1029" effect="bold">
+Kinetic energy: 40470, potential energy: 0
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1111">
+At the instant before the rocket strikes the ground, all of the mechanical 
+energy has been transformed into kinetic energy. We can use that knowledge to 
+compute the velocity of the rocket right before it strikes the ground.
+
+</para>
+
+
+
+
+<para id="p1112">
+KE = 0.5*m*v^2, or
+
+</para>
+
+
+
+
+<para id="p1113">
+v^2 = KE/(0.5*m), or
+
+</para>
+
+
+
+
+<para id="p1114">
+v = (KE/(0.5*m))^(1/2) = (40470 joules/(0.5*10kg))^(1/2), or
+
+</para>
+
+
+
+
+<para id="p1115">
+<emphasis id="terminal_velocity" effect="bold">
+
+terminal velocity
+
+</emphasis>
+
+ = v = 90 meters/sec
+
+</para>
+
+
+
+
+<para id="p1116">
+Thus, the terminal velocity of the rocket when it strikes the ground is 90 
+meters/sec straight down.
+
+</para>
+
+
+
+
+<para id="p1117">
+<emphasis id="strong1030" effect="bold">
+Validation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1118">
+Let's see if we can validate that result using a different approach. Given the height 
+of the apex and the 
+acceleration of gravity, we can computer the transit time as
+
+</para>
+
+
+
+
+<para id="p1119">
+413m = 0.5*g*t^2, or
+
+</para>
+
+
+
+
+<para id="p1120">
+t^2 = 413m/(0.5*g), or
+
+</para>
+
+
+
+
+<para id="p1121">
+t = (413m/(0.5*g))^(1/2) = (413m/(0.5*9.8m/s^2))^(1/2), or
+
+</para>
+
+
+
+
+<para id="p1122">
+t = 9.18 seconds
+
+</para>
+
+
+
+
+<para id="p1123">
+<emphasis id="strong1031" effect="bold">
+Compute the terminal velocity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1124">
+Knowing the time to make the trip to the ground along with the acceleration, we can compute the 
+terminal velocity as
+
+</para>
+
+
+
+
+<para id="p1125">
+v = g * t = (9.8m/s^2)*9.18s = 90 m/s
+
+</para>
+
+
+
+
+<para id="p1126">
+which matches the 
+
+<link id="a1026" target-id="terminal_velocity">
+
+terminal velocity
+
+</link>
+
+ arrived 
+at on the basis of work and energy.
+
+</para>
+
+
+
+
+<para id="p1127">
+<emphasis id="strong1032" effect="bold">
+State at the end of Leg D
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1128">
+Therefore, at the end of Leg D, the rocket crashes into the ground. However, 
+an instant before the crash,
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1048">
+The total mechanical energy is 40470 joules.
+
+</item>
+
+
+	
+
+<item id="li1049">
+The gravitational potential energy is 0.
+
+</item>
+
+
+	
+
+<item id="li1050">
+The kinetic energy is 40470 joules.
+
+</item>
+
+
+	
+
+<item id="li1051">
+The velocity is 90 m/s straight down toward the center of the earth.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Do the calculations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1129">
+I encourage you to repeat the calculations that I have presented in this lesson to confirm that you get the same results. Experiment with the scenarios, making changes, and observing the results of your changes. Make certain that you can explain why your changes behave as they do. 
+
+
+
+</para>
+
+
+
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1130">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1131">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1033" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+
+
+<item id="li1052">
+Module name: Relationships Among Kinematics, Newton's Laws, Vectors, 2D 
+Motion, 2D Forces, Momentum, Work, Energy, and Power
+
+</item>
+
+
+
+
+<item id="li1053">
+File: Phy1220.htm
+
+
+</item>
+
+
+	
+
+<item id="li1054">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1055">
+Keywords:
+
+<list id="ul1015" list-type="bulleted">
+
+		
+
+<item id="li1056">
+physics
+
+</item>
+
+
+		
+
+<item id="li1057">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1058">
+accessibility
+
+</item>
+
+
+		
+
+<item id="li1059">
+blind
+
+</item>
+
+
+		
+
+<item id="li1060">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1061">
+protractor
+
+</item>
+
+
+		
+
+<item id="li1062">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1063">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1064">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1065">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1066">
+potential energy
+
+</item>
+
+
+		
+
+<item id="li1067">
+work
+
+</item>
+
+
+		
+
+<item id="li1068">
+gravitational potential energy
+
+</item>
+
+
+		
+
+<item id="li1069">
+elastic potential energy
+
+</item>
+
+
+		
+
+<item id="li1070">
+kinetic energy
+
+</item>
+
+
+		
+
+<item id="li1071">
+mechanical energy
+
+</item>
+
+
+		
+
+<item id="li1072">
+total mechanical energy
+
+</item>
+
+
+		
+
+<item id="li1073">
+power
+
+</item>
+
+
+		
+
+<item id="li1074">
+watt 
+
+</item>
+
+
+		
+
+<item id="li1075">
+internal force
+
+</item>
+
+
+		
+
+<item id="li1076">
+conservative force
+
+</item>
+
+
+		
+
+<item id="li1077">
+external force
+
+</item>
+
+
+		
+
+<item id="li1078">
+non-conservative force
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+<emphasis id="strong1034" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1132">
+<emphasis id="strong1035" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1036" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1133">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1037" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1134">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1038" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1135">
+<emphasis id="strong1039" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1136">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

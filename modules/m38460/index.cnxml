@@ -1,0 +1,5962 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1320: Angular Momentum -- The Mathematics of Torque</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38460</md:content-id>
+  <md:title>Phy1320: Angular Momentum -- The Mathematics of Torque</md:title>
+  <md:abstract>This module explains the mathematics of torque in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>9800999c-4385-4b95-9da3-4d28627f2316</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Figures">
+
+Figures
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1006">
+<link id="a1006" target-id="Discussion">
+
+Discussion
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="A_review_of_rotational_kinematics">
+
+A review of rotational 
+		kinematics
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="Torque_from_a_mathematical_viewpoint">
+
+Torque from a 
+		mathematical viewpoint
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="Torque_from_an_anecdotal_viewpoint">
+
+Torque from an 
+		anecdotal viewpoint
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="A_graph_board_explanation_of_torque">
+
+A graph board 
+		exercise on torque
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1011">
+<link id="a1011" target-id="Example_scenarios">
+
+Example scenarios
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+		
+
+<item id="li1012">
+<link id="a1012" target-id="Net_torque_on_the_Lazy_Susan_turntable">
+
+Net torque on the Lazy Susan turntable
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1013">
+<link id="a1013" target-id="The_door-closing_scenario">
+
+A door-closing scenario
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1014">
+<link id="a1014" target-id="Torque_and_the_moment_of_inertia">
+
+Torque and the moment of 
+		inertia
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1015">
+<link id="a1015" target-id="Run_the_program">
+
+Repeat the computations
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1016">
+<link id="a1016" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1017">
+<link id="a1017" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1018" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains the mathematics of torque in a format that is accessible 
+to blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1018">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1019" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1019">
+A protractor for measuring angles (
+
+<link id="a1020" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1020">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1021" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1021">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1022" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1022">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1023">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1024">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1023" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1025">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1024" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1026">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1025" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1027">
+An introductory understanding of JavaScript programming (
+
+<link id="a1026" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1027" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1028">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you open another copy of this document in a separate 
+browser window and use the following links to easily find and view the figures 
+while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+ 
+
+<emphasis id="Figures" effect="bold">
+
+Figures
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1029">
+<link id="a1028" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+. Tangential force, mass, radius, and angular acceleration.
+
+</item>
+
+
+	
+
+<item id="li1030">
+<link id="a1029" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+. Tangential force, radius, angular acceleration, and moment of inertia.
+
+</item>
+
+
+	
+
+<item id="li1031">
+<link id="a1030" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+. Torque, rotational inertia, and angular acceleration.
+
+</item>
+
+
+	
+
+<item id="li1032">
+<link id="a1031" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+. The torque vector.
+
+</item>
+
+
+	
+
+<item id="li1033">
+<link id="a1032" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+. A general equation for net torque.
+
+</item>
+
+
+	
+
+<item id="li1034">
+<link id="a1033" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+. The definition of torque.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h21003">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1034" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+I will begin this discussion with a brief review of what we have learned 
+about the rotation of rigid bodies and go from there into a discussion of 
+torque.
+
+</para>
+
+
+
+
+<section id="h21004">
+<title>
+<emphasis id="A_review_of_rotational_kinematics" effect="bold">
+
+A review of rotational 
+kinematics
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1007">
+One of the objectives of this review is to summarize the angular kinematic variables that are used to describe 
+rotational motion and relate them
+to the translational kinematic variables that we already know about.
+
+</para>
+
+
+
+
+<para id="p1008">
+Given a system of particles, we can describe motion as having two components:
+
+</para>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1035">
+The motion of the center of mass.
+
+</item>
+
+
+	
+
+<item id="li1036">
+Motion relative to the center of mass.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1009">
+<emphasis id="strong1000" effect="bold">
+Terminology
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1010">
+When an object rotates, it experiences an angular displacement, which I will 
+refer to as theta in this review.
+
+</para>
+
+
+
+
+<para id="p1011">
+(Textbooks typically use the Greek letter theta for this purpose. However, 
+your Braille display probably won't display the Greek letter theta. Therefore, I 
+will spell it out when I use it in text, and will replace it by the character 
+"Q" when I use it in an equation.)
+
+</para>
+
+
+
+
+<para id="p1012">
+The time rate of change of the angular 
+displacement is the angular velocity, which I will refer to as omega in this 
+review.
+
+</para>
+
+
+
+
+<para id="p1013">
+The time rate of change of the angular velocity is the angular 
+acceleration, which I will refer to as alpha in this review.
+
+</para>
+
+
+
+
+<para id="p1014">
+<emphasis id="strong1001" effect="bold">
+Similarity to translational motion
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1015">
+These definitions are very similar to definitions from earlier modules having 
+to do with translational motion. For example, when an object moves, it 
+experiences a displacement. The time rate of change of the displacement is the 
+velocity, and the time rate of change of the velocity is the acceleration.
+
+</para>
+
+
+
+
+<para id="p1016">
+This similarity derives from the fact that rotational motion can be described by a
+single angular displacement, theta, just as linear motion can be described by a single spatial
+displacement, x.
+
+</para>
+
+
+
+
+<para id="p1017">
+<emphasis id="strong1002" effect="bold">
+Constant angular acceleration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1018">
+For constant angular acceleration, we can derive a set of equations that are 
+analogous to corresponding equations for translational motion:
+
+</para>
+
+
+
+
+<para id="p1019">
+<emphasis id="displacementEquation" effect="bold">
+
+Q = Q0 + w0*t + (1/2)*a*t^2
+
+</emphasis>
+
+
+</para>
+
+
+
+
+<para id="p1020">
+w = w0 + a*t
+
+</para>
+
+
+
+
+<para id="p1021">
+w^2 = w0^2 + 2*a*(Q - Q0)
+
+</para>
+
+
+
+
+<para id="p1022">
+where
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1037">
+Q represents the angular displacement theta
+
+</item>
+
+
+	
+
+<item id="li1038">
+Q0 represents the initial angular displacement
+
+</item>
+
+
+	
+
+<item id="li1039">
+w represents the angular velocity omega
+
+</item>
+
+
+	
+
+<item id="li1040">
+w0 represents the initial angular velocity
+
+</item>
+
+
+	
+
+<item id="li1041">
+a represents the angular acceleration alpha
+
+</item>
+
+
+	
+
+<item id="li1042">
+t represents time in seconds
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1023">
+<emphasis id="strong1003" effect="bold">
+Corresponding translational equations
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+<para id="p1024">
+For reference, here are the three translational equations that correspond to the equations 
+given 
+
+<link id="a1035" target-id="displacementEquation">
+
+above
+
+</link>
+
+. These equations were explained 
+in an earlier module that involved the constant translational acceleration of gravity.
+
+</para>
+
+
+
+
+<para id="p1025">
+h = h0 v0*t + 0.5*g*t^2
+
+</para>
+
+
+
+
+<para id="p1026">
+v = v0 + g*t
+
+
+</para>
+
+
+
+
+<para id="p1027">
+v^2 = v0^2 + 2*g*(h-h0)
+
+</para>
+
+
+
+
+<para id="p1028">
+where
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1043">
+h represents the translational displacement
+
+</item>
+
+
+	
+
+<item id="li1044">
+h0 represents the initial translational displacement
+
+</item>
+
+
+	
+
+<item id="li1045">
+v represents the translational velocity
+
+</item>
+
+
+	
+
+<item id="li1046">
+v0 represents the initial translational velocity
+
+</item>
+
+
+	
+
+<item id="li1047">
+g represents the acceleration of gravity
+
+</item>
+
+
+	
+
+<item id="li1048">
+t represents time in seconds
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1029">
+<emphasis id="strong1004" effect="bold">
+Motion of a point that is a fixed distance from the rotational axis
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1030">
+It is customary to define counter clockwise rotation as the positive direction 
+of rotation. That will be the case in this review.
+
+</para>
+
+
+
+
+<para id="p1031">
+Consider a rotating disk. Since all
+points on the disk are rotating together, we can
+determine the linear displacement, speed and
+acceleration of any point on the disk in terms
+of the corresponding angular parameters.
+
+</para>
+
+
+
+
+<para id="p1032">
+<emphasis id="strong1005" effect="bold">
+Parameters for a point on a rotating disk
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1033">
+Consider a point on the disk that is a distance R from the axis of rotation. 
+Assume that the disk has rotated through an angle theta. The point will have 
+moved through a distance, s, along the circumference of a circle of radius R. 
+The distance s is equal to the product of the radius and the angular 
+displacement measured in radians:
+
+</para>
+
+
+
+
+<para id="p1034">
+s = R * Q
+
+</para>
+
+
+
+
+<para id="p1035">
+where
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1049">
+s represents the distance traveled around the circumference of a circle 
+	of radius R
+
+</item>
+
+
+	
+
+<item id="li1050">
+R represents the radius of the circle
+
+</item>
+
+
+	
+
+<item id="li1051">
+Q represents the displacement angle theta measured in radians
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1036">
+<emphasis id="strong1006" effect="bold">
+Relationship between speed and angular velocity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1037">
+With a little calculus, we can find a relationship between the tangential speed of the 
+point along its path around the circle and the angular velocity of the disk:
+
+</para>
+
+
+
+
+<para id="p1038">
+<emphasis id="tangentialSpeed" effect="bold">
+
+v = R*w
+
+</emphasis>
+
+
+</para>
+
+
+
+
+<para id="p1039">
+where
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1052">
+v represents the tangential speed of the point that is moving on the circumference 
+	of the circle
+
+</item>
+
+
+	
+
+<item id="li1053">
+R represents the radius of the circle
+
+</item>
+
+
+	
+
+<item id="li1054">
+w represents the angular velocity omega
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1040">
+<emphasis id="strong1007" effect="bold">
+Relationship between tangential acceleration and angular acceleration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1041">
+By using a little more calculus, we can find a relationship between the 
+tangential acceleration of the point along its circular path and 
+the angular acceleration of the disk:
+
+</para>
+
+
+
+
+<para id="p1042">
+<emphasis id="tangentialAcceleration" effect="bold">
+
+y = R*a
+
+</emphasis>
+
+
+</para>
+
+
+
+
+<para id="p1043">
+where
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1055">
+y represents the tangential acceleration of the point along the circular 
+	path
+
+</item>
+
+
+	
+
+<item id="li1056">
+R represents the radius
+
+</item>
+
+
+	
+
+<item id="li1057">
+a represents the angular acceleration alpha
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1044">
+<emphasis id="strong1008" effect="bold">
+<emphasis id="Kinetic_energy_in_rotation" effect="bold">
+
+Kinetic energy in rotation
+
+</emphasis>
+
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1045">
+Consider the hypothetical case of a rigid object made up of a set of point 
+particles connected by rods with zero mass. In other words, ignore the mass of 
+the mechanism that holds the point particles in a rigid geometry.
+
+</para>
+
+
+
+
+<para id="p1046">
+Assume that this object rotates about a fixed axis with a constant angular 
+velocity, omega. Also assume that you know the mass of each particle and that you 
+know the distance of each particle from the axis of rotation.
+
+</para>
+
+
+
+
+<para id="p1047">
+<emphasis id="strong1009" effect="bold">
+Kinetic energy of each individual particle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1048">
+We know how to compute the
+
+
+<link id="a1036" target-id="tangentialSpeed">
+
+speed
+
+</link>
+
+ of each particle along its circular path.
+
+</para>
+
+
+
+
+<para id="p1049">
+The kinetic energy of each particle would be
+
+</para>
+
+
+
+
+<para id="p1050">
+<emphasis id="kineticEnergy" effect="bold">
+
+Ki = (1/2)*mi*vi^2
+
+</emphasis>
+
+
+</para>
+
+
+
+
+<para id="p1051">
+where
+
+</para>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1058">
+Ki is the kinetic energy of the ith point particle
+
+</item>
+
+
+	
+
+<item id="li1059">
+mi is the mass of the ith point particle
+
+</item>
+
+
+	
+
+<item id="li1060">
+vi is the speed of the ith point particle
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1052">
+<emphasis id="strong1010" effect="bold">
+Kinetic energy for translational motion
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1053">
+Hopefully you recognize the above 
+
+<link id="a1037" target-id="kineticEnergy">
+
+equation
+
+</link>
+
+ as 
+being the same as the following equation that we saw in an earlier module 
+involving the kinetic energy of an object in translational motion.
+
+</para>
+
+
+
+
+<para id="p1054">
+KE = 0.5*m*v^2
+
+
+
+
+</para>
+
+
+
+
+<para id="p1055">
+where 
+
+</para>
+
+
+
+
+<list id="ul1015" list-type="bulleted">
+
+	
+
+<item id="li1061">
+KE represents the kinetic energy possessed by the object
+
+</item>
+
+
+	
+
+<item id="li1062">
+m represents the mass of the object
+
+</item>
+
+
+	
+
+<item id="li1063">
+vv represents the velocity of the object 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1056">
+<emphasis id="strong1011" effect="bold">
+Kinetic energy for the object
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1057">
+The object described 
+
+<link id="a1038" target-id="Kinetic_energy_in_rotation">
+
+above
+
+</link>
+
+ is made up of a system of particles.
+
+</para>
+
+
+
+
+<para id="p1058">
+The total kinetic energy of the system is the sum of the kinetic energy 
+values of each of its particles.
+
+</para>
+
+
+
+
+<para id="p1059">
+The kinetic energy for the system is
+
+</para>
+
+
+
+
+<para id="p1060">
+Ks = (1/2)*(sum from i=0 to i=N(mi*ri^2))*w^2
+
+</para>
+
+
+
+
+<para id="p1061">
+where
+
+</para>
+
+
+
+
+<list id="ul1016" list-type="bulleted">
+
+	
+
+<item id="li1064">
+Ks represents the kinetic energy of the system
+
+</item>
+
+
+	
+
+<item id="li1065">
+((sum from i=0 to i=N(...)) represents the sum of the values resulting 
+	from evaluating the expression in parentheses for each one of N+1 particles
+
+</item>
+
+
+	
+
+<item id="li1066">
+mi represents the mass of the ith point particle
+
+</item>
+
+
+	
+
+<item id="li1067">
+ri represents the distance of the ith point particle from the axis of 
+	rotation
+
+</item>
+
+
+	
+
+<item id="li1068">
+w represents the angular velocity omega
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1062">
+<emphasis id="strong1012" effect="bold">
+<emphasis id="Rotational_inertia_or_moment_of_inertia" effect="bold">
+
+Rotational inertia or moment of inertia
+
+</emphasis>
+
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1063">
+Define the rotational inertia, or the moment of inertia, whichever term you 
+prefer as
+
+</para>
+
+
+
+
+<para id="p1064">
+I = sum from i=0 to i=N(mi*ri^2)
+
+</para>
+
+
+
+
+<para id="p1065">
+where
+
+</para>
+
+
+
+
+<list id="ul1017" list-type="bulleted">
+
+	
+
+<item id="li1069">
+I represents the rotational inertia or the moment of inertia
+
+</item>
+
+
+	
+
+<item id="li1070">
+mi represents the mass of the ith point particle
+
+</item>
+
+
+	
+
+<item id="li1071">
+ri represents the distance of the ith point particle from the axis of 
+	rotation
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1066">
+<emphasis id="strong1013" effect="bold">
+Rotational kinetic energy based on rotational inertia
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1067">
+From this, we can determine that 
+
+</para>
+
+
+
+
+<para id="p1068">
+Ks = (1/2)*I*w^2
+
+</para>
+
+
+
+
+<para id="p1069">
+where
+
+</para>
+
+
+
+
+<list id="ul1018" list-type="bulleted">
+
+	
+
+<item id="li1072">
+Ks represents the kinetic energy for the system
+
+</item>
+
+
+	
+
+<item id="li1073">
+I represents the rotational inertia for the system
+
+</item>
+
+
+	
+
+<item id="li1074">
+w represents the angular velocity of the system
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1070">
+<emphasis id="strong1014" effect="bold">
+Similar to translational kinetic energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1071">
+Note the similarity between the kinetic energy of a rotating system and the 
+kinetic energy an 
+object undergoing translational motion:
+
+</para>
+
+
+
+
+<para id="p1072">
+Ke = (1/2)*I*w^2
+
+</para>
+
+
+
+
+<para id="p1073">
+Kt = (1/2)*m*v^2
+
+</para>
+
+
+
+
+<para id="p1074">
+where
+
+</para>
+
+
+
+
+<list id="ul1019" list-type="bulleted">
+
+	
+
+<item id="li1075">
+Kr represents the kinetic energy for the rotating system
+
+</item>
+
+
+	
+
+<item id="li1076">
+I represents the rotational inertia for the rotating system
+
+</item>
+
+
+	
+
+<item id="li1077">
+w represents the angular velocity of the rotating system
+
+</item>
+
+
+	
+
+<item id="li1078">
+Kt represents translational kinetic energy
+
+</item>
+
+
+	
+
+<item id="li1079">
+m represents the mass of an object undergoing translational motion
+
+</item>
+
+
+	
+
+<item id="li1080">
+v represents the velocity speed of the object undergoing translational 
+	motion
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1075">
+<emphasis id="strong1015" effect="bold">
+Similarities between rotational inertia and mass
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1076">
+The mass of an object tells us how its kinetic
+energy is related to the square of its velocity.
+
+</para>
+
+
+
+
+<para id="p1077">
+The rotational inertia of a rotating object
+tells us how its kinetic energy is related to the square of its angular velocity.
+
+</para>
+
+
+
+
+<para id="p1078">
+The rotational inertia plays the same role in rotational motion that mass plays in 
+translational motion.
+
+</para>
+
+
+
+
+<para id="p1079">
+<emphasis id="strong1016" effect="bold">
+Differences between mass and rotational inertia
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1080">
+While mass and rotational inertia play similar roles, there are also major 
+differences between the two including:
+
+</para>
+
+
+
+
+
+<list id="ul1020" list-type="bulleted">
+
+	
+
+<item id="li1081">
+Rotational inertial depends not just on the total mass of an object, but also on 
+	the geometric distribution of the mass within the object.
+
+</item>
+
+
+	
+
+<item id="li1082">
+Rotational inertia also depends on the
+choice of the rotation axis, because distances are measured relative to that axis.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Torque_from_a_mathematical_viewpoint" effect="bold">
+
+Torque from a mathematical 
+viewpoint
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1081">
+Consider a point mass that is constrained to move in a circle. Let the mass 
+be acted upon by an arbitrary force F. We learned earlier that in order for the 
+mass to be moving in a circle, there must be a component of force, (the 
+centripetal force), that is directed toward the center of the circle.
+
+</para>
+
+
+
+
+<para id="p1082">
+<emphasis id="strong1017" effect="bold">
+Tangential force, mass, radius, and angular acceleration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1083">
+If we assume that the speed of the mass is changing, there must also be a 
+component of the force that is tangential to the circle at the location of the 
+point mass acting on the mass. This force is required to produce acceleration. Therefore, we can 
+write:
+
+</para>
+
+
+
+
+<para id="p1084">
+Ft = m*y
+
+</para>
+
+
+
+
+<para id="p1085">
+From 
+
+<link id="a1039" target-id="tangentialAcceleration">
+
+above
+
+</link>
+
+,
+
+</para>
+
+
+
+
+<para id="p1086">
+y = r*a
+
+</para>
+
+
+
+
+<para id="p1087">
+Substitution yields
+
+</para>
+
+
+
+
+<para id="p1088">
+Ft = m*r*a
+
+</para>
+
+
+
+
+
+
+<table id="table1000" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1000">
+<row id="tr1000">
+<entry id="th1000">
+
+
+
+<emphasis id="Figure_1" effect="bold">
+
+Figure 1
+
+</emphasis>
+
+. Tangential force, mass, radius, and angular acceleration.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1000">
+<row id="tr1001">
+<entry id="td1000">
+
+
+
+<para id="p1089">
+Ft = m*r*a
+
+</para>
+
+
+
+
+<para id="p1090">
+where
+
+</para>
+
+
+
+
+<list id="ul1021" list-type="bulleted">
+
+	
+
+<item id="li1083">
+Ft represents the tangential force
+
+</item>
+
+
+	
+
+<item id="li1084">
+m represents the mass
+
+</item>
+
+
+	
+
+<item id="li1085">
+y represents the tangential acceleration of the point mass along the circular 
+	path
+
+</item>
+
+
+	
+
+<item id="li1086">
+r represents the radius
+
+</item>
+
+
+	
+
+<item id="li1087">
+a represents the angular acceleration alpha
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+	
+
+
+<para id="p1091">
+<emphasis id="strong1018" effect="bold">
+Tangential force, radius, angular acceleration, and moment of inertia
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1092">
+We confirmed earlier that the rotational analog of mass is the
+
+
+<link id="a1040" target-id="Rotational_inertia_or_moment_of_inertia">
+
+rotational inertia
+
+</link>
+
+. In 
+the case of a single mass,
+
+</para>
+
+
+
+
+<para id="p1093">
+I = m*r^2
+
+</para>
+
+
+
+
+<para id="p1094">
+Substitution yields
+
+</para>
+
+
+
+
+<para id="p1095">
+Ft = m*r*a, or
+
+</para>
+
+
+
+
+<para id="p1096">
+Ft = (I/r^2)*r*a, or
+
+</para>
+
+
+
+
+<para id="p1097">
+Ft = (I/r)*a
+
+</para>
+
+
+
+
+<para id="p1098">
+Multiplying both side by r yields
+
+</para>
+
+
+
+
+<para id="p1099">
+<emphasis id="rFtequalsIa" effect="bold">
+
+r*Ft = I*a
+
+</emphasis>
+
+
+</para>
+
+
+
+
+
+
+<table id="table1001" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1001">
+<row id="tr1002">
+<entry id="th1001">
+
+
+
+<emphasis id="Figure_2" effect="bold">
+
+Figure 2
+
+</emphasis>
+
+. 
+
+<emphasis id="strong1019" effect="bold">
+Tangential force, radius, angular acceleration, and moment of inertia
+
+</emphasis>
+.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1001">
+<row id="tr1003">
+<entry id="td1001">
+
+
+
+<para id="p1100">
+r*Ft = I*a
+
+</para>
+
+
+
+
+<para id="p1101">
+where
+
+</para>
+
+
+
+
+<list id="ul1022" list-type="bulleted">
+
+	
+
+<item id="li1088">
+Ft represents the tangential force
+
+</item>
+
+
+	
+
+<item id="li1089">
+r represents the radius
+
+</item>
+
+
+	
+
+<item id="li1090">
+I represents the rotational inertia or the moment of inertia, whichever 
+	term you prefer
+
+</item>
+
+
+	
+
+<item id="li1091">
+a represents the angular acceleration alpha
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1102">
+</para>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+	
+
+
+<para id="p1103">
+<emphasis id="strong1020" effect="bold">
+Similar to Newton's second law
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1104">
+The 
+
+<link id="a1041" target-id="rFtequalsIa">
+
+equation
+
+</link>
+
+ in 
+
+<link id="a1042" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+ looks a lot like Newton's second law 
+for translational motion, which is often expressed as
+
+</para>
+
+
+
+
+<para id="p1105">
+Force = mass * acceleration
+
+</para>
+
+
+
+
+<para id="p1106">
+In this case, the rotational inertia, I, is analogous to mass and the 
+rotational acceleration, a, is analogous to translational acceleration.
+
+</para>
+
+
+
+
+<para id="p1107">
+If this similarity holds, that 
+must mean that the term on the 
+
+<link id="a1043" target-id="rFtequalsIa">
+
+left side
+
+</link>
+
+ is analogous 
+to force in the tangential motion scenario.
+
+</para>
+
+
+
+
+<para id="p1108">
+<emphasis id="strong1021" effect="bold">
+Torque, rotational inertia, and angular acceleration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1109">
+The term on the 
+
+<link id="a1044" target-id="rFtequalsIa">
+
+left
+
+</link>
+
+, consisting of the product of 
+the force and the distance from the point of 
+application of the force to the axis of rotation is commonly known as the torque. 
+The common symbol for torque is the Greek letter tau, which I will replace with 
+the character T in equations in this module.
+
+</para>
+
+
+
+
+<para id="p1110">
+T = r*Ft 
+
+<emphasis id="torqueEqualsItimesAlpha0" effect="bold">
+
+= I*a
+
+</emphasis>
+
+, or
+
+</para>
+
+
+
+
+<para id="p1111">
+<emphasis id="torqueEqualsItimesAlpha" effect="bold">
+
+T = I*a
+
+</emphasis>
+
+
+</para>
+
+
+
+
+
+
+<table id="table1002" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1002">
+<row id="tr1004">
+<entry id="th1002">
+
+
+
+<emphasis id="Figure_3" effect="bold">
+
+Figure 3
+
+</emphasis>
+
+. Torque, rotational inertia, and angular acceleration.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1002">
+<row id="tr1005">
+<entry id="td1002">
+
+	
+
+<para id="p1112">
+T = I*a
+
+</para>
+
+
+
+
+<para id="p1113">
+where
+
+</para>
+
+
+
+
+<list id="ul1023" list-type="bulleted">
+
+	
+
+<item id="li1092">
+T represents torque
+
+</item>
+
+
+	
+
+<item id="li1093">
+r represents radius
+
+</item>
+
+
+	
+
+<item id="li1094">
+Ft represents the tangential component of force
+
+</item>
+
+
+	
+
+<item id="li1095">
+I represents rotational inertia or moment of inertia
+
+</item>
+
+
+	
+
+<item id="li1096">
+a represents angular acceleration
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+	
+
+
+<para id="p1114">
+<emphasis id="strong1022" effect="bold">
+Torque produces angular acceleration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1115">
+Thus, we have determined that a torque, which is the product of a tangential force and the distance
+from the application point of this force to the axis of rotation, produces an angular acceleration.
+
+</para>
+
+
+
+
+<para id="p1116">
+This is beginning to look a lot like Newton's second law 
+for rotation. We will refine it some more later to improve the analogy. To do 
+that, we will need to define torque and angular acceleration 
+as vector quantities. We will accomplish that using the cross product of two 
+vectors that you learned about in an earlier module.
+
+</para>
+
+
+
+
+<para id="p1117">
+<emphasis id="strong1023" effect="bold">
+The convention for positive rotation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1118">
+If you imagine a rotating object from a viewpoint in which the rotation axis 
+is perpendicular to the page, it is conventional to define a counter clockwise 
+rotation as the positive direction of rotation. That is the convention that I will use in this module.
+
+</para>
+
+
+
+
+<para id="p1119">
+You learned about the right-hand rule involving vectors in an earlier module. 
+There is a similar right-hand rule that we use to describe rotating objects.
+
+</para>
+
+
+
+
+<para id="p1120">
+<emphasis id="strong1024" effect="bold">
+The right-hand rule for angular velocity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1121">
+If you curl the fingers of your right hand in the
+direction of rotation of the object, your thumb will
+point in the direction of the angular velocity
+vector of the object.
+
+</para>
+
+
+
+
+<para id="p1122">
+In other words, if some object
+is spinning in the counter-clockwise direction in
+the x-y plane, curling the fingers of your right
+hand in this direction results in your thumb
+pointing in the +z direction which we define to be
+the direction of the angular velocity vector.
+
+</para>
+
+
+
+
+<para id="p1123">
+<emphasis id="strong1025" effect="bold">
+The rule for angular acceleration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1124">
+If the magnitude of the angular velocity
+increases in time, then the angular acceleration
+vector has the same direction as that of the angular
+velocity. If the magnitude of the angular velocity
+decreases in time, then the angular acceleration
+vector has the opposite direction as that of the
+angular velocity.
+
+</para>
+
+
+
+
+<para id="p1125">
+<emphasis id="strong1026" effect="bold">
+Defining torque as a vector quantity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1126">
+The magnitude of a torque is the product of two terms:
+
+</para>
+
+
+
+
+<list id="ol1000" list-type="enumerated">
+
+	
+
+<item id="li1097">
+The
+length of a line that connects the axis of rotation to the point where the force acts. 
+	Refer to this line as r.
+
+</item>
+
+
+	
+
+<item id="li1098">
+The
+component of the force, Ft, that is perpendicular to this line.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1127">
+Define theta as the angle between the line and the force vector F (not the 
+tangential component of the force vector but the force vector itself). Then the 
+magnitude of the tangential force vector is given by
+
+</para>
+
+
+
+
+<para id="p1128">
+Ft = Fmag*sin(theta)
+
+</para>
+
+
+
+
+<para id="p1129">
+where
+
+</para>
+
+
+
+
+<list id="ul1024" list-type="bulleted">
+
+	
+
+<item id="li1099">
+Ft represents the magnitude of the tangential force vector that is perpendicular to the 
+	line r
+
+</item>
+
+
+	
+
+<item id="li1100">
+Fmag is the magnitude of the force vector
+
+</item>
+
+
+	
+
+<item id="li1101">
+theta is the angle between the line and the force vector
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1130">
+<emphasis id="strong1027" effect="bold">
+Define a vector R
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1131">
+Let R represent a vector that lies along the line from the axis of rotation to the point where the force 
+acts with its tail at the axis of rotation. I will refer to 
+the magnitude of this vector as Rmag
+
+</para>
+
+
+
+
+<para id="p1132">
+Doing a little algebra, we can write
+
+</para>
+
+
+
+
+<para id="p1133">
+T = r*Ft, or
+
+</para>
+
+
+
+
+<para id="p1134">
+<emphasis id="theTorqueVector" effect="bold">
+
+Tvec = Rmag*Fmag*sin(theta)
+
+</emphasis>
+
+
+</para>
+
+
+
+
+<para id="p1135">
+where
+
+</para>
+
+
+
+
+<list id="ul1025" list-type="bulleted">
+
+	
+
+<item id="li1102">
+Tvec represents the tangential force vector
+
+</item>
+
+
+	
+
+<item id="li1103">
+Rmag is the magnitude of the vector R
+
+</item>
+
+
+	
+
+<item id="li1104">
+Fmag is the magnitude of the vector F
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1136">
+<emphasis id="strong1028" effect="bold">
+The cross product
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1137">
+Why do I refer to Tvec as a vector in the 
+
+<link id="a1045" target-id="theTorqueVector">
+
+above
+
+</link>
+
+ 
+equation?
+
+</para>
+
+
+
+
+<para id="p1138">
+You learned in an earlier module that the cross product of two vectors A and 
+B is given by
+
+</para>
+
+
+
+
+<para id="p1139">
+<emphasis id="theCrossProduct" effect="bold">
+
+AxB = Amag*Bmag*sin(angle between A and B)
+
+</emphasis>
+
+
+</para>
+
+
+
+
+<para id="p1140">
+where
+    
+
+</para>
+
+
+
+
+<list id="ul1026" list-type="bulleted">
+
+	
+
+<item id="li1105">
+AxB represents the cross product of the vectors
+      named A and B
+
+</item>
+
+
+	
+
+<item id="li1106">
+Amag is the magnitude of vector A
+
+</item>
+
+
+	
+
+<item id="li1107">
+Bmag is the magnitude of vector B
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1141">
+<emphasis id="strong1029" effect="bold">
+The torque vector
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1142">
+Comparing the 
+
+<link id="a1046" target-id="theTorqueVector">
+
+torque vector
+
+</link>
+
+ with the
+
+
+<link id="a1047" target-id="theCrossProduct">
+
+cross product
+
+</link>
+
+, we determine that 
+
+</para>
+
+
+
+
+<para id="p1143">
+Tvec = RxF
+
+</para>
+
+
+
+
+
+
+<table id="table1003" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1003">
+<row id="tr1006">
+<entry id="th1003">
+
+
+
+<emphasis id="Figure_4" effect="bold">
+
+Figure 4
+
+</emphasis>
+
+. 
+
+<emphasis id="strong1030" effect="bold">
+The torque vector
+
+</emphasis>
+.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1003">
+<row id="tr1007">
+<entry id="td1003">
+
+	
+
+<para id="p1144">
+Tvec = RxF
+
+</para>
+
+
+
+
+<para id="p1145">
+where
+
+</para>
+
+
+
+
+<list id="ul1027" list-type="bulleted">
+
+	
+
+<item id="li1108">
+Tvec is a torque vector
+
+</item>
+
+
+	
+
+<item id="li1109">
+R is a vector that points from the axis of rotation to the point where 
+	the vector force F is applied
+
+</item>
+
+
+	
+
+<item id="li1110">
+F is a force vector
+
+</item>
+
+
+	
+
+<item id="li1111">
+RxF is the vector cross product between the vector R and the vector F
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1146">
+</para>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+	
+
+
+<para id="p1147">
+<emphasis id="strong1031" effect="bold">
+The direction of the torque vector
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1148">
+Recall from the earlier module that the direction of Tvec is perpendicular to 
+both R and F and obeys the right-hand rule in terms of its absolute direction.
+
+</para>
+
+
+
+
+<para id="p1149">
+<emphasis id="strong1032" effect="bold">
+The relationship of torque and rotational inertia
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1150">
+Combining this with what we learned earlier about the relationship among 
+torque, rotational inertia, and rotational acceleration, we can write
+
+</para>
+
+
+
+
+<para id="p1151">
+<emphasis id="Tvec" effect="bold">
+
+Tvec
+
+</emphasis>
+
+ = I*A
+
+</para>
+
+
+
+
+
+
+<table id="table1004" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1004">
+<row id="tr1008">
+<entry id="th1004">
+
+
+
+<emphasis id="Figure_5" effect="bold">
+
+Figure 5
+
+</emphasis>
+
+. A general equation for net torque.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1004">
+<row id="tr1009">
+<entry id="td1004">
+
+	
+
+<para id="p1152">
+<emphasis id="Tvec0" effect="bold">
+
+Tvec
+
+</emphasis>
+
+ = I*A
+
+</para>
+
+
+
+
+<para id="p1153">
+where
+
+</para>
+
+
+
+
+<list id="ul1028" list-type="bulleted">
+
+	
+
+<item id="li1112">
+Tvec is the torque vector whose direction obeys the right-hand rule
+
+</item>
+
+
+	
+
+<item id="li1113">
+I is the rotational inertia or the moment of inertia of the object about 
+	the chosen axis of rotation
+
+</item>
+
+
+	
+
+<item id="li1114">
+A is the rotational acceleration treated as a vector whose direction 
+	obeys the right-hand rule
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1154">
+</para>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+	
+
+
+<para id="p1155">
+<emphasis id="strong1033" effect="bold">
+A general equation for net torque
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1156">
+The equation shown in 
+
+<link id="a1048" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+ is a general equation for net torque. The net 
+torque about an axis of rotation is equal to the product of the rotational 
+inertia about that axis and the angular acceleration.
+
+</para>
+
+
+
+
+<para id="p1157">
+<emphasis id="strong1034" effect="bold">
+Similar to Newton's second law
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1158">
+This equation is Newton's second law applied to a system of particles in 
+rotation about a given axis. It makes no assumptions about constant rotational 
+velocity.
+
+</para>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Torque_from_an_anecdotal_viewpoint" effect="bold">
+
+Torque from an anecdotal 
+viewpoint
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1159">
+One of the objectives of this module is to develop concepts involving rotational motion 
+that are analogous to concepts from earlier modules that involve translational 
+motion.
+
+</para>
+
+
+
+
+<para id="p1160">
+<emphasis id="strong1035" effect="bold">
+A Lazy Susan
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1161">
+On my dining room table, there is a device that is commonly called a Lazy 
+Susan. In case you are unfamiliar with such devices, it is essentially a 
+turntable. By a turntable, I mean a rather large disk mounted on bearings so 
+that it is free to turn in a plane that is slightly above but parallel with the 
+top of the dining room table.
+
+</para>
+
+
+
+
+<para id="p1162">
+<emphasis id="strong1036" effect="bold">
+The purpose of the Lazy Susan
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1163">
+The purpose of a Lazy Susan is to make it easier to serve food at the dining 
+room table. Various dishes are placed on it . When someone wants a helping of 
+carrots, for example, instead of saying "Please pass the carrots," they simply 
+turn the Lazy Susan until they can reach the bowl of carrots and help 
+themselves.
+
+</para>
+
+
+
+
+<para id="p1164">
+<emphasis id="strong1037" effect="bold">
+Not a module about carrots
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1165">
+However, we won't be discussing how to serve carrots in this module. In this 
+module, I will use the Lazy Susan, in its empty state between meals, to discuss 
+various aspects of rotating rigid objects.
+
+</para>
+
+
+
+
+<para id="p1166">
+To make it easier to type the material under discussion, I will refer to the 
+Lazy Susan as a turntable. (For some reason, I can type turntable much more 
+quickly than I can type Lazy Susan.)
+
+</para>
+
+
+
+
+<para id="p1167">
+<emphasis id="strong1038" effect="bold">
+Low angular acceleration when coasting
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1168">
+My turntable has pretty good bearings. It is also rather heavy for its size and therefore 
+has a relatively large rotational inertia or moment of inertia, whichever term you 
+prefer.
+
+</para>
+
+
+
+
+<para id="p1169">
+If you give it a good spin, it will spin for quite a while before all of 
+its rotational energy is dissipated through friction in the bearings and air 
+resistance. By default, therefore, its angular acceleration is low. In other 
+words, the rate of change of its angular velocity is small.
+
+</para>
+
+
+
+
+<para id="p1170">
+<emphasis id="strong1039" effect="bold">
+A perpetual motion machine
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1171">
+If we could find a way to eliminate all of the frictional forces acting on 
+the turntable, including air resistance, then it would spin forever. In that 
+case, we would 
+have invented what has been called a perpetual motion machine. The 
+rate of change of angular velocity would be zero, meaning that its angular 
+acceleration would also be zero.
+
+</para>
+
+
+
+
+<para id="p1172">
+<emphasis id="strong1040" effect="bold">
+Similar to Newton's first law
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1173">
+This reminds us of a moving body that satisfies Newton's first law, which can 
+be paraphrased something like the following:
+
+</para>
+
+
+
+
+<list id="ul1029" list-type="bulleted">
+
+	
+
+<item id="li1115">
+a body in motion, being acted upon by no net 
+forces, will continue moving forever in a straight line.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1174">
+In other words, that 
+law tells us that absent a force to the contrary, a moving body will continue to 
+move with no change in velocity.
+
+</para>
+
+
+
+
+<para id="p1175">
+If we could eliminate all of the frictional forces acting on my turntable 
+(which is a rotating body), we might like to say that
+
+</para>
+
+
+
+
+<list id="ul1030" list-type="bulleted">
+
+	
+
+<item id="li1116">
+absent any net forces 
+acting on the body, a rotating body with a constant rotational inertia will 
+continue rotating with the same angular velocity forever.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1176">
+However, that would not be a true statement. 
+
+</para>
+
+
+
+
+<para id="p1177">
+<emphasis id="strong1041" effect="bold">
+Houston, we have a problem
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1178">
+Assume that you do the following to our hypothetical frictionless turntable 
+while it is spinning. Using one finger from each hand, press on opposite sides 
+of the turntable, applying an equal force directed towards the center of the 
+turntable on each side of the turntable.
+
+</para>
+
+
+
+
+<para id="p1179">
+<emphasis id="strong1042" effect="bold">
+No net force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1180">
+In this case, the turntable would not 
+experience any net forces. Assuming that you are facing north when you do this, 
+and that you press on the east and west sides of the turntable, the frictional 
+forces generated by your fingers would be directed in opposite directions.
+
+</para>
+
+
+
+
+<para id="p1181">
+If 
+the turntable were spinning counter clockwise (when viewed from the top), the 
+frictional force created by your finger on the east side would be directed 
+toward the south. The frictional force created by your finger on the west side 
+of the turntable would be directed toward the north.
+
+</para>
+
+
+
+
+<para id="p1182">
+From a translational viewpoint, at least, there would be no net force 
+applied to the turntable. The force that points to the north would be cancelled 
+by the force that points to the south. The force that points to the east would 
+be cancelled by the force that points to the west. Therefore, the turntable 
+would be in translational equilibrium.
+
+</para>
+
+
+
+
+<para id="p1183">
+<emphasis id="strong1043" effect="bold">
+Acceleration would no longer be zero
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1184">
+Despite that, the velocity would be decreased meaning 
+that the acceleration would no longer be zero. From this we might conclude that 
+just because a rotating object is in translational equilibrium, it is not 
+necessarily in rotational equilibrium.
+
+</para>
+
+
+
+
+<para id="p1185">
+<emphasis id="strong1044" effect="bold">
+The world of torque
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1186">
+We have just entered the world of torque with this hypothetical experiment. Torque is a quantity that plays 
+a role in rotation that is analogous to the role that force plays in translation.
+
+</para>
+
+
+
+
+<para id="p1187">
+However, torque is not 
+separate from force. It is not possible to exert a torque without exerting a 
+force.
+
+</para>
+
+
+
+
+<para id="p1188">
+<emphasis id="strong1045" effect="bold">
+Torque is a measure...
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1189">
+In anecdotal terms, torque is a measure of how effective a force is at 
+changing the angular velocity of an object. Stated differently, torque is a 
+measure of how effective a force is at causing an object to have a non-zero 
+angular acceleration.
+
+</para>
+
+
+
+
+<para id="p1190">
+<emphasis id="strong1046" effect="bold">
+Angular acceleration can be either positive or negative
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1191">
+For an object that is rotating about a fixed axis (or is capable of rotating 
+about a fixed axis), such as my turntable, 
+torque can either increase or decrease the angular velocity of the object.
+
+</para>
+
+
+
+
+<para id="p1192">
+<emphasis id="strong1047" effect="bold">
+Net translational force was zero
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1193">
+When you pressed your fingers on my turntable as described earlier, the net 
+translational force applied to the turntable was zero. Therefore, the turntable remained in 
+translational equilibrium, meaning that it didn't go sliding towards the edge of 
+the table. 
+
+</para>
+
+
+
+
+<para id="p1194">
+<emphasis id="strong1048" effect="bold">
+Net torque was not zero
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1195">
+However, the net torque was not zero, so it was not in angular 
+equilibrium. The kinetic frictional forces generated on each side of the 
+turntable resulted in the same algebraic sign of non-zero angular acceleration.
+
+</para>
+
+
+
+
+<para id="p1196">
+Each force caused the angular velocity to decrease. The two torques created by 
+the kinetic friction forces were not only equal, they had the same algebraic sign. 
+Therefore, the turntable experienced a non-zero net torque.
+
+</para>
+
+
+
+
+<para id="p1197">
+<emphasis id="strong1049" effect="bold">
+How are force and torque related?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1198">
+To begin with, torque is proportional to the magnitude of the applied force, 
+but that is not the end of the story. The rest of the story involves 
+exactly where and in what direction the force is applied.
+
+</para>
+
+
+
+
+<para id="p1199">
+<emphasis id="strong1050" effect="bold">
+Create a torque to close a door
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+<para id="p1200">
+For example, consider applying a force for the purpose of creating a torque 
+to close an open door. Initially, the door has zero angular velocity.
+
+</para>
+
+
+
+
+<para id="p1201">
+You could apply a force 
+in any direction at any point on either side or the edge of the door that you 
+are tall enough to reach. However, with regard to the objective of closing the 
+door, it would matter very much where and in what direction you applied the 
+force.
+
+</para>
+
+
+
+
+<para id="p1202">
+<emphasis id="strong1051" effect="bold">
+A very intuitive topic
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1203">
+The interesting thing about this topic is that you already know all about it 
+from a practical and intuitive viewpoint. You would already know intuitively 
+where and in what direction to push on the door to cause it to close with a 
+minimum expenditure of energy.
+
+</para>
+
+
+
+
+<para id="p1204">
+<emphasis id="strong1052" effect="bold">
+You probably wouldn't push on the edge of the door
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1205">
+If you pushed on the edge of door, directing your force directly at 
+the hinges (the axis of rotation), the door wouldn't move. While this might prove to be a good form of 
+isometric exercise, it would not be an effective way to close the door.
+
+</para>
+
+
+
+
+<para id="p1206">
+<emphasis id="strong1053" effect="bold">
+A force in any other direction
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1207">
+A force that is applied to the door, (even on the edge of the door) acting in 
+any direction other than directly toward the hinges could be decomposed into two components:
+
+</para>
+
+
+
+
+<list id="ul1031" list-type="bulleted">
+
+	
+
+<item id="li1117">
+A radial component acting directly towards the axis or rotation or the 
+	hinges.
+
+</item>
+
+
+	
+
+<item id="li1118">
+A perpendicular component acting perpendicular to the surface of the 
+	door.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1208">
+<emphasis id="strong1054" effect="bold">
+The radial component is wasted effort
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1209">
+The radial component would make no contribution to the development of the torque 
+required to change the angular velocity of the door and cause the door to close. 
+Only the perpendicular component would contribute to the development of such a 
+torque.
+
+</para>
+
+
+
+
+<para id="p1210">
+<emphasis id="strong1055" effect="bold">
+Could develop torque at any point on the door
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1211">
+So now you know that you could apply a force at any point on the door, and so 
+long as that force has a component that is perpendicular to the surface of the 
+door, the perpendicular component would contribute to the development of torque.
+
+</para>
+
+
+
+
+<para id="p1212">
+<emphasis id="strong1056" effect="bold">
+Location, location, and location
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1213">
+However, it is also important where you push on the door to apply the force. 
+If you push on what we normally consider to be the inside surface of the 
+door, it might create a torque, but that torque may have the wrong sign or 
+direction to cause the door to close. In fact, that would cause the door to open 
+even further.
+
+</para>
+
+
+
+
+<para id="p1214">
+Once you realize that you must push on what we would call the outside surface 
+of the door, it would still be important where you push and apply the force. 
+Suppose for example that you were to push at a point that is only one inch away 
+from the hinge. You know intuitively that even for a lightweight door, you might 
+have to apply a very strong force to cause the door to close by applying the 
+force at that location.
+
+</para>
+
+
+
+
+<para id="p1215">
+<emphasis id="strong1057" effect="bold">
+Where would you push?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1216">
+You would 
+probably push on the door at a point somewhere between the center of the door 
+and the outer edge of the door.
+
+</para>
+
+
+
+
+<para id="p1217">
+If the door happened to be a really heavy door, 
+you would probably push on the door at a point as close to the outer edge as 
+possible. This would make it possible for you to cause the door to close with 
+the minimum effort on your part.
+
+</para>
+
+
+
+
+<para id="p1218">
+<emphasis id="strong1058" effect="bold">
+The magnitude of the torque
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1219">
+In an attempt to codify your intuition, your instinctive knowledge, or 
+perhaps your acquired knowledge into something more mathematical, we will define 
+the magnitude of the torque as
+
+</para>
+
+
+
+
+<para id="p1220">
+torque = r*F
+
+</para>
+
+
+
+
+<para id="p1221">
+The conventional symbol for torque is the Greek letter tau. However, your 
+Braille display probably won't display that Greek letter, so in this module, I 
+will represent torque with the letter T as shown in 
+
+<link id="a1049" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1222">
+<emphasis id="strong1059" effect="bold">
+The sign convention for torque
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1223">
+In this module, I will use a sign convention such that a force whose 
+perpendicular component, when acting alone, would cause the object to rotate in 
+a counter clockwise direction as a positive torque.
+
+</para>
+
+
+
+
+<para id="p1224">
+If that torque is the only torque acting, it would cause a positive angular 
+acceleration.
+
+</para>
+
+
+
+
+<para id="p1225">
+<emphasis id="strong1060" effect="bold">
+A definition of torque
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1226">
+You saw a mathematical definition of torque 
+
+<link id="a1050" target-id="Tvec">
+
+earlier
+
+</link>
+
+. 
+
+
+<link id="a1051" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+ shows a somewhat less mathematical definition of torque.
+
+</para>
+
+
+
+
+
+
+<table id="table1005" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1005">
+<row id="tr1010">
+<entry id="th1005">
+
+
+
+<emphasis id="Figure_6" effect="bold">
+
+Figure 6
+
+</emphasis>
+
+. The definition of 
+	torque.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1005">
+<row id="tr1011">
+<entry id="td1005">
+
+	
+
+<para id="p1227">
+
+	
+    	T = r*F
+
+</para>
+
+
+
+
+<para id="p1228">
+where 
+
+
+</para>
+
+
+						
+
+<list id="ul1032" list-type="bulleted">
+
+							
+
+<item id="li1119">
+T represents torque
+
+</item>
+
+
+							
+
+<item id="li1120">
+r is the shortest distance from the axis of rotation to the point of application of the applied force
+
+</item>
+
+
+							
+
+<item id="li1121">
+F is the component of the applied force that is 
+							perpendicular to a line from the axis of rotation to 
+							the point of the applied force
+
+</item>
+
+
+						
+
+</list>
+
+
+						
+
+<para id="p1229">
+The SI unit for torque is newton meters or N*m.
+						
+
+</para>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+	
+	
+
+<para id="p1230">
+<emphasis id="strong1061" effect="bold">
+The units can be confusing
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1231">
+The units for torque can be confusing because the SI unit for work or energy in joules is 
+also N*m. However, even though torque and energy have the same units, they have 
+entirely different meanings. Torque is not a form of energy.
+
+</para>
+
+
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="A_graph_board_explanation_of_torque" effect="bold">
+
+A graph board exercise on 
+torque
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1232">
+Imagine a puck sliding in a circular groove that has been cut in the ice at 
+an ice rink. A cross section of the grove is rectangular so that the puck just 
+fits from side to side and sets level on the bottom of the groove. When a puck 
+slides inside the groove, it will move in a large circle.
+
+</para>
+
+
+
+
+<para id="p1233">
+<emphasis id="strong1062" effect="bold">
+Apply a force to the puck
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1234">
+If you apply a force to the puck in (almost) any direction, a component of that force 
+will directed toward or away from the center of the circle. For any case where 
+the direction of the force doesn't lie on a line from the puck to the center of 
+the circle, there will also be a component of the force that is perpendicular to 
+that line, which will make it tangential to the circle.
+
+</para>
+
+
+
+
+<para id="p1235">
+<emphasis id="strong1063" effect="bold">
+Construct a graph board simulation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1236">
+Use your graph board and create a Cartesian coordinate system with the 
+origin near the lower-left corner of the graph board. Use pushpins and pipe 
+cleaners to draw a quarter of a circle, with the center of the circle at the 
+origin. Make the radius approximately one-half of the 
+smallest dimension of the graph board. This circle should include the entire 
+upper-right quadrant of your Cartesian coordinate system.
+
+</para>
+
+
+
+
+<para id="p1237">
+<emphasis id="strong1064" effect="bold">
+Identify the location of the puck
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1238">
+Now insert a pushpin at a point somewhere on the circle about mid way between 
+the intersection of the circle and the x and y axes of the coordinate system.
+
+</para>
+
+
+
+
+<para id="p1239">
+Imagine that this is the puck mentioned above 
+that is constrained to move in a circle. Label this point P.
+
+</para>
+
+
+
+
+<para id="p1240">
+<emphasis id="strong1065" effect="bold">
+A radial line from the center
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1241">
+Use a pipe cleaner or a rubber band to draw a line from the puck to the 
+center of the circle. Label this line r.
+
+</para>
+
+
+
+
+<para id="p1242">
+<emphasis id="strong1066" effect="bold">
+Create a force vector
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1243">
+Make a little loop at one end of a pipe cleaner that is about half the radius 
+of your circle and place the loop around the pushpin that represents the puck at 
+P.
+
+</para>
+
+
+
+
+<para id="p1244">
+Leave it loose enough that it can be rotated around the pin. Imagine that 
+this is a vector that describes a force being applied to the puck with the tail 
+of the vector at the puck.
+
+</para>
+
+
+
+
+<para id="p1245">
+<emphasis id="strong1067" effect="bold">
+Point the force vector at the center
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1246">
+Begin by pointing the force vector directly at the center of the circle. You 
+will probably be able to imagine that since the puck is not free to move 
+directly to the center, a force in this direction will not cause the puck to 
+move.
+
+</para>
+
+
+
+
+<para id="p1247">
+The technical reason that it won't cause the puck to move is because the 
+force doesn't have a component that is tangent to the circle at the location 
+of the puck.
+
+</para>
+
+
+
+
+<para id="p1248">
+<emphasis id="strong1068" effect="bold">
+Rotate the force vector
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1249">
+Now rotate the force vector clockwise by about 30 or 40 degrees and pin it down so 
+that it won't move. Label the tip of the force vector F.
+
+</para>
+
+
+
+
+<para id="p1250">
+<emphasis id="strong1069" effect="bold">
+Draw the tangential component of the force vector
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1251">
+This may be the most difficult part of this exercise for a blind student. Use your protractor 
+(or some other method that you know about) to find a point on the line labeled r such that a line 
+through that point and 
+perpendicular to r goes through the tip of the force vector. Mark that point 
+with a pushpin and label it Q.
+
+</para>
+
+
+
+
+<para id="p1252">
+<emphasis id="strong1070" effect="bold">
+Draw a line from Q to F
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1253">
+Use a pipe cleaner to draw a line from Q to F. That line represents the 
+component of the force vector that is tangent to the circle at the location 
+of the puck. (Actually it is parallel to the tangential component of the force 
+vector, but that is OK. It is still the correct length and points in the correct 
+direction.) The direction of that tangential force component is from Q to F.
+
+</para>
+
+
+
+
+<para id="p1254">
+This is the component of the force vector that causes the puck to move. Label 
+this vector Ft for tangential force.
+
+</para>
+
+
+
+
+<para id="p1255">
+<emphasis id="strong1071" effect="bold">
+The radial component of force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1256">
+Use a pipe cleaner to draw a line from P to Q. This is the component of the 
+force vector that points directly from the puck to the center of the circle. This 
+component won't cause the puck to move.
+
+</para>
+
+
+
+
+<para id="p1257">
+<emphasis id="strong1072" effect="bold">
+A right triangle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1258">
+If you examine your vector diagram at this point, you can determine that the 
+points labeled P, Q, and F represent the vertices of a right triangle, with the 
+right angle at the point Q.
+
+</para>
+
+
+
+
+<para id="p1259">
+<emphasis id="strong1073" effect="bold">
+The length of the tangential force vector
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1260">
+Label the interior angle at P with an A. Now you should be able to determine that the length 
+of the tangential vector named Ft is equal to the product of the force F and the 
+sine of the angle A.
+
+</para>
+
+
+
+
+<para id="p1261">
+Ft = F*sin(A)
+
+</para>
+
+
+
+
+<para id="p1262">
+where
+
+</para>
+
+
+
+
+<list id="ul1033" list-type="bulleted">
+
+	
+
+<item id="li1122">
+F is the force vector.
+
+</item>
+
+
+	
+
+<item id="li1123">
+Ft is the component of the force vector that is tangent to the circle at 
+	the location of the puck. This force is also perpendicular to the line from 
+	the puck to the center of the circle.
+
+</item>
+
+
+	
+
+<item id="li1124">
+A is the angle that the force vector makes with the line r.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1263">
+<emphasis id="strong1074" effect="bold">
+The torque
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1264">
+Referring back to 
+
+<link id="a1052" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+, we find that the torque produced by this force is 
+equal to the product of the distance from the center to P and the tangential or 
+perpendicular component of the force vector.
+
+</para>
+
+
+
+
+<para id="p1265">
+Therefore,
+
+</para>
+
+
+
+
+<para id="p1266">
+T = Ft*r, or
+
+</para>
+
+
+
+
+<para id="p1267">
+T = F*sin(A)*r
+
+</para>
+
+
+
+
+<para id="p1268">
+where
+
+</para>
+
+
+
+
+<list id="ul1034" list-type="bulleted">
+
+	
+
+<item id="li1125">
+T represents torque
+
+</item>
+
+
+	
+
+<item id="li1126">
+Ft represents the tangential component of the force vector
+
+</item>
+
+
+	
+
+<item id="li1127">
+r represents the distance from the puck to the center of the circle
+
+</item>
+
+
+	
+
+<item id="li1128">
+F represents the force vector
+
+</item>
+
+
+	
+
+<item id="li1129">
+A represents the angle between the force vector and the line from the 
+	puck to the center of the circle
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Example_scenarios" effect="bold">
+
+Example scenarios
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1269">
+This section contains several example scenarios involving torque.
+
+</para>
+
+
+
+
+<section id="h21008">
+<title>
+<emphasis id="Net_torque_on_the_Lazy_Susan_turntable" effect="bold">
+
+Net torque on the Lazy 
+Susan turntable
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1270">
+The turntable discussed earlier, which has a radius of 24 cm, is spinning 
+clockwise. You press your fingers on the east and west sides of the turntable with equal 
+forces of 6.67 N. The coefficient of friction between the turntable and your 
+fingers is 0.75. What is the net torque on the wheel?
+
+</para>
+
+
+
+
+<para id="p1271">
+Solution:
+
+</para>
+
+
+
+
+<para id="p1272">
+The 13.3 N force on each side of the table creates a tangential kinetic 
+friction force on each side of the table equal to
+
+</para>
+
+
+
+
+<para id="p1273">
+Ft = 6.67 N * 0.75
+
+</para>
+
+
+
+
+<para id="p1274">
+Each force is in the opposite direction of the direction of rotation.
+
+</para>
+
+
+
+
+<para id="p1275">
+The net torque is equal to the sum of the torques.
+
+</para>
+
+
+
+
+<para id="p1276">
+Each torque is equal to the product of the force and the distance from the 
+center of the turntable to the point at which the force is applied.
+
+</para>
+
+
+
+
+<para id="p1277">
+T = 2 * Ft * r, or
+
+</para>
+
+
+
+
+<para id="p1278">
+T = 2 * 6.67 newtons * 0.75 * 24 cm
+
+</para>
+
+
+
+
+<para id="p1279">
+Entering this expression into the Google calculator gives us
+
+</para>
+
+
+
+
+<para id="p1280">
+T = 2.4 joules
+
+</para>
+
+
+
+
+<para id="p1281">
+However, this is one case where the Google calculator gives us a misleading 
+answer. We know that torque is not measured in joules. Instead, torque is 
+measured in N*m. Therefore, the net torque on the turntable is
+
+</para>
+
+
+
+
+<para id="p1282">
+T = 2.4 N*m
+
+</para>
+
+
+
+
+</section>
+<section id="h21009">
+<title>
+<emphasis id="The_door-closing_scenario" effect="bold">
+
+A door-closing scenario
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1283">
+When viewed from above, the scenario is a door that is open. From above, the wall to which the door is attached can be represented by a horizontal 
+line that runs from west to east. The door can be represented by a line segment at an angle of about 45 degrees 
+south of east. The line segment (door) is attached to the wall at the upper-left end of the 
+line segment. That is the point where the door is hinged, and that point is the axis of 
+rotation for the door.
+
+</para>
+
+
+
+
+<para id="p1284">
+Assume that the axis of rotation extends out of the page towards you.
+
+</para>
+
+
+
+
+<para id="p1285">
+The door will need to rotate 
+about 45 degrees counter clockwise to become flush with the wall and be closed.
+
+</para>
+
+
+
+
+<para id="p1286">
+A person is standing on the north side of the wall pulling on a rope that is 
+attached to the door. The rope is attached 11.5 cm from the hinge and makes a 45 
+degree angle with the surface of the door. That person pulls on the rope with a 
+force of 51 N.
+
+</para>
+
+
+
+
+<para id="p1287">
+Using the door hinges as the axis of rotation, find the magnitude of the 
+torque that is exerted on the door. What is the sign of the torque.
+
+</para>
+
+
+
+
+<para id="p1288">
+Solution:
+
+</para>
+
+
+
+
+<para id="p1289">
+This solution is based on the cross product from 
+
+<link id="a1053" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1290">
+The magnitude of the torque is given by
+
+</para>
+
+
+
+
+<para id="p1291">
+T = r * F * sin(angle), or
+
+</para>
+
+
+
+
+<para id="p1292">
+T = 11.5 cm * 51 newtons * sin(45 degrees)
+
+</para>
+
+
+
+
+<para id="p1293">
+Entering this expression into the Google calculator gives us
+
+</para>
+
+
+
+
+<para id="p1294">
+T = 4.15 N*m
+
+</para>
+
+
+
+
+<para id="p1295">
+The torque will cause the door to rotate in a counter clockwise 
+direction. Therefore, the torque has a positive sign.
+
+</para>
+
+
+
+
+</section>
+<section id="h21010">
+<title>
+<emphasis id="Torque_and_the_moment_of_inertia" effect="bold">
+
+Torque and the moment of inertia
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1296">
+Three objects are rotating about their centers. All three objects have a mass 
+of 10 kg. The three objects have the following 
+shapes:
+
+</para>
+
+
+
+
+<para id="p1297">
+A. A solid disk with a moment of inertia given by 
+
+</para>
+
+
+
+
+<para id="p1298">
+I = (1/2)*m*r^2
+
+
+</para>
+
+
+
+
+<para id="p1299">
+where
+
+</para>
+
+
+
+
+<list id="ul1035" list-type="bulleted">
+
+	
+
+<item id="li1130">
+r = 2m
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1300">
+B. A disk with a round hole in the center with a moment of inertia given by
+
+</para>
+
+
+
+
+<para id="p1301">
+I = (1/2)*m*(r1^2 + r2^2)
+
+</para>
+
+
+
+
+<para id="p1302">
+where
+
+</para>
+
+
+
+
+<list id="ul1036" list-type="bulleted">
+
+	
+
+<item id="li1131">
+r1 = 1m
+
+</item>
+
+
+	
+
+<item id="li1132">
+r2 = 2m
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1303">
+C. A square plate with a moment of inertia given by
+
+</para>
+
+
+
+
+<para id="p1304">
+I = (1/12)*m*(h^2 + w^2)
+
+</para>
+
+
+
+
+<para id="p1305">
+where
+
+</para>
+
+
+
+
+<list id="ul1037" list-type="bulleted">
+
+	
+
+<item id="li1133">
+h = w = 3.54m
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1306">
+Find the net torque required to cause each object to accelerate at a rate of 
+10 radians/sec^2. 
+
+</para>
+
+
+
+
+<para id="p1307">
+Solution:
+
+</para>
+
+
+
+
+<para id="p1308">
+All three solutions are based on the general equation for torque given in 
+
+
+<link id="a1054" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1309">
+A. T = I * A, or
+
+</para>
+
+
+
+
+<para id="p1310">
+T = (1/2)*m*r^2 * A, or
+
+</para>
+
+
+
+
+<para id="p1311">
+T = (1/2)*10kg*(2m)^2 * 10 radians/second^2
+
+</para>
+
+
+
+
+<para id="p1312">
+Entering this expression into the Google calculator gives us
+
+</para>
+
+
+
+
+<para id="p1313">
+T = 200 N*m
+
+</para>
+
+
+
+
+<para id="p1314">
+</para>
+
+
+
+
+<para id="p1315">
+B. T = I * A, or
+
+</para>
+
+
+
+
+<para id="p1316">
+T = (1/2)*m*(r1^2 + r2^2) * A, or
+
+</para>
+
+
+
+
+<para id="p1317">
+T = (1/2)*10kg*((1m)^2 + (2m)^2) * 10 radians/second^2, or
+
+</para>
+
+
+
+
+<para id="p1318">
+T = 250 N*m
+
+</para>
+
+
+
+
+<para id="p1319">
+Note that because more of the mass is located close to the outer edge of the 
+disk, the moment of inertia is higher and more torque is required to achieve the 
+same acceleration for the same mass.
+
+</para>
+
+
+
+
+<para id="p1320">
+</para>
+
+
+
+
+<para id="p1321">
+C. T = I * A, or
+
+</para>
+
+
+
+
+<para id="p1322">
+T = (1/12)*m*(h^2 + w^2) * A, or
+
+</para>
+
+
+
+
+<para id="p1323">
+T = (1/12)*10kg*((3.54m)^2 + (3.54m)^2) * 10 radians/second^2, or
+
+</para>
+
+
+
+
+<para id="p1324">
+T = 2.09 N*m
+
+</para>
+
+
+
+
+<para id="p1325">
+Note that the square in part C was designed to have the same surface area as 
+the disk in part A. The mass in both cases was uniformly distributed throughout 
+the entire surface. Under those conditions, a square has a slightly higher 
+moment of inertia than a disk and thus requires a slightly greater torque to 
+achieve the same acceleration.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Repeat the computations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1326">
+I encourage you to repeat the computations that I have presented in this lesson to 
+confirm that you get the same results. Experiment with 
+the scenarios, making changes, and observing the results of your changes. Make 
+certain that you can explain why your changes behave as they do. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1327">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1328">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1075" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1038" list-type="bulleted">
+
+
+
+<item id="li1134">
+Module name: Angular Momentum -- The Mathematics of Torque
+
+</item>
+
+
+
+
+<item id="li1135">
+File: Phy1320.htm
+
+
+</item>
+
+
+	
+
+<item id="li1136">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1137">
+Keywords:
+
+<list id="ul1039" list-type="bulleted">
+
+		
+
+<item id="li1138">
+physics
+
+</item>
+
+
+		
+
+<item id="li1139">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1140">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1141">
+blind
+
+</item>
+
+
+		
+
+<item id="li1142">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1143">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1144">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1145">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1146">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1147">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1148">
+torque
+
+</item>
+
+
+					
+
+<item id="li1149">
+force
+
+</item>
+
+
+					
+
+<item id="li1150">
+mass
+
+</item>
+
+
+					
+
+<item id="li1151">
+angular acceleration
+
+</item>
+
+
+					
+
+<item id="li1152">
+moment of inertia
+
+</item>
+
+
+					
+
+<item id="li1153">
+rotational inertia
+
+</item>
+
+
+					
+
+<item id="li1154">
+vector
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+<emphasis id="strong1076" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1329">
+<emphasis id="strong1077" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1078" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1330">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1079" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1331">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1080" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1332">
+<emphasis id="strong1081" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1333">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

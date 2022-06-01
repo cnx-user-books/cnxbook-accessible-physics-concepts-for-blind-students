@@ -1,0 +1,2517 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1004: Manual Creation of Tactile Graphics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38546</md:content-id>
+  <md:title>Phy1004: Manual Creation of Tactile Graphics</md:title>
+  <md:abstract>This module describes one of the ways for creating tactile graphics for the modules in this collection.</md:abstract>
+  <md:uuid>9fe07552-485f-43e7-9753-87133cf60482</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Figures">
+
+Figures
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1006">
+<link id="a1006" target-id="Discussion">
+
+Discussion
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="Scalable_vector_graphics">
+
+Scalable vector graphics
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="Download_graphics_files">
+
+Download the svg file
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="The_need_for_graphics_in_physics">
+
+The need for graphics in physics
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="A_range_of_options">
+
+A range of options
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1011">
+<link id="a1011" target-id="Manual_embossing_and_manual_exploration">
+
+Manual embossing
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+</item>
+
+
+	
+
+<item id="li1012">
+<link id="a1012" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1013">
+<link id="a1013" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a collection of modules designed to make physics 
+concepts accessible to blind students.
+
+</para>
+
+
+
+
+<para id="p1001">
+If you opened this page in the context of the book, a Table of Contents for 
+the book (or collection) should be available above and to the left of this 
+paragraph. Otherwise, click
+
+
+<link id="a1014" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+here
+
+</link>
+
+ 
+to open the book at the beginning.
+
+</para>
+
+
+
+
+<para id="p1002">
+This book is intended to supplement but not to replace the textbook in an 
+introductory high school or college physics course. 
+
+</para>
+
+
+
+
+<para id="p1003">
+This module describes one of the ways for creating tactile graphics for the modules in this collection.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1004" list-type="bulleted">
+
+	
+
+<item id="li1014">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1015" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1015">
+A protractor for measuring angles (
+
+<link id="a1016" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1016">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1017" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1017">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1018" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1018">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1005">
+As you will see in this module, there are some additional requirements 
+	for creating and exploring tactile graphics. 
+
+</para>
+
+
+
+
+<para id="p1006">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1019">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1020">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1019" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1021">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1020" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1022">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1021" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1023">
+An introductory understanding of JavaScript programming (
+
+<link id="a1022" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1023" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1024">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1007">
+ I recommend that you open another copy of this document in a separate 
+browser window and use the following links to easily find and view the figures 
+while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+ 
+
+<emphasis id="Figures" effect="bold">
+
+Figures
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1025">
+<link id="a1024" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+. Mirror image from file 1.svg.
+
+</item>
+
+
+	
+
+<item id="li1026">
+<link id="a1025" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+. Normal image from file 1.svg.
+
+</item>
+
+
+	
+
+<item id="li1027">
+<link id="a1026" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+. Text values for Braille keys in file 
+	1.svg. 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h21003">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1008">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1027" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1009">
+I will begin this discussion with a discussion of a type of graphics file 
+known as Scalable Vector Graphics file.
+
+</para>
+
+
+
+
+<section id="h21004">
+<title>
+<emphasis id="Scalable_vector_graphics" effect="bold">
+
+Scalable vector graphics
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1010">
+There are a variety of different formats for storing graphics information in 
+disk files. One of those formats, and the one that I have adopted for this 
+collection of modules, is called 
+
+<link id="a1028" url="http://www.w3.org/TR/SVG/">
+
+Scalable 
+Vector Graphics
+
+</link>
+
+. Files containing Scalable Vector Graphics information 
+typically have an extension of svg, and are often referred to 
+simply as svg files.
+
+</para>
+
+
+
+
+<para id="p1011">
+You will find a good explanation of Scalable Vector Graphics in the Wikipedia 
+article titled 
+
+<link id="a1029" url="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">
+
+
+Scalable Vector Graphics
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1012">
+<emphasis id="strong1000" effect="bold">
+Can be scaled without corruption
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1013">
+For my purposes, the major advantage of using svg files is that they can be 
+enlarged or reduced in size without corrupting the image. For example, the images in the svg files 
+that I will provide are designed to be printed on 8.5x11 inch paper stock. 
+However, if you have access to a printer that can handle larger paper, you can 
+use a program such as the 
+
+<link id="a1030" url="http://inkscape.org/">
+
+free svg editing 
+program named Inkscape
+
+</link>
+
+ to enlarge the images without corrupting them. You 
+can then print the larger images on larger paper stock.
+
+</para>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Download_graphics_files" effect="bold">
+
+Download the svg file
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1014">
+You will need to download an svg graphics file named 1.svg to complete the work in 
+this module. 
+
+<link id="a1031" url="1004.zip">
+
+Click this link to download a zip file named 
+1004.zip
+
+</link>
+
+ containing the file named 1.svg.
+
+</para>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="The_need_for_graphics_in_physics" effect="bold">
+
+The need for graphics in physics
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1015">
+It is very difficult to learn introductory physics without having access to a variety of 
+pictures, charts, and diagrams. Many of you are likely to need those materials 
+in tactile form. While we can transmit words, sounds, and 
+pictures via the Internet, we still don't have the ability to transmit tactile 
+graphics via the Internet.
+
+</para>
+
+
+
+
+<para id="p1016">
+This means that it will be necessary for you to use the svg files that I provide 
+and to make your own arrangements for having those files converted into tactile 
+graphics.
+
+</para>
+
+
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="A_range_of_options" effect="bold">
+
+A range of options
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1017">
+Depending on the resources that you have available, you have a range of options for the 
+creation and exploration of tactile graphics.
+
+</para>
+
+
+
+
+<para id="p1018">
+My plan is to provide the necessary svg graphics files to produce tactile 
+graphics for a range of different resources.
+
+</para>
+
+
+
+
+<para id="p1019">
+<emphasis id="strong1001" effect="bold">
+Machine embossing of tactile graphics
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1020">
+One of the available options for creating (and exploring) machine-embossed tactile graphics 
+(on paper) is the 
+
+
+<link id="a1032" url="http://www.viewplus.com/solutions/touch-audio-learning/">
+
+IVEO Hands on 
+Learning System
+
+</link>
+
+ from
+
+
+<link id="a1033" url="http://www.viewplus.com/products/braille-printers/">
+
+ViewPlus Technologies
+
+</link>
+
+. 
+(See the 
+
+<link id="a1034" target-id="Miscellaneous">
+
+disclaimer
+
+</link>
+
+ below.)
+
+</para>
+
+
+
+
+<para id="p1021">
+The svg files that I will provide are intended to be compatible with 
+the IVEO Learning System.
+
+</para>
+
+
+
+
+<para id="p1022">
+<emphasis id="strong1002" effect="bold">
+The opposite end of the budgetary spectrum
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1023">
+At the opposite end of the budgetary spectrum is the student whose only 
+resource for tactile graphics is a human embosser using various tools from a 
+
+
+<link id="a1035" url="http://www.fredshead.info/2006/01/tactile-graphics-kit-replacement-parts.html">
+
+tactile graphics kit
+
+</link>
+
+ to manually emboss printed versions of the 
+svg files. The files (and the supplementary information that I will provide) 
+are designed to support manual embossing as well as machine embossing. (The 
+file that I will provide for this module is intended for manual 
+embossing only. Future modules will include the necessary files for machine 
+embossing.)
+
+</para>
+
+
+
+
+<para id="p1024">
+<emphasis id="strong1003" effect="bold">
+Steps
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1025">
+There are two steps involved in first creating and then using tactile graphics:
+
+</para>
+
+
+
+
+<list id="ol1000" list-type="enumerated">
+
+	
+
+<item id="li1028">
+Embossing a paper copy of the graphic
+
+</item>
+
+
+	
+
+<item id="li1029">
+Exploring the embossed copy of the graphic using touch, and in some 
+	cases, sound.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1026">
+<emphasis id="strong1004" effect="bold">
+Embossing the graphic
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1027">
+There are at least two ways to emboss the paper copy of the graphic:
+
+</para>
+
+
+
+
+<list id="ol1001" list-type="enumerated">
+
+	
+
+<item id="li1030">
+Manual embossing
+
+</item>
+
+
+	
+
+<item id="li1031">
+Machine embossing using a graphics-compatible Braille 
+printer such as those 
+from 
+
+<link id="a1036" url="http://www.viewplus.com/products/braille-printers/">
+
+ViewPlus Technologies
+
+</link>
+
+.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1028">
+<emphasis id="strong1005" effect="bold">
+Exploring the graphic
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1029">
+There are at least two 
+possibilities for exploring the graphic:
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1032">
+Exploration using touch alone.
+
+</item>
+
+
+	
+
+<item id="li1033">
+Exploration using the IVEO Hands on Learning System with a ViewPlus touchpad, which adds sound to the mix.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1030">
+<emphasis id="strong1006" effect="bold">
+Several combinations available
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1031">
+Depending on available resources, individual students might find themselves 
+combining either of the two embossing methods with either of the two exploration 
+methods. The files that I will provide for many of the modules will be designed to satisfy all 
+four possible 
+combinations.
+
+</para>
+
+
+
+
+<para id="p1032">
+However, my guess is that most students will find themselves in a situation where they 
+are limited to manual embossing and exploration by touch only when they first begin 
+studying the modules in this collection. Therefore, I will limit the discussion 
+in this module to the use of the svg files for manual embossing. I will explain how to use the svg 
+files for the other three combinations in future modules
+
+</para>
+
+
+	
+
+
+
+
+
+
+	
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="Manual_embossing_and_manual_exploration" effect="bold">
+
+Manual embossing
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1033">
+If there is at least one 
+	sighted person who is willing to assist you, you should be able to use the 
+	svg files that I will provide to create manually-embossed tactile graphics for the images in this 
+	collection. I will refer to that sighted person as "your 
+	assistant" in the following discussion.
+
+</para>
+
+
+
+
+<para id="p1034">
+<emphasis id="strong1007" effect="bold">
+Description of the scenario
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1035">
+This scenario assumes that you don't have access to an embossing 
+	printer and you don't have access to the computer and touchpad resources 
+	necessary to support the IVEO system. Therefore, you will need to arrange 
+	for an assistant to manually emboss the images for you. You will also need to explore the 
+	embossed image by touch alone, using the supplementary information that I 
+	will provide in this module.
+
+</para>
+
+
+
+
+<para id="p1036">
+<emphasis id="strong1008" effect="bold">
+The file named 1.svg
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1037">
+For this scenario, you will need to extract and print the file named 1.svg from 
+the zip file mentioned 
+
+<link id="a1037" target-id="Download_graphics_files">
+
+earlier
+
+</link>
+
+. You could use the 
+free IVEO Viewer software to print it on an ordinary non-embossing printer. 
+However, since this scenario has no IVEO involvement, it isn't 
+necessary to use the IVEO Viewer software to print it. A simple alternative 
+approach is to
+
+</para>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1034">
+Ask the your assistant to open the file 
+named 1.svg in either Firefox 5 (or later) or Internet Explorer 9 (or later).
+
+</item>
+
+
+	
+
+<item id="li1035">
+Set Page Setup on the File menu to Portrait or Landscape as appropriate.
+
+</item>
+
+
+	
+
+<item id="li1036">
+Select Print Preview
+
+</item>
+
+
+	
+
+<item id="li1037">
+Use the print scaling capabilities of the browser to make the image as large as will fit on 
+	a single page.
+
+</item>
+
+
+	
+
+<item id="li1038">
+Print the file.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1038">
+<emphasis id="strong1009" effect="bold">
+Another alternative
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1039">
+Another alternative, (which may do a better job of maintaining the 
+actual size of the graphic than either browser mentioned above), is to print the 
+file using a free svg drawing program named Inkscape (see
+
+
+<link id="a1038" url="http://inkscape.org/download/">
+
+http://inkscape.org/download/
+
+</link>
+
+).
+
+</para>
+
+
+
+
+<para id="p1040">
+Inkscape can appear to be rather daunting when it first appears on the 
+screen. However, the process of opening a file in Inkscape and printing the file can all 
+be handled by making simple selections from the 
+
+<emphasis id="strong1010" effect="bold">
+File
+
+</emphasis>
+ menu.
+
+</para>
+
+
+
+
+<para id="p1041">
+More importantly, as I mentioned earlier, if your printer can accommodate paper that is 
+wider than 8.5 inches, the Inkscape program can also be used to enlarge the image in 
+the svg file to provide you with a larger tactile graphic image.
+
+</para>
+
+
+
+
+<para id="p1042">
+<emphasis id="strong1011" effect="bold">
+A scaled version of the graphic
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1043">
+<link id="a1039" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+
+ shows a scaled version of the graphic contained in the file 
+	named 1.svg for the benefit of your assistant who will emboss the image. 
+	Note that this is a mirror image of the image that is to be presented to the 
+	student after embossing. Having a mirror image makes it possible for the 
+	assistant to emboss the image from the back of the paper, producing the 
+	correctly-oriented image on the front of the paper.
+
+</para>
+
+
+	
+
+
+
+
+
+
+
+
+<table id="table1000" summary="This is a table." pgwide="500">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1000">
+<row id="tr1000">
+<entry id="th1000">
+
+
+
+<emphasis id="Figure_1" effect="bold">
+
+Figure 1
+
+</emphasis>
+
+. Mirror image from file 1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1000">
+<row id="tr1001">
+<entry id="td1000">
+
+	
+
+<media id="media1000" alt="Missing image" display="block">
+<image id="img1000" mime-type="image/png" src="../../media/1004a1.png" width="600" height="436"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+<para id="p1044">
+<link id="a1040" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+ shows the same image in normal (not 
+	mirror image) orientation.
+
+</para>
+
+
+	
+
+
+
+
+
+
+
+
+<table id="table1001" summary="This is a table." pgwide="500">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1001">
+<row id="tr1002">
+<entry id="th1001">
+
+
+
+<emphasis id="Figure_2" effect="bold">
+
+Figure 2
+
+</emphasis>
+
+. Normal image from file 1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1001">
+<row id="tr1003">
+<entry id="td1001">
+
+	
+
+<media id="media1001" alt="Missing image" display="block">
+<image id="img1001" mime-type="image/png" src="../../media/1004a1b.png" width="600" height="436"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+<para id="p1045">
+<emphasis id="strong1012" effect="bold">
+The image
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1046">
+This image is provided as a test case to allow you and your assistant to 
+experiment and to determine what works best for you. Much of the information and 
+many of the objects in the image have to do with things that you haven't learned 
+yet, so you shouldn't expect to understand why they are there.
+
+</para>
+
+
+
+
+<para id="p1047">
+Your assistant will probably notice that all of the text is printed 
+backwards. This is because the svg file contains a mirror image of the actual 
+image. In effect, your assistant will emboss the image from the back side of the 
+paper. When 
+you turn it over and explore the front side using touch, you will be exploring 
+the image in the orientation that it is intended to be viewed.
+
+</para>
+
+
+
+
+<para id="p1048">
+Your assistant will also notice that there is a (reversed) letter in a small 
+oblique font to the right (from her viewpoint) of each of the major text 
+elements in the image, plus a few other letters in that same font scattered 
+throughout the image. These are key characters, which are to be embossed in 
+Braille. I will have more to say about this later.
+
+</para>
+
+
+
+
+<para id="p1049">
+<emphasis id="strong1013" effect="bold">
+Manual embossing
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1050">
+If your assistant has experience with manual embossing, the two of 
+you probably know more about manually embossing tactile graphics than I do. 
+However, manual embossing experience is not a requirement. Just about any 
+sighted person should be able to emboss the images with your help.
+
+</para>
+
+
+
+
+<para id="p1051">
+<emphasis id="strong1014" effect="bold">
+Mostly straight lines
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1052">
+Most of the lines for the images in these modules will either be straight lines 
+or gently curving lines that can be embossed using a 
+serrated tracing wheel. (Serrated tracing wheels can be purchased at fabric, hobby, or craft stores. 
+If there is a choice, ask your assistant to purchase the wheel with the sharpest serrations.) 
+
+
+</para>
+
+
+
+
+<para id="p1053">
+Just ask your assistant to emboss narrow lines once 
+in the center of the line, and to emboss wide lines twice, once on each side of 
+the line. Very wide lines can be embossed three times, once on each side and 
+once in the center. The use of a straight edge as a guide works very well for straight 
+lines. If the line is not straight, your assistant should do her best to follow 
+the line with the tracing wheel on a freehand basis.
+
+</para>
+
+
+
+
+<para id="p1054">
+<emphasis id="strong1015" effect="bold">
+A backing pad is required
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1055">
+Don't attempt to emboss the image with the paper on a hard surface. You will 
+need to place it on a backing pad of some sort so that the serrations will 
+penetrate the paper. A block of Styrofoam works pretty well for this purpose, as 
+does a piece of corrugated cardboard from a cardboard packing box. Many
+
+
+<link id="a1041" url="http://www.fredshead.info/2006/01/tactile-graphics-kit-replacement-parts.html">
+
+
+tactile graphics kits
+
+</link>
+
+ include a backing pad, but those kits are pretty 
+expensive and may be overkill for your needs.
+
+</para>
+
+
+
+
+<para id="p1056">
+You may be 
+able to identify another inexpensive material for a backing pad that works even better. If 
+you do, I would like to hear about it so that I can pass that information along 
+to other students.
+
+</para>
+
+
+
+
+<para id="p1057">
+<emphasis id="strong1016" effect="bold">
+Don't emboss the English text characters
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1058">
+The most difficult thing about manually embossing the image in 
+
+<link id="a1042" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+ 
+is the task of embossing the English text labels in a form that is accessible to 
+a blind student. Therefore, I don't intend for your assistant to emboss that text, 
+unless she elects to do so using Braille 
+
+<link id="a1043" target-id="On_the_other_hand">
+
+as 
+described below
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1059">
+<emphasis id="strong1017" effect="bold">
+Key characters
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1060">
+The image in the file named 1.svg contains 19 strategically placed key 
+characters consisting of the characters from A through S. (Other images in other 
+modules will have different numbers of key characters.) As mentioned earlier, 
+the key characters are printed in a smaller oblique font to make them easily 
+distinguishable from the regular text. (They are also printed as a mirror image 
+of the actual English character.)
+
+</para>
+
+
+
+
+<para id="p1061">
+<emphasis id="strong1018" effect="bold">
+Emboss the lines and Braille the key characters
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1062">
+Your assistant should emboss all of the lines in the image, and should 
+replace the smaller, oblique key characters of "A" through "S" with corresponding Braille characters 
+using a slate and stylus. This may be the point where you will need to help. If 
+your assistant doesn't know Braille, have her place the Braille template over the 
+character and tell you what the character is so that you can emboss it yourself.
+
+</para>
+
+
+
+
+<para id="p1063">
+Alternatively, your assistant can find a visual chart showing Braille characters for the alphabet at
+Wikipedia. (See
+
+
+<link id="a1044" url="http://en.wikipedia.org/wiki/Braille#Letters_and_numbers">
+
+
+http://en.wikipedia.org/wiki/Braille#Letters_and_numbers
+
+</link>
+
+.)
+
+</para>
+
+
+
+
+<para id="p1064">
+<emphasis id="strong1019" effect="bold">
+Make sure the orientation is correct
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1065">
+Each Braille character should be embossed in reversed orientation relative to that 
+chart. For example, when you turn the paper over 
+and touch it, you should recognize the Braille character for an "A" where the key 
+value "A" appears (reversed) in English text on the printed mirror image.
+
+</para>
+
+
+
+
+<para id="p1066">
+In addition to the key characters, you or your assistant should emboss a 
+Braille label of your own choosing on each image so that you can identify it 
+later.
+
+</para>
+
+
+
+
+<para id="p1067">
+<emphasis id="strong1020" effect="bold">
+You may need a flag
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1068">
+Some of the key characters, such as the letter "A", with a small number of 
+dots may be difficult for you to locate on the embossed image. Therefore, you 
+and your assistant may need to emboss some sort of a flag near the Braille 
+character to alert you of its presence. One possibility would be to use the 
+tracing wheel to emboss a small X next to the Braille key character. If the two 
+of you come up with a flag that is both effective and easy to create, I would 
+like to hear about it so that I can pass the information along to other 
+students.
+
+</para>
+
+
+
+
+<para id="p1069">
+<emphasis id="strong1021" effect="bold">
+Key-value pairs
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1070">
+<link id="a1045" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+
+ contains the text values associated with each of the Braille key characters 
+shown in 
+
+<link id="a1046" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+
+
+
+
+<table id="table1002" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1002">
+<row id="tr1004">
+<entry id="th1002">
+
+
+
+<emphasis id="Figure_3" effect="bold">
+
+Figure 3
+
+</emphasis>
+
+. Text values for Braille keys in file 1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1002">
+<row id="tr1005">
+<entry id="td1002">
+
+
+
+<code id="pre1000" display="block">
+A: Beam supported by a diagonal cable
+B: V
+C: H
+D: M*g
+E: T
+F: Ty
+G: Tx
+H: 30 degrees
+I: The large characters are 32 pt and these characters are 16 pt
+J: Note: Vectors not drawn to scale
+K: Wall supporting beam
+L: Vertical support vector at wall
+M: Horizontal support vector at wall
+N: Beam
+O: Weight vector for beam
+P: Horizontal component of tension vector
+Q: Tension vector
+R: Vertical component of tension vector
+S: Physical support cable
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+	
+
+<para id="p1071">
+The text values in the right-hand column in 
+
+<link id="a1047" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+
+ are the text values 
+	that you would read if all of the text on the image were embossed in 
+	Braille. However, embossing all of that text in Braille would make your 
+	assistant's job much more difficult. Therefore, in the interest of 
+	simplicity, my approach will be to present the text for an individual image 
+	as shown in 
+
+<link id="a1048" target-id="Figure_3">
+
+Figure 3,
+
+</link>
+
+ and to provide Braille key characters on the images 
+	that you can use to tie the text to the image.
+
+</para>
+
+
+
+
+<para id="p1072">
+<emphasis id="On_the_other_hand" effect="bold">
+
+
+<emphasis id="strong1022" effect="bold">
+On the other hand
+
+</emphasis>
+</emphasis>
+
+ 
+
+</para>
+
+
+
+
+<para id="p1073">
+If your assistant is good at manually embossing with Braille and can spare 
+the time to do so, there is no reason that she can't simply emboss Braille right 
+over the printed text. Then, except for keys that refer to objects such as the 
+key labeled "M" in 
+
+<link id="a1049" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+, you and your assistant 
+can simply ignore the keys.
+
+</para>
+
+
+
+
+<para id="p1074">
+<emphasis id="strong1023" effect="bold">
+The intended operational mode
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1075">
+The intended operational mode is for you to locate an object of 
+	interest on the embossed image, locate the Braille key associated with that 
+	object, and then come back to 
+
+<link id="a1050" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+
+ to read the text associated with that 
+	object.
+
+</para>
+
+
+
+
+<para id="p1076">
+<emphasis id="strong1024" effect="bold">
+A vector diagram
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1077">
+Once you begin exploring the embossed image from the file named 1.svg by touch, you will discover that 
+there are several objects on the image that consist of heavy straight lines with 
+arrow heads. Those objects are what we will refer to as vectors in subsequent 
+modules.
+
+</para>
+
+
+
+
+<para id="p1078">
+This diagram includes a vertical wall on the left side of the 
+image. A rectangular beam protrudes horizontally from the wall towards the right 
+a little below the vertical center of the image. A supporting cable is attached 
+to the right end of the beam at an angle of 30 degrees and attaches back to the 
+wall above the point where the beam is attached to the wall.
+
+</para>
+
+
+
+
+<para id="p1079">
+The image shows the vectors associated with various forces in the 
+wall-beam-cable configuration along with the beam and the cable in the 
+background. This will be a common theme throughout this collection. A picture of 
+something will be presented in the background and vectors will be shown in the 
+foreground.
+
+</para>
+
+
+
+
+<para id="p1080">
+<emphasis id="strong1025" effect="bold">
+Very light gray shading
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1081">
+Your assistant will note that I represented the wall and the beam with a very 
+light gray shading and a few widely-spaced dots along the edges. I also 
+represented the cable as a dashed line.
+
+</para>
+
+
+
+
+<para id="p1082">
+I'm not sure 
+of the best way to emboss the beam and the wall. One approach would be to 
+simply use the tracing wheel and emboss the outline of the beam and the wall. 
+However, I'm concerned that the addition of the horizontal and 
+vertical lines required to do that would make it more difficult for you to 
+discern the more important information, which is the 
+location and direction of each vector.
+
+</para>
+
+
+
+
+<para id="p1083">
+You and your assistant will probably need to discuss this issue and determine 
+what works best for you in terms of identifying the location and shape of the 
+beam and the wall. Ideally, you will come up with a solution that can be applied 
+to the background pictures in other images in future modules.
+
+</para>
+
+
+
+
+<para id="p1084">
+One option might be to print two copies of the file and ask your assistant to 
+emboss only the outer frame and the background picture in one, and to emboss 
+everything but the background picture in the other.
+
+</para>
+
+
+
+
+<para id="p1085">
+If you come up with a really good idea in this regard, I 
+would like to hear what it is so that I can pass it along to other 
+students.
+
+</para>
+
+
+	
+
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1086">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1087">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1026" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+
+
+<item id="li1039">
+Module name: Manual Creation of Tactile Graphics
+
+</item>
+
+
+
+
+<item id="li1040">
+File: Phy1004.htm
+
+
+</item>
+
+
+
+
+<item id="li1041">
+Revised: 09/30/15
+
+</item>
+
+
+	
+
+<item id="li1042">
+Keywords:
+
+<list id="ul1010" list-type="bulleted">
+
+		
+
+<item id="li1043">
+physics
+
+</item>
+
+
+		
+
+<item id="li1044">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1045">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1046">
+blind
+
+</item>
+
+
+		
+
+<item id="li1047">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1048">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1049">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1050">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1051">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1052">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1053">
+tactile graphics
+
+</item>
+
+
+					
+
+<item id="li1054">
+embossing
+
+</item>
+
+
+					
+
+<item id="li1055">
+IVEO
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+<emphasis id="strong1027" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1088">
+<emphasis id="strong1028" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1029" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1089">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1030" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1090">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1031" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1091">
+<emphasis id="strong1032" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1092">
+-end-
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

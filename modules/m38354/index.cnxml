@@ -1,0 +1,1796 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1200: Energy -- Power</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38354</md:content-id>
+  <md:title>Phy1200: Energy -- Power</md:title>
+  <md:abstract>This module explains power in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>4a0d6cae-9df4-4045-80b2-64e94ebad143</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" target-id="General_background_information">
+
+General background information
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1005">
+<link id="a1005" target-id="Discussion">
+
+Sample calculations
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1006">
+<link id="a1006" target-id="Run_the_program">
+
+Do the calculations
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1007">
+<link id="a1007" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1008">
+<link id="a1008" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1009" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains power in a format that is accessible to blind 
+students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1002" list-type="bulleted">
+
+	
+
+<item id="li1009">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1010" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1010">
+A protractor for measuring angles (
+
+<link id="a1011" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1011">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1012" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1012">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1013" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1013">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1003" list-type="bulleted">
+
+	
+
+<item id="li1014">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1015">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1014" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1016">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1015" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1017">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1016" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1018">
+An introductory understanding of JavaScript programming (
+
+<link id="a1017" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1018" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1019">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1019" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="General_background_information" effect="bold">
+
+General background 
+information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+<emphasis id="strong1000" effect="bold">
+What is work?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1006">
+You learned in an earlier module that work occurs when a force causes a mass to be displaced by some 
+distance. You learned that the equation for the quantity of work done is equal to
+
+</para>
+
+
+
+
+<para id="p1007">
+W = (f*newton)*(d*meter) = f*d*N*m
+
+</para>
+
+
+
+
+<para id="p1008">
+You also learned that work is measured in joules, where one joule is equal to one newton multiplied by 
+one meter.
+
+</para>
+
+
+
+
+<para id="p1009">
+1 joule = 1 N * 1 m, or
+
+</para>
+
+
+
+
+<para id="p1010">
+1 joule = (1 kg * m/s^2) * m, or
+
+</para>
+
+
+
+
+<para id="p1011">
+1 joule = 1 kg*m^2/s^2
+
+</para>
+
+
+
+
+<para id="p1012">
+Paste the right-hand expression into the Google search box and press Enter 
+just to be sure.
+
+</para>
+
+
+
+
+<para id="p1013">
+<emphasis id="strong1001" effect="bold">
+What about time?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1014">
+Note that the equation for work says nothing about time. The same amount of 
+work is done if it takes one second or one month for the object to which the 
+force is applied to move by the same distance.
+
+</para>
+
+
+
+
+<para id="p1015">
+<emphasis id="strong1002" effect="bold">
+That doesn't sound right!
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1016">
+This goes against our normal concept of work. If Joe spreads one cubic yard 
+of topsoil on the lawn in one hour and Bill requires three hours to do the same 
+job, we might say that Joe is working harder than Bill.
+
+</para>
+
+
+
+
+<para id="p1017">
+<emphasis id="strong1003" effect="bold">
+Power
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1018">
+To be correct from a physics viewpoint, we would need to say that Joe is 
+delivering more 
+
+<emphasis id="strong1004" effect="bold">
+power
+
+</emphasis>
+ than Bill. In other words, 
+
+<emphasis id="strong1005" effect="bold">
+power
+
+</emphasis>
+ 
+is a measure of the rate at which work is done. They both do the same amount of 
+work, but Joe does it more quickly than Bill. Hence Joe delivers more power than 
+Bill.
+
+</para>
+
+
+
+
+<para id="p1019">
+<emphasis id="strong1006" effect="bold">
+Power in equation form
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1020">
+Power is the ratio of work to time. In equation form, 
+
+</para>
+
+
+
+
+<para id="p1021">
+Power = Work/time
+
+</para>
+
+
+
+
+<para id="p1022">
+<emphasis id="strong1007" effect="bold">
+The SI unit for power
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1023">
+The SI unit for power is the 
+
+<emphasis id="strong1008" effect="bold">
+watt
+
+</emphasis>
+. One watt of power is 
+being delivered when one 
+joule of work or energy is being delivered each second.
+
+</para>
+
+
+
+
+<para id="p1024">
+<emphasis id="strong1009" effect="bold">
+An electric heater
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1025">
+In other words, if you have an electric heater that is properly rated at 60 
+watts, it will deliver 60 joules of energy per second when it is turned on.
+
+</para>
+
+
+
+
+<para id="p1026">
+This means that 
+somewhere in the world, someone or something must be doing work at a rate of 60 
+joules per second in order to insert the energy into the electrical grid that 
+your heater will be taking out of the grid and turning into heat energy.
+
+</para>
+
+
+
+
+<para id="p1027">
+<emphasis id="strong1010" effect="bold">
+Horsepower
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1028">
+For historical reasons, particularly in the U.S., we also use the term 
+
+<emphasis id="em1001" effect="italics">
+
+horsepower
+
+</emphasis>
+ to describe the power delivered by a machine. This is 
+particularly true in the automotive industry, but it applies to other kinds of 
+machines as well. We might speak of a car with a 300 horsepower engine, or a 
+clothes washing machine with a quarter-horsepower motor.
+
+</para>
+
+
+
+
+<para id="p1029">
+One horsepower is equal to approximately 750 watts.
+
+</para>
+
+
+
+
+<para id="p1030">
+<emphasis id="strong1011" effect="bold">
+Most machines do work
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1031">
+Most machines are designed to consume electrical or chemical energy and do 
+work on an object. Some machines, such as the treadmill at the health center, are designed to consume 
+human energy in order to do work.
+
+</para>
+
+
+
+
+<para id="p1032">
+In order for a machine to do work, it must 
+consume energy in some form.
+
+</para>
+
+
+
+
+<para id="p1033">
+<emphasis id="strong1012" effect="bold">
+Power ratings for machines
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1034">
+Machines are often described by a power rating. The power rating 
+indicates the rate at which that machine can do work on objects. 
+
+</para>
+
+
+
+
+<para id="p1035">
+When I was in 
+the military many years ago, there were potato peeling machines in kitchens in the mess 
+halls. Their purpose was to do work on potatoes by removing the peel. Presumably a machine with 
+a high power rating could peel more potatoes per hour than one with a lower 
+power rating.
+
+</para>
+
+
+
+
+<para id="p1036">
+<emphasis id="strong1013" effect="bold">
+Automobile engines and horsepower
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1037">
+Automobile engines are often rated in terms of power using horsepower as the 
+units. At the drag-race track, contests are held to determine which vehicle can move 
+from point A to point B in the shortest amount of time. 
+
+</para>
+
+
+
+
+<para id="p1038">
+Since work is measured as force multiplied by distance, and power is measured 
+as the work done per unit of time, everything else being equal, one would expect 
+that the vehicle with the highest power rating would be the winner in moving a 
+given distance in the shortest amount of time.
+
+</para>
+
+
+
+
+<para id="p1039">
+<emphasis id="strong1014" effect="bold">
+What about the units?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1040">
+What are the units of power? We know that 
+
+</para>
+
+
+
+
+<para id="p1041">
+Power = force * distance/seconds
+
+</para>
+
+
+
+
+<para id="p1042">
+We know that the units of force are 
+
+</para>
+
+
+
+
+<para id="p1043">
+f = m*a = kg*m/s^2
+
+</para>
+
+
+
+
+<para id="p1044">
+We know that the units of time are seconds, and the units of distance are 
+meters. Therefore,
+
+</para>
+
+
+
+
+<para id="p1045">
+Power = f*d/time = (kg*m/s^2)*(m/s) = (kg*m^2)/(s^3), or
+
+</para>
+
+
+
+
+<para id="p1046">
+Power = kg*(m^2)*(s^(-3))
+
+</para>
+
+
+
+
+<para id="p1047">
+Plug the right-hand expression into the Google search box and you will learn 
+that
+
+</para>
+
+
+
+
+<para id="p1048">
+1 watt = 1 kg*(m^2)*(s^(-3)), or
+
+</para>
+
+
+
+
+<para id="p1049">
+1 watt = 1 N*m/s
+
+</para>
+
+
+
+
+<para id="p1050">
+<emphasis id="strong1015" effect="bold">
+Another viewpoint
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1051">
+As explained above, 
+
+</para>
+
+
+
+
+<para id="p1052">
+Power = force*distance/time
+
+</para>
+
+
+
+
+<para id="p1053">
+We learned in earlier modules that velocity is equal to the ratio of 
+displacement and time. Therefore,
+
+</para>
+
+
+
+
+<para id="p1054">
+Power = force * velocity
+
+</para>
+
+
+
+
+<para id="p1055">
+Therefore, power is proportional to both force and velocity. A truck in a 
+load-pulling contest that moves rather slowly but with great force is powerful.
+
+</para>
+
+
+
+
+<para id="p1056">
+Similarly, a racing motorcycle that moves very fast with relatively little 
+force is also powerful.
+
+</para>
+
+
+
+
+<para id="p1057">
+And the great granddaddy of them all, a huge boulder that plows through a 
+house at great speed during a landslide is very powerful.
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Sample calculations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1058">
+<emphasis id="strong1016" effect="bold">
+A story of two cranes
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1059">
+One crane named A lifts a 1000 kg object to a height of 100 meters in 10 
+seconds. Another crane named B requires 100 seconds to do the same thing.
+
+</para>
+
+
+
+
+<para id="p1060">
+Which crane does the most work?
+
+</para>
+
+
+
+
+<para id="p1061">
+Which crane delivers the most power?
+
+</para>
+
+
+
+
+<para id="p1062">
+Solution:
+
+</para>
+
+
+
+
+<para id="p1063">
+Both cranes do the same amount of work by displacing the same object the same 
+distance against the force of gravity. The work done is equal to
+
+</para>
+
+
+
+
+<para id="p1064">
+(1000kg*9.8m/s^2)*100m = 980000 joules
+
+</para>
+
+
+
+
+<para id="p1065">
+Crane A delivers 980000 joules in 10 seconds. Therefore, crane A delivers
+
+</para>
+
+
+
+
+<para id="p1066">
+(980000 joules) / (10 seconds) = 98000 watts
+
+</para>
+
+
+
+
+<para id="p1067">
+Crane B delivers 
+
+</para>
+
+
+
+
+<para id="p1068">
+	
+(980000 joules) / (100 seconds) = 9800 watts
+
+</para>
+
+
+
+
+<para id="p1069">
+Therefore, crane A delivers the most power.
+
+</para>
+
+
+
+
+<para id="p1070">
+<emphasis id="strong1017" effect="bold">
+Another story about cranes
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1071">
+One crane named A lifts a 1000 kg object to a height of 100 meters in 10 
+seconds. Another crane named B lifts a 500 kg object to a height of 100 meters 
+in 5 seconds.
+
+</para>
+
+
+
+
+<para id="p1072">
+Which crane does the most work?
+
+</para>
+
+
+
+
+<para id="p1073">
+Which crane delivers the most power?
+
+</para>
+
+
+
+
+<para id="p1074">
+Solution:
+
+</para>
+
+
+
+
+<para id="p1075">
+The work done by crane A is 
+
+</para>
+
+
+
+
+<para id="p1076">
+	 	
+(1000 kg) * (9.8 (m / (s^2))) * (100 m) = 980000 joules
+
+</para>
+
+
+
+
+<para id="p1077">
+The work done by crane B is
+
+</para>
+
+
+
+
+<para id="p1078">
+(500 kg) * (9.8 (m / (s^2))) * (100 m) = 490000 joules
+
+</para>
+
+
+
+
+<para id="p1079">
+Therefore crane A does the most work.
+
+</para>
+
+
+
+
+<para id="p1080">
+Crane A delivers 980000 joules in 10 seconds. Therefore, crane A delivers
+
+</para>
+
+
+
+
+<para id="p1081">
+(980000 joules) / (10 seconds) = 98000 watts
+
+</para>
+
+
+
+
+<para id="p1082">
+Crane B delivers 
+
+</para>
+
+
+
+
+<para id="p1083">
+	
+(490000 joules) / (5 seconds) = 98000 watts
+
+</para>
+
+
+
+
+<para id="p1084">
+Therefore, both cranes deliver the same amount of power.
+
+</para>
+
+
+
+
+<para id="p1085">
+<emphasis id="strong1018" effect="bold">
+Your electric bill
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1086">
+An electric bill is often expressed in terms of kilowatt-hours (kwh). One 
+kilowatt-hour represents a power expenditure of 1000 watts in one hour.
+
+</para>
+
+
+
+
+<para id="p1087">
+How many joules of energy are represented by 100 kwh?
+
+</para>
+
+
+
+
+<para id="p1088">
+Solution:
+
+</para>
+
+
+
+
+<para id="p1089">
+1 kwh = 1000 watt * 1 hour * 3600 s/hour, or
+
+</para>
+
+
+
+
+<para id="p1090">
+1 kwh = 3.6*10^6 watt*s
+
+</para>
+
+
+
+
+<para id="p1091">
+1 watt = 1 N*m/s, therefore
+
+</para>
+
+
+
+
+<para id="p1092">
+1 kwh = 3.6*10^6 *(N*m/s) * s = 3.6*10^6 N*m
+
+</para>
+
+
+
+
+<para id="p1093">
+1 joule = 1 N*m, therefore
+
+</para>
+
+
+
+
+<para id="p1094">
+1 kwh = 3.6*10^6 joules, and
+
+</para>
+
+
+
+
+<para id="p1095">
+100 kwh = 3.6*10^8 joules
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Do the
+
+</emphasis>
+
+ calculations
+
+</title>
+
+
+
+
+	
+
+<para id="p1096">
+I encourage you to repeat the calculations that I have presented in this lesson to confirm that you get the same results. Experiment with the scenarios, making changes, and observing the results of your changes. Make certain that you can explain why your changes behave as they do. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1097">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1098">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1019" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1004" list-type="bulleted">
+
+
+
+<item id="li1020">
+Module name: Energy -- Power
+
+</item>
+
+
+
+
+<item id="li1021">
+File: Phy1200.htm
+
+
+</item>
+
+
+	
+
+<item id="li1022">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1023">
+Keywords:
+
+<list id="ul1005" list-type="bulleted">
+
+		
+
+<item id="li1024">
+physics
+
+</item>
+
+
+		
+
+<item id="li1025">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1026">
+accessibility
+
+</item>
+
+
+		
+
+<item id="li1027">
+blind
+
+</item>
+
+
+		
+
+<item id="li1028">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1029">
+protractor
+
+</item>
+
+
+		
+
+<item id="li1030">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1031">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1032">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1033">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1034">
+potential energy
+
+</item>
+
+
+		
+
+<item id="li1035">
+work
+
+</item>
+
+
+		
+
+<item id="li1036">
+gravitational potential energy
+
+</item>
+
+
+		
+
+<item id="li1037">
+elastic potential energy
+
+</item>
+
+
+		
+
+<item id="li1038">
+kinetic energy
+
+</item>
+
+
+		
+
+<item id="li1039">
+mechanical energy
+
+</item>
+
+
+					
+
+<item id="li1040">
+total mechanical energy
+
+</item>
+
+
+					
+
+<item id="li1041">
+power
+
+</item>
+
+
+					
+
+<item id="li1042">
+watt
+
+</item>
+
+
+				
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+<emphasis id="strong1020" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1099">
+<emphasis id="strong1021" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1022" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1100">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1023" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1101">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1024" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1102">
+<emphasis id="strong1025" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1103">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

@@ -1,0 +1,3198 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1350: Angular Momentum -- The Physics of Rolling Objects</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38498</md:content-id>
+  <md:title>Phy1350: Angular Momentum -- The Physics of Rolling Objects</md:title>
+  <md:abstract>This module explains the physics of rolling objects in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>61737acf-70ed-4b62-b32f-b7d4bead00c1</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Figures">
+
+Figures
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1006">
+<link id="a1006" target-id="Discussion">
+
+Discussion
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="Rotational_versus_translational_kinetic_energy">
+
+Rotational versus translational kinetic energy
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="Total_kinetic_energy">
+
+Total kinetic energy
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="AccelerationOfRollingObject">
+
+Acceleration of a rolling 
+		object
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1010">
+<link id="a1010" target-id="Example_scenarios">
+
+Example scenarios
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+		
+
+<item id="li1011">
+<link id="a1011" target-id="Rolling_cylinders">
+
+Rolling cylinders
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+			
+
+<item id="li1012">
+<link id="a1012" target-id="Part_1a">
+
+Part 1
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1013">
+<link id="a1013" target-id="Part_2a">
+
+Part 2
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1014">
+<link id="a1014" target-id="Acceleration_of_a_rolling_object">
+
+Acceleration of a 
+		rolling cylinder
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1015">
+<link id="a1015" target-id="Run_the_program">
+
+Work through the computations
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1016">
+<link id="a1016" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1017">
+<link id="a1017" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1018" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics.
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains the physics of rolling objects in a format that is 
+accessible to blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1018">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1019" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1019">
+A protractor for measuring angles (
+
+<link id="a1020" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1020">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1021" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1021">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1022" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1022">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1023">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1024">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1023" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1025">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1024" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1026">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1025" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1027">
+An introductory understanding of JavaScript programming (
+
+<link id="a1026" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1027" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1028">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you open another copy of this document in a separate 
+browser window and use the following links to easily find and view the figures 
+while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+ 
+
+<emphasis id="Figures" effect="bold">
+
+Figures
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1029">
+<link id="a1028" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+. Examples of moment of inertia. 
+
+</item>
+
+
+	
+
+<item id="li1030">
+<link id="a1029" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+. Relationship between rotational and translational kinetic energy.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h21003">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1030" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+What happens when objects with different moments of inertia (rotational 
+inertia) roll down a hill? Does the moment of inertia effect how the objects 
+roll? Those are the kinds of questions that we will explore in this module.
+
+</para>
+
+
+
+
+<para id="p1007">
+<emphasis id="strong1000" effect="bold">
+A symmetrical object rolling down an incline
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1008">
+Imagine an object that is symmetrical about its center of mass (such as a 
+sphere or a cylinder) rolling down an incline. The center of mass experiences 
+translational motion as it rolls down the incline. In addition, the object is 
+rotating about an axis that passes through the center of mass.
+
+</para>
+
+
+
+
+<para id="p1009">
+<emphasis id="strong1001" effect="bold">
+The translational velocity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1010">
+If the object is rolling without slipping, the translational velocity of the 
+center of mass is given by
+
+</para>
+
+
+
+
+<para id="p1011">
+<emphasis id="Vcm" effect="bold">
+
+Vcm
+
+</emphasis>
+
+ = W*R
+
+</para>
+
+
+
+
+<para id="p1012">
+where
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1031">
+Vcm represents the translational velocity of the center of mass
+
+</item>
+
+
+	
+
+<item id="li1032">
+W represents the angular velocity
+
+</item>
+
+
+	
+
+<item id="li1033">
+R represents the radius
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1013">
+<emphasis id="strong1002" effect="bold">
+A well-defined relationship
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1014">
+This means that there is a well-defined relationship between the rolling 
+object's translational and rotational kinetic energies. The total 
+kinetic energy of a rolling object is the sum of its translational and 
+rotational kinetic energies.
+
+</para>
+
+
+
+
+<para id="p1015">
+<emphasis id="strong1003" effect="bold">
+A clue
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1016">
+This may give you a clue as to where we are heading with this. As a preview, 
+when an object rolls down an incline it exchanges potential energy for kinetic 
+energy. 
+Some of that potential energy is transformed into translational kinetic energy 
+and some is transformed into rotational kinetic energy. The manner in which that 
+potential energy is distributed between the two forms of kinetic energy has an 
+impact on how the object rolls.
+
+</para>
+
+
+
+
+<para id="p1017">
+<emphasis id="strong1004" effect="bold">
+Cylinders, disks, and spheres
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1018">
+Imagine a cylinder-like, disk-like, or sphere-like object that has a mass M and a radius R 
+rolling down an incline. The moment of inertia for each of four different 
+geometrical examples is 
+shown in 
+
+<link id="a1031" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+
+.
+
+</para>
+
+
+
+
+
+
+<table id="table1000" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1000">
+<row id="tr1000">
+<entry id="th1000">
+
+
+
+<emphasis id="Figure_1" effect="bold">
+
+Figure 1
+
+</emphasis>
+
+. Examples of moment of inertia.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1000">
+<row id="tr1001">
+<entry id="td1000">
+
+	
+
+<para id="p1019">
+<emphasis id="strong1005" effect="bold">
+Thin hollow cylindrical shape or hoop
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1020">
+I = M*R^2
+
+</para>
+
+
+	
+
+<para id="p1021">
+<emphasis id="strong1006" effect="bold">
+Solid cylinder or disk
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1022">
+I = (1/2)*M*R^2
+
+</para>
+
+
+	
+
+<para id="p1023">
+<emphasis id="strong1007" effect="bold">
+Solid sphere
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1024">
+I = (2/5)*M*R^2
+
+</para>
+
+
+	
+
+<para id="p1025">
+<emphasis id="strong1008" effect="bold">
+Then hollow spherical shell
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1026">
+I = (2/3)*M*R^2
+
+</para>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+	
+
+<para id="p1027">
+<emphasis id="strong1009" effect="bold">
+A very important constant
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1028">
+As you can see from 
+
+<link id="a1032" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+
+, for these four shapes at least, the moment 
+	of inertia is equal to a constant multiplied by the product of the mass and 
+	the square of the radius. (As far as I know, this constant hasn't been given 
+a widely-recognized name.)
+
+</para>
+
+
+	
+
+
+<para id="p1029">
+In these four cases, we can write an expression for the moment of inertia 
+for rotation about the center of mass as
+
+</para>
+
+
+
+
+<para id="p1030">
+<emphasis id="Icm" effect="bold">
+
+Icm
+
+</emphasis>
+
+ = Q*M*(R^2)
+
+</para>
+
+
+
+
+<para id="p1031">
+where
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1034">
+Icm represents the moment of inertia through the center of mass
+
+</item>
+
+
+	
+
+<item id="li1035">
+Q represents a constant that applies for a particular shape
+
+</item>
+
+
+	
+
+<item id="li1036">
+M represents the mass
+
+</item>
+
+
+	
+
+<item id="li1037">
+R represents the radius
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1032">
+<emphasis id="strong1010" effect="bold">
+The purpose of the constant
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1033">
+The purpose of the constant, Q, is to specify how the mass is distributed 
+relative to the axis of rotation. Larger values of Q generally indicate that the 
+mass is distributed further from the axis of rotation. Similarly, larger values 
+of Q also indicate larger moments of inertia.
+
+</para>
+
+
+
+
+<section id="h21004">
+<title>
+<emphasis id="Rotational_versus_translational_kinetic_energy" effect="bold">
+
+Rotational versus translational kinetic energy
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1034">
+Given the relationships
+
+</para>
+
+
+
+
+<para id="p1035">
+<link id="a1033" target-id="Icm">
+
+Icm
+
+</link>
+
+ = Q*M*R^2, and
+
+</para>
+
+
+
+
+<para id="p1036">
+<link id="a1034" target-id="Vcm">
+
+Vcm
+
+</link>
+
+ = W*R, and
+
+</para>
+
+
+
+
+<para id="p1037">
+Krot = (1/2)*Icm*W^2
+
+</para>
+
+
+
+
+<para id="p1038">
+where
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1038">
+Icm represents the moment of inertia through the center of mass
+
+</item>
+
+
+	
+
+<item id="li1039">
+Q represents a constant that applies for a particular shape
+
+</item>
+
+
+	
+
+<item id="li1040">
+M represents the mass
+
+</item>
+
+
+	
+
+<item id="li1041">
+R represents the radius
+
+</item>
+
+
+	
+
+<item id="li1042">
+Vcm represents the translational velocity of the center of mass
+
+</item>
+
+
+	
+
+<item id="li1043">
+W represents the angular velocity
+
+</item>
+
+
+	
+
+<item id="li1044">
+R represents the radius
+
+</item>
+
+
+	
+
+<item id="li1045">
+Krot represents the rotational kinetic energy that you learned about in 
+	an
+	
+
+<link id="a1035" url="http://cnx.org/contents/dc908d2d-466f-4d31-b420-243fee38af6a/Phy1300-Angular-Momentum----Ro">
+
+earlier module
+
+</link>
+
+.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1039">
+We can substitute and write
+
+</para>
+
+
+
+
+<para id="p1040">
+Krot = (1/2)*(Q*M*R^2)*(Vcm/R)^2, or
+
+</para>
+
+
+
+
+<para id="p1041">
+Krot = (1/2)*(Q*M*R^2)*(Vcm^2/R^2), or
+
+</para>
+
+
+
+
+<para id="p1042">
+Krot = (1/2)*(Q*M)*(Vcm^2), or
+
+</para>
+
+
+
+
+<para id="p1043">
+Krot = Q*(1/2)*(M)*(Vcm^2)
+
+</para>
+
+
+
+
+<para id="p1044">
+Given that
+
+</para>
+
+
+
+
+<para id="p1045">
+Ktr = (1/2)*(M)*(Vcm^2)
+
+</para>
+
+
+
+
+<para id="p1046">
+where
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1046">
+Ktr represents translational kinetic energy, which you also learned 
+	about in the
+	
+
+<link id="a1036" url="http://cnx.org/contents/dc908d2d-466f-4d31-b420-243fee38af6a/Phy1300-Angular-Momentum----Ro">
+
+earlier module
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1047">
+A relationship between rotational and translational kinetic energy can be 
+derived. That relationship is given 
+by the expression shown in 
+
+<link id="a1037" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+
+.
+
+</para>
+
+
+
+
+
+
+<table id="table1001" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1001">
+<row id="tr1002">
+<entry id="th1001">
+
+
+
+<emphasis id="Figure_2" effect="bold">
+
+Figure 2
+
+</emphasis>
+
+. Relationship between rotational and 
+	translational kinetic energy.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1001">
+<row id="tr1003">
+<entry id="td1001">
+
+
+
+<para id="p1048">
+Krot = Q*Ktr
+
+</para>
+
+
+	
+
+<para id="p1049">
+where
+
+</para>
+
+
+	
+
+<list id="ul1013" list-type="bulleted">
+
+		
+
+<item id="li1047">
+Krot represents rotational kinetic energy
+
+</item>
+
+
+		
+
+<item id="li1048">
+Ktr represents translational kinetic energy
+
+</item>
+
+
+		
+
+<item id="li1049">
+Q is a constant that depends on how the mass is geometrically 
+		distributed in the rolling object
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+	
+
+<para id="p1050">
+<emphasis id="strong1011" effect="bold">
+A very interesting equation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1051">
+The equation shown in 
+
+<link id="a1038" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+
+ is very interesting. It shows that the 
+relationship that determines the distribution of kinetic energy between 
+translational kinetic energy and rotational kinetic depends solely on the 
+constant Q, and is independent of the mass, the radius, etc.
+
+</para>
+
+
+
+
+<para id="p1052">
+The constant Q depends on how the mass is geometrically distributed in the 
+rolling object. Generally speaking, the more the mass is distributed toward the 
+outer edge of the object, the greater will be the value of Q.
+
+</para>
+
+
+	
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Total_kinetic_energy" effect="bold">
+
+Total kinetic energy
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1053">
+The total kinetic energy is given by
+
+</para>
+
+
+
+
+<para id="p1054">
+K = Ktr + Krot, or
+
+</para>
+
+
+
+
+<para id="p1055">
+K = (1/2)*M*(Vcm)^2 + (1/2)*Icm*W^2
+
+</para>
+
+
+
+
+<para id="p1056">
+where
+
+</para>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1050">
+K represents total kinetic energy
+
+</item>
+
+
+	
+
+<item id="li1051">
+M represents the mass
+
+</item>
+
+
+	
+
+<item id="li1052">
+Vcm represents the translational velocity of the center of mass
+
+</item>
+
+
+	
+
+<item id="li1053">
+Icm represents the moment of inertia through the center of mass
+
+</item>
+
+
+	
+
+<item id="li1054">
+W represents the angular velocity
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1057">
+Through substitution we can write
+
+</para>
+
+
+
+
+<para id="p1058">
+K = Ktr + Krot, or
+
+</para>
+
+
+
+
+<para id="p1059">
+K = Ktr + Q*Ktr, or
+
+</para>
+
+
+
+
+<para id="p1060">
+K = (1 + Q)*Ktr, or
+
+</para>
+
+
+
+
+<para id="p1061">
+<emphasis id="KeVersusQ" effect="bold">
+
+K = (1 + Q)*(1/2)*M*(Vcm)^2
+
+</emphasis>
+
+
+</para>
+
+
+
+
+<para id="p1062">
+Thus, an object with a given mass and a given translational velocity has a 
+total kinetic energy that is proportional to (1+Q). The larger the value of Q, 
+the greater will be the kinetic energy possessed by the object.
+
+</para>
+
+
+
+
+<para id="p1063">
+From 
+
+<link id="a1039" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+
+, a rolling hollow cylinder with a Q value of 1 would have a 
+greater total kinetic energy than a solid cylinder with the same mass and a Q 
+value of 0.5 rolling with the same translational velocity. This is because the 
+cylinder would have more rotational kinetic energy.
+
+</para>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="AccelerationOfRollingObject" effect="bold">
+
+Acceleration of a rolling object
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1064">
+If there were no friction, an object would not roll down an incline. Instead 
+it would simply slide down the incline. In the absence of torque, the rotational 
+inertia of the object would prevent it from experiencing angular acceleration.
+
+</para>
+
+
+
+
+<para id="p1065">
+The frictional force parallel to the incline and pointing up the incline 
+produces a torque that causes the object to experience angular acceleration.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Example_scenarios" effect="bold">
+
+Example scenarios
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1066">
+In this section, I will explain some example scenarios involving various 
+aspects of rolling solid and hollow cylinders.
+
+</para>
+
+
+
+
+<section id="h21007">
+<title>
+<emphasis id="Rolling_cylinders" effect="bold">
+
+Rolling cylinders
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1067">
+A cylindrical shell and a solid cylinder, each of unknown mass and unknown 
+radii roll down an incline of unknown height and unknown angle. 
+
+</para>
+
+
+
+
+<section id="h31001">
+<title>
+<emphasis id="Part_1a" effect="bold">
+
+Part 1
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1068">
+Which object will have the greater translational velocity when they reach the 
+bottom of the incline?
+
+</para>
+
+
+
+
+<para id="p1069">
+<emphasis id="strong1012" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1070">
+From 
+
+<link id="a1040" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+
+, the rotational inertia for a thin hollow cylinder is given by
+
+</para>
+
+
+
+
+<para id="p1071">
+I = M*R^2
+
+</para>
+
+
+
+
+<para id="p1072">
+The rotational inertia for a solid cylinder is given by
+
+</para>
+
+
+
+
+<para id="p1073">
+I = (1/2)*MR^2
+
+</para>
+
+
+
+
+<para id="p1074">
+Let the cylindrical shell be identified as M1 and the solid cylinder be 
+identified as M2.
+
+</para>
+
+
+
+
+<para id="p1075">
+The total kinetic for each object at the bottom is equal to potential energy 
+for that object at the top. Therefore,
+
+</para>
+
+
+
+
+<para id="p1076">
+M1*g*h = K1 = (1+Q1)*M1*(V1cm)^2, and 
+
+</para>
+
+
+
+
+<para id="p1077">
+M2*g*h = K2 = (1+Q2)*M2*(V2cm)^2
+
+</para>
+
+
+
+
+<para id="p1078">
+Eliminating the mass from both sides of both equations yields
+
+</para>
+
+
+
+
+<para id="p1079">
+g*h = (1+Q1)*(V1cm)^2, and 
+
+</para>
+
+
+
+
+<para id="p1080">
+g*h = (1+Q2)*(V2cm)^2
+
+</para>
+
+
+
+
+<para id="p1081">
+Solving each equation for the velocity yields
+
+</para>
+
+
+
+
+<para id="p1082">
+V1cm = ((g*h)/(1+Q1))^(1/2), and
+
+</para>
+
+
+
+
+<para id="p1083">
+V2cm = ((g*h)/(1+Q2))^(1/2)
+
+</para>
+
+
+
+
+<para id="p1084">
+Taking the ratios of the velocities yields
+
+</para>
+
+
+
+
+<para id="p1085">
+V1cm/V2cm = ((1+Q2)/(1+Q1))^(1/2)
+
+</para>
+
+
+
+
+<para id="p1086">
+Solving for V1cm in terms of V2cm yields
+
+</para>
+
+
+
+
+<para id="p1087">
+V1cm = V2cm * ((1+Q2)/(1+Q1))^(1/2)
+
+</para>
+
+
+
+
+<para id="p1088">
+From 
+
+<link id="a1041" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+
+, 
+
+</para>
+
+
+
+
+<para id="p1089">
+For the cylindrical shell, Q1 = 1 and 
+
+</para>
+
+
+
+
+<para id="p1090">
+For the solid cylinder, Q2 = (1/2)
+
+</para>
+
+
+
+
+<para id="p1091">
+Substituting values yields
+
+</para>
+
+
+
+
+<para id="p1092">
+V1cm = V2cm * ((1+(1/2))/(1+1))^(1/2)
+
+</para>
+
+
+
+
+<para id="p1093">
+Solving with the Google calculator yields
+
+</para>
+
+
+
+
+<para id="p1094">
+V1cm = V2cm * 0.866
+
+</para>
+
+
+
+
+<para id="p1095">
+Therefore, the translational velocity of the cylindrical shell is less than 
+the translational velocity the solid cylinder by a factor of 0.866. This is 
+because more of the potential energy is transformed into rotational kinetic 
+energy in the cylindrical shell, resulting in less translational kinetic energy 
+and less translational velocity.
+
+</para>
+
+
+
+
+<para id="p1096">
+Note that this result is independent of the mass of the objects, the radii of 
+the objects, the height of the incline, and the angle of the incline. 
+
+</para>
+
+
+
+
+</section>
+<section id="h31002">
+<title>
+<emphasis id="Part_2a" effect="bold">
+
+Part 2
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1097">
+What percentage of the total kinetic energy is translational kinetic energy 
+for each of the cylinders in 
+
+<link id="a1042" target-id="Part_1a">
+
+Part 1
+
+</link>
+
+?
+
+</para>
+
+
+
+
+<para id="p1098">
+<emphasis id="strong1013" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1099">
+From 
+
+<link id="a1043" target-id="KeVersusQ">
+
+above
+
+</link>
+
+,
+
+</para>
+
+
+
+
+<para id="p1100">
+K = (1 + Q)*(1/2)*M*(Vcm)^2
+
+</para>
+
+
+
+
+<para id="p1101">
+We know from earlier modules that
+
+</para>
+
+
+
+
+<para id="p1102">
+Ktr = (1/2)*M*(Vcm)^2
+
+</para>
+
+
+
+
+<para id="p1103">
+Taking the ratio of Ktr to K gives us
+
+</para>
+
+
+
+
+<para id="p1104">
+Ktr/K = ((1/2)*M*(Vcm)^2)/((1 + Q)*(1/2)*M*(Vcm)^2)
+
+</para>
+
+
+
+
+<para id="p1105">
+Simplification yields
+
+</para>
+
+
+
+
+<para id="p1106">
+Ktr/K = 1/(1+Q), or
+
+</para>
+
+
+
+
+<para id="p1107">
+Ktr = K * (1/(1+Q))
+
+</para>
+
+
+
+
+<para id="p1108">
+For the cylindrical shell
+
+</para>
+
+
+
+
+<para id="p1109">
+Ktr = K * (1/(1+1)) = K * (1/2)
+
+</para>
+
+
+
+
+<para id="p1110">
+Half or 50 percent of the total kinetic energy is translational kinetic 
+energy for the cylindrical shell.
+
+</para>
+
+
+
+
+<para id="p1111">
+For the solid cylinder
+
+</para>
+
+
+
+
+<para id="p1112">
+Ktr = K * (1/(1+Q)) = K * (1/(1+(1/2))) = K * 0.67
+
+</para>
+
+
+
+
+<para id="p1113">
+Sixty-seven percent of the total kinetic energy is translational kinetic 
+energy for the solid cylinder.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21008">
+<title>
+<emphasis id="Acceleration_of_a_rolling_object" effect="bold">
+
+Acceleration of a rolling 
+cylinder
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1114">
+A solid cylinder is rolling down an incline without slipping. What is the 
+translational acceleration of the cylinder? How does that acceleration compare 
+with the acceleration of the same object sliding down the incline?
+
+</para>
+
+
+
+
+<para id="p1115">
+Assume that
+
+</para>
+
+
+
+
+<list id="ul1015" list-type="bulleted">
+
+	
+
+<item id="li1055">
+The angle of incline is represented by U
+
+</item>
+
+
+	
+
+<item id="li1056">
+The value of Q for the cylinder is (1/2)
+
+</item>
+
+
+	
+
+<item id="li1057">
+The coefficient of friction is unknown
+
+</item>
+
+
+	
+
+<item id="li1058">
+The mass of the cylinder is unknown
+
+</item>
+
+
+	
+
+<item id="li1059">
+The radius of the cylinder is unknown
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1116">
+<emphasis id="strong1014" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1117">
+The only forces acting on the cylinder are the force of gravity and an 
+unknown frictional force parallel to the incline and pointing up the incline. 
+The force of gravity does not produce a torque on the object acting about the 
+center of mass. Therefore, the only torque is produced by the unknown force of 
+friction.
+
+</para>
+
+
+
+
+<para id="p1118">
+Angular acceleration is commonly represented by the Greek letter alpha. 
+However, your Braille display probably won't display the Greek letter alpha, so 
+we will let angular acceleration be represented by "An" and will let 
+translational acceleration be represented by "Atr".
+
+</para>
+
+
+
+
+<para id="p1119">
+We know that the relationship between torque, angular acceleration, and 
+moment of inertia is
+
+</para>
+
+
+
+
+<para id="p1120">
+Sum of torques = I*An
+
+</para>
+
+
+
+
+<para id="p1121">
+We only have one torque. Therefore,
+
+</para>
+
+
+
+
+<para id="p1122">
+T = I*An
+
+</para>
+
+
+
+
+<para id="p1123">
+We also know that
+
+</para>
+
+
+
+
+<para id="p1124">
+T = R*f
+
+</para>
+
+
+
+
+<para id="p1125">
+where
+
+</para>
+
+
+
+
+<list id="ul1016" list-type="bulleted">
+
+	
+
+<item id="li1060">
+T is the torque
+
+</item>
+
+
+	
+
+<item id="li1061">
+R is the radius
+
+</item>
+
+
+	
+
+<item id="li1062">
+f is the unknown frictional force
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1126">
+Therefore,
+
+</para>
+
+
+
+
+<para id="p1127">
+T = I*An, or
+
+</para>
+
+
+
+
+<para id="p1128">
+An = T/I, or
+
+</para>
+
+
+
+
+<para id="p1129">
+An = R*f/I, or
+
+</para>
+
+
+
+
+<para id="p1130">
+f = An*I/R
+
+</para>
+
+
+
+
+<para id="p1131">
+where
+
+</para>
+
+
+
+
+<list id="ul1017" list-type="bulleted">
+
+	
+
+<item id="li1063">
+T represents the torque
+
+</item>
+
+
+	
+
+<item id="li1064">
+I represents the moment of inertia
+
+</item>
+
+
+	
+
+<item id="li1065">
+R represents the radius
+
+</item>
+
+
+	
+
+<item id="li1066">
+f represents the unknown frictional force
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1132">
+As we discussed earlier, when an object is rolling with a given angular 
+velocity, the translational velocity of the axis of rotation is proportional to 
+the radius of the object. The greater the radius, the greater will be the 
+translational velocity. Thus, the translational velocity is proportional to the 
+angular velocity with the radius being the proportionality constant. We can 
+write
+
+</para>
+
+
+
+
+<para id="p1133">
+Vcm = W*R
+
+</para>
+
+
+
+
+<para id="p1134">
+If the object is not slipping, the rate of change of the translational 
+velocity must also be proportional to the rate of change of the angular velocity 
+through the same proportionality constant, which is the radius.
+
+</para>
+
+
+
+
+<para id="p1135">
+Therefore, we can write
+
+</para>
+
+
+
+
+<para id="p1136">
+Atr = R*An, or
+
+</para>
+
+
+
+
+<para id="p1137">
+An = Atr/R
+
+</para>
+
+
+
+
+<para id="p1138">
+The translational acceleration is also given by the net force divided by the 
+mass. The net force is the component of the weight pointing down the incline 
+minus the force of friction pointing up the incline. Therefore, we can write
+
+</para>
+
+
+
+
+<para id="p1139">
+M*g*sin(U) - f = M*Atr
+
+</para>
+
+
+
+
+<para id="p1140">
+Substitution from above yields
+
+</para>
+
+
+
+
+<para id="p1141">
+M*g*sin(U) - (An*I/R) = M*Atr
+
+</para>
+
+
+
+
+<para id="p1142">
+Further substitution from above yields
+
+</para>
+
+
+
+
+<para id="p1143">
+M*g*sin(U) - ((Atr/R)*I/R) = M*Atr, or
+
+</para>
+
+
+
+
+<para id="p1144">
+M*g*sin(U) - (Atr*I/(R^2)) = M*Atr
+
+</para>
+
+
+
+
+<para id="p1145">
+Solving for Atr yields
+
+</para>
+
+
+
+
+<para id="p1146">
+M*Atr + (Atr*I/(R^2)) = M*g*sin(U), or
+
+</para>
+
+
+
+
+<para id="p1147">
+Atr * (M + I/(R^2)) = M*g*sin(U), or
+
+</para>
+
+
+
+
+<para id="p1148">
+Atr = (M*g*sin(U))/(M + I/(R^2)), or
+
+</para>
+
+
+
+
+<para id="p1149">
+Atr = (g*sin(U))/(1 + I/(M*R^2))
+
+</para>
+
+
+
+
+<para id="p1150">
+For a solid cylinder,
+
+</para>
+
+
+
+
+<para id="p1151">
+I = (1/2)*M*R^2
+
+</para>
+
+
+
+
+<para id="p1152">
+By substitution
+
+</para>
+
+
+
+
+<para id="p1153">
+Atr = (g*sin(U))/(1 + ((1/2)*M*R^2)/(M*R^2)), or
+
+</para>
+
+
+
+
+<para id="p1154">
+Atr = (g*sin(U))/(1 + (1/2)), or
+
+</para>
+
+
+
+
+<para id="p1155">
+Atr = (g*sin(U))/(3/2), or
+
+</para>
+
+
+
+
+<para id="p1156">
+Therefore, the translational acceleration of the rolling solid cylinder is 
+given by
+
+</para>
+
+
+
+
+<para id="p1157">
+Atr = (2/3)*(g*sin(U))
+
+</para>
+
+
+
+
+<para id="p1158">
+If the cylinder were sliding in the total absence of friction, from what you 
+learned in earlier modules, the acceleration would simply be
+
+</para>
+
+
+
+
+<para id="p1159">
+Atr = g*sin(U)
+
+</para>
+
+
+
+
+<para id="p1160">
+Therefore, if there is sufficient friction to cause the cylinder to roll 
+without slipping, the translational acceleration will be only (2/3) of the 
+sliding acceleration. Once again, this is the result of a portion of the 
+potential energy being transformed into rotational kinetic energy, resulting in 
+less translational velocity, and less translational acceleration.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Work through the computations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1161">
+I encourage you to work through the computations that I have presented in this lesson to 
+confirm that you get the same results. Experiment with 
+the scenarios, making changes, and observing the results of your changes. Make 
+certain that you can explain why your changes behave as they do. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1162">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1163">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1015" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1018" list-type="bulleted">
+
+
+
+<item id="li1067">
+Module name: Angular Momentum -- The Physics of Rolling Objects
+
+</item>
+
+
+
+
+<item id="li1068">
+File: Phy1350.htm
+
+
+</item>
+
+
+	
+
+<item id="li1069">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1070">
+Keywords:
+
+<list id="ul1019" list-type="bulleted">
+
+		
+
+<item id="li1071">
+physics
+
+</item>
+
+
+		
+
+<item id="li1072">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1073">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1074">
+blind
+
+</item>
+
+
+		
+
+<item id="li1075">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1076">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1077">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1078">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1079">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1080">
+trigonometry
+
+</item>
+
+
+					
+
+<item id="li1081">
+rotational kinetic energy
+
+</item>
+
+
+					
+
+<item id="li1082">
+translational kinetic energy
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+<emphasis id="strong1016" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1164">
+<emphasis id="strong1017" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1018" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1165">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1019" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1166">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1020" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1167">
+<emphasis id="strong1021" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1168">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

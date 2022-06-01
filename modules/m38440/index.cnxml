@@ -1,0 +1,5414 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1300: Angular Momentum -- Rotational Kinetic Energy and Inertia</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38440</md:content-id>
+  <md:title>Phy1300: Angular Momentum -- Rotational Kinetic Energy and Inertia</md:title>
+  <md:abstract>This module explains rotational kinetic energy and inertia in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>dc908d2d-466f-4d31-b420-243fee38af6a</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Facts_worth_remembering">
+
+Facts worth remembering
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1006">
+<link id="a1006" target-id="Discussion">
+
+Discussion
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="Introduction">
+
+Introduction
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="Calculating_rotational_kinetic_energy">
+
+Calculating 
+		rotational kinetic energy
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="The_rotational_inertia_I">
+
+The rotational inertia (I)
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="Mass_is_no_longer_absolute">
+
+Mass is no longer absolute
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1011">
+<link id="a1011" target-id="ParallelAxisHeder">
+
+The parallel axis theorem
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1012">
+<link id="a1012" target-id="ExamplesHeader">
+
+Examples of rotational inertia
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1013">
+<link id="a1013" target-id="Example_scenarios">
+
+Example scenarios
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+		
+
+<item id="li1014">
+<link id="a1014" target-id="The_2x4_example">
+
+The 2x4 scenario
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1015">
+<link id="a1015" target-id="The_dumbbell_scenario">
+
+The dumbbell scenario
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1016">
+<link id="a1016" target-id="A_pulley_and_two_masses">
+
+A pulley and two objects, part 1
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1017">
+<link id="a1017" target-id="A_pulley_and_two_objects_part_2">
+
+A pulley and two objects, 
+		part 2
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1018">
+<link id="a1018" target-id="A_pulley_and_two_objects_part_3">
+
+A pulley and two objects, 
+		part 3
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1019">
+<link id="a1019" target-id="A_pulley_and_two_objects_part_4">
+
+A pulley and two objects, 
+		part 4
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1020">
+<link id="a1020" target-id="A_pulley_and_two_objects_part_5">
+
+A pulley and two objects, 
+		part 5
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1021">
+<link id="a1021" target-id="Atwood_machine">
+
+An Atwood machine
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1022">
+<link id="a1022" target-id="A_flywheel">
+
+A flywheel
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1023">
+<link id="a1023" target-id="What_have_we_learned">
+
+What have we learned?
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1024">
+<link id="a1024" target-id="Run_the_program">
+
+Work through the examples
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1025">
+<link id="a1025" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1026">
+<link id="a1026" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1027" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains rotational kinetic energy and inertia in a format that 
+is accessible to blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1027">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1028" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1028">
+A protractor for measuring angles (
+
+<link id="a1029" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1029">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1030" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1030">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1031" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1031">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1032">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1033">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1032" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1034">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1033" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1035">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1034" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1036">
+An introductory understanding of JavaScript programming (
+
+<link id="a1035" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1036" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1037">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you open another copy of this document in a separate 
+browser window and use the following links to easily find and view the material 
+listed below while you are reading about it.
+
+</para>
+
+
+
+
+</section>
+<section id="h21003">
+<title>
+ 
+
+<emphasis id="Facts_worth_remembering" effect="bold">
+
+Facts worth remembering
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1038">
+<link id="a1037" target-id="Rotational_Inertia">
+
+Rotational inertia
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1039">
+<link id="a1038" target-id="Translational_and_Rotational_Kinetic_Energy">
+
+Translational and Rotational Kinetic Energy
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1040">
+<link id="a1039" target-id="Finding_the_rotational_inertia">
+
+Finding the rotational inertia
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1041">
+<link id="a1040" target-id="The_parallel_axis_theorem">
+
+The parallel axis theorem
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1042">
+<link id="a1041" target-id="Examples_of_rotational_inertia">
+
+Examples of rotational inertia
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21004">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1042" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+What do we mean by rotational kinetic energy and rotational inertia?
+
+</para>
+
+
+
+
+<section id="h21005">
+<title>
+<emphasis id="Introduction" effect="bold">
+
+Introduction
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1007">
+In an earlier module, you learned of Newton's first law, which can be 
+paraphrased something like the following:
+
+</para>
+
+
+
+
+<para id="p1008">
+<emphasis id="strong1000" effect="bold">
+Newton's first law
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1009">
+Every body (that has mass) in a state of rest tends to remain at rest. 
+Similarly, every body (that has mass) in a state of motion tends to remain in 
+motion in a straight line. In both cases, the body tends to remain in its 
+current state unless compelled to change its state by external forces acting 
+upon it.
+
+</para>
+
+
+
+
+<para id="p1010">
+This law is sometimes referred to as the "Law of Inertia" -- objects that 
+have mass don't like to change their velocity.
+
+</para>
+
+
+
+
+<para id="p1011">
+<emphasis id="strong1001" effect="bold">
+Newton's second law
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1012">
+Newton's second implies (once again paraphrasing) that the tendency to remain 
+in the state of rest or motion depends on the amount of mass possessed by the 
+body.
+
+</para>
+
+
+
+
+<para id="p1013">
+The greater the mass, the greater must be the external force required to 
+cause the body to change its state by a given amount. You will recognize this as 
+being characterized by the equation that tells us that acceleration (change of 
+velocity) is proportional to the applied force and inversely proportional to the 
+amount of mass.
+
+</para>
+
+
+
+
+<para id="p1014">
+<emphasis id="strong1002" effect="bold">
+Rotating rigid bodies
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1015">
+Similar considerations also apply to the rotation of rigid bodies. In the 
+case of rigid-body rotation, however, it isn't simply the amount of mass that is 
+important. The geometrical distribution of that mass also has an impact on the 
+reluctance of a rotating body to change its state. We refer to this as 
+
+<emphasis id="em1001" effect="italics">
+
+rotational inertia
+
+</emphasis>
+, which is sometimes called the 
+
+<emphasis id="em1002" effect="italics">
+moment of inertia
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1016">
+<emphasis id="strong1003" effect="bold">
+Rotational inertia or moment of inertia?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1017">
+Rotational inertia and moment of inertia are simply two 
+				names that mean the same thing (some authors prefer one, other 
+				authors prefer the other)
+
+</para>
+
+
+
+
+<para id="p1018">
+I don't have a preference for either, but for consistency with the textbook 
+currently being used for introductory physics courses at the college where I 
+teach, I will use the term 
+
+<emphasis id="em1003" effect="italics">
+rotational inertia
+
+</emphasis>
+ instead of 
+
+<emphasis id="em1004" effect="italics">
+moment of inertia
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1019">
+<emphasis id="strong1004" effect="bold">
+An example
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1020">
+For example, the same amount of mass can be used to create 
+
+</para>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1043">
+a tall solid 
+cylinder with a small radius or 
+
+</item>
+
+
+	
+
+<item id="li1044">
+a thin disk with a large radius or 
+
+</item>
+
+
+	
+
+<item id="li1045">
+a very thin disk with most of the mass concentrated around the outer 
+	circumference of the disk.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1021">
+When rotated 
+about its central axis, either disk has a greater rotational inertia than the 
+cylinder, and the disk with most of its mass concentrated around the outer 
+circumference has a greater rotational inertia than the other two.
+
+</para>
+
+
+
+
+<para id="p1022">
+The rotational inertia increases as the mass is moved further from the axis 
+of rotation, and the effect is proportional to square of that distance. 
+As a result, given that the total mass is the same in all three cases, a greater external force is required to cause 
+either disk to change 
+its rotational state than is required to cause the cylinder to change its 
+rotational state.
+
+</para>
+
+
+
+
+<para id="p1023">
+<emphasis id="strong1005" effect="bold">
+Work and kinetic energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1024">
+You also learned in an earlier module that work must be done on an object to 
+cause it to have kinetic energy, and the kinetic energy possessed by an object 
+is proportional to one-half of the product of the object's mass and the square 
+of its velocity.
+
+</para>
+
+
+
+
+<para id="p1025">
+KE = (1/2)*m*v^2
+
+</para>
+
+
+
+
+<para id="p1026">
+where
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1046">
+KE represents translational kinetic energy
+
+</item>
+
+
+	
+
+<item id="li1047">
+m represents mass
+
+</item>
+
+
+	
+
+<item id="li1048">
+v represents velocity
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1027">
+<emphasis id="strong1006" effect="bold">
+The rotational kinetic energy of a rotating body
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1028">
+When I was a youngster, I learned the hard way that a rotating rigid object 
+has rotational kinetic energy. I had my bicycle turned upside down resting on the seat and 
+the handle bars with the rear wheel turning very fast. I was using a long thin 
+triangular file to chip mud off of the bicycle. I accidentally allowed one 
+end of the file to come in contact with the tread on the spinning bicycle tire 
+and ended up with a file sticking in the palm of my hand. Although I didn't know 
+the technical term for rotational kinetic energy at the time, I did learn what 
+rotational kinetic energy can do.
+
+</para>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Calculating_rotational_kinetic_energy" effect="bold">
+
+Calculating rotational kinetic energy
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1029">
+In principle, at least, we could calculate the rotational kinetic energy 
+possessed by that spinning bicycle wheel by 
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1049">
+decomposing it into a very large number of small particles of mass,
+
+</item>
+
+
+	
+
+<item id="li1050">
+computing the kinetic energy of each particle of mass, and
+
+</item>
+
+
+	
+
+<item id="li1051">
+computing the sum of the kinetic energy values possessed by all of the 
+	particles of mass.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1030">
+That would be a difficult computation. We need a simpler way to express the 
+rotational kinetic energy of a rotating rigid body.
+
+</para>
+
+
+
+
+<para id="p1031">
+<emphasis id="strong1007" effect="bold">
+A simpler way
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1032">
+There is a simpler way that 
+is based on the tangential speed of each particle of mass and the 
+angular velocity of the rotating object. 
+
+</para>
+
+
+
+
+<para id="p1033">
+You should recall that when the angular 
+velocity is expressed in radians per second, the tangential speed of a point on 
+the circumference of a circle is given by
+
+</para>
+
+
+
+
+<para id="p1034">
+v = r * w
+
+</para>
+
+
+
+
+<para id="p1035">
+where
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1052">
+v represents the tangential speed of the point in meters per second
+
+</item>
+
+
+	
+
+<item id="li1053">
+r represents the radius of the circle in meters
+
+</item>
+
+
+	
+
+<item id="li1054">
+w represents the angular velocity in radians per second
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1036">
+Thus, the tangential speed of our hypothetical particle of mass is equal to 
+the product of the distance of that particle from the center of rotation (the 
+axle on my upturned bicycle) and the angular velocity of the wheel.
+
+</para>
+
+
+
+
+<para id="p1037">
+<emphasis id="strong1008" effect="bold">
+Terminology
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1038">
+The convention is to use the Greek letter omega to represent angular 
+velocity, but I decided to use the "w" character because
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1055">
+your Braille pad probably can't display the Greek letter omega
+
+</item>
+
+
+	
+
+<item id="li1056">
+the Greek letter omega looks a lot like a lower case "w"
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1039">
+<emphasis id="strong1009" effect="bold">
+Back to the bicycle wheel
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1040">
+Therefore, if we consider the bicycle wheel to be made up of an extremely 
+large 
+number of particles of mass, each located at a fixed distance from the axle, the kinetic energy of each particle would be given by
+
+</para>
+
+
+
+
+<para id="p1041">
+KEr = (1/2)*m*v^2, or
+
+</para>
+
+
+
+
+<para id="p1042">
+KEr = (1/2)*m*(r*w)^2, or
+
+</para>
+
+
+
+
+<para id="p1043">
+KEr = (1/2)*m*(r^2)*(w^2)
+
+</para>
+
+
+
+
+<para id="p1044">
+where all of the terms in this equation were defined earlier except for 
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1057">
+KEr, 
+which represents rotational kinetic energy.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1045">
+<emphasis id="strong1010" effect="bold">
+The total rotational kinetic energy of the bicycle wheel
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1046">
+Then the total rotational kinetic energy of the bicycle wheel would be
+
+</para>
+
+
+
+
+<para id="p1047">
+<emphasis id="KErt" effect="bold">
+
+KErt
+
+</emphasis>
+
+ = (1/2)*(sum from i=0 to i=N(mi*ri^2))*w^2
+
+</para>
+
+
+
+
+<para id="p1048">
+where
+
+</para>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1058">
+KErt represents the total rotational kinetic energy of the wheel
+
+</item>
+
+
+	
+
+<item id="li1059">
+mi represents the ith mass particle in a set of N mass particles
+
+</item>
+
+
+	
+
+<item id="li1060">
+ri represents the distance of the ith mass particle from the axis of 
+	rotation
+
+</item>
+
+
+	
+
+<item id="li1061">
+w represents angular velocity in radians per second
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1049">
+<emphasis id="strong1011" effect="bold">
+Summation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1050">
+It is conventional to use the Greek letter sigma to represent the sum with 
+subscripts and superscripts providing the limits of the sum. However, since your 
+Braille display probably won't display the Greek letter sigma with subscripts 
+and superscripts, we will have to settle for something like 
+
+<emphasis id="em1005" effect="italics">
+"sum from i=0 to i=N"
+
+</emphasis>
+ 
+to mean the same thing.
+
+</para>
+
+
+
+
+<para id="p1051">
+<emphasis id="strong1012" effect="bold">
+Factoring out like terms
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1052">
+Note that then entire wheel rotates at the same angular velocity, so we can 
+(and did) factor the (1/2) and the w^2 out of the summation equation given above.
+
+</para>
+
+
+
+
+<para id="p1053">
+<emphasis id="strong1013" effect="bold">
+Integral calculus is the key
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1054">
+Regardless of how difficult it may seem to you to perform the summation given 
+above, when you complete a course in integral calculus, you will have learned 
+how to do that sort of thing for a variety of geometric shapes such as solid 
+cylinders, hollow cylinders, solid spheres, hollow spheres, squares, rectangles, 
+rods, etc. As a result, engineering and physics handbooks contain tables with 
+this sort of information for a variety of common geometrical shapes.
+
+</para>
+
+
+
+
+<para id="p1055">
+(There is also such a table at
+
+
+<link id="a1043" url="http://en.wikipedia.org/wiki/List_of_moments_of_inertia">
+
+
+http://en.wikipedia.org/wiki/List_of_moments_of_inertia
+
+</link>
+
+, but if you are a 
+blind student, your accessibility equipment may not be able to read it 
+reliably.)
+
+</para>
+
+
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="The_rotational_inertia_I" effect="bold">
+
+The rotational inertia (I)
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1056">
+Getting back to the earlier equation for 
+
+<link id="a1044" target-id="KErt">
+
+rotational kinetic 
+energy
+
+</link>
+
+, the quantity in parentheses cannot change for a given geometric 
+shape. The distance between each mass particle and the axis of rotation stays 
+the same for a rigid body, and the mass of each mass particle doesn't change. It 
+is conventional to give the quantity in parentheses the symbol I (upper-case 
+"I") and refer to it as either the 
+
+<emphasis id="em1006" effect="italics">
+rotational inertia
+
+</emphasis>
+, or the 
+
+<emphasis id="em1007" effect="italics">
+
+moment of inertia
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1057">
+Therefore, using the terminology from the earlier equation for
+
+
+<link id="a1045" target-id="KErt">
+
+rotational kinetic energy
+
+</link>
+
+,
+
+</para>
+
+
+	
+
+
+<note id="note1000" type="">
+
+
+
+
+
+	
+
+<para id="p1058">
+<emphasis id="strong1014" effect="bold">
+Facts worth remembering -- 
+
+<emphasis id="Rotational_Inertia" effect="bold">
+
+Rotational Inertia
+
+</emphasis>
+
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1059">
+<emphasis id="MomentOfInertia" effect="bold">
+
+I = sum from i=0 to i=N(mi*ri^2)
+
+</emphasis>
+
+
+</para>
+
+
+			
+
+<para id="p1060">
+where
+
+</para>
+
+
+			
+
+<list id="ul1015" list-type="bulleted">
+
+				
+
+<item id="li1062">
+I represents rotational inertia
+
+</item>
+
+
+				
+
+<item id="li1063">
+SI units for rotational inertia are kg*m^2
+
+</item>
+
+
+				
+
+<item id="li1064">
+mi represents the ith mass particle in a set of N mass 
+				particles
+
+</item>
+
+
+				
+
+<item id="li1065">
+ri represents the distance of the ith mass particle from the 
+				axis of rotation
+
+</item>
+
+
+			
+
+</list>
+
+
+			
+
+</note>
+
+
+
+
+	
+	
+
+<para id="p1061">
+<emphasis id="strong1015" effect="bold">
+Translational versus rotational kinetic energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1062">
+Given that information, let's form an analogy between translational kinetic 
+energy from an earlier module and rotational kinetic energy from this module.
+
+</para>
+
+
+	
+
+
+<note id="note1001" type="">
+
+
+
+
+
+	
+
+<para id="p1063">
+<emphasis id="strong1016" effect="bold">
+Facts worth remembering -- 
+	
+
+<emphasis id="Translational_and_Rotational_Kinetic_Energy" effect="bold">
+
+Translational and Rotational Kinetic 
+	Energy
+
+</emphasis>
+
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1064">
+Kt = (1/2)*m*v^2
+
+</para>
+
+
+			
+
+<para id="p1065">
+Kr = (1/2)*I*w^2
+
+</para>
+
+
+			
+
+<para id="p1066">
+where
+
+</para>
+
+
+			
+
+<list id="ul1016" list-type="bulleted">
+
+				
+
+<item id="li1066">
+Kt represents translational kinetic energy
+
+</item>
+
+
+				
+
+<item id="li1067">
+Kr represents rotational kinetic energy
+
+</item>
+
+
+				
+
+<item id="li1068">
+m represents mass in kg
+
+</item>
+
+
+				
+
+<item id="li1069">
+v represents translational velocity in m/s
+
+</item>
+
+
+				
+
+<item id="li1070">
+I represents rotational inertia in kg*m^2
+
+</item>
+
+
+				
+
+<item id="li1071">
+w^2 represents angular velocity in radians per second
+
+</item>
+
+
+			
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+	
+	
+
+<para id="p1067">
+<emphasis id="strong1017" effect="bold">
+Comparing the terms
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1068">
+When we compare the terms in the two expressions, we see that angular 
+	velocity in one case is analogous to translational velocity in the other 
+case.
+
+</para>
+
+
+
+
+<para id="p1069">
+We also see that the rotational inertia in one expression is analogous to the 
+mass in the other expression.
+
+</para>
+
+
+
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="Mass_is_no_longer_absolute" effect="bold">
+
+Mass is no longer absolute
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1070">
+As I explained earlier, mass is an absolute in 
+translational terms. The translational inertia depends directly on the amount of 
+mass.
+
+</para>
+
+
+
+
+<para id="p1071">
+However, mass is not an absolute in rotational terms. The rotational 
+inertia for rotation depends not only upon the amount of mass 
+involved, but also on how that mass is geometrically distributed within the object relative to the axis of 
+rotation.
+
+</para>
+
+
+
+
+<para id="p1072">
+<emphasis id="strong1018" effect="bold">
+A measure of inertia
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1073">
+In translational terms, mass is a measure of the inertia of an object, or how 
+difficult it is to cause the object to change its translational velocity.
+
+</para>
+
+
+
+
+<para id="p1074">
+In rotational terms, for a rigid rotating object, the rotational inertia ( I 
+), is a measure of how hard it is to cause the object to change its 
+angular velocity.
+
+</para>
+
+
+
+	
+	
+
+<para id="p1075">
+<emphasis id="strong1019" effect="bold">
+Finding the rotational inertia
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1076">
+Here are a few tips on how you might go about finding the rotational inertia 
+of an object.
+
+</para>
+
+
+	
+
+
+<note id="note1002" type="">
+
+
+
+
+
+	
+
+<para id="p1077">
+<emphasis id="strong1020" effect="bold">
+Facts worth remembering -- 
+	
+
+<emphasis id="Finding_the_rotational_inertia" effect="bold">
+
+Finding the rotational inertia
+
+</emphasis>
+
+
+</emphasis>
+</para>
+
+
+			
+
+<list id="ol1000" list-type="enumerated">
+
+				
+
+<item id="li1072">
+If the object consists of a small number of parts in an easily-handled 
+	geometric configuration, and you know the mass and position of each part, 
+	you may be able to estimate the rotational inertia by evaluating the 
+	expression given earlier for the 
+
+<link id="a1046" target-id="MomentOfInertia">
+
+rotational 
+				inertia
+
+</link>
+
+.
+
+</item>
+
+
+				
+
+<item id="li1073">
+For symmetrical objects with simple geometric shapes, you may be 
+			able to use calculus to perform the summation given earlier for the 
+				
+
+<link id="a1047" target-id="MomentOfInertia">
+
+rotational inertia
+
+</link>
+
+.
+
+</item>
+
+
+				
+
+<item id="li1074">
+Because the rotational inertia is a sum, you may be able to decompose the
+object into several parts, find the rotational inertia for each part, and then 
+				add them together.
+
+</item>
+
+
+				
+
+<item id="li1075">
+You may be able to apply the 
+
+<link id="a1048" target-id="ParallelAxisHeder">
+
+
+				parallel axis theorem
+
+</link>
+
+ in conjunction with item 3.
+
+</item>
+
+
+			
+
+</list>
+
+
+			
+
+</note>
+
+
+
+
+	
+	
+
+<para id="p1078">
+<emphasis id="strong1021" effect="bold">
+The rotational axis is very important
+
+</emphasis>
+</para>
+
+
+	
+
+
+<para id="p1079">
+The rotational inertia for an object depends heavily on the location of the axis of rotation. 
+For example, some vehicles have doors on the back that are hinged on one side. 
+Other vehicles have doors on the back that are hinged at the top. Given a door 
+that has a rectangular shape, but which is not a square, the rotational inertia 
+when the door is 
+hinged on the side would be different from when the door is hinged at the top.
+
+</para>
+
+
+
+
+<para id="p1080">
+Assuming that both doors have the same mass, and are fastened to the vehicle 
+with the same orientation, the center of mass for one 
+arrangement would be further from the hinge than for the other arrangement. The 
+arrangement for which the center of mass is further from the hinge would have the 
+greater rotational inertia.
+
+</para>
+
+
+
+
+<para id="p1081">
+<emphasis id="strong1022" effect="bold">
+A simple experiment
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1082">
+Pick up an eight-foot piece of 2x4 lumber, grasp it near one end, and try 
+swinging it like a baseball bat. You should find that to be relatively difficult 
+because it has a large rotational inertia when rotated around its end. (It also 
+has a lot torque due to gravity when supported only at the end. Torque will be 
+the topic for a future module.)
+
+</para>
+
+
+
+
+<para id="p1083">
+Then grasp it in the center and rotate it as far as you can without hitting 
+your body. You should find that to be somewhat easier because it has a smaller 
+rotational inertia when rotated around its center than when rotated around its 
+end.
+
+</para>
+
+
+
+
+<para id="p1084">
+I will have more to say about this later in this module.
+
+</para>
+
+
+
+
+</section>
+<section id="h21009">
+<title>
+<emphasis id="ParallelAxisHeder" effect="bold">
+
+The parallel axis theorem
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1085">
+It is possible to determine the rotational inertia of an object about 
+any axis if we can determine the rotational inertia of that same object about a 
+parallel axis that goes through the center of mass of the object.
+
+</para>
+
+
+
+
+<para id="p1086">
+I will explain this in much more detail in the dumbbell scenario later in 
+this module.
+
+</para>
+
+
+	
+
+
+<note id="note1003" type="">
+
+
+
+
+
+	
+
+<para id="p1087">
+<emphasis id="strong1023" effect="bold">
+Facts worth remembering -- 
+
+<emphasis id="The_parallel_axis_theorem" effect="bold">
+
+The parallel axis theorem
+
+</emphasis>
+
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1088">
+The total rotational inertia of an object about a chosen axis is 
+
+</para>
+
+
+			
+
+<list id="ul1017" list-type="bulleted">
+
+				
+
+<item id="li1076">
+the
+				rotational inertia about a parallel axis passing through the 
+				object's center of mass, plus
+
+</item>
+
+
+				
+
+<item id="li1077">
+the
+				rotational inertia of the center of mass, treated as a point 
+				mass, about the chosen axis.
+
+</item>
+
+
+			
+
+</list>
+
+
+			
+
+<para id="p1089">
+We can express this theorem in equation form as
+
+</para>
+
+
+			
+
+<para id="p1090">
+Itotal = M*D^2 + Icm
+
+</para>
+
+
+			
+
+<para id="p1091">
+where
+
+</para>
+
+
+			
+
+<list id="ul1018" list-type="bulleted">
+
+				
+
+<item id="li1078">
+Itotal is the total rotational inertia of the object
+
+</item>
+
+
+				
+
+<item id="li1079">
+M is the mass of the object
+
+</item>
+
+
+				
+
+<item id="li1080">
+D is the distance from the center of mass of the object to 
+				the chosen axis
+
+</item>
+
+
+				
+
+<item id="li1081">
+Icm is the rotational inertia of the object through a 
+				parallel axis that passes through the object's center of mass
+
+</item>
+
+
+			
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+	
+
+
+</section>
+<section id="h21010">
+<title>
+<emphasis id="ExamplesHeader" effect="bold">
+
+Examples of rotational inertia
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1092">
+In this section, I will attempt to describe some simple geometric shapes and 
+provide the formula for the rotational inertia for each shape. This information 
+is largely based on information gleaned from
+
+
+<link id="a1049" url="http://en.wikipedia.org/wiki/List_of_moments_of_inertia">
+
+
+http://en.wikipedia.org/wiki/List_of_moments_of_inertia
+
+</link>
+
+. 
+
+</para>
+
+
+
+
+<para id="p1093">
+<emphasis id="strong1024" effect="bold">
+Terminology
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1094">
+Unless I specify otherwise, the axis of rotation will be the axis of 
+symmetry, such as at the center of a wheel. Also, unless I specify otherwise, 
+
+</para>
+
+
+
+
+<list id="ul1019" list-type="bulleted">
+
+	
+
+<item id="li1082">
+r represents the radius
+
+</item>
+
+
+	
+
+<item id="li1083">
+m represents the mass
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+
+<note id="note1004" type="">
+
+
+
+
+
+	
+
+<para id="p1095">
+<emphasis id="strong1025" effect="bold">
+Facts worth remembering -- 
+	
+
+<emphasis id="Examples_of_rotational_inertia" effect="bold">
+
+Examples of rotational inertia
+
+</emphasis>
+
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1096">
+<emphasis id="strong1026" effect="bold">
+Thin hollow cylindrical shape or hoop
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1097">
+Think of a can of beans without the beans and without the end caps.
+
+</para>
+
+
+			
+
+<para id="p1098">
+I = m*r^2
+
+</para>
+
+
+			
+
+<para id="p1099">
+<emphasis id="strong1027" effect="bold">
+Solid cylinder or disk
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1100">
+I = (1/2)*m*r^2
+
+</para>
+
+
+			
+
+<para id="p1101">
+<emphasis id="strong1028" effect="bold">
+Thick-walled cylindrical tube with open ends, of inner radius r1, 
+			and outer radius r2
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1102">
+I = (1/2)*m*(r1^2 + r2^2)
+
+</para>
+
+
+			
+
+<para id="p1103">
+<emphasis id="strong1029" effect="bold">
+Thin rectangular plate of height h and width w with axis 
+			of rotation in the center, perpendicular to the plate
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1104">
+I = (1/12)*m*(h^2 + w^2)
+
+</para>
+
+
+			
+
+<para id="p1105">
+<emphasis id="strong1030" effect="bold">
+Solid sphere
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1106">
+I = (2/5)*m*r^2
+
+</para>
+
+
+			
+
+<para id="p1107">
+<emphasis id="strong1031" effect="bold">
+Then hollow spherical shell
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1108">
+I = (2/3)*m*r^2
+
+</para>
+
+
+			
+
+<para id="p1109">
+<emphasis id="strong1032" effect="bold">
+Thin rod of length L
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1110">
+Axis of rotation is perpendicular to the end of the rod.
+
+</para>
+
+
+			
+
+<para id="p1111">
+I = (1/3)*m*L^2
+
+</para>
+
+
+			
+
+<para id="p1112">
+<emphasis id="strong1033" effect="bold">
+Thin rectangular plate of width L and height H
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1113">
+Axis of rotation is along the edge of the plate parallel to the H 
+			dimension and perpendicular to the width L.
+
+</para>
+
+
+			
+
+<para id="p1114">
+I = (1/3)*m*L^2
+
+</para>
+
+
+			
+
+<para id="p1115">
+<emphasis id="strong1034" effect="bold">
+Thin rod of length L
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1116">
+Axis of rotation is through the center of the rod.
+
+</para>
+
+
+			
+
+<para id="p1117">
+I = (1/12)*m*L^2
+
+</para>
+
+
+			
+
+<para id="p1118">
+<emphasis id="strong1035" effect="bold">
+Thin rectangular plate of width L and height H
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1119">
+Axis of rotation is along the center of the plate parallel to the 
+			H dimension perpendicular to the width L.
+
+</para>
+
+
+			
+
+<para id="p1120">
+I = (1/12)*m*L^2
+
+</para>
+
+
+			
+
+</note>
+
+
+
+
+	
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Example_scenarios" effect="bold">
+
+Example scenarios
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1121">
+I will apply some of what we have learned to several different scenarios in this section.
+
+</para>
+
+
+
+
+<section id="h21011">
+<title>
+<emphasis id="The_2x4_example" effect="bold">
+
+The 2x4 scenario
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1122">
+Returning to the earlier example, pick up an eight-foot piece of 2x4 lumber, 
+grasp it near one end, and try swinging it like a baseball bat. 
+
+</para>
+
+
+
+
+<para id="p1123">
+Then grasp it in the center and rotate it as far as you can without hitting 
+your body.
+
+</para>
+
+
+
+
+<para id="p1124">
+How does the rotational inertia with the axis at the end compare with the rotational 
+inertia with the axis at the center? What is the ratio of the two?
+
+</para>
+
+
+
+
+<para id="p1125">
+<emphasis id="strong1036" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1126">
+Although this may not be a good approximation, we will use the formulas for a 
+thin rectangular plate of height h and width z from
+
+
+<link id="a1050" url="http://en.wikipedia.org/wiki/List_of_moments_of_inertia">
+
+
+http://en.wikipedia.org/wiki/List_of_moments_of_inertia
+
+</link>
+
+. (A 2x4 isn't very 
+thin so this may not be a good approximation.)
+
+</para>
+
+
+
+
+<para id="p1127">
+When rotated around the end,
+
+</para>
+
+
+
+
+<para id="p1128">
+Iend = (1/3)*(m*h^2) + (1/12)*(m*z^2)
+
+</para>
+
+
+
+
+<para id="p1129">
+When rotated around the center,
+
+</para>
+
+
+
+
+<para id="p1130">
+Icen = (1/12)*(m*h^2 + m*z^2)
+
+</para>
+
+
+
+
+<para id="p1131">
+where
+
+</para>
+
+
+
+
+<list id="ul1020" list-type="bulleted">
+
+	
+
+<item id="li1084">
+Iend is the rotational inertia with the axis of rotation at the end
+
+</item>
+
+
+	
+
+<item id="li1085">
+Icen is the rotational inertia with the axis of rotation at the center
+
+</item>
+
+
+	
+
+<item id="li1086">
+m is the mass
+
+</item>
+
+
+	
+
+<item id="li1087">
+h is the height
+
+</item>
+
+
+	
+
+<item id="li1088">
+z is the width (I avoided the use of w because I have been using that 
+	character for angular velocity.)
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1132">
+<emphasis id="strong1037" effect="bold">
+Define the numeric values
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1133">
+Let h = 96 inches and z = 3.75 inches (a 2x4 really isn't 2 inches thick and 
+4 inches wide)
+
+</para>
+
+
+
+
+<para id="p1134">
+Let mass = 1kg. We don't know what the mass of a 2.4 is. However, it will 
+cancel out when we compute the ratio of the two cases. We can use any value so 
+long as we don't ascribe any credibility to the absolute rotational inertia 
+value.
+
+</para>
+
+
+
+
+<para id="p1135">
+<emphasis id="strong1038" effect="bold">
+Substitute numeric values for symbols
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1136">
+Iend = (1/3)*(1kg*(96inches)^2) + (1/12)*(1kg*(3.75 inches)^2)
+
+</para>
+
+
+
+
+<para id="p1137">
+Plugging this expression into the Google calculator gives us:
+
+</para>
+
+
+
+
+<para id="p1138">
+Iend = 1.98 m^2 kg
+
+</para>
+
+
+
+
+<para id="p1139">
+(Remember, however, that this isn't an accurate absolute value because we 
+aren't using the actual mass of a piece of 2x4 lumber.)
+
+</para>
+
+
+
+
+<para id="p1140">
+Icen = (1/12)*(1kg*(96inches)^2 + 1kg*(3.75inches)^2)
+
+</para>
+
+
+
+
+<para id="p1141">
+The Google calculator gives us
+
+</para>
+
+
+
+
+<para id="p1142">
+Icen = 0.496 m^2 kg
+
+</para>
+
+
+
+
+<para id="p1143">
+<emphasis id="strong1039" effect="bold">
+And the ratio is...
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1144">
+If I formulated the problem correctly before plugging the 
+expressions into the Google calculator, the ratio
+
+</para>
+
+
+
+
+<para id="p1145">
+Iend/Icen = (1.98 m^2 kg)/(0.496 m^2 kg) = 3.99
+
+</para>
+
+
+
+
+<para id="p1146">
+Therefore, it should have been about four times as difficult to swing the 2x4 
+like a baseball bat than to spin it at its center. (The downward torque caused 
+by gravity probably made it seem even worse that that.)
+
+</para>
+
+
+
+
+</section>
+<section id="h21012">
+<title>
+<emphasis id="The_dumbbell_scenario" effect="bold">
+
+The dumbbell scenario
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1147">
+Among other things, this scenario illustrates the
+
+
+<link id="a1051" target-id="The_parallel_axis_theorem">
+
+parallel axis theorem
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1148">
+Consider a dumbbell, or a barbell, whichever you choose to call it. This 
+object consists of two identical solid spheres, each with mass M. The centers of 
+mass of the spheres are separated by a distance L. The radius of each sphere is R.
+
+</para>
+
+
+
+
+<para id="p1149">
+The spheres are connected by a thin rod with mass m of length d. Thus, the 
+length of the rod is L-2*R.
+
+</para>
+
+
+
+
+<para id="p1150">
+Find the rotational inertia of the dumbbell about an 
+axis at the center of and perpendicular to the rod.
+
+</para>
+
+
+
+
+<para id="p1151">
+<emphasis id="strong1040" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1152">
+The total rotational inertia of the dumbbell about the chosen axis consists of the sum of three parts:
+
+</para>
+
+
+
+
+<list id="ol1001" list-type="enumerated">
+
+	
+
+<item id="li1089">
+The rotational inertia of one sphere about that axis.
+
+</item>
+
+
+	
+
+<item id="li1090">
+The rotational inertia of the other sphere about that same axis.
+
+</item>
+
+
+	
+
+<item id="li1091">
+The rotational inertia of the rod about that axis.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1153">
+<emphasis id="strong1041" effect="bold">
+There are really five items in the sum
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1154">
+We learned from the 
+
+<link id="a1052" target-id="The_parallel_axis_theorem">
+
+parallel axis 
+theorem
+
+</link>
+
+ that the first two items in the above list are each made up of the 
+sum of two items:
+
+</para>
+
+
+
+
+<list id="ol1002" list-type="enumerated">
+
+	
+
+<item id="li1092">
+The rotational inertia of a sphere about an axis passing through the 
+	sphere's center of mass
+    
+
+</item>
+
+
+	
+
+<item id="li1093">
+The moment of inertia of the center of mass of the sphere, treated as a point particle, about the chosen axis.
+	
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1155">
+We learned from the earlier 
+
+<link id="a1053" target-id="Examples_of_rotational_inertia">
+
+
+Examples of rotational inertia
+
+</link>
+
+ that the rotational inertia of a solid sphere 
+about an axis through its center of mass is
+
+</para>
+
+
+
+
+<para id="p1156">
+Isphere = (2/5)*M*R^2
+
+</para>
+
+
+
+
+<para id="p1157">
+We learned in 
+
+<link id="a1054" target-id="Rotational_Inertia">
+
+Rotational inertia
+
+</link>
+
+ that the 
+rotational inertia of a point mass rotating about a chosen axis is
+
+</para>
+
+
+
+
+<para id="p1158">
+I = M*r^2, or in this case
+
+</para>
+
+
+
+
+<para id="p1159">
+I = M*(L/2)^2
+
+</para>
+
+
+
+
+<para id="p1160">
+Thus, the rotational inertia of each sphere about the chosen axis is the sum 
+of those two, or
+
+</para>
+
+
+
+
+<para id="p1161">
+Isphere_axis = (2/5)*M*R^2 + M*(L/2)^2
+
+</para>
+
+
+
+
+<para id="p1162">
+The total rotational inertia of the dumbbell will be twice this value plus 
+the rotational inertia of the rod about the chosen axis. We learned in
+
+
+<link id="a1055" target-id="Examples_of_rotational_inertia">
+
+Examples of rotational inertia
+
+</link>
+
+ 
+that the rotational inertia about the chosen axis for the rod is
+
+</para>
+
+
+
+
+<para id="p1163">
+Irod = (1/12)*m*d^2
+
+</para>
+
+
+
+
+<para id="p1164">
+This, the total rotational inertia of the dumbbell about the chosen axis is
+
+</para>
+
+
+
+
+<para id="p1165">
+Itotal = Irod + 2*Isphere_axis, or
+
+</para>
+
+
+
+
+<para id="p1166">
+Itotal = (1/12)*m*d^2 + 2*((2/5)*M*R^2 + M*(L/2)^2)
+
+</para>
+
+
+
+
+<para id="p1167">
+Because the length of the rod, d is
+
+</para>
+
+
+
+
+<para id="p1168">
+d = L-2*R
+
+</para>
+
+
+
+
+<para id="p1169">
+We could substitute this expression for d giving us
+
+</para>
+
+
+
+
+<para id="p1170">
+Itotal = (1/12)*m*(L-2*R)^2 + 2*((2/5)*M*R^2 + M*(L/2)^2)
+
+</para>
+
+
+
+
+<para id="p1171">
+which reduces the expression down to include
+
+</para>
+
+
+
+
+<list id="ul1021" list-type="bulleted">
+
+	
+
+<item id="li1094">
+m represents the mass of the rod
+
+</item>
+
+
+	
+
+<item id="li1095">
+L represents the distance between the centers of mass of the two spheres
+
+</item>
+
+
+	
+
+<item id="li1096">
+R represents the radius of each sphere
+
+</item>
+
+
+	
+
+<item id="li1097">
+M represents the mass of each sphere
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+<para id="p1172">
+I will leave it as an exercise for the student to assign typical numeric 
+values to each of those variables and to compute the rotational inertia of a 
+dumbbell. 
+
+</para>
+
+
+
+
+<para id="p1173">
+Another good exercise for the student would be to replace the spheres with 
+disks having the same mass and compare the rotational inertia of the two 
+configurations.
+
+</para>
+
+
+
+
+
+</section>
+<section id="h21013">
+<title>
+<emphasis id="A_pulley_and_two_masses" effect="bold">
+
+A pulley and two objects, part 1
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1174">
+In this scenario, a friction-free pulley with a mass M and a rotational 
+inertia I is suspended from a beam. A cord is threaded around the pulley and two 
+objects with masses of m1 and m2 are fastened to the ends of the cord.
+
+</para>
+
+
+
+
+<para id="p1175">
+The cord will not stretch and will not slip on the surface of the pulley.
+
+</para>
+
+
+
+
+<para id="p1176">
+When the two objects are held at the same level with the cord taut and 
+released simultaneously, one may move up and the other may move down, depending 
+of the relative mass values of the two objects. Because the cord cannot stretch, 
+the magnitude of the velocity of each object must be the same.
+
+</para>
+
+
+
+
+<para id="p1177">
+Ignoring air resistance, write a general equation for the magnitude of the 
+velocity of each object after each object has moved a distance h.
+
+</para>
+
+
+
+
+<para id="p1178">
+<emphasis id="strong1042" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1179">
+With no friction and no air resistance, all forces acting on the system are 
+conservative. Therefore, the mechanical energy of the system must be preserved.
+
+</para>
+
+
+
+
+<para id="p1180">
+deltaU + deltaK = 0
+
+</para>
+
+
+
+
+<para id="p1181">
+where
+
+</para>
+
+
+
+
+<list id="ul1022" list-type="bulleted">
+
+	
+
+<item id="li1098">
+deltaU is the change in potential energy
+
+</item>
+
+
+	
+
+<item id="li1099">
+deltaK is the change in kinetic energy
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1182">
+Since the pulley mechanism is in equilibrium, the only potential energy 
+possessed by the system that can change is the gravitational potential energy of 
+the two objects. Therefore, when the objects move, the gravitational potential 
+energy of the two objects is converted into translational kinetic energy of the 
+objects and rotational kinetic energy of the pulley.
+
+</para>
+
+
+
+
+<para id="p1183">
+<emphasis id="strong1043" effect="bold">
+Changes in potential energy of the system
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1184">
+In order to keep our algebraic signs straight, we will assume that m1 is greater than 
+(or possibly equal to) m2. As a result, when the objects move, m1 will move down 
+and m2 will move up.
+
+</para>
+
+
+
+
+<para id="p1185">
+This will result in the following changes in the potential energy of the 
+system.
+
+</para>
+
+
+
+
+<para id="p1186">
+deltaU1 = -m1*g*h
+
+</para>
+
+
+
+
+<para id="p1187">
+deltaU2 = +m2*g*h
+
+</para>
+
+
+
+
+<para id="p1188">
+where
+
+</para>
+
+
+
+
+<list id="ul1023" list-type="bulleted">
+
+	
+
+<item id="li1100">
+deltaU1 and deltaU2 represent the changes in gravitational potential 
+	energy for m1 and m2 respectively.
+
+</item>
+
+
+	
+
+<item id="li1101">
+g represents the acceleration of gravity.
+
+</item>
+
+
+	
+
+<item id="li1102">
+h represents the magnitude of the change in height of each object.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1189">
+<emphasis id="strong1044" effect="bold">
+The mechanical energy of the system
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1190">
+The mechanical energy of the system includes the translational kinetic energy 
+of each of the two objects plus the rotational kinetic energy of the pulley.
+
+</para>
+
+
+
+
+<para id="p1191">
+deltaK = (1/2)*(m1+m2)*v^2 + (1/2)*I*w^2
+
+</para>
+
+
+
+
+<para id="p1192">
+where
+
+</para>
+
+
+
+
+<list id="ul1024" list-type="bulleted">
+
+	
+
+<item id="li1103">
+m1 and m2 are the mass values for each object
+
+</item>
+
+
+	
+
+<item id="li1104">
+v is the magnitude of the translational velocity of each object
+
+</item>
+
+
+	
+
+<item id="li1105">
+I is the rotational inertia of the pulley
+
+</item>
+
+
+	
+
+<item id="li1106">
+w is the angular velocity of the pulley
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1193">
+<emphasis id="strong1045" effect="bold">
+Translational speed versus tangential speed
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1194">
+Because the cord cannot slip on the pulley, the tangential speed of a 
+point on the edge of the pulley must be equal to the translational speed of the 
+objects.
+
+</para>
+
+
+
+
+<para id="p1195">
+This tangential speed at the edge of the pulley is related to the angular 
+velocity of the pulley as follows
+
+</para>
+
+
+
+
+<para id="p1196">
+v = w*R, or
+
+</para>
+
+
+
+
+<para id="p1197">
+w = v/R
+
+</para>
+
+
+
+
+<para id="p1198">
+Where 
+
+</para>
+
+
+
+
+<list id="ul1025" list-type="bulleted">
+
+	
+
+<item id="li1107">
+v is the tangential speed of a point on the edge of the pulley, which is also the 
+	speed of the cord, which is also the speed of each object.
+
+</item>
+
+
+	
+
+<item id="li1108">
+w is the angular velocity of the pulley.
+
+</item>
+
+
+	
+
+<item id="li1109">
+R is the radius of the pulley.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1199">
+<emphasis id="strong1046" effect="bold">
+Substitute, combine terms, and simplify
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1200">
+Substitution of v/R for w yields
+
+</para>
+
+
+
+
+<para id="p1201">
+deltaK = (1/2)*(m1+m2)*v^2 + (1/2)*I*(v/R)^2
+
+</para>
+
+
+
+
+<para id="p1202">
+Combining potential and kinetic energy yields
+
+</para>
+
+
+
+
+<para id="p1203">
+deltaU + deltaK = -m1*g*h + m2*g*h 
+
+</para>
+<para id="p1204">
+
++ 
+(1/2)*(m1+m2)*v^2 + (1/2)*I*(v/R)^2 = 0
+
+</para>
+
+
+
+
+<para id="p1205">
+Simplification yields
+
+</para>
+
+
+
+
+<para id="p1206">
+(1/2)*(m1+m2)*v^2 + (1/2)*I*(1/R^2)*v^2 = (m1 - m2)*g*h
+
+</para>
+
+
+
+
+<para id="p1207">
+Solving for v^2 yields
+
+</para>
+
+
+
+
+<para id="p1208">
+v^2 = (2*(m1 - m2)*g*h)/((m1+m2) + I*(1/R^2)), or
+
+</para>
+
+
+
+
+<para id="p1209">
+The 
+
+<emphasis id="general_equation" effect="bold">
+
+general equation
+
+</emphasis>
+
+ for velocity is
+
+</para>
+
+
+
+
+<para id="p1210">
+v = ((2*(m1 - m2)*g*h)/((m1+m2) + I*(1/R^2)))^(1/2)
+
+</para>
+
+
+
+
+</section>
+<section id="h21014">
+<title>
+<emphasis id="A_pulley_and_two_objects_part_2" effect="bold">
+
+A pulley and two objects, part 2
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1211">
+Make the following assumptions:
+
+</para>
+
+
+
+
+<para id="p1212">
+The pulley is a uniform disk with a mass, M, of 1 kg and a radius, R, of 1 meter.
+
+</para>
+
+
+
+
+<para id="p1213">
+m1 = 2 kg
+
+</para>
+
+
+
+
+<para id="p1214">
+m2 = 1 kg
+
+</para>
+
+
+
+
+<para id="p1215">
+h = 0.5 m
+
+</para>
+
+
+
+
+<para id="p1216">
+Find the velocity v.
+
+</para>
+
+
+
+
+<para id="p1217">
+<emphasis id="strong1047" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1218">
+Referring back to 
+
+<link id="a1056" target-id="Examples_of_rotational_inertia">
+
+Examples of 
+rotational inertia
+
+</link>
+
+, and changing the notation to match that being used in 
+this scenario, we find that the rotational inertia for the pulley is
+
+</para>
+
+
+
+
+<para id="p1219">
+I = (1/2)*M*(R)^2
+
+</para>
+
+
+
+
+<para id="p1220">
+<emphasis id="strong1048" effect="bold">
+The rotational inertia
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1221">
+Let's begin by computing the rotational inertia of the pulley.
+
+</para>
+
+
+
+
+<para id="p1222">
+I = (1/2)*1kg*(1m)^2, or
+
+</para>
+
+
+
+
+<para id="p1223">
+I = 0.5*(m^2)*kg
+
+</para>
+
+
+
+
+<para id="p1224">
+<emphasis id="strong1049" effect="bold">
+Substitute values other than rotational inertia
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1225">
+<emphasis id="Substituting_values_into" effect="bold">
+
+Substituting values into
+
+</emphasis>
+
+ the 
+
+<link id="a1057" target-id="general_equation">
+
+general equation
+
+</link>
+
+ 
+yields
+
+</para>
+
+
+
+
+<para id="p1226">
+v = ((2*(2kg - 1kg)*(9.8m/s^2)*0.5m)/((2kg+1kg) + I*(1/(1m)^2)))^(1/2)
+
+</para>
+
+
+
+
+<para id="p1227">
+where we still have the rotational inertia as a variable.
+
+</para>
+
+
+
+
+<para id="p1228">
+We will use this equation again later in this module.
+
+</para>
+
+
+
+
+<para id="p1229">
+<emphasis id="strong1050" effect="bold">
+Substitute the value for rotational inertia
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1230">
+<emphasis id="Substituting_the_value" effect="bold">
+
+Substituting the value
+
+</emphasis>
+
+ for rotational 
+inertia computed above gives us
+
+</para>
+
+
+
+
+<para id="p1231">
+v = ((2*(2kg - 1kg)*(9.8m/s^2)*0.5m)/((2kg+1kg) + (0.5*(m^2)*kg)*(1/(1m)^2)))^(1/2)
+
+</para>
+
+
+
+
+<para id="p1232">
+We will also use this equation again later in this module.
+
+</para>
+
+
+
+
+<para id="p1233">
+Assuming that I managed to get all of that done without making an error, the 
+velocity is
+
+</para>
+
+
+
+
+<para id="p1234">
+v = 1.67 m/s
+
+</para>
+
+
+
+
+</section>
+<section id="h21015">
+<title>
+<emphasis id="A_pulley_and_two_objects_part_3" effect="bold">
+
+A pulley and two objects, part 3
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1235">
+Assume the same conditions as in 
+
+<link id="a1058" target-id="A_pulley_and_two_objects_part_2">
+
+
+part 2
+
+</link>
+
+, except that m2 = m1 = 2 kg, what is the velocity?
+
+</para>
+
+
+
+
+<para id="p1236">
+<emphasis id="strong1051" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1237">
+Starting with the equation from 
+
+<link id="a1059" target-id="Substituting_the_value">
+
+above
+
+</link>
+
+ and replacing each 
+occurrence of 1kg with 2kg yields
+
+</para>
+
+
+
+
+<para id="p1238">
+v = ((2*(2kg - 2kg)*(9.8m/s^2)*0.5m)/((2kg+2kg) + (0.5*(m^2)*kg)*(1/(1m)^2)))^(1/2)
+
+</para>
+
+
+
+
+<para id="p1239">
+Using the Google calculator to solve this equation tells us that
+
+</para>
+
+
+
+
+<para id="p1240">
+v = 0 m/s.
+
+</para>
+
+
+
+
+<para id="p1241">
+This is what we should expect for the two objects having the same mass. Each object has an equal desire to fall toward the earth, 
+so they balance one another, causing the 
+system to be in equilibrium.
+
+</para>
+
+
+
+
+</section>
+<section id="h21016">
+<title>
+<emphasis id="A_pulley_and_two_objects_part_4" effect="bold">
+
+A pulley and two objects, part 4
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1242">
+Go back to the conditions for 
+
+<link id="a1060" target-id="A_pulley_and_two_objects_part_2">
+
+part 
+2
+
+</link>
+
+ except instead of assuming that the pulley is a uniform disk, assume that 
+the pulley approximates a 
+
+<emphasis id="em1008" effect="italics">
+"thick-walled cylindrical tube with open ends, of inner 
+radius r1, and outer radius r2"
+
+</emphasis>
+. 
+
+</para>
+
+
+
+
+<para id="p1243">
+For this configuration, we can approximate the rotational inertia as
+
+</para>
+
+
+
+
+<para id="p1244">
+I = (1/2)*m*(r1^2 + r2^2) (see 
+
+<link id="a1061" target-id="Examples_of_rotational_inertia">
+
+
+Examples of rotational inertia
+
+</link>
+
+)
+
+</para>
+
+
+
+
+<para id="p1245">
+For example, think of a pulley that looks something like a bicycle wheel with very lightweight spokes connecting the outer rim to 
+the axle.
+
+</para>
+
+
+
+
+<para id="p1246">
+Let r1 = 0.9*r2 and let the mass be unchanged.
+
+</para>
+
+
+
+
+<para id="p1247">
+Find the velocity.
+
+</para>
+
+
+
+
+<para id="p1248">
+<emphasis id="strong1052" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1249">
+Given that the inner radius is 0.9 times the outer radius and 
+the mass is unchanged, we can 
+
+<emphasis id="approximate_" effect="bold">
+
+approximate
+
+</emphasis>
+
+ the rotational inertia 
+for this pulley with
+
+</para>
+
+
+
+
+<para id="p1250">
+I = (1/2)*M*((0.9*R)^2 + R^2)
+
+</para>
+
+
+
+
+<para id="p1251">
+<emphasis id="strong1053" effect="bold">
+The rotational inertia
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1252">
+Let's compute the rotational inertia for this pulley.
+
+</para>
+
+
+
+
+<para id="p1253">
+I = (1/2)*1kg*((0.9*1m)^2 + (1m)^2), or
+
+</para>
+
+
+
+
+<para id="p1254">
+I = 0.905 (m^2)*kg
+
+</para>
+
+
+
+
+<para id="p1255">
+As you can see, the rotational inertia for this configuration is almost 
+double the rotational inertia for the uniform disk configuration.
+
+</para>
+
+
+
+
+<para id="p1256">
+<emphasis id="strong1054" effect="bold">
+Start with the original equation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1257">
+Go back and get the 
+
+<link id="a1062" target-id="Substituting_values_into">
+
+original equation
+
+</link>
+
+ 
+that contains numeric values but still has the rotational inertia as a variable.
+
+</para>
+
+
+
+
+<para id="p1258">
+v = ((2*(2kg - 1kg)*(9.8m/s^2)*0.5m)/((2kg+1kg) + I*(1/(1m)^2)))^(1/2)
+
+</para>
+
+
+
+
+<para id="p1259">
+<emphasis id="strong1055" effect="bold">
+Substitute the rotational inertia
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1260">
+Replace the rotational inertia, I, with the
+
+
+<link id="a1063" target-id="approximate_">
+
+approximate
+
+</link>
+
+ rotational inertia for our new pulley.
+
+</para>
+
+
+
+
+<para id="p1261">
+v = ((2*(2kg - 1kg)*(9.8m/s^2)*0.5m)/((2kg+1kg) + (0.905 (m^2)*kg)*(1/(1m)^2)))^(1/2)
+
+</para>
+
+
+
+
+<para id="p1262">
+Once again, if I managed to get through all of that without making an error, 
+the velocity is
+
+</para>
+
+
+
+
+<para id="p1263">
+v = 1.58 m/s
+
+</para>
+
+
+
+
+<para id="p1264">
+<emphasis id="strong1056" effect="bold">
+Analysis
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1265">
+Comparing this value with the velocity from 
+
+<link id="a1064" target-id="A_pulley_and_two_objects_part_2">
+
+part 2
+
+</link>
+
+, , we see that the velocity 
+was reduced from 1.67 m/s to 1.58 m/s due to the increase in the rotational 
+inertia of the pulley.
+
+</para>
+
+
+
+
+<para id="p1266">
+This is what we should expect. Increasing the rotational 
+inertia of the pulley causes it to take longer to accelerate given the same 
+external force that is causing it to change its angular velocity and acquire 
+rotational kinetic energy.
+
+</para>
+
+
+
+
+</section>
+<section id="h21017">
+<title>
+<emphasis id="A_pulley_and_two_objects_part_5" effect="bold">
+
+A pulley and two objects, part 5
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1267">
+Let's make one more adjustment to the geometry of the pulley and observe the 
+effect that it has on the system.
+
+</para>
+
+
+
+
+<para id="p1268">
+Keep all of the parameters the same as
+
+
+<link id="a1065" target-id="A_pulley_and_two_objects_part_4">
+
+part 4
+
+</link>
+
+ except let the radius of 
+the pulley, R, be 10m.
+
+</para>
+
+
+
+
+<para id="p1269">
+Find the velocity.
+
+</para>
+
+
+
+
+<para id="p1270">
+<emphasis id="strong1057" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1271">
+Begin by computing the rotational inertia of the new pulley.
+
+</para>
+
+
+
+
+<para id="p1272">
+I = (1/2)*M*((0.9*R)^2 + R^2), or
+
+</para>
+
+
+
+
+<para id="p1273">
+I = (1/2)*1kg*((0.9*10m)^2 + (10m)^2), or
+
+</para>
+
+
+
+
+<para id="p1274">
+I = 90.5 (m^2)*kg
+
+</para>
+
+
+
+
+<para id="p1275">
+Note that the rotational inertia is proportional to the square of the radius. 
+Therefore, increasing the radius by a factor of 10 caused the rotational inertia 
+to be increased by a factor of 100.
+
+</para>
+
+
+
+
+<para id="p1276">
+Generally speaking, moving the concentration of mass further 
+from the axis of rotation will increase the rotational inertia.
+
+</para>
+
+
+
+
+<para id="p1277">
+<emphasis id="strong1058" effect="bold">
+Start with the original equation as before
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1278">
+Going back and getting the 
+
+<link id="a1066" target-id="Substituting_values_into">
+
+original equation
+
+</link>
+
+ 
+that contains numeric values but still has the rotational inertia as a variable, 
+we have.
+
+</para>
+
+
+
+
+<para id="p1279">
+v = ((2*(2kg - 1kg)*(9.8m/s^2)*0.5m)/((2kg+1kg) + I*(1/(1m)^2)))^(1/2)
+
+</para>
+
+
+
+
+<para id="p1280">
+<emphasis id="strong1059" effect="bold">
+Substitute the new rotational inertia
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1281">
+Replacing the rotational inertia, I, with the rotational inertia for our new pulley 
+yields.
+
+</para>
+
+
+
+
+<para id="p1282">
+v = ((2*(2kg - 1kg)*(9.8m/s^2)*0.5m)/((2kg+1kg) + (90.5 (m^2)*kg)*(1/(1m)^2)))^(1/2)
+
+</para>
+
+
+
+
+<para id="p1283">
+Solving this equation with the Google calculator tells us that the new 
+velocity value is 
+
+</para>
+
+
+
+
+<para id="p1284">
+v = 0.323 m/s
+
+</para>
+
+
+
+
+<para id="p1285">
+which is much lower than the velocity for either
+
+
+<link id="a1067" target-id="A_pulley_and_two_objects_part_2">
+
+part 2
+
+</link>
+
+ or
+
+
+<link id="a1068" target-id="A_pulley_and_two_objects_part_4">
+
+part 4
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h21018">
+<title>
+<emphasis id="Atwood_machine" effect="bold">
+
+An Atwood machine
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1286">
+In case you want to learn more about this topic, the arrangement of the 
+pulley and the objects that we have been discussing is commonly called an Atwood 
+machine. The device was invented in 1784 by Rev. George Atwood as a laboratory experiment to verify the mechanical laws of motion.
+
+</para>
+
+
+
+
+</section>
+<section id="h21019">
+<title>
+<emphasis id="A_flywheel" effect="bold">
+
+A flywheel
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1287">
+A flywheel is a device that is commonly used to smooth out the irregularities 
+of angular velocity in rotational motion. For example, in the age of steam engines, the 
+rotational motion was powered only during a portion of each cycle, and was 
+coasting during the remainder of the cycle. Unless corrected, therefore, a 
+loaded steam engine output shaft would speed up and slow down once during each 
+rotation of the shaft.
+
+</para>
+
+
+
+
+<para id="p1288">
+<emphasis id="strong1060" effect="bold">
+The correction
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1289">
+Most steam engines employed a large flywheel that was turned by the output 
+shaft to cause the angular velocity to 
+remain relatively constant despite the fact that rotational power was applied 
+during only a portion of the cycle.
+
+</para>
+
+
+
+
+<para id="p1290">
+When rotational power was applied to the output shaft, the shaft turned the 
+flywheel. When rotational power was not applied to the output shaft, the 
+flywheel turned the shaft. Because the flywheel had a large rotational inertia, 
+it preferred to turn at a near constant angular velocity.
+
+</para>
+
+
+
+
+<para id="p1291">
+Physically, the flywheels were usually large 
+wheels with spokes and most of the mass distributed in a rim at the 
+circumference of the wheel. This configuration produced a large rotational 
+inertia for a given amount of mass and a given amount of available space.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="What_have_we_learned" effect="bold">
+
+What have we learned?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1292">
+Perhaps the most important thing for you to take away from this module is 
+that 
+
+</para>
+
+
+
+
+<list id="ul1026" list-type="bulleted">
+
+	
+
+<item id="li1110">
+although the rotational inertia of a rotating object is influenced by 
+	the mass of the object,
+
+</item>
+
+
+	
+
+<item id="li1111">
+it is also very heavily influenced by the geometrical distribution of 
+	that mass.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1293">
+Two rotating objects having exactly the same mass can have entirely different 
+rotational inertia values (moments of inertia).
+
+</para>
+
+
+
+
+<para id="p1294">
+For example, a flywheel with the bulk of its mass concentrated a large 
+distance from the axis of rotation is much more effective in smoothing out the 
+angular velocity of the device than would be a flywheel with the same mass 
+concentrated in a small radius near the axis of rotation.
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Work through the examples
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1295">
+I encourage you to work through the examples that I have presented in this lesson to 
+confirm that you get the same results. Experiment with 
+the examples, making changes, and observing the results of your changes. Make 
+certain that you can explain why your changes behave as they do. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1296">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11007">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1297">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1005" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1061" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1027" list-type="bulleted">
+
+
+
+<item id="li1112">
+Module name: Angular Momentum -- Rotational Kinetic Energy and Inertia 
+
+</item>
+
+
+
+
+<item id="li1113">
+File: Phy1300.htm
+
+
+</item>
+
+
+	
+
+<item id="li1114">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1115">
+Keywords:
+
+<list id="ul1028" list-type="bulleted">
+
+		
+
+<item id="li1116">
+physics
+
+</item>
+
+
+		
+
+<item id="li1117">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1118">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1119">
+blind
+
+</item>
+
+
+		
+
+<item id="li1120">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1121">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1122">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1123">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1124">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1125">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1126">
+rotational kinetic energy
+
+</item>
+
+
+					
+
+<item id="li1127">
+rotational inertia
+
+</item>
+
+
+					
+
+<item id="li1128">
+moment of inertia
+
+</item>
+
+
+					
+
+<item id="li1129">
+Atwood machine
+
+</item>
+
+
+					
+
+<item id="li1130">
+flywheel
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1006" type="">
+
+
+
+
+<emphasis id="strong1062" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1298">
+<emphasis id="strong1063" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1064" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1299">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1065" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1300">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1066" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1301">
+<emphasis id="strong1067" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1302">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

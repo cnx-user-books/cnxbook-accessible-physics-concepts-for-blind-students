@@ -1,0 +1,6530 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1160: Force and Motion -- Momentum, Impulse, and Conservation of Momentum</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38234</md:content-id>
+  <md:title>Phy1160: Force and Motion -- Momentum, Impulse, and Conservation of Momentum</md:title>
+  <md:abstract>This module explains momentum, impulse, and the conservation of momentum in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>ca2de2a4-f35e-4dfc-9013-3a38b50f6b62</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Figures">
+
+Figures
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1005">
+<link id="a1005" target-id="Listings">
+
+Listings
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1007">
+<link id="a1007" target-id="General_background_information">
+
+Discussion
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="Newtons_cradle">
+
+Newton's cradle
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="Momentum">
+
+Momentum
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="Impulse">
+
+Impulse
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1011">
+<link id="a1011" target-id="The_physics_of_collisions">
+
+The physics of collisions
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1012">
+<link id="a1012" target-id="ActionAndReaction">
+
+Action and reaction
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1013">
+<link id="a1013" target-id="Conservation_of_momentum">
+
+Conservation of momentum
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1014">
+<link id="a1014" target-id="Center_of_mass">
+
+Center of mass
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+			
+
+<item id="li1015">
+<link id="a1015" target-id="Location_of_the_center_of_mass">
+
+Location of the center of mass
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1016">
+<link id="a1016" target-id="Motion_of_the_center_of_mass">
+
+Motion of the center of mass
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1017">
+<link id="a1017" target-id="Discussion">
+
+Example scenarios
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+		
+
+<item id="li1018">
+<link id="a1018" target-id="Momentum_examples">
+
+Momentum examples
+
+</link>
+
+
+<list id="ul1006" list-type="bulleted">
+
+			
+
+<item id="li1019">
+<link id="a1019" target-id="A_sprinter">
+
+A sprinter
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1020">
+<link id="a1020" target-id="A_truck">
+
+A truck
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1021">
+
+			
+
+<link id="a1021" target-id="Change_in_momentum_due_to_change_in_speed_and_direction">
+
+Change in momentum due to change in speed and direction
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1022">
+<link id="a1022" target-id="Change_in_momentum_due_to_change_in_speed_only">
+
+Change in momentum due to change in speed only
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1023">
+<link id="a1023" target-id="Change_in_momentum_due_to_change_in_direction_only">
+
+Change in momentum due to change in direction only
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1024">
+<link id="a1024" target-id="Impulse_examples">
+
+Impulse examples
+
+</link>
+
+
+<list id="ul1007" list-type="bulleted">
+
+			
+
+<item id="li1025">
+<link id="a1025" target-id="Pushing_a_wagon_part_1">
+
+Pushing a wagon part 1
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1026">
+<link id="a1026" target-id="Pushing_a_wagon_part_2">
+
+Pushing a wagon part 2
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1027">
+<link id="a1027" target-id="Pushing_a_wagon_part_3">
+
+Pushing a wagon part 3
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1028">
+<link id="a1028" target-id="Action_and_reaction">
+
+Action and reaction example
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1029">
+<link id="a1029" target-id="Conservation_of_momentum_example">
+
+Conservation of momentum 
+		example
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1030">
+<link id="a1030" target-id="Center_of_mass_examples">
+
+Center of mass examples
+
+</link>
+
+
+<list id="ul1008" list-type="bulleted">
+
+			
+
+<item id="li1031">
+<link id="a1031" target-id="Two_objects">
+
+Two objects
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1032">
+<link id="a1032" target-id="Three_objects">
+
+Three objects
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1033">
+<link id="a1033" target-id="Run_the_program">
+
+Do the calculations
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1034">
+<link id="a1034" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1035">
+<link id="a1035" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1036" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains momentum, impulse, and the conservation of momentum in a format that is accessible to blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1036">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1037" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1037">
+A protractor for measuring angles (
+
+<link id="a1038" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1038">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1039" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1039">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1040" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1040">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1041">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1042">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1041" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1043">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1042" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1044">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1043" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1045">
+An introductory understanding of JavaScript programming (
+
+<link id="a1044" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1045" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1046">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you open another copy of this document in a separate 
+browser window and use the following links to easily find and view the figures 
+and listings while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+ 
+
+<emphasis id="Figures" effect="bold">
+
+Figures
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1047">
+<link id="a1046" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+. Solution results. 
+
+</item>
+
+
+	
+
+<item id="li1048">
+<link id="a1047" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+. Change in speed only. 
+
+</item>
+
+
+	
+
+<item id="li1049">
+<link id="a1048" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+. Change in direction only. 
+
+</item>
+
+
+	
+
+<item id="li1050">
+<link id="a1049" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+. Center of mass for two objects. 
+
+</item>
+
+
+	
+
+<item id="li1051">
+<link id="a1050" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+. Center of mass for three objects. 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31001">
+<title>
+ 
+
+<emphasis id="Listings" effect="bold">
+
+Listings
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1052">
+<link id="a1051" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+. Solution script. 
+
+</item>
+
+
+	
+
+<item id="li1053">
+<link id="a1052" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+. Center of mass for two objects. 
+
+</item>
+
+
+	
+
+<item id="li1054">
+<link id="a1053" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+. Change to add a third object. 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h21003">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1054" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="General_background_information" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+This module will describe and discuss some scenarios which, never having been 
+seen, may be hard for a blind student to imagine. Some of those scenarios can be difficult to 
+believe even when you can see them.
+
+</para>
+
+
+
+
+<section id="h21004">
+<title>
+<emphasis id="Newtons_cradle" effect="bold">
+
+Newton's cradle
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1007">
+The behavior of Newton's cradle is somewhat difficult to believe even when 
+you see it in operation. Newton's cradle is a gadget that is often found in novelty shops. It 
+typically consists of an open wood or metal frame with about five steel balls 
+suspended by strings on parallel beams that run from one end to the other along 
+the top.
+
+</para>
+
+
+
+
+<para id="p1008">
+<emphasis id="strong1000" effect="bold">
+Several steel balls in a row
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1009">
+Each ball is suspended by two strings so that the ball forms the lower vertex 
+of a triangle and the two equal-length strings form the sides of the triangle. 
+Each string is attached at the upper end to a beam. The purpose of suspending 
+each ball by two strings instead of suspending them on a single string is to cause all of the balls 
+to swing back and forth along the same straight line.
+
+</para>
+
+
+
+
+<para id="p1010">
+<emphasis id="strong1001" effect="bold">
+A collision
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1011">
+When the system is in equilibrium, the balls are lined up in a row and each 
+ball barely touches the one next to it. If you pull one of the balls at the end 
+back and then release it, allowing it to swing down, it will strike its 
+neighbor on the downswing.
+
+</para>
+
+
+
+
+<para id="p1012">
+<emphasis id="strong1002" effect="bold">
+Only the ball on the other end appears to move
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1013">
+Surprisingly, the neighboring ball doesn't appear to move when struck, nor 
+does its neighbor, nor does that neighbor's neighbor. The only ball that appears to move is 
+the ball at the far end of the line. That ball will be sent off in an upswing.
+
+</para>
+
+
+
+
+<para id="p1014">
+<emphasis id="strong1003" effect="bold">
+The process is reversed
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1015">
+When that ball reaches the top of its upswing, it will reverse direction, 
+swing back down, and collide with its neighbor. This causes the ball that was 
+used to start the process to be sent off in an upswing.
+
+</para>
+
+
+
+
+<para id="p1016">
+<emphasis id="strong1004" effect="bold">
+The process continues
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1017">
+Left alone, this process will continue until all of the energy in the system 
+has been dissipated, which can be many minutes or even hours later.
+
+</para>
+
+
+
+
+<para id="p1018">
+Newton's 
+cradle illustrates the conservation of momentum. You will find an interesting 
+article that explains some of the technical details at
+
+
+<link id="a1055" url="http://en.wikipedia.org/wiki/Newton's_cradle">
+
+
+http://en.wikipedia.org/wiki/Newton%27s_cradle.
+
+</link>
+
+ 
+
+</para>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Momentum" effect="bold">
+
+Momentum
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1019">
+You learned in an earlier module that momentum is the product of the mass of 
+an object and the velocity of the object. Because velocity is a vector quantity, 
+momentum is also a vector quantity. The direction of the momentum vector is the 
+same as the direction of the underlying velocity vector.
+
+</para>
+
+
+
+
+<para id="p1020">
+<emphasis id="strong1005" effect="bold">
+A common symbol for momentum is p
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1021">
+A common symbol for momentum is 
+
+<emphasis id="strong1006" effect="bold">
+p
+
+</emphasis>
+. Momentum is a derived 
+item in the SI system of units. In the SI system, momentum is defined as kg*m/s. 
+
+</para>
+
+
+
+
+<para id="p1022">
+<emphasis id="In_equation_form" effect="bold">
+
+In equation form
+
+</emphasis>
+
+, therefore:
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1055">
+momentum = mass * velocity, or
+
+</item>
+
+
+	
+
+<item id="li1056">
+p = m * v in units of kg*m/s
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+
+<note id="note1000" type="">
+
+
+
+
+
+	
+
+<para id="p1023">
+<emphasis id="strong1007" effect="bold">
+Facts worth remembering -- Momentum
+
+</emphasis>
+</para>
+
+
+			
+
+<list id="ul1014" list-type="bulleted">
+
+				
+
+<item id="li1057">
+momentum = mass * velocity, or
+
+</item>
+
+
+				
+
+<item id="li1058">
+p = m * v
+
+</item>
+
+
+			
+
+</list>
+
+
+			
+
+<para id="p1024">
+The units of momentum are kg*m/s
+
+</para>
+
+
+
+
+</note>
+
+
+
+
+	
+
+
+<para id="p1025">
+<emphasis id="strong1008" effect="bold">
+Mass in action
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1026">
+Momentum can also be thought of as "mass in motion." Since all objects have mass, if an object is moving, 
+its mass is in motion. Therefore, the object has momentum.
+
+</para>
+
+
+
+
+<para id="p1027">
+<emphasis id="strong1009" effect="bold">
+Proportional to both mass and velocity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1028">
+From the above 
+
+<link id="a1056" target-id="In_equation_form">
+
+equation
+
+</link>
+
+, it can be seen that 
+an object can have a large momentum if either its mass or its velocity is large. Both 
+variables are of equal importance in determining the momentum of an object. 
+
+</para>
+
+
+
+
+<para id="p1029">
+<emphasis id="strong1010" effect="bold">
+A car and a tennis ball
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1030">
+Consider the case of a car and a tennis ball rolling down the street at the 
+same speed. Because the car has greater mass, it has more momentum than the 
+tennis ball. However, if the car stops and the tennis ball continues to roll, 
+the tennis ball then has the greater momentum.
+
+</para>
+
+
+
+
+<para id="p1031">
+<emphasis id="strong1011" effect="bold">
+Momentum is zero at rest
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1032">
+The momentum of any object at rest is zero. Objects at rest do not have 
+momentum because their mass is not in motion.
+
+</para>
+
+
+
+
+<para id="p1033">
+<emphasis id="strong1012" effect="bold">
+The quantity of momentum
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1034">
+The quantity of momentum possessed by an object depends on:
+
+</para>
+
+
+
+
+<list id="ul1015" list-type="bulleted">
+
+	
+
+<item id="li1059">
+How much mass is moving, and
+
+</item>
+
+
+	
+
+<item id="li1060">
+How fast the mass is moving.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1035">
+For example, a small mass moving very fast can have the same momentum as a 
+large mass moving slowly. You sometimes hear about the major damage that a 
+very small piece of space junk moving at a very high speed could do if it were 
+to strike the International Space Station.
+
+</para>
+
+
+
+
+<para id="p1036">
+A bullet shot from a firearm has a very small mass, but it has a very high 
+velocity. Consequently, it probably has more momentum than a baseball pitched 
+from second base to home plate, even though the baseball has much more mass.
+
+</para>
+
+
+
+
+<para id="p1037">
+<emphasis id="strong1013" effect="bold">
+What happened to the dinosaurs?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1038">
+Similarly, you may have heard that an asteroid with a mass that was small 
+relative to the mass of the earth but with an extremely high velocity led to the 
+extinction of the dinosaurs about 160 million years ago when it collided with 
+the earth in the Gulf of Mexico.
+
+</para>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Impulse" effect="bold">
+
+Impulse
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1039">
+<emphasis id="strong1014" effect="bold">
+Momentum can be changed by a force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1040">
+An object with momentum can be stopped if a force is applied against it for a 
+given amount of time. For example, when a car approaches a red traffic light, 
+the driver applies the brakes. The friction of the tires on the pavement applies a 
+force to the car, which eventually reduces the car's velocity to zero. When the 
+velocity goes to zero, the momentum also goes to zero.
+
+</para>
+
+
+
+
+<para id="p1041">
+Therefore, the momentum of an object can be changed by applying a force to the object 
+over a given period of time.
+
+</para>
+
+
+
+
+<para id="p1042">
+<emphasis id="strong1015" effect="bold">
+Unbalanced forces cause acceleration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1043">
+As you learned in earlier modules, an unbalanced force always accelerates an 
+object, either causing the object to speed up or causing the object to slow 
+down. Either way, the application of an unbalanced force to an object will change the 
+velocity of the object. When the velocity of the object is changed, the momentum 
+of the object is changed as well.
+
+</para>
+
+
+
+
+<para id="p1044">
+<emphasis id="strong1016" effect="bold">
+The impulse
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1045">
+Let's use what we know from Newton's second law to derive a concept known as
+
+
+<emphasis id="strong1017" effect="bold">
+impulse
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1046">
+<emphasis id="strong1018" effect="bold">
+The product of mass and acceleration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1047">
+You learned in an earlier module that force is equal to the product of mass 
+and acceleration:
+
+</para>
+
+
+
+
+<para id="p1048">
+F = m * a
+
+</para>
+
+
+
+
+<para id="p1049">
+where
+
+</para>
+
+
+
+
+<list id="ul1016" list-type="bulleted">
+
+	
+
+<item id="li1061">
+F represents Force
+
+</item>
+
+
+	
+
+<item id="li1062">
+m represents mass
+
+</item>
+
+
+	
+
+<item id="li1063">
+a represents acceleration
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1050">
+<emphasis id="strong1019" effect="bold">
+The rate of change of velocity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1051">
+You also learned that acceleration is the time rate of change of velocity, or
+
+</para>
+
+
+
+
+<para id="p1052">
+a = (v2 - v1)/t
+
+</para>
+
+
+
+
+<para id="p1053">
+where 
+
+</para>
+
+
+
+
+<list id="ul1017" list-type="bulleted">
+
+	
+
+<item id="li1064">
+v2 - v1 indicates a change in velocity during a time interval given by 
+t.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1054">
+<emphasis id="strong1020" effect="bold">
+Combine and rearrange equations
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1055">
+Therefore, by substitution we can write:
+
+</para>
+
+
+
+
+<para id="p1056">
+F = m * (v2 - v1)/t
+
+</para>
+
+
+
+
+<para id="p1057">
+Multiplying both sides by t gives
+
+</para>
+
+
+
+
+<para id="p1058">
+F * t = m * (v2 - v1), or
+
+</para>
+
+
+
+
+<para id="p1059">
+F*t = m*v2 - m*v1
+
+</para>
+
+
+
+
+<para id="p1060">
+where
+
+</para>
+
+
+
+
+<list id="ul1018" list-type="bulleted">
+
+	
+
+<item id="li1065">
+F*t represents impulse
+
+</item>
+
+
+	
+
+<item id="li1066">
+m*v2 and m*v1 each represent momentum
+
+</item>
+
+
+	
+
+<item id="li1067">
+m*v2 - m*v1 represents a change in momentum
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1061">
+<emphasis id="strong1021" effect="bold">
+A change in momentum
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1062">
+At this point, you should recognize that the product of mass and a change in 
+velocity is a change in momentum.
+
+</para>
+
+
+
+
+<para id="p1063">
+In physics, the product of force and time is given the name 
+
+<emphasis id="strong1022" effect="bold">
+impulse
+
+</emphasis>
+. 
+It follows, therefore, that 
+
+</para>
+
+
+
+
+<para id="p1064">
+<emphasis id="impulseChangeEquation" effect="bold">
+
+impulse
+
+</emphasis>
+
+ = F*t = change in momentum
+
+</para>
+
+
+
+
+<para id="p1065">
+This equation is often referred to as the 
+
+<emphasis id="em1001" effect="italics">
+impulse-momentum change 
+equation
+
+</emphasis>
+.
+
+</para>
+
+
+	
+
+
+<note id="note1001" type="">
+
+
+
+
+
+	
+
+<para id="p1066">
+<emphasis id="strong1023" effect="bold">
+Facts worth remembering -- The 
+
+</emphasis>
+ 
+
+<emphasis id="em1002" effect="italics">
+<emphasis id="strong1024" effect="bold">
+impulse-momentum change 
+equation
+
+</emphasis>
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1067">
+<emphasis id="impulseChangeEquation0" effect="bold">
+
+impulse
+
+</emphasis>
+
+ = F*t = change in momentum
+
+</para>
+
+
+
+
+<para id="p1068">
+F*t = m*v2 - m*v1
+
+</para>
+
+
+
+
+<para id="p1069">
+where
+
+</para>
+
+
+
+
+<list id="ul1019" list-type="bulleted">
+
+	
+
+<item id="li1068">
+F*t represents impulse
+
+</item>
+
+
+	
+
+<item id="li1069">
+m*v2 and m*v1 each represent momentum
+
+</item>
+
+
+	
+
+<item id="li1070">
+m*v2 - m*v1 represents a change in momentum
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+	
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="The_physics_of_collisions" effect="bold">
+
+The physics of collisions
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1070">
+One area of physics where momentum plays a large part is the physics 
+of collisions. Momentum and possible changes in momentum are involved in the interactions 
+among all moving objects, even when the changes in momentum are not visually 
+obvious.
+
+</para>
+
+
+
+
+<para id="p1071">
+For example, the passage of a moving iron object through the magnetic field 
+of a moving magnet will cause changes in the momentum of both the iron object 
+and the magnet, but the result may not be obvious.
+
+</para>
+
+
+
+
+<para id="p1072">
+<emphasis id="strong1025" effect="bold">
+Collisions may be more obvious
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1073">
+The type of interaction 
+that we call a collision may be the type of interaction that is the most 
+familiar to us. Collisions between objects happen all the time. This module will 
+discuss several examples that involve collisions.
+
+</para>
+
+
+
+
+<para id="p1074">
+<emphasis id="strong1026" effect="bold">
+Collisions in everyday life
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1075">
+I may be wrong, but I suspect that as a blind student, you may be more 
+attuned to collisions in everyday life than your fellow sighted students. 
+For example, each time the end of your cane touches an object, a collision has 
+occurred. Regardless of how light the touch, you probably recognize that collision and take appropriate action.
+
+</para>
+
+
+
+
+<para id="p1076">
+<emphasis id="strong1027" effect="bold">
+The impulse-momentum change equation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1077">
+A law associated with the impulse-momentum change 
+
+
+<link id="a1057" target-id="impulseChangeEquation">
+
+equation
+
+</link>
+
+ may be expressed 
+in the following way (see
+
+
+<link id="a1058" url="http://www.physicsclassroom.com/Class/momentum/U4l1b.cfm">
+
+
+http://www.physicsclassroom.com/Class/momentum/U4l1b.cfm
+
+</link>
+
+):
+
+</para>
+
+
+
+
+<para id="p1078">
+<emphasis id="em1003" effect="italics">
+In a collision, an object experiences a force for a specific amount of time 
+that results in a change in momentum. The result of the force acting for the 
+given amount of time is that the object's mass either speeds up or slows down 
+(or changes direction). The impulse experienced by the object equals the change 
+in momentum of the object.
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1079">
+In equation form,
+
+</para>
+
+
+
+
+<para id="p1080">
+F * t = m * (v2 - v1)
+
+</para>
+
+
+
+
+<para id="p1081">
+<emphasis id="strong1028" effect="bold">
+All objects in a collision experience an impulse
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1082">
+When a collision occurs, each object involved in the collision experiences an impulse. The impulse 
+is equal to the change in momentum.
+
+</para>
+
+
+
+
+<para id="p1083">
+<emphasis id="strong1029" effect="bold">
+A hypothetical collision with a punching bag
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1084">
+In gyms where students practice boxing, there is usually a large object called a punching 
+bag. Some punching bags are large cylindrical containers made of leather or 
+some other pliable material filled with something like sand. Typically, they 
+hang from the ceiling or from an overhead beam.
+
+</para>
+
+
+
+
+<para id="p1085">
+<emphasis id="strong1030" effect="bold">
+A void below the punching bag
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1086">
+Often, the punching bag is not attached to the floor and the bottom of 
+the punching bag is often several feet above the floor. This leaves a void between 
+the bottom of the punching bag and the floor.
+
+</para>
+
+
+
+
+<para id="p1087">
+<emphasis id="strong1031" effect="bold">
+A walk through the gym
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1088">
+Assume that you, as a blind student are walking through a gym that contains 
+a punching bag of the type described above. Because of the void, you may not detect the presence of the 
+punching bag with your cane and you might walk directly into the punching bag.
+
+</para>
+
+
+
+
+<para id="p1089">
+<emphasis id="strong1032" effect="bold">
+A force over a short period of time
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1090">
+Unlike a solid wall, the punching bag probably wouldn't stop your forward 
+progress instantly. Instead, there would probably be a period of time during 
+which the bag would exert a force on you and you would exert an equal but 
+opposite force on the bag. 
+
+</para>
+
+
+
+
+<para id="p1091">
+Initially, both you and the heavy punching bag would probably move in the 
+direction that you are walking. Shortly thereafter, your forward 
+velocity would probably go to zero.
+
+</para>
+
+
+
+
+<para id="p1092">
+Then the punching bag would probably push you 
+backwards giving you a negative velocity as the bag swings like a pendulum. However the collision plays itself out, you would experience an impulse that 
+would change your momentum and the momentum of the punching bag as well.
+
+</para>
+
+
+
+
+<para id="p1093">
+<emphasis id="strong1033" effect="bold">
+An ideal assumption
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1094">
+If we assume (ideally) that the force exerted on you by the bag is 
+constant at ten newtons for a total of five seconds, the impulse would be equal 
+to 50*N*s.
+
+</para>
+
+
+
+
+<para id="p1095">
+(In reality, the force would vary during the time interval and the 
+computation of the impulse would be somewhat more complicated. For a 
+time-varying force, the impulse is the area under a graph of force versus time. 
+The average of the force over the given time interval cal also be used to 
+compute the impulse when the force is not constant.)
+
+</para>
+
+
+
+
+<para id="p1096">
+<emphasis id="strong1034" effect="bold">
+The effect of the time interval
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1097">
+The impulse, or the change in momentum, is equal to the product of the force 
+and the time. Therefore, a large force over a short period of time can produce 
+the same change in momentum as is produced by a smaller force over a longer 
+period of time.
+
+</para>
+
+
+
+
+<para id="p1098">
+The effect on the object experiencing the change in momentum can be quite 
+different for the two cases. This is particularly true when the human body 
+experiences a change in momentum. Among other things, air bags in cars are 
+designed to lengthen the time over which the change in momentum occurs for a 
+human body involved in a collision. In addition, the air bag can also spread the 
+force over a larger portion of the body, which can reduce the damage to the body 
+caused by the change in momentum.
+
+</para>
+
+
+
+
+<para id="p1099">
+<emphasis id="strong1035" effect="bold">
+Another representation of units
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1100">
+In any event, if we substitute the units for the newton in the above 
+expression, we get
+
+</para>
+
+
+
+
+<para id="p1101">
+50*N*s = 50*(kg*m/s^2)*s = 50*kg*m/s
+
+</para>
+
+
+
+
+<para id="p1102">
+<emphasis id="strong1036" effect="bold">
+Two ways to represent the units of an impulse
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1103">
+Therefore, we can represent the units for an impulse as either N*s or as 
+kg*m/s. You should recognize the latter as the product of mass and velocity, 
+which are the same units as momentum.
+
+</para>
+
+
+
+
+<para id="p1104">
+In a collision, the impulse experienced by an object is always equal to the 
+change in momentum experienced by the object.
+
+</para>
+
+
+
+
+<para id="p1105">
+<emphasis id="strong1037" effect="bold">
+A Super Ball
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1106">
+Consider the case of a 
+
+<emphasis id="em1004" effect="italics">
+Super Ball
+
+</emphasis>
+ bouncing off of a solid concrete floor. 
+
+<emphasis id="em1005" effect="italics">
+
+(Super Ball is a brand name and registered trademark of Wham-O Incorporated.)
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1107">
+The main characteristic of a Super Ball is its ability to bounce almost as 
+high as the height from which it was released when dropped onto a solid surface. 
+As a result, when the Super Ball collides with the floor, it demonstrates a strong 
+
+<emphasis id="em1006" effect="italics">
+rebound effect
+
+</emphasis>
+. The greater the rebound 
+effect, the greater will be the acceleration, momentum change, and impulse in a 
+collision.
+
+</para>
+
+
+
+
+<para id="p1108">
+<emphasis id="strong1038" effect="bold">
+A rebound collision
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1109">
+A rebound collision involves a change in direction in addition to a change in 
+speed. Because the direction changes, there is a large velocity change even if 
+the magnitude of the velocity stays the same.
+
+</para>
+
+
+
+
+<para id="p1110">
+<emphasis id="strong1039" effect="bold">
+Elastic collision
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1111">
+Collisions in which objects rebound with the same speed (and thus, the same 
+momentum and kinetic energy) as they had prior to the collision are known as 
+
+
+<emphasis id="em1007" effect="italics">
+elastic collisions
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1112">
+Stated differently, an elastic collision is a collision between two bodies in 
+which the total kinetic energy of the two bodies after the collision is equal to 
+their total kinetic energy before the collision. Elastic collisions occur only 
+if there is no net conversion of kinetic energy into other forms.
+
+</para>
+
+
+	
+
+
+<note id="note1002" type="">
+
+
+
+
+
+	
+
+<para id="p1113">
+<emphasis id="strong1040" effect="bold">
+Facts worth remembering -- Elastic collision
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1114">
+An elastic collision is a collision between two bodies in which 
+			the total kinetic energy of the two bodies after the collision is 
+			equal to their total kinetic energy before the collision.
+
+</para>
+
+
+
+
+</note>
+
+
+
+
+	
+
+
+<para id="p1115">
+<emphasis id="strong1041" effect="bold">
+Energy conversion
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1116">
+A future module will explain kinetic energy and other forms of energy, such 
+as potential energy in detail. Briefly, kinetic energy is energy possessed by a 
+moving object simply because it is moving. For example, it hurts more to be hit 
+by a fast moving baseball than to be hit by a slow moving baseball, simply 
+because the collision with a fast moving baseball imparts more energy into your 
+body. In other words, the kinetic energy possessed by the fast-moving baseball 
+is converted into pain in your body.
+
+</para>
+
+
+
+
+<para id="p1117">
+<emphasis id="strong1042" effect="bold">
+Characteristics of an elastic collision
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1118">
+An elastic collision is typically characterized by a large velocity change, a 
+large momentum change, a large impulse, and a large force.
+
+</para>
+
+
+
+
+<para id="p1119">
+While the case of a Super Ball bouncing on a solid concrete floor isn't a 
+perfect elastic collision, it comes very close. The amount of kinetic energy 
+that is converted into other forms of energy during each bounce is very low, and 
+the ball will continue bouncing for a very long time with the height of each 
+bounce being almost as high as the height of the previous bounce.
+
+</para>
+
+
+
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="ActionAndReaction" effect="bold">
+
+Action and reaction
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1120">
+Two objects collide when they make contact while one or both are moving. As is 
+the case with all interactions involving two or more moving objects, a collision 
+results in a force being applied to all of the objects involved in the 
+collision. The behavior of such collisions is governed by Newton's laws of 
+motion.
+
+</para>
+
+
+
+
+<para id="p1121">
+<emphasis id="strong1043" effect="bold">
+Newton's third law
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1122">
+One paraphrased version of Newton's third law (see
+
+
+<link id="a1059" url="http://www.physicsclassroom.com/Class/momentum/u4l2a.cfm">
+
+
+http://www.physicsclassroom.com/Class/momentum/u4l2a.cfm
+
+</link>
+
+) reads:
+
+</para>
+
+
+
+
+<para id="p1123">
+<emphasis id="em1008" effect="italics">
+... in every interaction, there is a pair of forces acting on the two 
+interacting objects. The size of the force on the first object equals the size 
+of the force on the second object. The direction of the force on the first 
+object is opposite to the direction of the force on the second object. Forces 
+always come in pairs - equal and opposite action-reaction force pairs.
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1124">
+According to Newton's third law, when two objects are involved in a 
+collision, the two objects experience forces that are equal in magnitude and 
+opposite in direction.
+
+</para>
+
+
+
+
+<para id="p1125">
+In most cases, the collision will cause one object to gain momentum and the 
+other object to lose momentum. This, in turn, will cause one object to speed up 
+and the other object to slow down.
+
+</para>
+
+
+
+
+<para id="p1126">
+<emphasis id="strong1044" effect="bold">
+Railroad cars
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1127">
+As a child, I grew up living next to a very large railroad yard. I was 
+accustomed to hearing the sounds of controlled collisions between railroad cars.
+
+</para>
+
+
+
+
+<para id="p1128">
+<emphasis id="strong1045" effect="bold">
+How railroad couples work
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1129">
+The devices that hold railroad cars together in a train are activated by a 
+controlled collision. While one railroad car is either standing still, or moving at a 
+slow speed, another railroad car purposely collides with the first car. When that 
+happens, the two railroad cars become fastened together (coupled).
+
+</para>
+
+
+
+
+<para id="p1130">
+<emphasis id="strong1046" effect="bold">
+The distribution of momentum
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1131">
+Prior to the collision, each car possesses a given amount of momentum, which 
+can be zero for a car at rest or non-zero for a car in motion. After the 
+collision, the momentum of each car will have changed.
+
+</para>
+
+
+
+
+<para id="p1132">
+<emphasis id="strong1047" effect="bold">
+The conservation of momentum -- a preview
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1133">
+As I will explain later, 
+(except for the conversion of some kinetic energy into other forms, such as sound 
+energy) the two cars coupled together will possess the total amount of momentum 
+that was possessed by the individual cars prior to the collision. This typically means 
+that one car speeds up and the other car slows down.
+
+</para>
+
+
+
+
+<para id="p1134">
+<emphasis id="strong1048" effect="bold">
+A change in momentum
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1135">
+During the time frame surrounding the instant of the collision, each car 
+experiences a change in momentum. With sufficiently accurate measuring devices, 
+you could measure and record the rate of change of momentum during that short 
+time frame.
+
+</para>
+
+
+
+
+<para id="p1136">
+<emphasis id="strong1049" effect="bold">
+Accelerations are not necessarily equal
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1137">
+Although the forces experienced by the objects are equal in magnitude, the 
+changes in velocity (accelerations) experienced by the two objects are not 
+necessarily equal.
+
+</para>
+
+
+
+
+<para id="p1138">
+<emphasis id="strong1050" effect="bold">
+The acceleration is equal to...
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1139">
+As we learned in an earlier module, the acceleration 
+experienced by an object is proportional to the applied force and inversely proportional 
+to the mass of the object. Therefore, different masses 
+experiencing the same magnitude of force will experience different magnitudes of 
+acceleration.
+
+</para>
+
+
+
+
+<para id="p1140">
+<emphasis id="strong1051" effect="bold">
+Kicking a lightweight aluminum can
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1141">
+Consider what happens when someone leaves an empty lightweight aluminum drink 
+can on the floor and you accidently kick it with your bare foot while walking 
+briskly across the room. The can exerts a force on your foot, which fortunately 
+doesn't hurt too much because of the small mass of the can. Your foot exerts an 
+equal and opposite 
+force on the can that probably sends it flying across the room.
+
+</para>
+
+
+
+
+<para id="p1142">
+The velocity of the can changes by a large amount, going from zero to a 
+velocity that sends it flying. Thus, the acceleration of the can is large.
+
+</para>
+
+
+
+
+<para id="p1143">
+The velocity of your foot, on the other hand, changes very little at the 
+moment of impact as a result of its large mass (although your muscular reaction 
+might be such as to slow the foot down shortly thereafter). Thus, the magnitude 
+of the acceleration of your foot due solely to the collision is small.
+
+</para>
+
+
+
+
+<para id="p1144">
+<emphasis id="strong1052" effect="bold">
+Kicking a heavy can
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1145">
+Now consider the same scenario except that this time, the can contains your brother's collection of rocks. In this case, the 
+acceleration of the can due to the collision with your foot would probably be quite small, and 
+the (negative) acceleration of your foot due to the collision might be much larger than 
+with the lightweight can. 
+
+</para>
+
+
+
+
+<para id="p1146">
+The can of rocks probably wouldn't go flying across the room, but might 
+simply turn over, spilling the rocks on the floor.
+
+</para>
+
+
+
+
+<para id="p1147">
+The negative acceleration experienced by your foot might result in some 
+broken toes.
+
+</para>
+
+
+
+
+<para id="p1148">
+Once again, the forces would be equal in magnitude and opposite in direction, 
+but the acceleration of each object would be inversely proportional to the mass 
+of the object.
+
+</para>
+
+
+
+
+<para id="p1149">
+<emphasis id="strong1053" effect="bold">
+Equal and opposite forces
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1150">
+When you kick the can, your foot would exert a force on the can in the 
+direction of motion of your foot. The can would exert a force on your foot that 
+is equal in magnitude but opposite in direction.
+
+</para>
+
+
+
+
+<para id="p1151">
+The forward force on the can would cause it to gain velocity in the direction 
+that your foot is moving. The backward force on your foot would cause your foot to slow 
+down.
+
+</para>
+
+
+
+
+<para id="p1152">
+<emphasis id="strong1054" effect="bold">
+Equal acceleration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1153">
+In the unlikely event that the mass of the can is exactly equal to 
+the mass of your foot, the negative acceleration experienced by your foot would 
+be equal to the positive acceleration exerted on the can. That is the one case 
+where not only the magnitudes of the forces, but also the magnitudes of the 
+accelerations would be equal.
+
+</para>
+
+
+
+
+<para id="p1154">
+For collisions between equal-mass objects, each object experiences the same 
+acceleration.
+
+</para>
+
+
+
+
+</section>
+<section id="h21009">
+<title>
+<emphasis id="Conservation_of_momentum" effect="bold">
+
+Conservation of momentum
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1155">
+When two objects interact in an 
+
+<emphasis id="em1009" effect="italics">
+isolated system
+
+</emphasis>
+, the total momentum 
+of the two objects before the interaction is equal to the total momentum of the 
+two objects after the interaction. The momentum lost by one 
+object is gained by the other object.
+
+</para>
+
+
+
+	
+
+
+<note id="note1003" type="">
+
+
+
+
+
+	
+
+<para id="p1156">
+<emphasis id="strong1055" effect="bold">
+Facts worth remembering -- Isolated system
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1157">
+An isolated system is a system that is free from the influence of a net 
+external force that alters the momentum of the system.
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+	
+	
+
+<para id="p1158">
+The total momentum of a collection of objects in a system is conserved. The total amount of momentum is constant.
+
+</para>
+
+
+
+
+<para id="p1159">
+<emphasis id="strong1056" effect="bold">
+Many forms of interaction are possible
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1160">
+There are many ways that two objects can interact. For example, when a car 
+pulls away from a stoplight, it gains momentum by exerting frictional forces on 
+the surface of the earth. When that happens, the earth loses an equal amount of 
+momentum. (Fortunately, this represents a very small fraction of the earth's 
+momentum, so the loss of momentum isn't noticeable.)
+
+</para>
+
+
+
+
+<para id="p1161">
+When the driver applies the brakes and stops the car at the next stop light 
+(by exerting frictional forces on the surface of the earth), the car loses 
+all of its momentum and the earth gains an equal amount of momentum. (Once 
+again, this represents a very small fraction of the earth's momentum, so the 
+gain of momentum isn't noticeable.)
+
+</para>
+
+
+
+
+<para id="p1162">
+<emphasis id="strong1057" effect="bold">
+Railroad cars and controlled collisions
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1163">
+Earlier in this module, I described a process where controlled collisions 
+are used to couple railroad cars together.
+
+</para>
+
+
+
+
+<para id="p1164">
+While one railroad car is either standing still, or moving at a slow speed, another railroad car purposely collides with that car. When that happens, the two railroad cars become fastened together (coupled).
+
+</para>
+
+
+
+
+<para id="p1165">
+<emphasis id="strong1058" effect="bold">
+Distribution of momentum
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1166">
+Prior to the collision, each car possesses a given amount of momentum, which can be zero for a car at rest or non-zero for a car in motion. After the collision, the momentum of each car will have changed.
+
+</para>
+
+
+
+
+<para id="p1167">
+Except for the conversion of some kinetic energy into other forms, such as sound energy, the two cars coupled together will possess the total amount of momentum that was possessed by the individual cars prior to the collision.
+
+</para>
+
+
+
+
+<para id="p1168">
+This typically means that one car speeds up and the other car slows down. 
+During the time frame surrounding the instant of the collision, each car 
+experiences a change in momentum.
+
+</para>
+
+
+
+
+<para id="p1169">
+<emphasis id="strong1059" effect="bold">
+A logical proof of the conservation of momentum
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1170">
+We already know that when two objects interact, each object exerts a force on 
+the other object. The two forces are equal in magnitude and opposite in 
+direction.
+
+</para>
+
+
+
+
+<para id="p1171">
+We can probably agree that when two objects interact, the amount of time that 
+object-A interacts with object-B is the same as the amount of time that object-B 
+interacts with object-A.
+
+</para>
+
+
+
+
+<para id="p1172">
+Therefore, if the forces are equal and opposite, and the times are the same, 
+we can write
+
+</para>
+
+
+
+
+<para id="p1173">
+Fa*t = -Fb*t
+
+</para>
+
+
+
+
+<para id="p1174">
+where
+
+</para>
+
+
+
+
+<list id="ul1020" list-type="bulleted">
+
+	
+
+<item id="li1071">
+Fa and Fb represent forces exerted on objects A and B respectively.
+
+</item>
+
+
+	
+
+<item id="li1072">
+t represents the time during which the objects interact.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1175">
+<emphasis id="strong1060" effect="bold">
+Impulses acting on objects A and B
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1176">
+You should recognize these terms as the impulses acting on objects A and B. 
+Therefore, the impulses acting on the two objects are equal and opposite.
+
+</para>
+
+
+
+
+<para id="p1177">
+<emphasis id="strong1061" effect="bold">
+Impulses are equal and object
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1178">
+You learned earlier that the impulse acting on an object is equal to the 
+change in momentum of the object. If the impulses acting on the two objects are 
+equal and opposite, then the change in momentum experienced by the two objects 
+must be equal and opposite.
+
+</para>
+
+
+
+
+<para id="p1179">
+We can 
+
+<emphasis id="express_this_in_equation_form" effect="bold">
+
+express this in equation form
+
+</emphasis>
+
+ 
+as
+
+</para>
+
+
+
+
+<para id="p1180">
+ma*(va2 - va1) = -mb*(vb2 - vb1)
+
+</para>
+
+
+
+
+<para id="p1181">
+where
+
+</para>
+
+
+
+
+<list id="ul1021" list-type="bulleted">
+
+	
+
+<item id="li1073">
+ma and mb are the masses of objects A and B respectively
+
+</item>
+
+
+	
+
+<item id="li1074">
+(va2 - va1) is the change in velocity of object-A
+
+</item>
+
+
+	
+
+<item id="li1075">
+(vb2 - vb1) is the change in velocity of object-B
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1182">
+<emphasis id="strong1062" effect="bold">
+The law of conservation of momentum
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1183">
+This equation is a statement of the law of conservation of momentum. The 
+change in momentum experienced by object-A is equal to and opposite of the 
+change in momentum experienced by object-B.
+
+</para>
+
+
+
+
+<para id="p1184">
+Stated differently, the momentum 
+lost by object-A is gained by object-B, or vice-versa.
+
+</para>
+
+
+
+
+<para id="p1185">
+That being the case, the 
+total momentum possessed by the system containing object-A and object-B remains 
+unchanged by the interaction of the two objects. The total momentum of the 
+system is conserved.
+
+</para>
+
+
+
+	
+
+
+<note id="note1004" type="">
+
+
+
+
+
+	
+
+<para id="p1186">
+<emphasis id="strong1063" effect="bold">
+Facts worth remembering -- The law of conservation of momentum
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1187">
+For a collision occurring between object-A and object-B in an 
+			isolated system, the total momentum of the two objects before the 
+			collision is equal to the total momentum of the two objects after 
+			the collision. (By total
+momentum we mean the vector sum of the individual momenta of the objects.)
+
+</para>
+
+
+			
+
+</note>
+
+
+
+
+	
+
+
+<para id="p1188">
+<emphasis id="strong1064" effect="bold">
+Bowling ball and bowling pins
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1189">
+Bowling is a game where the players roll a heavy ball down a long smooth 
+wooden platform in an attempt to knock down ten heavy wooden objects (bowling 
+pins) arranged in 
+a triangle at the end of the platform. The bowling pins are shaped something 
+like a flower vase that is larger at the bottom than at the top. Thus, each 
+bowling pin has a low center of gravity.
+
+</para>
+
+
+
+
+<para id="p1190">
+When the ball strikes the cluster of bowling pins, there are eleven objects 
+involved in a conservation of momentum process. The momentum that is lost by the 
+bowling ball is distributed among the ten bowling pins, but the momentum is 
+probably not distributed evenly among the bowling pins. There is a lot of chaos 
+at the time of impact with the bowling ball colliding with the pins, pins 
+colliding with other pins, etc. Some of the energy is also converted to sound.
+
+</para>
+
+
+
+
+</section>
+<section id="h21010">
+<title>
+<emphasis id="Center_of_mass" effect="bold">
+
+Center of mass
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1191">
+Interactions between parts of a system transfer momentum between the parts, 
+but do not change the total momentum of the system. We can define a
+point called the center of mass that serves as an average location of a system 
+of parts. 
+
+</para>
+
+
+
+
+<para id="p1192">
+The center of mass need not necessarily be at a location that is either in or on one of the 
+parts. For example, the center of mass of a pair of heavy rods connected at one 
+end so as to form a "V" shape is somewhere in space between the two rods.
+
+</para>
+
+
+
+
+<para id="p1193">
+Having determined the center of mass for a system, we can treat the mass of 
+the system as if it were all concentrated at the center of mass.
+
+</para>
+
+
+	
+
+
+<section id="h31002">
+<title>
+<emphasis id="Location_of_the_center_of_mass" effect="bold">
+
+Location of the center of mass
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1194">
+For a system composed of two masses, the center of
+mass lies somewhere on a line between the two masses. The center of mass is a weighted average of the positions of the two 
+masses.
+
+</para>
+
+
+	
+
+
+<note id="note1005" type="">
+
+
+
+
+
+	
+
+<para id="p1195">
+<emphasis id="strong1065" effect="bold">
+Facts worth remembering -- Center of mass for two objects
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1196">
+For a pair of masses located at two points along the x-axis, we can write
+
+</para>
+
+
+			
+
+<para id="p1197">
+xcm = (m1*x1/M) + (m2*x2/M)
+
+</para>
+
+
+			
+
+<para id="p1198">
+where
+
+</para>
+
+
+			
+
+<list id="ul1022" list-type="bulleted">
+
+				
+
+<item id="li1076">
+xcm is the x-coordinate of the center of mass
+
+</item>
+
+
+				
+
+<item id="li1077">
+m1 and m2 are the values of the two masses
+
+</item>
+
+
+				
+
+<item id="li1078">
+x1 and x2 are the locations of the two masses
+
+</item>
+
+
+				
+
+<item id="li1079">
+M is the sum of m1 and m2
+
+</item>
+
+
+			
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+	
+	
+
+<para id="p1199">
+<emphasis id="strong1066" effect="bold">
+Multiple masses in three dimensions
+
+</emphasis>
+</para>
+
+
+	
+
+
+<para id="p1200">
+When we have multiple masses in three dimensions, the definition of the 
+center of mass is somewhat more complicated.
+
+</para>
+
+
+	
+
+
+<note id="note1006" type="">
+
+
+
+
+
+	
+
+<para id="p1201">
+<emphasis id="strong1067" effect="bold">
+Facts worth remembering -- Center of mass for many objects
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1202">
+<emphasis id="strong1068" effect="bold">
+Vector form:
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1203">
+rcm = sum over all i(mi*ri / M)
+
+</para>
+
+
+			
+
+<para id="p1204">
+<emphasis id="strong1069" effect="bold">
+Component form:
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1205">
+xcm = sum over all i(mi*xi / M)
+
+</para>
+
+
+			
+
+<para id="p1206">
+ycm = sum over all i(mi*yi / M)
+
+</para>
+
+
+			
+
+<para id="p1207">
+zcm = sum over all i(mi*zi / M)
+
+</para>
+
+
+			
+
+<para id="p1208">
+where
+
+</para>
+
+
+			
+
+<list id="ul1023" list-type="bulleted">
+
+				
+
+<item id="li1080">
+<emphasis id="strong1070" effect="bold">
+Vector form
+
+</emphasis>
+<list id="ul1024" list-type="bulleted">
+
+					
+
+<item id="li1081">
+rcm is a position vector describing the location of the 
+					center of mass
+
+</item>
+
+
+					
+
+<item id="li1082">
+ri are position vectors describing the locations of all 
+					the masses
+
+</item>
+
+
+					
+
+<item id="li1083">
+mi are masses for i=1, i=2, etc.
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</item>
+
+
+				
+
+<item id="li1084">
+<emphasis id="strong1071" effect="bold">
+Component form
+
+</emphasis>
+<list id="ul1025" list-type="bulleted">
+
+					
+
+<item id="li1085">
+xcm, ycm, and zcm are the locations of the center of mass 
+				along 3-dimensional axes.
+
+</item>
+
+
+					
+
+<item id="li1086">
+mi are masses for i=1, i=2, etc.
+
+</item>
+
+
+					
+
+<item id="li1087">
+xi, yi, and zi are the locations of the masses along 
+				3-dimensional axes for i=1, i=2, etc.
+
+</item>
+
+
+					
+
+<item id="li1088">
+M is the sum of all of the masses
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</item>
+
+
+			
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+	
+	
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="Motion_of_the_center_of_mass" effect="bold">
+
+Motion of the center of mass
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1209">
+It can be shown that in an isolated system, the center of mass must move with constant
+velocity regardless of the motions of the individual particles. 
+
+</para>
+
+
+
+
+<para id="p1210">
+It can be shown that in a non-isolated system, if a net external force acts on a system, the 
+center of mass does not move
+with constant velocity. Instead, it moves as if all the mass were concentrated there into
+a fictitious point particle with all the external forces acting on that point.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Example scenarios
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1211">
+This section contains explanations and computations involving momentum, 
+impulse, action and reaction, and 
+the conservation of momentum.
+
+</para>
+
+
+
+
+<section id="h21011">
+<title>
+<emphasis id="Momentum_examples" effect="bold">
+
+Momentum examples
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1212">
+This section contains several examples involving momentum
+
+</para>
+
+
+
+
+<section id="h31004">
+<title>
+<emphasis id="A_sprinter" effect="bold">
+
+A sprinter
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1213">
+Use the Google calculator to compute the momentum of a 70-kg sprinter running 
+30 m/s at 0 degrees.
+
+</para>
+
+
+
+
+<para id="p1214">
+Answer: 2100 kg*m/s at 0 degrees
+
+</para>
+
+
+
+
+</section>
+<section id="h31005">
+<title>
+<emphasis id="A_truck" effect="bold">
+
+A truck
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1215">
+Use the Google calculator to compute the momentum in kg*m/s of a 2205-lb 
+truck traveling 33.6 miles per hour at 0 degrees when the changes listed below 
+occur:
+
+</para>
+
+
+
+
+<list id="ol1000" list-type="enumerated">
+
+	
+
+<item id="li1089">
+Initial momentum
+
+</item>
+
+
+	
+
+<item id="li1090">
+Momentum when velocity is doubled 
+
+</item>
+
+
+	
+
+<item id="li1091">
+Momentum at initial velocity when mass is doubled
+
+</item>
+
+
+	
+
+<item id="li1092">
+Momentum when both velocity and mass are doubled
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1216">
+Answers:
+
+</para>
+
+
+
+
+<para id="p1217">
+1. Enter the following into the Google calculator and press Enter to produce 
+the results shown.
+
+</para>
+
+
+
+
+<list id="ul1026" list-type="bulleted">
+
+	
+
+<item id="li1093">
+convert 2205 lb to kg = 1000.17118 kilograms
+
+</item>
+
+
+	
+
+<item id="li1094">
+convert 33.6 mph to m/s = 15.020544 meters / second
+
+</item>
+
+
+	
+
+<item id="li1095">
+1000 kg*15 m/s = 15000 m kg / s
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1218">
+Therefore, the initial momentum = 15000*kg*m/s at 0 degrees
+
+</para>
+
+
+
+
+<para id="p1219">
+2. 1000 kg*30 m/s = 30000 m kg / s at 0 degrees
+
+</para>
+
+
+
+
+<para id="p1220">
+3. 2000 kg*15 m/s = 30000 m kg / s at 0 degrees
+
+</para>
+
+
+
+
+<para id="p1221">
+4. 2000 kg*30 m/s = 60000 m kg / s at 0 degrees
+
+</para>
+
+
+
+
+</section>
+<section id="h31006">
+<title>
+<emphasis id="Change_in_momentum_due_to_change_in_speed_and_direction" effect="bold">
+
+Change in momentum 
+due to change in speed and direction
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1222">
+A car with a weight of 10000 newtons is moving in a direction of 90 degrees at 
+40 
+m/s. After going around a curve in the road, the car is moving in a direction of 
+0 degrees at 20 m/s. What is the change in momentum of the car?
+
+</para>
+
+
+
+
+<para id="p1223">
+Solution:
+
+</para>
+
+
+
+
+<para id="p1224">
+While this problem could be solved using the Google calculator, because of 
+the number of steps involved, JavaScript is probably a better approach.
+
+</para>
+
+
+
+
+<para id="p1225">
+The solution script for this problem is shown in 
+
+<link id="a1060" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+
+<table id="table1000" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1000">
+<row id="tr1000">
+<entry id="th1000">
+
+
+
+<emphasis id="Listing_1" effect="bold">
+
+Listing 1
+
+</emphasis>
+
+. Solution script.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1000">
+<row id="tr1001">
+<entry id="td1000">
+
+
+
+<code id="pre1000" display="block">&lt;!---------------- File JavaScript01.html ---------------------&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+
+//The purpose of this function is to receive the adjacent
+// and opposite side values for a right triangle and to
+// return the angle in degrees in the correct quadrant.
+function getAngle(x,y){
+  if((x == 0) &amp;&amp; (y == 0)){
+    //Angle is indeterminate. Just return zero.
+    return 0;
+  }else if((x == 0) &amp;&amp; (y &gt; 0)){
+    //Avoid divide by zero denominator.
+    return 90;
+  }else if((x == 0) &amp;&amp; (y &lt; 0)){
+    //Avoid divide by zero denominator.
+    return -90;
+  }else if((x &lt; 0) &amp;&amp; (y &gt;= 0)){
+    //Correct to second quadrant
+    return Math.atan(y/x)*180/Math.PI + 180;
+  }else if((x &lt; 0) &amp;&amp; (y &lt;= 0)){
+    //Correct to third quadrant
+    return Math.atan(y/x)*180/Math.PI + 180;
+  }else{
+    //First and fourth quadrants. No correction required.
+    return Math.atan(y/x)*180/Math.PI;
+  }//end else
+}//end function getAngle
+
+document.write("Start Script &lt;/br&gt;");
+
+var weight = 10000//N
+var g = 9.8// m/s^2
+//Find the mass of the car
+var mass = weight/g;// kg
+
+
+var ang1 = 90;//initial angle in degrees
+var ang2 = 0; //final angle in degrees
+
+var speed1 = 40;//initial speed in m/s
+var speed2 = 20;//final speed in m/s
+
+var ang1r = ang1*Math.PI/180;//initial angle in radians
+var ang2r = ang2*Math.PI/180;//final angle in radians
+
+//Remember, momentum is a vector quantity and momenta must
+// be added and subtracted using vector arithmetic.
+
+//Compute the components of the change in momentum.
+var P1x = mass * speed1 * Math.cos(ang1r);
+var P1y = mass * speed1 * Math.sin(ang1r);
+var P2x = mass * speed2 * Math.cos(ang2r);
+var P2y = mass * speed2 * Math.sin(ang2r);
+var deltaPx = P2x-P1x;//change in horizontal component
+var deltaPy = P2y-P1y;//change in vertical component
+
+//Compute the magnitude of the change in momentum using
+// the Pythagorean theorem.
+var deltaPm = Math.sqrt(deltaPx*deltaPx + deltaPy*deltaPy);
+
+//Compute the angle of the change in momentum usiing
+// trigonometry.
+var deltaPa = getAngle(deltaPx,deltaPy);
+
+document.write("The givens." + "&lt;/br&gt;");
+document.write("weight = " + weight.toFixed(0)
+  + " kg&lt;/br&gt;");
+document.write("speed1 = " + speed1.toFixed(0)
+  + " m/s&lt;/br&gt;");
+document.write("angle 1 = " + ang1.toFixed(0)
+  + " degrees&lt;/br&gt;");
+document.write("speed2 = " + speed2.toFixed(0)
+  + " m/s&lt;/br&gt;");
+document.write("angle 2 = " + ang2.toFixed(0)
+  + " degrees&lt;/br&gt;");
+
+document.write("Computed mass." + "&lt;/br&gt;");
+document.write("mass = " + mass.toFixed(0) + " kg&lt;/br&gt;");
+
+document.write("Components of momentum vectors." + "&lt;/br&gt;");
+document.write("P1x = " + P1x.toFixed(0) + "&lt;/br&gt;");
+document.write("P1y = " + P1y.toFixed(0) + "&lt;/br&gt;");
+document.write("P2x = " + P2x.toFixed(0) + "&lt;/br&gt;");
+document.write("P2y = " + P2y.toFixed(0) + "&lt;/br&gt;");
+
+document.write("Components of momentum change vectors."
+  + "&lt;/br&gt;");
+document.write("deltaPx = " + deltaPx.toFixed(0) + "&lt;/br&gt;");
+document.write("deltaPy = " + deltaPy.toFixed(0) + "&lt;/br&gt;");
+
+document.write("Magnitude and angle of change vector."
+  + "&lt;/br&gt;");
+document.write("deltaPm = " + deltaPm.toFixed(0)
+  + " m kg/s&lt;/br&gt;");
+document.write("deltaPa = " + deltaPa.toFixed(0)
+  + " degrees&lt;/br&gt;");
+
+document.write("End Script");
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1226">
+The comments in 
+
+<link id="a1061" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+ explain the steps involved 
+in finding the solution.
+
+</para>
+
+
+
+
+<para id="p1227">
+The output produced by 
+
+<link id="a1062" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+ is shown in 
+
+
+<link id="a1063" target-id="Figure_1">
+
+Figure 
+1
+
+</link>
+
+ with the magnitude and angle of the vector that describes the change of 
+momentum at the end.
+
+</para>
+
+
+
+
+
+
+<table id="table1001" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1001">
+<row id="tr1002">
+<entry id="th1001">
+
+
+
+<emphasis id="Figure_1" effect="bold">
+
+Figure 1
+
+</emphasis>
+
+. Solution results.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1001">
+<row id="tr1003">
+<entry id="td1001">
+
+
+
+<code id="pre1001" display="block">Start Script 
+The givens.
+weight = 10000 kg
+speed1 = 40 m/s
+angle 1 = 90 degrees
+speed2 = 20 m/s
+angle 2 = 0 degrees
+Computed mass.
+mass = 1020 kg
+Components of momentum vectors.
+P1x = 0
+P1y = 40816
+P2x = 20408
+P2y = 0
+Components of momentum change vectors.
+deltaPx = 20408
+deltaPy = -40816
+Magnitude and angle of change vector.
+deltaPm = 45634 m kg/s
+deltaPa = -63 degrees
+End Script </code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+	
+
+<para id="p1228">
+I find it interesting that the magnitude of the change in momentum is 
+	greater than the magnitude of either the initial or final momentum.
+
+</para>
+
+
+
+
+</section>
+<section id="h31007">
+<title>
+<emphasis id="Change_in_momentum_due_to_change_in_speed_only" effect="bold">
+
+Change in 
+	momentum due to change in speed only
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1229">
+What happens if the car in the previous example changes speed but doesn't 
+change direction.
+
+</para>
+
+
+
+
+<para id="p1230">
+Solution:
+
+</para>
+
+
+
+
+<para id="p1231">
+Change the given conditions in the script in Listing 1 to those shown at the 
+beginning of 
+
+<link id="a1064" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+<table id="table1002" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1002">
+<row id="tr1004">
+<entry id="th1002">
+
+
+
+<emphasis id="Figure_2" effect="bold">
+
+Figure 2
+
+</emphasis>
+
+. Change in speed only.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1002">
+<row id="tr1005">
+<entry id="td1002">
+
+
+
+<code id="pre1002" display="block">Start Script 
+The givens.
+weight = 10000 kg
+speed1 = 40 m/s
+angle 1 = 90 degrees
+speed2 = 20 m/s
+angle 2 = 90 degrees
+Computed mass.
+mass = 1020 kg
+Components of momentum vectors.
+P1x = 0
+P1y = 40816
+P2x = 0
+P2y = 20408
+Components of momentum change vectors.
+deltaPx = -0
+deltaPy = -20408
+Magnitude and angle of change vector.
+deltaPm = 20408 m kg/s
+deltaPa = 270 degrees
+End Script </code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+	
+
+<para id="p1232">
+This change causes the car to slow down, but to continue in the same 
+	direction. As a result, the angle of the change in momentum is an angle that 
+	is opposite to the direction that the car is moving. The magnitude of the 
+	change in momentum depends entirely on the initial and final speeds.
+
+</para>
+
+
+
+
+</section>
+<section id="h31008">
+<title>
+<emphasis id="Change_in_momentum_due_to_change_in_direction_only" effect="bold">
+
+Change in 
+momentum due to change in direction only
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1233">
+What happens if the car in the previous example changes direction but doesn't 
+change speed?
+
+</para>
+
+
+
+
+<para id="p1234">
+Solution:
+
+</para>
+
+
+
+
+<para id="p1235">
+Change the given conditions in the script in 
+
+<link id="a1065" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+ to those shown at the 
+beginning of 
+
+<link id="a1066" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+. This scenario simulates the car 
+making a 10-degree turn to the right without changing speed.
+
+</para>
+
+
+
+
+
+
+<table id="table1003" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1003">
+<row id="tr1006">
+<entry id="th1003">
+
+
+
+<emphasis id="Figure_3" effect="bold">
+
+Figure 3
+
+</emphasis>
+
+. Change in direction only.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1003">
+<row id="tr1007">
+<entry id="td1003">
+
+
+
+<code id="pre1003" display="block">Start Script 
+The givens.
+weight = 10000 kg
+speed1 = 40 m/s
+angle 1 = 90 degrees
+speed2 = 40 m/s
+angle 2 = 80 degrees
+Computed mass.
+mass = 1020 kg
+Components of momentum vectors.
+P1x = 0
+P1y = 40816
+P2x = 7088
+P2y = 40196
+Components of momentum change vectors.
+deltaPx = 7088
+deltaPy = -620
+Magnitude and angle of change vector.
+deltaPm = 7115 m kg/s
+deltaPa = -5 degrees
+End Script </code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+</section>
+</section>
+<section id="h21012">
+<title>
+<emphasis id="Impulse_examples" effect="bold">
+
+Impulse examples
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1236">
+This section contains several examples involving the impulse.
+
+</para>
+
+
+
+
+<section id="h31009">
+<title>
+<emphasis id="Pushing_a_wagon_part_1" effect="bold">
+
+Pushing a wagon part 1
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1237">
+1. What is the impulse experienced by pushing a 10-kg wagon that was 
+initially at rest, with a constant force of 2 newtons for a period of 3 seconds?
+
+</para>
+
+
+
+
+<para id="p1238">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1239">
+The impulse is given by the product of force and time. The mass of the wagon 
+is superfluous for this question.
+
+</para>
+
+
+
+
+<para id="p1240">
+impulse = 2 N * 3 s = 6*N*s
+
+</para>
+
+
+
+
+</section>
+<section id="h31010">
+<title>
+<emphasis id="Pushing_a_wagon_part_2" effect="bold">
+
+Pushing a wagon part 2
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1241">
+2. What is the acceleration of the wagon in question 1 above?
+
+</para>
+
+
+
+
+<para id="p1242">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1243">
+Now we do need to know the mass.
+
+</para>
+
+
+
+
+<para id="p1244">
+The most straightforward solution comes from the fact that we know the mass 
+and that the force is uniform. Therefore,
+
+</para>
+
+
+
+
+<para id="p1245">
+F = m*a, or
+
+</para>
+
+
+
+
+<para id="p1246">
+a = F/m = 2N/10kg = 0.2 m/s^2
+
+</para>
+
+
+
+
+<para id="p1247">
+A more interesting solution comes from the fact that since
+
+</para>
+
+
+
+
+<para id="p1248">
+impulse = F*t, and
+
+</para>
+
+
+
+
+<para id="p1249">
+F = m*a, then
+
+</para>
+
+
+
+
+<para id="p1250">
+impulse = m*a*t, or
+
+</para>
+
+
+
+
+<para id="p1251">
+a = impulse/(m*t) = 6*N*s/(10*kg*3*s) = 0.2 m/s^2
+
+</para>
+
+
+
+
+</section>
+<section id="h31011">
+<title>
+<emphasis id="Pushing_a_wagon_part_3" effect="bold">
+
+Pushing a wagon part 3
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1252">
+3. What is the velocity at the end of the 3-second interval in question 1 
+above.
+
+</para>
+
+
+
+
+<para id="p1253">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1254">
+The impulse is equal to the change in momentum, and the initial velocity is 
+0.
+
+</para>
+
+
+
+
+<para id="p1255">
+impulse = m*(v2 - v1) = m*v2, or
+
+</para>
+
+
+
+
+<para id="p1256">
+v2 = impulse/m = 6*N*s/(10*kg) = 0.6 m/s
+
+</para>
+
+
+
+
+<para id="p1257">
+We can check that answer by knowing that the acceleration is uniform at 0.3 
+m/s^2 for 3 s = 0.6 m/s.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21013">
+<title>
+<emphasis id="Action_and_reaction" effect="bold">
+
+Action and reaction example
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1258">
+<emphasis id="strong1072" effect="bold">
+A dip in the pool
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1259">
+You have a body mass of 70 kg. You are on your knees on an inflatable raft in 
+a swimming pool. The raft has a mass of 1 
+kg. Your outstretched hands are about two meters from a safety rope that is strung across the pool.
+
+</para>
+
+
+
+
+<para id="p1260">
+You decide to launch yourself from the raft to catch the rope, exerting a force 
+with a horizontal component of 
+5 newtons. (You assume that the vertical component of your launching force will 
+take care of the downward pull of gravity, allowing you to fly in a parabolic 
+arc to the rope.) Assuming uniform acceleration (which is unrealistic but we 
+will assume that anyway), how long will it take you to fly 
+through the air to reach the rope?
+
+</para>
+
+
+
+
+<para id="p1261">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1262">
+The force that you exert on the raft will be equal and opposite to the force 
+that the raft exerts on you. Therefore,
+
+</para>
+
+
+
+
+<para id="p1263">
+F = my*ay = -mr*ar
+
+</para>
+
+
+
+
+<para id="p1264">
+where
+
+</para>
+
+
+
+
+<list id="ul1027" list-type="bulleted">
+
+	
+
+<item id="li1096">
+my and mr are the mass of you and the raft respectively
+
+</item>
+
+
+	
+
+<item id="li1097">
+ay and ar are the accelerations experienced by you and the raft 
+	respectively
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1265">
+Therefore
+
+</para>
+
+
+
+
+<para id="p1266">
+ay = F/my = 5N/70kg = 0.07143 m/s^2 toward the rope
+
+</para>
+
+
+
+
+<para id="p1267">
+ar = -F/mr = -5N/1kg = -5.00000 m/s^2 away from the rope
+
+</para>
+
+
+
+
+<para id="p1268">
+We learned in an earlier module that given a constant acceleration, the 
+distance traveled versus time is:
+
+</para>
+
+
+
+
+<para id="p1269">
+d = v0t + 0.5*a*t^2
+
+</para>
+
+
+
+
+<para id="p1270">
+In this case, v0 is zero, so
+
+</para>
+
+
+
+
+<para id="p1271">
+d = 0.5*ay*t^2, or 
+
+</para>
+
+
+
+
+<para id="p1272">
+t = sqrt(d/(0.5*ay)), or
+
+</para>
+
+
+
+
+<para id="p1273">
+t = sqrt(2m/(0.5*0.07143m/s^2)) = 7.48324 seconds
+
+</para>
+
+
+
+
+<para id="p1274">
+I doubt that you will stay in the air long enough to reach the rope.
+
+</para>
+
+
+
+
+<para id="p1275">
+During that time period, the raft will travel the following distance in the 
+opposite direction (assuming no resistance from the water).
+
+</para>
+
+
+
+
+<para id="p1276">
+d = 0.5*ar*t^2, or
+
+</para>
+
+
+
+
+<para id="p1277">
+d = 0.5*(-5m/s^2)*(7.48324s)^2 = -140 meters
+
+</para>
+
+
+
+
+</section>
+<section id="h21014">
+<title>
+<emphasis id="Conservation_of_momentum_example" effect="bold">
+
+Conservation of momentum example
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1278">
+<emphasis id="strong1073" effect="bold">
+Railroad cars
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1279">
+Getting back to my example of coupling railroad cars, when the collision has 
+been completed, the two masses have effectively been joined into a single mass 
+and they are moving at the same velocity.
+
+</para>
+
+
+
+
+<para id="p1280">
+In that case, we can write the above 
+
+<link id="a1067" target-id="express_this_in_equation_form">
+
+
+equation
+
+</link>
+
+ as
+
+</para>
+
+
+
+
+<para id="p1281">
+ma*(v2 - va1) = -mb*(v2 - vb1)
+
+</para>
+
+
+
+
+<para id="p1282">
+ma*v2 +mb*v2 = ma*va1 +mb*vb1
+
+</para>
+
+
+
+
+<para id="p1283">
+v2 = (ma*va1 +mb*vb1)/(ma + mb)
+
+</para>
+
+
+
+
+<para id="p1284">
+where
+
+</para>
+
+
+
+
+<list id="ul1028" list-type="bulleted">
+
+	
+
+<item id="li1098">
+ma an mb represent the masses for Car-A and Car-B respectively
+
+</item>
+
+
+	
+
+<item id="li1099">
+v2 is the velocity of the coupled cars after the collision
+
+</item>
+
+
+	
+
+<item id="li1100">
+va1 and vb1 represent the initial velocities for Car-A and Car-B 
+	respectively
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1285">
+Then for any set of assumed mass values for the railroad cars and assumed 
+values for the initial velocities, we can calculate the final velocity of the 
+coupled pair of railroad cars.
+
+</para>
+
+
+
+
+<para id="p1286">
+</para>
+
+
+
+
+<para id="p1287">
+Scenario #1: Assume that the two railroad cars are just alike and empty 
+giving them the same mass. Also assume that the initial velocity for Car-A is 10 
+m/s and the initial velocity for Car-b is 0. 
+
+</para>
+
+
+
+
+<para id="p1288">
+Question: What would be the final velocity of the coupled railroad cars?
+
+</para>
+
+
+
+
+<para id="p1289">
+Answer: For this scenario, we have
+
+</para>
+
+
+
+
+<para id="p1290">
+v2 = (ma*va1 +mb*vb1)/(ma + mb), or
+
+</para>
+
+
+
+
+<para id="p1291">
+v2 = (ma*10)/2*ma = 5 m/s
+
+</para>
+
+
+
+
+<para id="p1292">
+The final velocity of the pair of coupled cars is half the initial velocity 
+of the car that was moving.
+
+</para>
+
+
+
+
+<para id="p1293">
+</para>
+
+
+
+
+<para id="p1294">
+Scenario #2: Now assume that due to loading, Car-A has twice the mass of 
+Car-B, the initial velocity for Car-A is 10m/s and the initial velocity for 
+Car-B is 0. 
+
+</para>
+
+
+
+
+<para id="p1295">
+Question: What would be the final velocity of the coupled railroad cars?
+
+</para>
+
+
+
+
+<para id="p1296">
+Answer: For this scenario, we have
+
+</para>
+
+
+
+
+<para id="p1297">
+v2 = (ma*va1 +mb*vb1)/(ma + mb), or
+
+</para>
+
+
+
+
+<para id="p1298">
+v2 = (ma*va1)/(ma + 0.5ma), or
+
+</para>
+
+
+
+
+<para id="p1299">
+v2 = ma*10/1.5*ma = 6.67 m/s
+
+</para>
+
+
+
+
+<para id="p1300">
+When the car at rest is less massive than the car in motion, the final 
+velocity is a little higher than when the two cars have the same mass.
+
+</para>
+
+
+
+
+<para id="p1301">
+</para>
+
+
+
+
+<para id="p1302">
+Scenario #3: Finally, assume that due to loading, Car-A has twice the mass of 
+Car-B, the initial velocity for Car-A is 10m/s and the initial velocity for 
+Car-B is 5m/s.
+
+</para>
+
+
+
+
+<para id="p1303">
+Question: What would be the final velocity of each railroad car?
+
+</para>
+
+
+
+
+<para id="p1304">
+Answer: For this scenario, we have
+
+</para>
+
+
+
+
+<para id="p1305">
+v2 = (ma*va1 +mb*vb1)/(ma + mb), or
+
+</para>
+
+
+
+
+<para id="p1306">
+v2 = (ma*10 +0.5ma*5)/(1.5*ma), or
+
+</para>
+
+
+
+
+<para id="p1307">
+v2 = (10/1.5) + (0.5*5/1.5) = 8.33 m/s
+
+</para>
+
+
+
+
+<para id="p1308">
+When both cars are already moving in the same direction, the final velocity 
+in that direction is greater than when one of the cars is stationary.
+
+</para>
+
+
+
+
+</section>
+<section id="h21015">
+<title>
+<emphasis id="Center_of_mass_examples" effect="bold">
+
+Center of mass examples
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1309">
+This section contains solutions to problems involving the center of mass.
+
+</para>
+
+
+
+
+<section id="h31012">
+<title>
+<emphasis id="Two_objects" effect="bold">
+
+Two objects
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1310">
+Two objects are located on a flat lawn with the following mass values and 
+locations:
+
+</para>
+
+
+
+
+<list id="ul1029" list-type="bulleted">
+
+	
+
+<item id="li1101">
+obj1m = 15 kg
+
+</item>
+
+
+	
+
+<item id="li1102">
+obj1x = 1 m
+
+</item>
+
+
+	
+
+<item id="li1103">
+obj1y = 5 m
+
+</item>
+
+
+	
+
+<item id="li1104">
+obj2m = 3 kg
+
+</item>
+
+
+	
+
+<item id="li1105">
+obj2x = 4 m
+
+</item>
+
+
+	
+
+<item id="li1106">
+obj2y = 2 m
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1311">
+What are the coordinates of the center of mass?
+
+</para>
+
+
+
+
+<para id="p1312">
+Solution:
+
+</para>
+
+
+
+
+<para id="p1313">
+A JavaScript script that will solve this problem is shown in
+
+
+<link id="a1068" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<table id="table1004" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1004">
+<row id="tr1008">
+<entry id="th1004">
+
+
+
+<emphasis id="Listing_2" effect="bold">
+
+Listing 2
+
+</emphasis>
+
+. Center of mass for two objects.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1004">
+<row id="tr1009">
+<entry id="td1004">
+
+
+
+<code id="pre1004" display="block">&lt;!---------------- File JavaScript02.html ---------------------&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+
+document.write("Start Script &lt;/br&gt;");
+
+//Create arrays for mass,xCoor, and yCoor values;
+var mass = new Array(15,3);
+var xCoor = new Array(1,4);
+var yCoor = new Array(5,2);
+
+//Declare a counter variable.
+var cnt = 0;
+
+//Use a loop to compute total mass by summing the individual
+// mass values.
+var massTotal = 0;
+for(cnt = 0;cnt &lt; mass.length;cnt++){
+  massTotal += mass[cnt];
+}//end for loop
+
+//Use a loop to compute x-coordinate of the center of mass
+// by summing the normalized sum of products.
+var cmX = 0;
+for(cnt = 0;cnt &lt; mass.length;cnt++){
+  cmX += mass[cnt]*xCoor[cnt]/massTotal
+}//end for loop
+
+//Use a loop to compute y-coordinate of the center of mass
+// by summing the normalized sum of products.
+var cmY = 0;
+for(cnt = 0;cnt &lt; mass.length;cnt++){
+  cmY += mass[cnt]*yCoor[cnt]/massTotal
+}//end for loop
+
+//Display the results
+document.write("massTotal = " + massTotal + " kg&lt;/br&gt;");
+document.write("cmX = " + cmX + " meters&lt;/br&gt;");
+document.write("cmY = " + cmY + " meters&lt;/br&gt;");
+
+document.write("End Script");
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1314">
+The comments describe how the problem is solved.
+
+</para>
+
+
+
+
+<para id="p1315">
+The output is shown in 
+
+<link id="a1069" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+.
+
+</para>
+
+
+
+	
+
+
+<table id="table1005" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1005">
+<row id="tr1010">
+<entry id="th1005">
+
+
+
+<emphasis id="Figure_4" effect="bold">
+
+Figure 4
+
+</emphasis>
+
+. Center of mass for two objects.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1005">
+<row id="tr1011">
+<entry id="td1005">
+
+
+
+<code id="pre1005" display="block">Start Script 
+massTotal = 18 kg
+cmX = 1.5 meters
+cmY = 4.5 meters
+End Script</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+	
+
+<para id="p1316">
+The x-coordinate for the center of mass is 1.5 meters, and the 
+	y-coordinate for the center of mass is 4.5 meters.
+
+</para>
+
+
+	
+
+
+</section>
+<section id="h31013">
+<title>
+<emphasis id="Three_objects" effect="bold">
+
+Three objects
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1317">
+Three objects are located on a flat lawn with the following mass values and 
+locations:
+
+</para>
+
+
+
+
+<list id="ul1030" list-type="bulleted">
+
+	
+
+<item id="li1107">
+obj1m = 5 kg
+
+</item>
+
+
+	
+
+<item id="li1108">
+obj1x = 1 m
+
+</item>
+
+
+	
+
+<item id="li1109">
+obj1y = 1 m
+
+</item>
+
+
+	
+
+<item id="li1110">
+obj2m = 5 kg
+
+</item>
+
+
+	
+
+<item id="li1111">
+obj2x = 3 m
+
+</item>
+
+
+	
+
+<item id="li1112">
+obj2y = 1 m
+
+</item>
+
+
+	
+
+<item id="li1113">
+obj3m = 10 kg
+
+</item>
+
+
+	
+
+<item id="li1114">
+obj3x = 2 m
+
+</item>
+
+
+	
+
+<item id="li1115">
+obj3y = 3 m
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1318">
+What are the coordinates of the center of mass?
+
+</para>
+
+
+
+
+<para id="p1319">
+Use the code from 
+
+<link id="a1070" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ but make the change 
+shown in 
+
+<link id="a1071" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+ in order to populate the world with 
+three objects having different mass values and different coordinates.
+
+</para>
+
+
+
+
+<table id="table1006" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1006">
+<row id="tr1012">
+<entry id="th1006">
+
+
+
+<emphasis id="Listing_3" effect="bold">
+
+Listing 3
+
+</emphasis>
+
+. Change to add a third object.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1006">
+<row id="tr1013">
+<entry id="td1006">
+
+
+
+<code id="pre1006" display="block">//Create arrays for mass,xCoor, and yCoor values;
+var mass = new Array(5,5,10);
+var xCoor = new Array(1,3,2);
+var yCoor = new Array(1,1,3);</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1320">
+The output is shown in 
+
+<link id="a1072" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+<table id="table1007" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1007">
+<row id="tr1014">
+<entry id="th1007">
+
+
+
+<emphasis id="Figure_5" effect="bold">
+
+Figure 5
+
+</emphasis>
+
+. Center of mass for three objects.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1007">
+<row id="tr1015">
+<entry id="td1007">
+
+
+
+<code id="pre1007" display="block">Start Script 
+massTotal = 20 kg
+cmX = 2 meters
+cmY = 2 meters
+End Script</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Do the calculations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1321">
+I encourage you to repeat the calculations that I have presented in this lesson to confirm that you get the same results. Experiment with the scenarios, making changes, and observing the results of your changes. Make certain that you can explain why your changes behave as they do. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1322">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1323">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1007" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1074" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1031" list-type="bulleted">
+
+
+
+<item id="li1116">
+Module name: Force and Motion -- Momentum, Impulse, and Conservation of Momentum for Blind Students
+
+</item>
+
+
+
+
+<item id="li1117">
+File: Phy1160.htm
+
+
+</item>
+
+
+	
+
+<item id="li1118">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1119">
+Keywords:
+
+<list id="ul1032" list-type="bulleted">
+
+		
+
+<item id="li1120">
+physics
+
+</item>
+
+
+		
+
+<item id="li1121">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1122">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1123">
+blind
+
+</item>
+
+
+		
+
+<item id="li1124">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1125">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1126">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1127">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1128">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1129">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1130">
+conservation of momentum
+
+</item>
+
+
+					
+
+<item id="li1131">
+momentum
+
+</item>
+
+
+		
+
+<item id="li1132">
+Newton's cradle
+
+</item>
+
+
+		
+
+<item id="li1133">
+impulse
+
+</item>
+
+
+		
+
+<item id="li1134">
+action and reaction
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1008" type="">
+
+
+
+
+<emphasis id="strong1075" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1324">
+<emphasis id="strong1076" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1077" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1325">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1078" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1326">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1079" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1327">
+<emphasis id="strong1080" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1328">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

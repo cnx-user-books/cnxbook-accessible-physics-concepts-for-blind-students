@@ -1,0 +1,2976 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1170: Energy -- Work</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38267</md:content-id>
+  <md:title>Phy1170: Energy -- Work</md:title>
+  <md:abstract>This module explains energy and work in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>6f1e0a3d-ba67-4d0f-936d-51252f182ed8</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" target-id="General_background_information">
+
+General background information
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="An_assumption_of_constant_velocity">
+
+An assumption of constant velocity
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="Use_your_graph_board_for_sketches">
+
+Use your graph board for sketches
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="Work_in_everyday_life">
+
+Work in everyday life
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="Work_in_physics">
+
+Work in physics
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1009">
+<link id="a1009" target-id="Discussion">
+
+Sample calculations
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="Single_force_on_a_body">
+
+Single force on a body
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1011">
+<link id="a1011" target-id="Multiple_forces_on_a_body">
+
+Multiple forces on a body
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1012">
+<link id="a1012" target-id="Force_parallel_to_a_ramp">
+
+Force parallel to a ramp
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1013">
+<link id="a1013" target-id="Run_the_program">
+
+Do the calculations
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1014">
+<link id="a1014" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1015">
+<link id="a1015" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1016" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains energy and work in a format that is accessible to blind 
+students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1004" list-type="bulleted">
+
+	
+
+<item id="li1016">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1017" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1017">
+A protractor for measuring angles (
+
+<link id="a1018" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1018">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1019" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1019">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1020" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1020">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1021">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1022">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1021" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1023">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1022" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1024">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1023" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1025">
+An introductory understanding of JavaScript programming (
+
+<link id="a1024" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1025" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1026">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1026" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="General_background_information" effect="bold">
+
+General background 
+information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+I will explain some of the background material regarding work in this section 
+and show how to work problems involving work 
+
+<link id="a1027" target-id="Discussion">
+
+later
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<section id="h21003">
+<title>
+<emphasis id="An_assumption_of_constant_velocity" effect="bold">
+
+An assumption of constant 
+velocity
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+In order to simplify the solutions to the problems, many of the example 
+problems in this module will make the assumption that an object is moving with 
+constant velocity. Let's review what that means in terms of what you have 
+learned from earlier modules.
+
+</para>
+
+
+
+
+<para id="p1007">
+<emphasis id="strong1000" effect="bold">
+Unbalanced forces cause acceleration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1008">
+We know that whenever unbalanced forces are applied to an object, that object 
+will accelerate. What does it mean, therefore, when we make a statement like "a force of 1 
+newton to the right was applied to an object to cause that object to move 1 
+meter to the right at a constant velocity"?
+
+</para>
+
+
+
+
+<para id="p1009">
+<emphasis id="strong1001" effect="bold">
+Conditions for constant velocity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1010">
+We know that the statement means at least the following things:
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1027">
+At some point in the past, there was an unbalanced force applied to the 
+	object to cause it to begin moving to the right. That force is ignored by 
+	the statement of the problem.
+
+</item>
+
+
+	
+
+<item id="li1028">
+At the beginning of the time frame covered by the problem, the object 
+	was in equilibrium, moving at a constant velocity to the right.
+
+</item>
+
+
+	
+
+<item id="li1029">
+During the time frame of the problem, there must be a 1 
+	newton balancing force being exerted to the left to prevent the 1 newton 
+	force being applied to the right from causing the object to accelerate 
+	towards the right. That force is also ignored by the statement of the 
+	problem.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21004">
+<title>
+<emphasis id="Use_your_graph_board_for_sketches" effect="bold">
+
+Use your graph board for 
+sketches
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1011">
+As a sighted person, I often find it useful to make sketches of the physical 
+scenarios for problems of the types that I will discuss in this module.
+
+</para>
+
+
+
+
+<para id="p1012">
+You may also find it useful to use your graph board to create "sketches" of 
+the physical scenarios in order to better understand the solutions to the 
+problems.
+
+</para>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Work_in_everyday_life" effect="bold">
+
+Work in everyday life
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1013">
+You hear the word work in many situations in everyday life. For example, 
+someone might say "My gasoline bill is high because I have to drive a long way 
+to work every day."
+
+</para>
+
+
+
+
+<para id="p1014">
+Someone else might say "She works very hard at being popular."
+
+</para>
+
+
+
+
+<para id="p1015">
+Or, you might hear someone say "It's going to take a lot of work to lift that 
+heavy sofa into the back of that truck."
+
+</para>
+
+
+
+
+<para id="p1016">
+The latter expression comes closest to describing what is mean by work in 
+physics.
+
+</para>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Work_in_physics" effect="bold">
+
+Work in physics
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1017">
+According to 
+
+<emphasis id="em1001" effect="italics">
+College Physics
+
+</emphasis>
+ by Mendenhall et al
+
+</para>
+
+
+
+
+<para id="p1018">
+<emphasis id="em1002" effect="italics">
+If a body on which a force F is acting is displaced by a distance d, then 
+the work done by the force is F*d*cos(theta), where theta is the angle between 
+the path d and the line of action of F.
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1019">
+Thus, the term 
+
+<emphasis id="strong1002" effect="bold">
+work
+
+</emphasis>
+ has a very precise meaning in physics. 
+In equation form, 
+
+<emphasis id="we_represent_work_as" effect="bold">
+
+we can represent work as
+
+</emphasis>
+
+
+</para>
+
+
+
+
+<para id="p1020">
+W = F * d * cos(theta)
+
+</para>
+
+
+
+
+<para id="p1021">
+where
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1030">
+W represents work
+
+</item>
+
+
+	
+
+<item id="li1031">
+F represents a force that causes the displacement of an object
+
+</item>
+
+
+	
+
+<item id="li1032">
+d represents the magnitude of the displacement
+
+</item>
+
+
+	
+
+<item id="li1033">
+theta is the angle between the line of action of the force and the 
+	direction of the displacement
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1022">
+<emphasis id="strong1003" effect="bold">
+Three key ingredients
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1023">
+According to the Physics Classroom (see
+
+
+<link id="a1028" url="http://www.physicsclassroom.com/Class/energy/u5l1a.cfm">
+
+
+http://www.physicsclassroom.com/Class/energy/u5l1a.cfm
+
+</link>
+
+), there are three key ingredients to work:
+
+
+<emphasis id="em1003" effect="italics">
+force
+
+</emphasis>
+, 
+
+<emphasis id="em1004" effect="italics">
+displacement
+
+</emphasis>
+, and 
+
+<emphasis id="em1005" effect="italics">
+cause
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1024">
+<emphasis id="em1006" effect="italics">
+In order for a force to qualify as having done work on an object, there must be a displacement and the force must cause the displacement.
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1025">
+<emphasis id="strong1004" effect="bold">
+Commonplace examples of work
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1026">
+Examples of work are commonplace in everyday life:
+
+</para>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1034">
+A bulldozer pushing dirt. The bulldozer exerts a horizontal force to 
+	move the dirt.
+
+</item>
+
+
+	
+
+<item id="li1035">
+An elevator lifting people from the first to the tenth floor. The cable 
+	on the elevator exerts an upward force to move the people upward by 
+	approximately 110 feet.
+
+</item>
+
+
+	
+
+<item id="li1036">
+You lifting your backpack full of books onto your back. Your muscles 
+	exert a force to raise several heavy books, possibly displacing them both 
+	vertically and horizontally at the same time.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1027">
+However, some things that we might initially think of as work don't really 
+qualify as work according to the physics definition of work.
+
+</para>
+
+
+
+
+<para id="p1028">
+<emphasis id="strong1005" effect="bold">
+Suzie and the heavy trunk
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1029">
+Your college dorm is equipped with a rope on a pulley that can be used to 
+lift heavy objects and swing them into a window on the second floor. Suzie has 
+used the pulley and the rope to lift her heavy trunk up to the level of the 
+window. She asks you to hold the rope and maintain the trunk at that level while 
+she goes up the stairs to pull it in the window.
+
+</para>
+
+
+
+
+<para id="p1030">
+<emphasis id="strong1006" effect="bold">
+Suzie likes to gossip
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1031">
+Suzie, however, really likes to gossip. On the way up to the window, she meets some friends and 
+starts talking, leaving you holding onto the rope. After about 30 minutes, you 
+become really tired and frustrated and you lower the trunk back to ground level.
+
+</para>
+
+
+
+
+<para id="p1032">
+<emphasis id="strong1007" effect="bold">
+Did you do any work on the trunk?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1033">
+The answer is that you did not do any work on the trunk. Although you became 
+very hot and tired standing there and holding the rope, you did not cause a 
+displacement of the trunk. For 30 minutes, you simply held the rope causing the 
+trunk to remain at the same location. At the end of that period, you carefully 
+allowed the rope to slip through your hands while the force of gravity caused a 
+downward displacement on the trunk.
+
+</para>
+
+
+
+
+<para id="p1034">
+<emphasis id="strong1008" effect="bold">
+Was any work done on the trunk?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1035">
+Was any work done on the trunk from the time Suzie handed you the rope 
+until the trunk was back on the ground?
+
+</para>
+
+
+
+
+<para id="p1036">
+Yes, the force of gravity caused the height of the trunk to be displaced from 
+the level of the second floor window downward to the ground, so the force of 
+gravity did work on the trunk.
+
+</para>
+
+
+
+
+<para id="p1037">
+Was any work done on the trunk from the time that Suzie started raising it 
+until it was back on the ground?
+
+</para>
+
+
+
+
+<para id="p1038">
+The answer is no. The net displacement of the trunk over that time period was 
+zero. If the displacement was zero, no work could have been done. In this case, 
+the positive work done by Suzie in lifting the trunk to the second floor window 
+was canceled out by the negative work done by gravity when you allowed the trunk 
+to return to the ground.
+
+</para>
+
+
+
+
+<para id="p1039">
+<emphasis id="strong1009" effect="bold">
+Measurement of work can depend on the time interval
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1040">
+As you can see, therefore, the amount of work done in some cases can depend 
+on the time interval over which the measurement is made.
+
+</para>
+
+
+
+
+<para id="p1041">
+Also, as you can see, 
+certain activities (such as holding a rope to keep a trunk from falling) can 
+make you very tired even though you are not doing any work.
+
+</para>
+
+
+
+
+<para id="p1042">
+<emphasis id="strong1010" effect="bold">
+Mathematical representation of work
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1043">
+As stated earlier, we can represent work as
+
+</para>
+
+
+
+
+<para id="p1044">
+W = F * d * cos(theta)
+
+</para>
+
+
+
+
+<para id="p1045">
+where 
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1037">
+F represents a force being applied to an object
+
+</item>
+
+
+	
+
+<item id="li1038">
+d represents the displacement of the object
+
+</item>
+
+
+	
+
+<item id="li1039">
+theta is the angle between the displacement path d and the line of action of 
+	the force.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1046">
+<emphasis id="strong1011" effect="bold">
+Work is a scalar quantity
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+<para id="p1047">
+Although both force and displacement are vector quantities, the product of 
+those two vectors with the cosine of an angle produces a scalar quantity. Work 
+has a magnitude but no direction. The product is often called a scalar product 
+or a dot product.
+
+</para>
+
+
+
+
+<para id="p1048">
+<emphasis id="strong1012" effect="bold">
+The scalar or dot product
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1049">
+The scalar product (or dot product
+) of two vectors is defined by the
+equation 
+
+</para>
+
+
+
+
+<para id="p1050">
+vectorA * vectorB * cos(theta)
+
+</para>
+
+
+
+
+<para id="p1051">
+where theta is the angle between the two vectors when they are drawn tail to 
+tail.
+
+</para>
+
+
+
+
+<para id="p1052">
+The special name and notation
+are used because this pattern
+occurs often in physics and mathematics.
+
+</para>
+
+
+
+
+<para id="p1053">
+<emphasis id="strong1013" effect="bold">
+Units of work
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1054">
+The SI unit of work (and energy) is the newton-meter (N*m), which is given the 
+name joule (symbol: J), after the English physicist James Prescott Joule. One joule is equivalent to one 
+newton of force causing a displacement of one meter.
+
+</para>
+
+
+
+
+<para id="p1055">
+<emphasis id="strong1014" effect="bold">
+A stubborn dog
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1056">
+Pretend that you have a dog that is very stubborn and just wants to sleep. 
+You pull on the dog's leash and cause the dog to slide 2 meters across the 
+floor. In this case, the displacement is horizontal and you are pulling 
+at an angle of 30 degrees above the horizontal.
+
+</para>
+
+
+
+
+<para id="p1057">
+The work done on the dog would be the product of the horizontal 
+component of the force that you exert on the leash (F*cos(theta)) and the 
+displacement distance of 2 meters. If you were pulling with a constant 
+horizontal force component of 3 newtons, then you would have done 2*3=6 joules 
+of work.
+
+</para>
+
+
+
+
+<para id="p1058">
+<emphasis id="strong1015" effect="bold">
+A stubborn pig
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1059">
+A very large pig has escaped from its pen. You have a rope tied around the pig's neck 
+and you are trying to pull the pig back into the pen. The rope is horizontal and 
+you pull with a steady force of 3 newtons.
+
+</para>
+
+
+
+
+<para id="p1060">
+While you are pulling, however, the pig is backing up (actually pulling you 
+forward away from the pen), and travels 2 meters in the direction opposite the 
+direction that you are pulling.
+
+</para>
+
+
+
+
+<para id="p1061">
+In this case, the angle between the line of action of the force that you are 
+exerting and the direction of the pig's displacement is 180 degrees. Since the 
+cosine of 180 degrees is -1, the product of the force, displacement, and cosine 
+of 180 degrees would be -6. Therefore, your efforts to move the pig toward the 
+pen are unsuccessful and you have done -6 joules of work on the pig.
+
+</para>
+
+
+
+
+<para id="p1062">
+Therefore, work can be either positive or negative.
+
+</para>
+
+
+
+
+<para id="p1063">
+<emphasis id="strong1016" effect="bold">
+More on that stubborn pig
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1064">
+The very large pig has decided to lay down on a hydraulic lift on the back of 
+a truck and someone accidentally flipped the switch causing the hydraulic lift 
+to start moving up.
+
+</para>
+
+
+
+
+<para id="p1065">
+You still have a rope tied around the pig's neck and you attempt to pull the 
+pig off the lift to prevent it from getting hurt. You pull as hard as you can on 
+the rope but the pig doesn't budge. The lift goes up two meters to the height of 
+the truck bed and turns itself off automatically with the pig still laying on 
+the lift.
+
+</para>
+
+
+
+
+<para id="p1066">
+<emphasis id="strong1017" effect="bold">
+The angle is 90 degrees
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1067">
+In this case, the angle between the line of action of the force that you 
+exert and the direction of displacement of the pig is 90 degrees. The cosine of 
+90 degrees is 0. Therefore, the product of the force, the displacement, and 
+the cosine of 90 degrees would be 0.
+
+</para>
+
+
+
+
+<para id="p1068">
+While you might be ready for a rest after exerting all of that effort trying 
+to pull the pig off the lift, you actually haven't done any work on the pig.
+
+</para>
+
+
+
+
+<para id="p1069">
+Therefore, work can even be zero if the line of action of the force is 
+perpendicular to the displacement of the object. In this case, work did get done 
+to raise the pig 2 meters off the ground, but you didn't contribute anything to 
+that work. The work was done by the mechanical system that operates the 
+hydraulic lift on the truck.
+
+</para>
+
+
+
+
+<para id="p1070">
+To do any work, a force must cause a displacement.
+
+</para>
+
+
+
+
+<para id="p1071">
+<emphasis id="strong1018" effect="bold">
+More on the stubborn dog
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1072">
+Let's go back and think a little more about the stubborn dog. Assume that you 
+exert a force of 3.46 newtons on the leash and the leash makes an angle of 30 
+degrees with the horizontal floor. This causes the dog to slide 2 meters across 
+the floor, but doesn't lift the dog off the floor. What is the work that you do 
+on the dog?
+
+</para>
+
+
+
+
+<para id="p1073">
+The horizontal component Fx of the force F is given by
+
+</para>
+
+
+
+
+<para id="p1074">
+Fx = F*cos(30 degrees), or
+
+</para>
+
+
+
+
+<para id="p1075">
+Fx = 3.46*cos(30 degrees)
+
+</para>
+
+
+
+
+<para id="p1076">
+Enter the following into the Google calculator search box:
+
+</para>
+
+
+
+
+<para id="p1077">
+3.46*cos(30 degrees)
+
+</para>
+
+
+
+
+<para id="p1078">
+and with rounding, you will learn that the horizontal component of the force that you exerted on the leash 
+is
+
+</para>
+
+
+
+
+<para id="p1079">
+3 newtons.
+
+</para>
+
+
+
+
+<para id="p1080">
+<emphasis id="strong1019" effect="bold">
+How much work was done?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1081">
+The work done on the dog is the product of the horizontal 
+component of the force that you exert on the leash and the 
+horizontal displacement distance of 2 meters.
+
+</para>
+
+
+
+
+<para id="p1082">
+Assuming that you were pulling the 
+leash with a constant 
+force of 3.46 newtons, at an angle of 30 degrees relative to the horizontal 
+floor, you would do 2*3=6 joules 
+of work on the dog.
+
+</para>
+
+
+
+
+<para id="p1083">
+<emphasis id="strong1020" effect="bold">
+Be careful how you handle the angle theta
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1084">
+The angle theta is the angle between the line of action of the force and the 
+direction of the displacement. It is only because I set the scenario up that way 
+that the 30-degree angle in the previous stubborn-dog scenario is 30 degrees 
+relative to the horizontal.
+
+</para>
+
+
+
+
+<para id="p1085">
+In that scenario, the line of action of the 
+3.46-newton force was at 30 degrees relative to the horizontal, but the 
+displacement was horizontal. Therefore, it was necessary to take the angle into 
+account when computing the work done on the dog. In other words, the work done 
+on the dog was:
+
+</para>
+
+
+
+
+<para id="p1086">
+W = 3.46N * 2m * cos(30 degrees) = 6 joules
+
+</para>
+
+
+
+
+<para id="p1087">
+<emphasis id="strong1021" effect="bold">
+One more discussion about the stubborn dog
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1088">
+Assume that instead of pulling the dog across a horizontal floor, you are 
+pulling the dog up a ramp that has an angle of 30 degrees relative to the 
+horizontal.
+
+</para>
+
+
+
+
+<para id="p1089">
+In this case, you pull on the leash at an angle of 30 degrees 
+relative to the horizontal, which is parallel to the ramp. Once again, you pull with 
+a force of 3.46 newtons. This time, you cause the dog to slide 2 meters up the 
+ramp.
+
+</para>
+
+
+
+
+<para id="p1090">
+In this case, the angle between the direction of the displacement and the 
+line of action of the force is 0 degrees. The cosine of 0 degrees is +1. 
+Therefore, the work done on the dog is
+
+</para>
+
+
+
+
+<para id="p1091">
+(3.46 N) * 2 m * cos(0 degrees) = 6.92 joules
+
+</para>
+
+
+
+
+<para id="p1092">
+(You may recognize the format of some of the mathematical expressions in the 
+above paragraphs as being the format of the output of the Google calculator.)
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Sample calculations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1093">
+I will present and explain several scenarios in this section involving force 
+and work. 
+
+</para>
+
+
+
+
+<para id="p1094">
+In some cases, I will use the Google calculator to perform the arithmetic, 
+and the format of the mathematical expressions will be the format of the output 
+from the Google calculator (except that I will usually discard some of the 
+digits to the right of the decimal point).
+
+</para>
+
+
+
+
+<section id="h21007">
+<title>
+<emphasis id="Single_force_on_a_body" effect="bold">
+
+Single force on a body
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1095">
+<emphasis id="strong1022" effect="bold">
+A horizontal force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1096">
+A horizontal force of 10 N towards the right is applied to a 15-kg body 
+causing the body to move 5 m to the right at constant speed. How much work is done on the body?
+
+</para>
+
+
+
+
+<para id="p1097">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1098">
+(10 newtons) * 5 meters = 50 joules
+
+</para>
+
+
+
+
+<para id="p1099">
+Note that the mass of the object is superfluous in this problem.
+
+</para>
+
+
+
+
+<para id="p1100">
+<emphasis id="strong1023" effect="bold">
+A force at 30 degrees
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1101">
+A force of 10 N is applied to a 15-kg body at an angle of 30 degrees relative to 
+the horizontal causing the body to move 5 m to the right at constant speed. How much work is done 
+on the body?
+
+</para>
+
+
+
+
+<para id="p1102">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1103">
+(10 N) * 5 m * cos(30 degrees) = 43.3 joules
+
+</para>
+
+
+
+
+<para id="p1104">
+Once again, the mass of the object is superfluous.
+
+</para>
+
+
+
+
+<para id="p1105">
+<emphasis id="strong1024" effect="bold">
+A vertical force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1106">
+The mass is not superfluous for this scenario.
+
+</para>
+
+
+
+
+<para id="p1107">
+A force is applied to a 10-kg body at an angle of 90 degrees relative to the 
+horizontal causing the body to move 5 m straight up at constant velocity. How 
+much work is done on the body?
+
+</para>
+
+
+
+
+<para id="p1108">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1109">
+Weight = (10 kg) * 9.81 * (m / (s^2)) = 98.1 newtons
+
+</para>
+
+
+
+
+<para id="p1110">
+Under the constant velocity assumption explained earlier, an upward force 
+equal to the weight of the object will cause the 
+object to continue moving in an upward direction, and eventually move 5 m straight up. The angle between the action line of 
+the force and the displacement is 0 degrees. Therefore, the work done to the 
+object is:
+
+</para>
+
+
+
+
+<para id="p1111">
+	
+	
+(98.1 N) * 5 m * cos(0 degrees) = 490.5 joules
+
+</para>
+
+
+
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="Multiple_forces_on_a_body" effect="bold">
+
+Multiple forces on a body
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1112">
+<emphasis id="strong1025" effect="bold">
+A block on a friction-free surface
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1113">
+A block on a friction-free surface is subjected to three forces:
+
+</para>
+
+
+
+
+<list id="ol1000" list-type="enumerated">
+
+	
+
+<item id="li1040">
+Weight = 15 N
+
+</item>
+
+
+	
+
+<item id="li1041">
+Upward force from the surface = 15 N
+
+</item>
+
+
+	
+
+<item id="li1042">
+A 5 N force to the right that causes the block to move 5 m to the right 
+	at constant velocity.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1114">
+How much work does each force do on the block.
+
+</para>
+
+
+
+
+<para id="p1115">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1116">
+Forces 1 and 2 are perpendicular to the direction of displacement, so they 
+cannot do work on the block.
+
+</para>
+
+
+
+
+<para id="p1117">
+Force 3 is in the same direction as the displacement and does the following work on the block:
+
+</para>
+
+
+
+
+<para id="p1118">
+(5 N) * 5 m * cos(0 degrees) = 25 joules
+
+</para>
+
+
+
+
+<para id="p1119">
+<emphasis id="strong1026" effect="bold">
+A moving block encounters friction
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1120">
+A block is sliding to the right on a friction free surface. Suddenly the 
+block encounters an area on the surface where the friction is not zero. The 
+friction causes the block to stop after moving 5 m to the right.
+
+</para>
+
+
+
+
+<para id="p1121">
+When the block encounters the frictional surface, it is subjected to the 
+following three forces:
+
+</para>
+
+
+
+
+<list id="ol1001" list-type="enumerated">
+
+	
+
+<item id="li1043">
+Weight = 15 N
+
+</item>
+
+
+	
+
+<item id="li1044">
+Upward force from the surface = 15 N
+
+</item>
+
+
+	
+
+<item id="li1045">
+A 5 N force to the left caused by the friction.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1122">
+How much work does each force do on the block?
+
+</para>
+
+
+
+
+<para id="p1123">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1124">
+Forces 1 and 2 are perpendicular to the direction of displacement, so they 
+cannot do work on the block.
+
+</para>
+
+
+
+
+<para id="p1125">
+The angle between force 3 and the direction of displacement is 180 degrees. 
+Force 3 does the following work on the block:
+
+</para>
+
+
+
+
+<para id="p1126">
+(5 N) * 5 m * cos(180 degrees) = -25 joules
+
+</para>
+
+
+
+
+<para id="p1127">
+Note that in this case, the work done is negative.
+
+</para>
+
+
+
+
+<para id="p1128">
+<emphasis id="strong1027" effect="bold">
+Another friction scenario
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1129">
+A block on a frictional surface is subjected to four forces:
+
+</para>
+
+
+
+
+<list id="ol1002" list-type="enumerated">
+
+	
+
+<item id="li1046">
+Weight = 15 N
+
+</item>
+
+
+	
+
+<item id="li1047">
+Upward force from the surface = 15 N
+
+</item>
+
+
+	
+
+<item id="li1048">
+A 5 N force to the right causes the block to move 5 m to the right at 
+	constant speed.
+
+</item>
+
+
+	
+
+<item id="li1049">
+A 5 N force to the left caused by friction.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1130">
+How much work does each force do on the block?
+
+</para>
+
+
+
+
+<para id="p1131">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1132">
+Forces 1 and 2 are perpendicular to the direction of displacement, so they 
+cannot do work on the block.
+
+</para>
+
+
+
+
+<para id="p1133">
+The work done by force 3 is:
+
+</para>
+
+
+
+
+<para id="p1134">
+(5 N) * 5 m * cos(0 degrees) = 25 joules
+
+</para>
+
+
+
+
+<para id="p1135">
+The work done by force 4 is:
+
+</para>
+
+
+
+
+<para id="p1136">
+(5 N) * 5 m * cos(180 degrees) = -25 joules
+
+</para>
+
+
+
+
+</section>
+<section id="h21009">
+<title>
+<emphasis id="Force_parallel_to_a_ramp" effect="bold">
+
+Force parallel to a ramp
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1137">
+<emphasis id="strong1028" effect="bold">
+A man and a crate
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1138">
+A man needs to load a crate with friction-free wheels and a weight of 
+1000 N onto the bed of a truck that is 1 m off the ground. He has two different 
+ramps that he can use to push the crate up the ramp and onto the truck.
+
+</para>
+
+
+
+
+<para id="p1139">
+One ramp is 2.5 m long and the other ramp is 5 m long. 
+
+</para>
+
+
+
+
+<para id="p1140">
+He is able to push the crate up the ramp by pushing in a direction that is 
+parallel to the ramp.
+
+</para>
+
+
+
+
+<para id="p1141">
+<emphasis id="strong1029" effect="bold">
+Questions
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1142">
+What is the force that he must exert parallel to each ramp to push the 
+crate up the ramp.
+
+</para>
+
+
+
+
+<para id="p1143">
+Which ramp requires the least amount of work to push the crate up the ramp?
+
+</para>
+
+
+
+
+<para id="p1144">
+<emphasis id="strong1030" effect="bold">
+Required force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1145">
+Trigonometry can be used to compute the amount of force required, parallel to 
+the ramp, to push the 
+crate up the ramp as a function of the angle that the ramp makes with the 
+horizontal. That force is equal to the product of the weight of the crate (1000 
+N or 225 pound-force) and the sine of the angle that the ramp makes relative to 
+the horizontal.
+
+</para>
+
+
+
+
+<para id="p1146">
+For example, other than the requirement to overcome inertia to get the crate 
+moving, no force is required to push the crate if the angle is 0 degrees. At the 
+other extreme, if the angle is 90 degrees, the man must lift the 
+crate straight up, bearing the entire weight of the crate. For angles in between 
+these two extremes, the required force is within the capability of one man to achieve.
+
+</para>
+
+
+
+
+<para id="p1147">
+<emphasis id="strong1031" effect="bold">
+Answers
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1148">
+Ramp #1
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1050">
+Truck bed height = 1.0m
+
+</item>
+
+
+	
+
+<item id="li1051">
+Ramp length = 2.5m
+
+</item>
+
+
+	
+
+<item id="li1052">
+Ramp angle = arcsin(1 / 2.5) = 23.58 degrees
+
+</item>
+
+
+	
+
+<item id="li1053">
+Weight of crate = 1000N
+
+</item>
+
+
+	
+
+<item id="li1054">
+Component of crate's weight parallel to ramp = 	
+1000 N * sin(23.58 degrees) = 400.03 newtons. This is the force that must be exerted 
+to push the crate up the ramp.
+
+</item>
+
+
+	
+
+<item id="li1055">
+Work = (400.03 newtons) * 2.5 meters = 1000.08 joules
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1149">
+Ramp #2
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1056">
+Truck bed height = 1.0m
+
+</item>
+
+
+	
+
+<item id="li1057">
+Ramp length = 5m
+
+</item>
+
+
+	
+
+<item id="li1058">
+Ramp angle = arcsin(1 / 5) = 11.54 degrees
+
+</item>
+
+
+	
+
+<item id="li1059">
+Weight of crate = 1000N
+
+</item>
+
+
+	
+
+<item id="li1060">
+Component of crate's weight parallel to ramp = 1000 N * sin(11.54 degrees) = 
+	200.05 newtons. 
+This is the force that must be exerted to push the crate up the ramp.
+
+</item>
+
+
+	
+
+<item id="li1061">
+Work = (200.05 newtons) * 5 meters = 1000.25 joules
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1150">
+<emphasis id="strong1032" effect="bold">
+The effect of the ramp
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1151">
+The man only has to exert half as much force to push the crate up Ramp 
+#2 as is required for Ramp #1.
+
+</para>
+
+
+
+
+<para id="p1152">
+However, he has to push it twice as far with Ramp #2, so the amount of work done on the 
+crate in both cases is 1000 joules. 
+
+</para>
+
+
+
+
+<para id="p1153">
+Like many other simple machines, the use of 
+a ramp (inclined plane) reduces the force required to do a job but it doesn't 
+reduce the amount of work required to do the job.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Do the calculations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1154">
+I encourage you to repeat the calculations that I have presented in this lesson to confirm that you get the same results. Experiment with the scenarios, making changes, and observing the results of your changes. Make certain that you can explain why your changes behave as they do. 
+
+
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1155">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1156">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1033" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+
+
+<item id="li1062">
+Module name: Energy -- Work
+
+</item>
+
+
+
+
+<item id="li1063">
+File: Phy1170.htm
+
+
+</item>
+
+
+	
+
+<item id="li1064">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1065">
+Keywords:
+
+<list id="ul1013" list-type="bulleted">
+
+		
+
+<item id="li1066">
+physics
+
+</item>
+
+
+		
+
+<item id="li1067">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1068">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1069">
+blind
+
+</item>
+
+
+		
+
+<item id="li1070">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1071">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1072">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1073">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1074">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1075">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1076">
+work
+
+</item>
+
+
+					
+
+<item id="li1077">
+energy
+
+</item>
+
+
+					
+
+<item id="li1078">
+power
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+<emphasis id="strong1034" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1157">
+<emphasis id="strong1035" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1036" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1158">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1037" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1159">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1038" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1160">
+<emphasis id="strong1039" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1161">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

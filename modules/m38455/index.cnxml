@@ -1,0 +1,3074 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1310: Vector Multiplication</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38455</md:content-id>
+  <md:title>Phy1310: Vector Multiplication</md:title>
+  <md:abstract>This module explains vector multiplication in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>3d598156-c0ef-402f-8186-634717beae87</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Figures">
+
+Figures
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1006">
+<link id="a1006" target-id="Discussion">
+
+Discussion
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="Dot_product_inner_product_or_scalar_product">
+
+Dot product, inner product, or scalar product
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+			
+
+<item id="li1008">
+<link id="a1008" target-id="Background">
+
+Background
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1009">
+<link id="a1009" target-id="Create_a_vector_diagram_on_your_graph_board">
+
+Create a vector diagram on your graph board
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1010">
+<link id="a1010" target-id="The_dot_product">
+
+The dot product
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1011">
+<link id="a1011" target-id="The_projection_of_A_onto_B">
+
+The projection of A onto B
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1012">
+<link id="a1012" target-id="Compute_the_projection">
+
+Compute the projection
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1013">
+<link id="a1013" target-id="Compute_the_angle_between_the_vectors">
+
+Compute the angle between the vectors
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1014">
+
+			
+
+<link id="a1014" target-id="Perpendicular_or_parallel_vectors">
+
+
+			Perpendicular or parallel vectors
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1015">
+<link id="a1015" target-id="Summary_for_vector_dot_product">
+
+Summary for vector dot product
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1016">
+<link id="a1016" target-id="Cross_product">
+
+Cross product
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+			
+
+<item id="li1017">
+<link id="a1017" target-id="Background01">
+
+Background
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1018">
+<link id="a1018" target-id="The_righthand_rule">
+
+The right-hand rule
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1019">
+<link id="a1019" target-id="Create_a_vector_diagram_on_your_graph_board01">
+
+Create a vector diagram on your graph board
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1020">
+<link id="a1020" target-id="The_cross_product">
+
+The cross product
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1021">
+<link id="a1021" target-id="The_area_of_the_parallelogram">
+
+The area of the 
+			parallelogram
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1022">
+<link id="a1022" target-id="The_direction_of_the_resultant_vector">
+
+The direction 
+			of the resultant vector
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1023">
+<link id="a1023" target-id="Perpendicular_or_parallel_vectors01">
+
+Perpendicular or 
+			parallel vectors
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1024">
+<link id="a1024" target-id="Summary_for_vector_cross_product">
+
+Summary for vector 
+			cross product
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1025">
+<link id="a1025" target-id="Run_the_program">
+
+Repeat the computations
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1026">
+<link id="a1026" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1027">
+<link id="a1027" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1028" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains vector multiplication in a format that is accessible to 
+blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1028">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1029" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1029">
+A protractor for measuring angles (
+
+<link id="a1030" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1030">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1031" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1031">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1032" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1032">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1033">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1034">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1033" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1035">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1034" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1036">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1035" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1037">
+An introductory understanding of JavaScript programming (
+
+<link id="a1036" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1037" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1038">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you open another copy of this document in a separate 
+browser window and use the following links to easily find and view the figures while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+ 
+
+<emphasis id="Figures" effect="bold">
+
+Figures
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1039">
+<link id="a1038" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+. Facts worth remembering for the dot product.
+
+</item>
+
+
+	
+
+<item id="li1040">
+<link id="a1039" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+. Facts worth remembering for the cross product.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h21003">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1040" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+You learned about vector addition and vector subtraction in earlier modules. 
+It is also possible to multiply vectors. That capability will become important 
+in future modules.
+
+</para>
+
+
+
+
+<para id="p1007">
+There is more than one way to multiply vectors (see
+
+
+<link id="a1041" url="http://mathworld.wolfram.com/VectorMultiplication.html">
+
+
+http://mathworld.wolfram.com/VectorMultiplication.html
+
+</link>
+
+). I will explain two 
+of those ways in this module:
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1041">
+dot product
+
+</item>
+
+
+	
+
+<item id="li1042">
+cross product
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<section id="h21004">
+<title>
+<emphasis id="Dot_product_inner_product_or_scalar_product" effect="bold">
+
+Dot product, inner 
+product, or scalar product
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1008">
+I will begin with some background information on the dot product of two 
+vectors.
+
+</para>
+
+
+
+
+<section id="h31001">
+<title>
+<emphasis id="Background" effect="bold">
+
+Background
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1009">
+The terms dot product, inner product, and scalar product all mean the same 
+thing and are used in various context's by different authors.
+
+</para>
+
+
+
+
+<para id="p1010">
+The term 
+
+<emphasis id="em1001" effect="italics">
+dot product
+
+</emphasis>
+ derives from the fact that a vector product of 
+this sort is often written as the names of the two vectors separated by a dot. 
+However, that special dot character is probably not compatible with your Braille 
+display. Therefore, I will write the dot product of the vectors named A and B as
+
+</para>
+
+
+
+
+<para id="p1011">
+(A dot B)
+
+</para>
+
+
+
+
+<para id="p1012">
+The term scalar product derives from the fact that a vector product of this 
+sort more closely resembles scalar arithmetic than vector arithmetic. In 
+particular, unlike the cross product (that will be discussed later), the result of 
+the dot product does not have a direction.
+
+</para>
+
+
+
+
+</section>
+<section id="h31002">
+<title>
+<emphasis id="Create_a_vector_diagram_on_your_graph_board" effect="bold">
+
+Create a vector diagram on your graph board
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1013">
+In order for you to better understand the nature of a vector dot product, I recommend 
+that you create a Cartesian coordinate system on your graph board, and draw the 
+following two vectors.
+
+</para>
+
+
+
+	
+
+
+<note id="note1000" type="">
+
+
+
+
+
+	
+
+<para id="p1014">
+<emphasis id="strong1000" effect="bold">
+A vector diagram for your graph board 
+
+</emphasis>
+ 
+
+</para>
+
+
+	
+
+<code id="pre1000" display="block">Draw the first vector from the origin to a point at 
+x = 1
+y = 1.73
+Label this vector A.
+ 
+Draw a second vector from the origin to a point at 
+x = 2.9
+y = 0.78
+Label this vector B.
+</code>
+
+
+
+
+</note>
+
+
+
+
+	
+
+
+<para id="p1015">
+<emphasis id="strong1001" effect="bold">
+References to the vector coordinates
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1016">
+I will refer to the coordinates at the tip of vector A as ax and ay. 
+Similarly, I will refer to the coordinates at the tip of vector B as bx and by.
+
+</para>
+
+
+
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="The_dot_product" effect="bold">
+
+The dot product
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1017">
+<emphasis id="this_nomenclature_is_given_by" effect="bold">
+
+Using this nomenclature
+
+</emphasis>
+
+, the dot 
+product of any two vectors is given by
+
+</para>
+
+
+
+
+<para id="p1018">
+(A dot B) = (ax * bx) + (ay * by)
+
+</para>
+
+
+
+
+<para id="p1019">
+where
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1043">
+(A dot B) represents the dot product of the vectors named A and B
+
+</item>
+
+
+	
+
+<item id="li1044">
+ax, ay, bx, and by are the coordinates of the tips of the vectors named 
+	A and B respectively
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1020">
+<emphasis id="strong1002" effect="bold">
+So what?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1021">
+By now you are probably saying "So what? Why should I care?"
+
+</para>
+
+
+
+
+<para id="p1022">
+Although it isn't obvious from what you see above, the dot product 
+of two vectors is also equal to the product of their magnitudes and 
+the cosine of the angle between them. In other words, 
+
+</para>
+
+
+
+
+<para id="p1023">
+(A dot B) = Amag*Bmag*cosine(angle between A and B)
+
+</para>
+
+
+
+
+<para id="p1024">
+where
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1045">
+Amag is the magnitude of vector A
+
+</item>
+
+
+	
+
+<item id="li1046">
+Bmag is the magnitude of vector B
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31004">
+<title>
+<emphasis id="The_projection_of_A_onto_B" effect="bold">
+
+The projection of A onto B
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1025">
+If you divide the dot product of A and B by the magnitude of B, the result is 
+equal to the projection of vector A onto 
+vector B. In other words,
+
+</para>
+
+
+
+
+<para id="p1026">
+(A dot B)/(Bmag) = projection of A onto B 
+
+</para>
+
+
+
+
+<para id="p1027">
+This sort of projection operation is an operation that occurs frequently in physics. 
+For example, the horizontal component of a velocity vector is the projection of 
+the velocity vector onto the horizontal axis. Similarly, the vertical component 
+of a velocity vector is the projection of the velocity vector onto the vertical 
+axis.
+
+</para>
+
+
+
+
+<para id="p1028">
+<emphasis id="strong1003" effect="bold">
+Let's work through some numbers
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1029">
+Substituting your coordinate values into the 
+expression given 
+
+<link id="a1042" target-id="this_nomenclature_is_given_by">
+
+above
+
+</link>
+
+ yields
+
+</para>
+
+
+
+
+<para id="p1030">
+(A dot B) = (ax * bx) + (ay * by), or
+
+</para>
+
+
+
+
+<para id="p1031">
+(A dot B) = (1.0*2.9) + (1.73*0.78), or
+
+</para>
+
+
+
+
+<para id="p1032">
+(A dot B) = 4.2494
+
+</para>
+
+
+
+
+<para id="p1033">
+We will make use of this value a little later in this module.
+
+</para>
+
+
+
+
+</section>
+<section id="h31005">
+<title>
+<emphasis id="Compute_the_projection" effect="bold">
+
+Compute the projection
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1034">
+Suppose your problem calls for the projection of vector A onto vector B. Let's 
+compute the value of that projection. For this, 
+we need to know the magnitude of vector B, which we can compute using the 
+Pythagorean theorem:
+
+</para>
+
+
+
+
+<para id="p1035">
+Bmag = sqrt(2.9*2.9 + 0.78*0.78), or
+
+</para>
+
+
+
+
+<para id="p1036">
+Bmag = 3.0
+
+</para>
+
+
+
+
+<para id="p1037">
+The projection of A onto B is equal to
+
+</para>
+
+
+
+
+<para id="p1038">
+Projection = (A dot B)/Bmag, or
+
+</para>
+
+
+
+
+<para id="p1039">
+Projection = 4.294/3 = 1.43
+
+</para>
+
+
+
+
+<para id="p1040">
+We will also have more to say about this value a little later in this module.
+
+</para>
+
+
+
+
+<para id="p1041">
+<emphasis id="strong1004" effect="bold">
+What do we mean by the projection?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1042">
+Using the vectors on your graph board, draw a line segment beginning at the tip of vector A. 
+Make that line perpendicular to vector B and mark the point on vector B where 
+that line intersects vector B.
+
+</para>
+
+
+
+
+<para id="p1043">
+The distance from the origin to that point is the value of the projection of vector A onto vector B.
+
+</para>
+
+
+
+
+<para id="p1044">
+According to the above 
+arithmetic, that distance should be equal to 1.43 units. Hopefully when you 
+measure it on your graph board, you will get approximately the same value.
+
+</para>
+
+
+
+
+</section>
+<section id="h31006">
+<title>
+<emphasis id="Compute_the_angle_between_the_vectors" effect="bold">
+
+Compute the angle between the vectors
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1045">
+Suppose instead that your problem calls for the angle between the two 
+vectors. Given that the dot product is equal to the product of the magnitudes and the 
+cosine of the angle between the vectors, the cosine of the angle between the 
+vectors is equal to
+
+</para>
+
+
+
+
+<para id="p1046">
+cosine(angle) = (A dot B)/(Amag *Bmag)
+
+</para>
+
+
+
+
+<para id="p1047">
+You may or may not know this from your earlier experience with trigonometry, but the angle 
+in the above expression is the arccosine of the cosine value.
+
+</para>
+
+
+
+
+<para id="p1048">
+To compute the angle, we first need to compute the magnitude of vector A. 
+Once again using the Pythagorean theorem,
+
+</para>
+
+
+
+
+<para id="p1049">
+Amag = sqrt(1.0*1.0+1.73*1.73), or
+
+</para>
+
+
+
+
+<para id="p1050">
+Amag = 2
+
+</para>
+
+
+
+
+<para id="p1051">
+<emphasis id="strong1005" effect="bold">
+Now compute the angle between the vectors
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1052">
+We now have all of the information that we need to computer the angle between 
+the vectors. Using Google calculator nomenclature,
+
+</para>
+
+
+
+
+<para id="p1053">
+Angle = arccos((A dot B)/(Amag *Bmag)) in degrees, or
+
+</para>
+
+
+
+
+<para id="p1054">
+angle = arccos(4.294/(2*3)) in degrees, or
+
+</para>
+
+
+
+
+<para id="p1055">
+angle = 44.30 degrees
+
+</para>
+
+
+
+
+<para id="p1056">
+(Actually, I chose the original values in hopes of causing this final answer to 
+come out to 45 degrees, but the round off errors along the way threw things off 
+a bit.)
+
+</para>
+
+
+
+
+<para id="p1057">
+<emphasis id="strong1006" effect="bold">
+What have we learned?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1058">
+For these two vectors, we have learned that
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1047">
+The angle between them is 44.3 degrees
+
+</item>
+
+
+	
+
+<item id="li1048">
+The projection of vector A onto vector B is equal to 1.43 units
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31007">
+<title>
+<emphasis id="Perpendicular_or_parallel_vectors" effect="bold">
+
+Perpendicular or parallel 
+vectors
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1059">
+Now consider what happens as the angle varies between 90 degrees 
+(perpendicular vectors) and 0 degrees (parallel vectors) for a given pair of 
+vectors.
+
+</para>
+
+
+
+
+<para id="p1060">
+As the angle approaches 90 degrees, the cosine of the angle approaches 0, and 
+the dot product of the vectors approaches 0.
+
+</para>
+
+
+
+
+<para id="p1061">
+As the angle approaches 0 degrees, the cosine of the angle approaches 1.0 and 
+the dot product approaches a value that is the product of the magnitudes of the 
+two vectors.
+
+</para>
+
+
+
+
+<para id="p1062">
+For a given pair of vectors, the dot product can be thought of as a 
+measure of the extent to which they are parallel. The closer they are to 
+parallel, the greater will be the value of the dot product.
+
+</para>
+
+
+
+
+<para id="p1063">
+<emphasis id="strong1007" effect="bold">
+A check on the projection value
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1064">
+We can check our earlier projection value from a different viewpoint now that we 
+know the angle between the vectors.
+
+</para>
+
+
+
+
+<para id="p1065">
+From the drawing on your graph board, you 
+should see that vector A forms the hypotenuse of a right triangle and the 
+projection of vector A onto vector B forms the base of that triangle. You should 
+know from the earlier module on trigonometry that the length of the base is
+
+</para>
+
+
+
+
+<para id="p1066">
+base = Amag * cos(angle), or
+
+</para>
+
+
+
+
+<para id="p1067">
+base = 2 * cos(44.3 degrees), or
+
+</para>
+
+
+
+
+<para id="p1068">
+base = 1.43 units
+
+</para>
+
+
+
+
+<para id="p1069">
+which matches the length of the projection that we computed earlier.
+
+</para>
+
+
+
+
+</section>
+<section id="h31008">
+<title>
+<emphasis id="Summary_for_vector_dot_product" effect="bold">
+
+Summary for vector dot product
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1070">
+<link id="a1043" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+ contains some facts worth remembering about the vector dot product.
+
+</para>
+
+
+
+
+
+
+<table id="table1000" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1000">
+<row id="tr1000">
+<entry id="th1000">
+
+
+
+<emphasis id="Figure_1" effect="bold">
+
+Figure 1
+
+</emphasis>
+
+. Facts worth remembering for the dot product.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1000">
+<row id="tr1001">
+<entry id="td1000">
+
+
+
+<code id="pre1001" display="block">
+Given two vectors, A and B with their tails at the origin and
+their tips at ax, ay, bx, and by respectively
+
+(A dot B) = (ax * bx) + (ay * by)
+
+where 
+    (A dot B) represents the dot product of the vectors
+    named A and B
+
+also
+
+(A dot B) = Amag*Bmag*cosine(angle between A and B)
+
+where
+    Amag is the magnitude of vector A
+    Bmag is the magnitude of vector B
+
+The projection of A onto B = (A dot B)/(Bmag)
+
+The angle between A and B = arccos((A dot B)/(Amag *Bmag))
+
+For a given pair of vectors, the dot product can be thought
+of as a measure of the extent to which they are parallel.
+The closer they are to parallel, the greater will be the
+value of the dot product.
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+</section>
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Cross_product" effect="bold">
+
+Cross product
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1071">
+Let's begin our discussion of the vector cross product with some background 
+information.
+
+</para>
+
+
+
+
+<section id="h31009">
+<title>
+<emphasis id="Background01" effect="bold">
+
+Background
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1072">
+The 
+
+<emphasis id="em1002" effect="italics">
+cross product
+
+</emphasis>
+, sometimes called a 
+
+<emphasis id="em1003" effect="italics">
+vector product
+
+</emphasis>
+, is an operation on two vectors in three-dimensional space. The operation results in a vector 
+that is perpendicular to both of the vectors being multiplied.
+
+</para>
+
+
+
+
+<para id="p1073">
+<emphasis id="strong1008" effect="bold">
+The name of the operation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1074">
+The name "cross product" derives from the fact that a special 
+character that looks like 
+an "x" is often used to indicate the nature of the operation.
+
+</para>
+
+
+
+
+<para id="p1075">
+I doubt that the special character will display properly on your Braille 
+display. In this module, therefore, I will use an actual "x" character instead of the special character that is 
+typically used. For example, I will indicate the cross product between vectors A 
+and B as
+
+</para>
+
+
+
+
+<para id="p1076">
+AxB
+
+</para>
+
+
+
+
+<para id="p1077">
+<emphasis id="strong1009" effect="bold">
+A cross product with a zero result
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1078">
+If either of the vectors being multiplied has a magnitude of 0, the cross 
+product will be zero. Also if the vectors being multiplied are parallel, their 
+cross product will be zero.
+
+</para>
+
+
+
+
+<para id="p1079">
+<emphasis id="strong1010" effect="bold">
+The area of a parallelogram
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1080">
+Except for the case of perpendicular vectors, the magnitude of the cross product 
+between two vectors equals the area of a parallelogram with the vectors 
+forming two sides of the parallelogram. 
+For the case of perpendicular vectors, the parallelogram becomes a rectangle and 
+the magnitude of the product is the area of that rectangle.
+
+</para>
+
+
+
+
+<para id="p1081">
+<emphasis id="strong1011" effect="bold">
+The direction of the resultant vector
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1082">
+As mentioned earlier, the result of the cross product is a vector that is 
+perpendicular to both of the vectors being multiplied. The resultant vector can 
+satisfy that requirement and point in ether of two directions. The actual 
+direction depends on certain orientation conventions as described by the 
+
+<emphasis id="em1004" effect="italics">
+
+right-hand rule
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h31010">
+<title>
+<emphasis id="The_righthand_rule" effect="bold">
+
+The right-hand rule
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1083">
+For a "right-handed" coordinate system, the direction of the resultant vector 
+for AxB can be determined as follows:
+
+</para>
+
+
+
+
+<para id="p1084">
+Point the forefinger of the right hand in the direction of A and point the 
+second finger in the direction of B. The thumb will then point in the direction 
+of the resultant vector.
+
+</para>
+
+
+
+
+<para id="p1085">
+<emphasis id="strong1012" effect="bold">
+The cross product is not commutative
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1086">
+If you think about this, you should realize that the cross product is not 
+commutative. That is to say that AxB is not the same as BxA because the 
+direction of the resultant vector would not be the same.
+
+</para>
+
+
+
+
+</section>
+<section id="h31011">
+<title>
+<emphasis id="Create_a_vector_diagram_on_your_graph_board01" effect="bold">
+
+Create a vector 
+diagram on your graph board
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1087">
+Once again, in order for you to better understand the nature of a vector 
+cross product, I recommend that you create a Cartesian coordinate system on your 
+graph board, and draw the following two vectors.
+
+</para>
+
+
+
+	
+
+
+<note id="note1001" type="">
+
+
+
+
+
+	
+
+<para id="p1088">
+<emphasis id="strong1013" effect="bold">
+A vector diagram for your graph board
+
+</emphasis>
+
+
+
+</para>
+
+
+	
+
+<code id="pre1002" display="block">Draw the first vector from the origin to a point at 
+x = 1
+y = 1.73
+Label this vector A.
+
+Draw a second vector from the origin to a point at 
+x = 2.9
+y = 0.78
+Label this vector B.
+</code>
+
+
+
+
+</note>
+
+
+
+
+	
+
+
+</section>
+<section id="h31012">
+<title>
+<emphasis id="The_cross_product" effect="bold">
+
+The cross product
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1089">
+The cross product, 
+
+<emphasis id="AxB_is_defined_as" effect="bold">
+
+AxB is defined as
+
+</emphasis>
+
+
+</para>
+
+
+
+
+<para id="p1090">
+AxB = Amag*Bmag*sin(angle)
+
+</para>
+
+
+
+
+<para id="p1091">
+where
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1049">
+Amag is the magnitude of the vector A
+
+</item>
+
+
+	
+
+<item id="li1050">
+Bmag is the magnitude of the vector B
+
+</item>
+
+
+	
+
+<item id="li1051">
+angle is the angle between the two vectors, which must be less than or 
+	equal to180 degrees
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31013">
+<title>
+<emphasis id="The_area_of_the_parallelogram" effect="bold">
+
+The area of the parallelogram
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1092">
+Use the vectors that you have drawn on your graph board to construct a 
+parallelogram and see if you can estimate the area of that parallelogram.
+
+</para>
+
+
+
+
+<para id="p1093">
+Even if you were a sighted student having the parallelogram drawn 
+on high-quality graph paper, it would be something of a chore to manually 
+determine the area of the parallelogram.
+
+</para>
+
+
+
+
+<para id="p1094">
+<emphasis id="strong1014" effect="bold">
+Let's work through some numbers
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1095">
+Let's use the cross product to determine the area of the parallelogram. 
+
+</para>
+
+
+
+
+<para id="p1096">
+Given the 
+
+<link id="a1044" target-id="AxB_is_defined_as">
+
+definition
+
+</link>
+
+ of the cross product, 
+we see that there are three values that we need:
+
+</para>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1052">
+Amag
+
+</item>
+
+
+	
+
+<item id="li1053">
+Bmag
+
+</item>
+
+
+	
+
+<item id="li1054">
+angle
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1097">
+<emphasis id="strong1015" effect="bold">
+Same vectors as before
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1098">
+If we were starting out with two new vectors, we could compute the magnitude 
+of each vector using the Pythagorean theorem. We could also determine the angle 
+by computing the vector dot product that I explained earlier in this 
+module.
+
+</para>
+
+
+
+
+<para id="p1099">
+As you may have noticed, these are the same two vectors that we used earlier, 
+and we computed those three values earlier. Going back and recovering those 
+three values, we have
+
+</para>
+
+
+
+
+<list id="ul1015" list-type="bulleted">
+
+	
+
+<item id="li1055">
+Amag = 2.0
+
+</item>
+
+
+	
+
+<item id="li1056">
+Bmag = 3.0
+
+</item>
+
+
+	
+
+<item id="li1057">
+angle = 45 degrees (at least that is what I intended for it to be)
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1100">
+<emphasis id="strong1016" effect="bold">
+The area of the parallelogram
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1101">
+Using the earlier 
+
+<link id="a1045" target-id="AxB_is_defined_as">
+
+definition
+
+</link>
+
+ and the 
+nomenclature for the Google calculator, 
+
+</para>
+
+
+
+
+<para id="p1102">
+AxB = Amag*Bmag*sin(angle), or
+
+</para>
+
+
+
+
+<para id="p1103">
+AxB = 2.0*3.0*sin(45 degrees), or
+
+</para>
+
+
+
+
+<para id="p1104">
+AxB = 4.24 square units
+
+</para>
+
+
+
+
+</section>
+<section id="h31014">
+<title>
+<emphasis id="The_direction_of_the_resultant_vector" effect="bold">
+
+The direction of the 
+resultant vector
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1105">
+If you place the end of your thumb at the origin of your Cartesian coordinate 
+system, you should be able, with reasonable comfort, to point your forefinger in 
+the direction of A and your second finger in the direction of B.
+
+</para>
+
+
+
+
+<para id="p1106">
+According to the 
+
+<link id="a1046" target-id="The_righthand_rule">
+
+right-hand rule
+
+</link>
+
+, this 
+means that the direction of the resultant vector is the direction that your thumb is 
+pointing, or straight down into the graph board.
+
+</para>
+
+
+
+
+</section>
+<section id="h31015">
+<title>
+<emphasis id="Perpendicular_or_parallel_vectors01" effect="bold">
+
+Perpendicular or parallel 
+vectors
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1107">
+Now consider what happens as the angle varies between 90 degrees 
+(perpendicular vectors) and 0 degrees (parallel vectors) for a given pair of 
+vectors.
+
+</para>
+
+
+
+
+<para id="p1108">
+As the angle approaches 0 degrees, the sine of the angle approaches 0, and 
+the cross product of the vectors approaches 0.
+
+</para>
+
+
+
+
+<para id="p1109">
+As the angle approaches 90 degrees, the sine of the angle approaches 1.0 and 
+the cross product approaches a value that is the product of the magnitudes of 
+the two vectors.
+
+</para>
+
+
+
+
+<para id="p1110">
+Thus, for a given pair of vectors, the cross product can be thought of as a 
+measure of the extent to which they are perpendicular to one another. The closer 
+they are to perpendicular, the greater will be the value of the cross product.
+
+</para>
+
+
+
+
+<para id="p1111">
+Hence, the dot product is a measure of the extent to which two vectors are 
+parallel to one another, while the cross product is a measure of the extent to 
+which two vectors are perpendicular to one another.
+
+</para>
+
+
+
+
+</section>
+<section id="h31016">
+<title>
+<emphasis id="Summary_for_vector_cross_product" effect="bold">
+
+Summary for vector cross product
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1112">
+<link id="a1047" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+ contains some facts worth remembering about the vector cross 
+product.
+
+</para>
+
+
+
+
+<table id="table1001" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1001">
+<row id="tr1002">
+<entry id="th1001">
+
+
+
+<emphasis id="Figure_2" effect="bold">
+
+Figure 2
+
+</emphasis>
+
+. Facts worth remembering for the cross product.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1001">
+<row id="tr1003">
+<entry id="td1001">
+
+
+
+<code id="pre1003" display="block">
+Given two vectors, A and B with their tails at the origin
+
+AxB = Amag*Bmag*sin(angle between A and B)
+
+where
+    AxB represents the cross product of the vectors
+      named A and B
+    Amag is the magnitude of vector A
+    Bmag is the magnitude of vector B
+
+The cross product is a vector operation. The resultant vector
+is perpendicular to the two vectors being multiplied. The 
+direction of the resultant vector can be determined by the 
+right-hand rule.
+
+The magnitude of the product equals the area of a 
+parallelogram with the vectors forming two sides of the
+parallelogram.
+
+The cross product is not commutative. In other words, AxB
+is not equal to BxA.
+
+For a given pair of vectors, the cross product can be 
+thought of as a measure of the extent to which they are 
+perpendicular to one another. The closer they are to 
+perpendicular, the greater will be the value of the 
+cross product.</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Repeat the computations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1113">
+I encourage you to repeat the computations that I have presented in this 
+	lesson to confirm that you get the same results. Then do similar 
+	computations for pairs of different vectors. For example, swap the positions 
+	of vectors A and B and see what this does to the direction of the resultant 
+	vector for a cross product.
+
+</para>
+
+
+
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1114">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1115">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1002" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1017" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1016" list-type="bulleted">
+
+
+
+<item id="li1058">
+Module name: Vector Multiplication
+
+</item>
+
+
+
+
+<item id="li1059">
+File: Phy1310.htm
+
+
+</item>
+
+
+	
+
+<item id="li1060">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1061">
+Keywords:
+
+<list id="ul1017" list-type="bulleted">
+
+		
+
+<item id="li1062">
+physics
+
+</item>
+
+
+		
+
+<item id="li1063">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1064">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1065">
+blind
+
+</item>
+
+
+		
+
+<item id="li1066">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1067">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1068">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1069">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1070">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1071">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1072">
+dot product
+
+</item>
+
+
+		
+
+<item id="li1073">
+inner product
+
+</item>
+
+
+		
+
+<item id="li1074">
+scalar product
+
+</item>
+
+
+		
+
+<item id="li1075">
+cross product
+
+</item>
+
+
+		
+
+<item id="li1076">
+vector product
+
+</item>
+
+
+		
+
+<item id="li1077">
+projection
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1003" type="">
+
+
+
+
+<emphasis id="strong1018" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1116">
+<emphasis id="strong1019" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1020" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1117">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1021" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1118">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1022" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1119">
+<emphasis id="strong1023" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1120">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

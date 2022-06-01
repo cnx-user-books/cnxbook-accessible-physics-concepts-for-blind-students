@@ -1,0 +1,1690 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1240: Circular Motion -- Speed and Velocity</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38399</md:content-id>
+  <md:title>Phy1240: Circular Motion -- Speed and Velocity</md:title>
+  <md:abstract>This module explains speed and velocity for circular motion in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>2d24719d-abc9-4561-a079-05808ef9dec6</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" target-id="General_background_information">
+
+Discussion
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="Uniform_circular_motion">
+
+Uniform circular motion
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="Average_speed">
+
+Average speed
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="Velocity">
+
+Velocity
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1008">
+<link id="a1008" target-id="Discussion">
+
+A thought experiment
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1009">
+<link id="a1009" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1010">
+<link id="a1010" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1011" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains speed and velocity for circular motion in a format that 
+is accessible to blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1003" list-type="bulleted">
+
+	
+
+<item id="li1011">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1012" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1012">
+A protractor for measuring angles (
+
+<link id="a1013" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1013">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1014" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1014">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1015" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1015">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1004" list-type="bulleted">
+
+	
+
+<item id="li1016">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1017">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1016" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1018">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1017" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1019">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1018" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1020">
+An introductory understanding of JavaScript programming (
+
+<link id="a1019" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1020" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1021">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1021" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="General_background_information" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+Much of what you learned in earlier modules pertaining to linear motion 
+applies also to circular motion.
+
+</para>
+
+
+
+
+<section id="h21003">
+<title>
+<emphasis id="Uniform_circular_motion" effect="bold">
+
+Uniform circular motion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+<emphasis id="strong1000" effect="bold">
+A ride on a carousel
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1007">
+Suppose that you and three of your friends go to an amusement park and take a 
+ride on the carousel. In case, you are unfamiliar with a carousel, it is usually 
+a large disk containing models of horses positioned around concentric circles. 
+Children sit on the horses while the disk spins. As the disk spins, music plays, 
+and the horses go up and down.
+
+</para>
+
+
+
+
+<para id="p1008">
+<emphasis id="strong1001" effect="bold">
+Pay for a ride
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1009">
+Usually, you pay for a ride and when the carousel stops, you get on one the 
+horses. After everyone is safely on a horse, the disk starts to spin. After 
+getting up to speed, the disk spins at the same speed for a few minutes. Then it 
+slows down and stops. Everyone gets off, and a new group of riders get on.
+
+</para>
+
+
+
+
+<para id="p1010">
+<emphasis id="strong1002" effect="bold">
+Ignore the up and down motion
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1011">
+For this discussion, we will ignore the music and the up and down motion of the horses and 
+consider only the circular motion.
+
+</para>
+
+
+
+
+<para id="p1012">
+<emphasis id="strong1003" effect="bold">
+Four sets of horses
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1013">
+Assume that it is a large carousel with horses on four equally spaced 
+concentric circles. You take a seat on one of the horses on the outer circle and 
+your three friends take seats on horses on the other three circles. The four of you are riding 
+approximately side-by-side.
+
+</para>
+
+
+
+
+<para id="p1014">
+<emphasis id="strong1004" effect="bold">
+Constant speed
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1015">
+Once the carousel gets started and comes up to speed, it typically 
+spins at a constant speed for several minutes, after which it slows down and 
+stops.
+
+</para>
+
+
+
+
+<para id="p1016">
+During the time that the carousel is spinning at constant speed, you and each 
+of your friends would be experiencing 
+
+<emphasis id="strong1005" effect="bold">
+uniform circular motion
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h21004">
+<title>
+<emphasis id="Average_speed" effect="bold">
+
+Average speed
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1017">
+Let's assume that the radius of the circle on which your horse is positioned 
+is 10 meters. In other words, you are sitting on a horse that is 10 meters from 
+the center of the carousel.
+
+</para>
+
+
+
+
+<para id="p1018">
+<emphasis id="strong1006" effect="bold">
+The circumference of the circle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1019">
+Then the circumference of the circle on which you are 
+located would be equal to
+
+</para>
+
+
+
+
+<para id="p1020">
+c1 = 2*pi*r1 = 2*pi*10m = 62.83 meters
+
+</para>
+
+
+
+
+<para id="p1021">
+where
+
+</para>
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1022">
+c1 is the circumference of the outer circle
+
+</item>
+
+
+	
+
+<item id="li1023">
+r1 is the radius of the outer circle
+
+</item>
+
+
+	
+
+<item id="li1024">
+pi is the mathematical constant pi with a value of 3.14159
+
+</item>
+
+
+	
+
+<item id="li1025">
+m is distance in meters
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1022">
+<emphasis id="strong1007" effect="bold">
+Time required to complete one cycle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1023">
+As the disk spins, you pass the same sighted observer standing close to the 
+carousel again and again. Assume that the sighted observer determines that the time required for you to complete each cycle 
+around the carousel is 31.41 seconds. 
+
+</para>
+
+
+
+
+<para id="p1024">
+<emphasis id="strong1008" effect="bold">
+The period
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1025">
+The proper term for the time required for an object to complete one cycle 
+with uniform circular motion is 
+
+<emphasis id="strong1009" effect="bold">
+period
+
+</emphasis>
+. Thus, your period would 
+be 31.41 seconds.
+
+</para>
+
+
+
+
+<para id="p1026">
+<emphasis id="strong1010" effect="bold">
+Periodic motion
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1027">
+The term 
+
+<emphasis id="strong1011" effect="bold">
+period
+
+</emphasis>
+ is also used to describe the motion of other 
+objects, such as a pendulum, a rocking chair, etc., resulting in a related term: 
+
+
+<emphasis id="em1001" effect="italics">
+periodic motion
+
+</emphasis>
+. Periodic motion is motion that is repeated in equal intervals 
+of time. Circular motion is only one of many forms of periodic motion.
+
+</para>
+
+
+
+
+<para id="p1028">
+<emphasis id="strong1012" effect="bold">
+Average speed
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1029">
+Getting back to your ride on the carousel, your average speed around the 
+circumference of your circle would be 
+equal to
+
+</para>
+
+
+
+
+<para id="p1030">
+Avg Speed = distance/time = circumference/time, or
+
+</para>
+
+
+
+
+<para id="p1031">
+Avg Speed = 2*pi*radius/time, or
+
+</para>
+
+
+
+
+<para id="p1032">
+Avg Speed = 2*pi*10m/31.41s = 2 m/s
+
+</para>
+
+
+
+
+<para id="p1033">
+where
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1026">
+circumference is the circumference of the circle in meters
+
+</item>
+
+
+	
+
+<item id="li1027">
+Avg speed represents average speed
+
+</item>
+
+
+	
+
+<item id="li1028">
+time is the number of second required to complete one trip around the 
+	circumference; the period
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1034">
+<emphasis id="strong1013" effect="bold">
+Average speeds of your friends
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1035">
+Now consider the average speed that each of your friends are traveling. Each of you 
+complete one cycle in 31.41 seconds, but your friends don't travel as far as you do in 
+that amount of time. The circumference of the circles on which they are 
+traveling is smaller than the circumference of the circle on which you are 
+traveling. Therefore, your average speed is greater than your friends' average 
+speeds.
+
+</para>
+
+
+
+
+<para id="p1036">
+Assume, for example, that the radii of the circles on which your friends are 
+traveling are 9, 8, and 7 meters respectively. The average speed for 
+you and each of your friends will be
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1029">
+s1 = 2*pi*r1/time = 2*pi*10m/31.41s = 2 m/s
+
+</item>
+
+
+	
+
+<item id="li1030">
+s2 = 2*pi*r2/time = 2*pi*9m/31.41s = 1.8 m/s
+
+</item>
+
+
+	
+
+<item id="li1031">
+s3 = 2*pi*r3/time = 2*pi*8m/31.41s = 1.6 m/s
+
+</item>
+
+
+	
+
+<item id="li1032">
+s4 = 2*pi*r4/time = 2*pi*8m/31.41s = 1.4 m/s
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1037">
+where
+
+</para>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1033">
+s1 through s4 represent the four different speeds
+
+</item>
+
+
+	
+
+<item id="li1034">
+r1 through r4 represent the radii of the four circles
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1038">
+<emphasis id="strong1014" effect="bold">
+Speed is proportional to radius
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1039">
+As you can see, the average speed for each rider is directly 
+proportional to the radius of the circle on which that rider is traveling. Doubling the radius doubles the average speed. If 
+there were a horse located 5 meters from the center of the carousel, the average 
+speed for that horse would be only half of your average speed at 10 meters, or 1 
+m/s.
+
+</para>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Velocity" effect="bold">
+
+Velocity
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1040">
+Just because you are traveling at a constant speed (during a portion of the 
+ride anyway), doesn't mean that you are traveling at a constant velocity. You 
+learned in an earlier module that an object in motion tends to remain in motion 
+in a straight line unless a force is applied to cause the object to change 
+direction.
+
+</para>
+
+
+
+
+<para id="p1041">
+<emphasis id="strong1015" effect="bold">
+You are constantly changing direction
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1042">
+When you are riding on the carousel, you are constantly changing direction. 
+Otherwise you would travel in a straight line instead of traveling in a circle.
+
+</para>
+
+
+
+
+<para id="p1043">
+A force is required to cause you to continually change direction and to 
+travel in a circle. That force 
+is exerted on your body by your grasp on the horse on which you are sitting.
+
+</para>
+
+
+
+
+<para id="p1044">
+<emphasis id="strong1016" effect="bold">
+Goodbye horse and rider
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1045">
+If 
+the brackets that attach your horse to the carousel were to break, you would 
+continue to travel in a straight line at that point, leaving the carousel behind.
+
+</para>
+
+
+
+
+<para id="p1046">
+<emphasis id="strong1017" effect="bold">
+A tangential velocity vector
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1047">
+At any instant in time, the direction of your velocity vector is a direction 
+that is tangent to the circle on which you are traveling. Stated differently, 
+the direction of your velocity vector is along a line that is perpendicular to a 
+line that extends from your center of mass to the center of the circle. (A tangent line is a line that touches a circle at one point but does not intersect it.) 
+If you sit very straight on the horse and face straight ahead, you will be 
+facing the direction of your velocity vector.
+
+</para>
+
+
+
+
+<para id="p1048">
+<emphasis id="strong1018" effect="bold">
+Summary
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1049">
+An object moving in uniform circular motion is moving around the perimeter of the circle with a constant speed. 
+Although the speed of the object is constant, the object's velocity is 
+constantly changing.
+
+</para>
+
+
+
+
+<para id="p1050">
+The object's velocity vector has a constant magnitude but a changing direction. 
+At any instant in time, the direction of the velocity vector is tangent to the circle. 
+As the object travels along the circular path, during one full rotation (cycle) 
+around the center, the tangent line is always pointing in a new direction. 
+During each cycle, the velocity vector points in the same (infinite) set of 
+directions.
+
+</para>
+
+
+
+
+<para id="p1051">
+A force must be exerted on an object to cause it to travel along a 
+circular path instead of traveling in a straight line. As you will learn in a 
+future module, this force is called the 
+
+<emphasis id="strong1019" effect="bold">
+centripetal
+
+</emphasis>
+ (center 
+seeking) force.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+A thought experiment
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1052">
+Assume that you attach one end of a garden hose to a faucet and then arrange 
+the hose in a circle on the ground. When you turn the water on, will the water 
+exit the hose and continue moving in a circular path, or will it move in a 
+straight line (ignoring the effects of gravity, air resistance, etc.)?
+
+</para>
+
+
+
+
+<para id="p1053">
+You may already know from experience that when the water exits the hose, it 
+moves in a straight line. While the water was inside the hose, it moved in a 
+circular path due to the force exerted on the water molecules by the inside 
+surface of the hose.
+
+</para>
+
+
+
+
+<para id="p1054">
+When the water exits the hose, that force will no longer be applied 
+to the water molecules. According to Newton, the water will continue in motion 
+at a constant velocity, meaning that the direction of the velocity vector for 
+the water molecules will not change. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1055">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1056">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1020" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+
+
+<item id="li1035">
+Module name: Circular Motion -- Speed and Velocity
+
+</item>
+
+
+
+
+<item id="li1036">
+File: Phy1240.htm
+
+
+</item>
+
+
+	
+
+<item id="li1037">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1038">
+Keywords:
+
+<list id="ul1010" list-type="bulleted">
+
+		
+
+<item id="li1039">
+physics
+
+</item>
+
+
+		
+
+<item id="li1040">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1041">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1042">
+blind
+
+</item>
+
+
+		
+
+<item id="li1043">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1044">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1045">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1046">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1047">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1048">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1049">
+uniform circular motion
+
+</item>
+
+
+					
+
+<item id="li1050">
+average speed
+
+</item>
+
+
+					
+
+<item id="li1051">
+velocity
+
+</item>
+
+
+					
+
+<item id="li1052">
+velocity vector
+
+</item>
+
+
+					
+
+<item id="li1053">
+circumference
+
+</item>
+
+
+					
+
+<item id="li1054">
+radius
+
+</item>
+
+
+					
+
+<item id="li1055">
+period
+
+</item>
+
+
+					
+
+<item id="li1056">
+periodic motion
+
+</item>
+
+
+					
+
+<item id="li1057">
+carousel
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+<emphasis id="strong1021" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1057">
+<emphasis id="strong1022" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1023" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1058">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1024" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1059">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1025" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1060">
+<emphasis id="strong1026" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1061">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

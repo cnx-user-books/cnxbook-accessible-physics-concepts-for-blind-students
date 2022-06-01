@@ -1,0 +1,3413 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1190: Energy -- Kinetic and Mechanical Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38296</md:content-id>
+  <md:title>Phy1190: Energy -- Kinetic and Mechanical Energy</md:title>
+  <md:abstract>This module explains kinetic and mechanical energy in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>d96bffad-310e-4c8e-abc0-930f95960e34</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" target-id="General_background_information">
+
+General background information
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="Kinetic_energy">
+
+Kinetic energy
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="Mechanical_energy">
+
+Mechanical energy
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="Total_mechanical_energy">
+
+Total mechanical energy
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1008">
+<link id="a1008" target-id="Discussion">
+
+Sample calculations
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="KineticEnergy02">
+
+Kinetic energy
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="MechanicalEnergy02">
+
+Mechanical energy
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1011">
+<link id="a1011" target-id="Run_the_program">
+
+Do the calculations
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1012">
+<link id="a1012" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1013">
+<link id="a1013" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1014" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains kinetic and mechanical energy in a format that is 
+
+accessible to blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1004" list-type="bulleted">
+
+	
+
+<item id="li1014">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1015" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1015">
+A protractor for measuring angles (
+
+<link id="a1016" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1016">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1017" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1017">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1018" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1018">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1019">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1020">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1019" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1021">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1020" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1022">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1021" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1023">
+An introductory understanding of JavaScript programming (
+
+<link id="a1022" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1023" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1024">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1024" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="General_background_information" effect="bold">
+
+General background 
+information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+In an earlier module, you learned about two forms of potential energy:
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1025">
+gravitational potential energy
+
+</item>
+
+
+	
+
+<item id="li1026">
+elastic potential energy
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1006">
+In this module, you will learn about kinetic energy and mechanical energy.
+
+</para>
+
+
+
+
+<section id="h21003">
+<title>
+<emphasis id="Kinetic_energy" effect="bold">
+
+Kinetic energy
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1007">
+<emphasis id="strong1000" effect="bold">
+Review regarding gravitational potential energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1008">
+Recall that gravitational potential energy is energy possessed by an object 
+due to its distance from the center of the earth. Gravitational potential energy 
+is driven by the attraction between the earth and all objects on the earth.
+
+</para>
+
+
+
+
+<para id="p1009">
+<emphasis id="strong1001" effect="bold">
+Review regarding elastic potential energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1010">
+Elastic potential energy is energy possessed by objects that have been 
+deformed within their elastic limits. Elastic potential energy is driven by a 
+desire of those deformed objects to return to their non-deformed state of 
+equilibrium.
+
+</para>
+
+
+
+
+<para id="p1011">
+<emphasis id="strong1002" effect="bold">
+Kinetic energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1012">
+Kinetic energy is energy possessed by an object because of its motion. 
+Kinetic energy is driven by the tendency of a moving object to continue moving 
+at the same velocity. When an object is in motion, something earlier did work on the object to cause it to attain 
+its velocity and force will be required to cause it to change its velocity.
+
+</para>
+
+
+
+
+<para id="p1013">
+<emphasis id="strong1003" effect="bold">
+There's that little brother again
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1014">
+When your little brother throws a ball and scores a solid hit on your back 
+(not a glancing blow), the 
+velocity of the ball goes to zero upon contact and the kinetic energy possessed by the 
+baseball is released into your body. This can sometimes cause pain, particularly 
+if the ball possesses a lot of kinetic energy.
+
+</para>
+
+
+
+
+<para id="p1015">
+<emphasis id="strong1004" effect="bold">
+Forms of kinetic energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1016">
+Kinetic energy comes in a variety of forms, including:
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1027">
+rotational, which is due to rotational motion such as a wheel on a 
+	bicycle
+
+</item>
+
+
+	
+
+<item id="li1028">
+translational, which is due to the movement of an object from one 
+	location to another location
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1017">
+I will concentrate on translational kinetic energy in this module and will 
+deal with other forms of kinetic energy in future modules.
+
+</para>
+
+
+
+
+<para id="p1018">
+<emphasis id="strong1005" effect="bold">
+Two factors control the amount of kinetic energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1019">
+The amount of translational kinetic energy possessed by a moving object 
+depends on two factors:
+
+</para>
+
+
+
+
+<list id="ol1000" list-type="enumerated">
+
+	
+
+<item id="li1029">
+The mass of the object.
+
+</item>
+
+
+	
+
+<item id="li1030">
+The velocity of the object.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1020">
+<emphasis id="strong1006" effect="bold">
+How did the object attain its current velocity?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1021">
+Note that it doesn't matter how the object attained its current velocity. The 
+object may have attained its current velocity by accelerating very slowly over a 
+period of years. The object may have fallen off a tall bookshelf and attained its current velocity fairly quickly 
+as a result of the acceleration of gravity. Or, the object may have been shot out of a cannon 
+due to an explosion of gun powder and acquired its 
+current velocity very quickly.
+
+</para>
+
+
+
+
+<para id="p1022">
+With regard to the kinetic energy currently possessed by the object, the only things that are important are:
+
+</para>
+
+
+
+
+<list id="ol1001" list-type="enumerated">
+
+	
+
+<item id="li1031">
+What is the mass of the object?
+
+</item>
+
+
+	
+
+<item id="li1032">
+What is the current velocity of the object?
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1023">
+<emphasis id="strong1007" effect="bold">
+Calculating kinetic energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1024">
+We know that an object can have motion (and hence kinetic energy) at the 
+current time only if work was done on the object earlier to put it in motion. We also know that the 
+kinetic energy will be equal to the work that was performed on the object to put 
+it in motion with the possible loss of kinetic energy due to friction or other 
+factors over time.
+
+</para>
+
+
+
+
+<para id="p1025">
+Knowing those things, and assuming that the object gained its current 
+velocity as a result of constant acceleration, we can derive an equation that 
+represents the kinetic energy possessed by the object.
+
+</para>
+
+
+
+
+<para id="p1026">
+<emphasis id="strong1008" effect="bold">
+The definition of work -- review
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1027">
+Recall the definition of work:
+
+</para>
+
+
+
+
+<para id="p1028">
+work = force * displacement * cos(theta)
+
+</para>
+
+
+
+
+<para id="p1029">
+where 
+
+</para>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1033">
+theta is the angle between the direction of displacement and the line 
+of action of the force.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1030">
+In this case, we might as well assume that theta is 0 degrees.
+
+</para>
+
+
+
+
+<para id="p1031">
+<emphasis id="strong1009" effect="bold">
+The equation for work
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1032">
+Therefore, W = f*d
+
+</para>
+
+
+
+
+<para id="p1033">
+where
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1034">
+W represents work, and ultimately kinetic energy
+
+</item>
+
+
+	
+
+<item id="li1035">
+f represents force
+
+</item>
+
+
+	
+
+<item id="li1036">
+d represents distance or displacement
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1034">
+<emphasis id="strong1010" effect="bold">
+Acceleration is caused by force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1035">
+We also know that a given force applied to an object will produce a given 
+acceleration, as in
+
+</para>
+
+
+
+
+<para id="p1036">
+f = m*a
+
+</para>
+
+
+
+
+<para id="p1037">
+where 
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1037">
+f represents force
+
+</item>
+
+
+	
+
+<item id="li1038">
+m represents mass
+
+</item>
+
+
+	
+
+<item id="li1039">
+a represents acceleration
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1038">
+<emphasis id="strong1011" effect="bold">
+Distance traveled by an object under constant acceleration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1039">
+In an earlier module, you learned that when an object is subjected to a 
+constant acceleration, the distance traveled by the object in a given time is 
+represented by
+
+</para>
+
+
+
+
+<para id="p1040">
+d = 0.5*a*t^2
+
+</para>
+
+
+
+
+<para id="p1041">
+where
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1040">
+d represents the distance traveled
+
+</item>
+
+
+	
+
+<item id="li1041">
+a represents the constant acceleration
+
+</item>
+
+
+	
+
+<item id="li1042">
+t represents time
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1042">
+<emphasis id="strong1012" effect="bold">
+Substitution
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1043">
+Therefore, by substitution we can write
+
+</para>
+
+
+
+
+<para id="p1044">
+W = f*d = 0.5*f*a*t*t, or
+
+</para>
+
+
+
+
+<para id="p1045">
+W = 0.5*m*a*a*t*t
+
+</para>
+
+
+
+
+<para id="p1046">
+<emphasis id="strong1013" effect="bold">
+We're almost there
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1047">
+Recognizing that a = v/t where v represents velocity and t represents time, we can write
+
+</para>
+
+
+
+
+<para id="p1048">
+W = 0.5*m*(v/t)*(v/t)*t*t
+
+</para>
+
+
+
+
+<para id="p1049">
+Canceling terms in the numerator and denominator, we can write
+
+</para>
+
+
+
+
+<para id="p1050">
+W = 0.5*m*v*v = 0.5*m*v^2
+
+</para>
+
+
+
+
+<para id="p1051">
+<emphasis id="strong1014" effect="bold">
+And we're there
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1052">
+Since the kinetic energy possessed by the object equals the work that was 
+done on the object to produce the current velocity (assuming no energy loss in 
+the interval), we can write
+
+</para>
+
+
+
+
+<para id="p1053">
+KE = 0.5*m*v^2
+
+</para>
+
+
+
+
+<para id="p1054">
+where
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1043">
+KE represents the kinetic energy possessed by the object
+
+</item>
+
+
+	
+
+<item id="li1044">
+m represents the mass of the object
+
+</item>
+
+
+	
+
+<item id="li1045">
+v represents the velocity of the object
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1055">
+Once again, even though I assumed constant acceleration to derive this 
+equation, the equation is true regardless of the nature of the acceleration that 
+caused the object to possess its current velocity.
+
+</para>
+
+
+
+
+<para id="p1056">
+<emphasis id="strong1015" effect="bold">
+KE varies as the square of the velocity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1057">
+This is an extremely important equation, because it shows that the kinetic 
+energy possessed by an object increases as the square of the velocity of the 
+object. For example, if you are struck by a falling book with a velocity of 2 
+m/s, it will do four times as much work in damaging your body as a book with a 
+velocity of only 1 m/s.
+
+</para>
+
+
+
+
+<para id="p1058">
+If the driver of a car increases the speed of the car from 55 mph to 70 mph, 
+this represents about a 27-percent increase in speed but it also represents 
+about a 62-percent increase in kinetic energy. 
+
+</para>
+
+
+
+
+<para id="p1059">
+<emphasis id="strong1016" effect="bold">
+Miscellaneous facts about kinetic energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1060">
+Like work, kinetic energy is a scalar quantity. It has magnitude but not 
+direction.
+
+</para>
+
+
+
+
+<para id="p1061">
+Also like work and potential energy, the standard unit of kinetic energy is 
+the joule. However, there are many other units that are used to express energy 
+including:
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1046">
+1 foot-pound = 1.36 joules
+
+</item>
+
+
+	
+
+<item id="li1047">
+1 British thermal unit (Btu) = 1055.1 joules
+
+</item>
+
+
+	
+
+<item id="li1048">
+1 kilowatt-hour = 3600000 joules
+
+</item>
+
+
+	
+
+<item id="li1049">
+1 calorie = 4.18 joules
+
+</item>
+
+
+	
+
+<item id="li1050">
+1 electron volt = 1.6*10^(-19) joules
+
+</item>
+
+
+	
+
+<item id="li1051">
+1 hartree = 4.4*10^(-18) joules
+
+</item>
+
+
+	
+
+<item id="li1052">
+1 ton of TNT = 4.18 *10^9 joules
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1062">
+Some sample calculations involving kinetic energy are presented
+
+
+<link id="a1025" target-id="Discussion">
+
+later
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h21004">
+<title>
+<emphasis id="Mechanical_energy" effect="bold">
+
+Mechanical energy
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1063">
+We know what it means to do work on an object. When a force is applied to an 
+object causing a displacement of the object (such as lifting a small child and 
+placing that child into a feeding chair), work has been done on the object.
+
+</para>
+
+
+
+
+<para id="p1064">
+<emphasis id="strong1017" effect="bold">
+Force is a two-way street
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1065">
+A force doesn't exist in isolation. From Newton's third law, we know that for 
+each force that is applied to one object, an equal and opposite force is applied 
+to the other object. When you lift the child and place the child into a feeding 
+chair, you supply the force necessary to overcome the force of gravity and lift the child. 
+(You also do the work necessary to increase the child's gravitational potential 
+energy.)
+
+</para>
+
+
+
+
+<para id="p1066">
+<emphasis id="strong1018" effect="bold">
+Work is also a two-way street
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1067">
+In all cases where a force is applied to an object (work is done on the 
+object), some other object must apply the force and do the work. That force may 
+be applied by a person, a motor, a beast of burden, rushing water, wind, etc.
+
+</para>
+
+
+
+
+<para id="p1068">
+<emphasis id="strong1019" effect="bold">
+An exchange of energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1069">
+In all such cases, the object doing the work possesses either potential 
+energy or kinetic energy or both that is exchanged with the object upon which 
+the work is performed. (When you lift the child and place the child into a 
+feeding chair, you are expending potential energy that you possess in order to 
+increase the potential energy possessed by the child.)
+
+</para>
+
+
+
+
+<para id="p1070">
+<emphasis id="strong1020" effect="bold">
+The type of energy expended
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1071">
+For example, the energy being expended may be in the form of
+
+</para>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1053">
+chemical energy such as the energy stored in food, fuel, or TNT 
+
+</item>
+
+
+	
+
+<item id="li1054">
+atomic energy such as is used in a nuclear power plant
+
+</item>
+
+
+	
+
+<item id="li1055">
+radiant energy such as energy received from the sun
+
+</item>
+
+
+	
+
+<item id="li1056">
+gravitational potential energy and/or kinetic energy as 
+	in the case of water rushing downhill through a turbine, 
+
+</item>
+
+
+	
+
+<item id="li1057">
+elastic potential energy such as the energy stored in the 
+	spring that closes the gate to my back yard after someone opens that gate 
+	and twists the spring
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1072">
+<emphasis id="strong1021" effect="bold">
+Work causes objects to gain energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1073">
+Whenever work is done on an object, that object gains energy (as in the case 
+of lifting a child into a feeding chair, thereby increasing the child's 
+gravitational potential energy).
+
+</para>
+
+
+
+
+<para id="p1074">
+<emphasis id="strong1022" effect="bold">
+Mechanical energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1075">
+According to The Physics Classroom (see
+
+
+<link id="a1026" url="http://www.physicsclassroom.com/class/energy/u5l1d.cfm">
+
+
+http://www.physicsclassroom.com/class/energy/u5l1d.cfm
+
+</link>
+
+), the energy acquired by the objects upon which work is done is known as 
+
+
+<emphasis id="strong1023" effect="bold">
+mechanical energy
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1076">
+Mechanical energy is the energy that is possessed by an object due to its 
+motion or due to its position (where position includes the deformation, 
+stretching, compressing, etc., involved in elastic potential energy). Mechanical 
+energy can be either 
+
+<emphasis id="em1001" effect="italics">
+kinetic energy
+
+</emphasis>
+ resulting from motion or 
+
+<emphasis id="em1002" effect="italics">
+
+potential energy
+
+</emphasis>
+ resulting from the position of the object.
+
+</para>
+
+
+
+
+<para id="p1077">
+A speeding car has kinetic energy. An airplane in flight has both kinetic 
+energy and gravitational potential energy. A stretched or compressed or twisted 
+spring has elastic potential energy. (The spring on my gate doesn't obviously 
+stretch or compress when the gate is opened. Instead, it twists.)
+
+</para>
+
+
+
+
+<para id="p1078">
+<emphasis id="strong1024" effect="bold">
+The ability to do work
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1079">
+Mechanical energy is often defined as the ability to do work because an 
+object that has mechanical energy can do work. For example, the book on the top 
+bookshelf has the ability to do work on your head if it falls on your head.
+
+</para>
+
+
+
+
+<para id="p1080">
+<emphasis id="strong1025" effect="bold">
+When a falling book strikes your head
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1081">
+When at rest on the bookshelf, the book has mechanical energy in the form of 
+gravitational potential energy. On the way down, some of that potential energy is converted to kinetic energy. 
+
+</para>
+
+
+
+
+<para id="p1082">
+When the book strikes your head and causes your head, the bone in your head, 
+or possibly both, to be displaced, it gives up some of its kinetic energy. The 
+kinetic energy given up by the book is absorbed by your head.
+
+</para>
+
+
+
+
+<para id="p1083">
+At that point, the book still has mechanical energy in the form of potential 
+energy, and possibly some kinetic energy as well. The remaining mechanical 
+energy could do work on your toe if the book happens to land on your toe.
+
+</para>
+
+
+
+
+<para id="p1084">
+<emphasis id="strong1026" effect="bold">
+In summary...
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1085">
+The mechanical energy possessed by an object makes it possible 
+for the object to apply a force to some other object to cause the other object to be 
+displaced, thus doing work on the other object.
+
+</para>
+
+
+
+
+<para id="p1086">
+<emphasis id="strong1027" effect="bold">
+A moving hammer
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1087">
+For example, a moving hammer can cause a nail to be displaced and driven into a piece of 
+wood. In the case of a hammer, simply laying the hammer on the head of the nail, 
+which means applying the hammer's potential energy to the head of the nail, 
+probably won't displace the nail. However, giving the hammer a good swing, 
+thereby imparting kinetic energy into the hammer, gives the hammer the 
+capability to displace the nail.
+
+</para>
+
+
+
+
+<para id="p1088">
+<emphasis id="strong1028" effect="bold">
+Potential energy being dissipated
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1089">
+If you swing a hammer repeatedly for the purpose of driving nails, after 
+awhile you will 
+probably begin to feel tired. This is because each time you swing the hammer and 
+impart mechanical energy into the hammer, that energy is being expended by your 
+body. After awhile, your available potential energy in the form of chemical 
+energy will have been depleted (or at least reduced) and you will feel tired.
+
+</para>
+
+
+
+
+<para id="p1090">
+<emphasis id="strong1029" effect="bold">
+The suction- cup dart gun
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1091">
+When I was a child, a commonly available toy was a gun that was designed to shoot projectiles at a target. The projectiles (darts) were sticks with rubber suction cups on one end. (Note that darts also 
+come in another form that has a sharp but sturdy pin on one end and a 
+construction that is very aerodynamic. Those darts are meant to be thrown at a 
+target instead of being shot from a gun.)
+
+</para>
+
+
+
+
+<para id="p1092">
+<emphasis id="strong1030" effect="bold">
+The suction-cup dart
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1093">
+For the suction-cup dart, the target was very smooth. If the dart struck the 
+target straight on with very little angle, the suction cup would adhere to the 
+target by squeezing air out from the suction cup and creating a weak vacuum.
+
+</para>
+
+
+
+
+<para id="p1094">
+<emphasis id="strong1031" effect="bold">
+Cocking the gun
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1095">
+To prepare the gun for shooting the dart, the stick would be inserted into 
+the barrel of the gun and pushed against a spring contained inside the gun until some sort of catching 
+mechanism would click into place. That mechanism would hold the spring in a compressed position 
+until the child pulled the trigger.
+
+</para>
+
+
+
+
+<para id="p1096">
+With the spring compressed, the gun possessed mechanical energy due to the 
+elastic potential energy of the spring.
+
+</para>
+
+
+
+
+<para id="p1097">
+<emphasis id="strong1032" effect="bold">
+Shooting the gun
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1098">
+When the trigger was pulled, the catch would release, the spring would expand, 
+and the dart would shoot out of the gun at relatively high speed.
+
+</para>
+
+
+
+
+<para id="p1099">
+<emphasis id="strong1033" effect="bold">
+Be careful what you aim at
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1100">
+I still 
+recall getting in trouble with my mother for lying on my bed and shooting darts 
+at 
+the ceiling, which made little round circles on the ceiling that she had to 
+clean off. (I forgot to mention that you normally lick the suction cup before 
+loading it into the gun so that it will make a good seal when it strikes the 
+target.)
+
+</para>
+
+
+
+
+<para id="p1101">
+<emphasis id="strong1034" effect="bold">
+An exchange of mechanical energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1102">
+When the dart is loaded into the gun and the spring is compressed, the gun possesses mechanical energy. 
+When the trigger is pulled, that mechanical energy does work on the dart 
+causing the dart to be displaced very rapidly shooting out of the barrel of the 
+gun. The elastic potential energy in the spring is exchanged for kinetic energy in the 
+dart.
+
+</para>
+
+
+
+
+<para id="p1103">
+<emphasis id="strong1035" effect="bold">
+Another energy exchange
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1104">
+When the dart strikes the target, the kinetic energy in the dart is exchanged for elastic 
+potential energy in the rubber suction cup on the front of the dart. When the 
+striking angle is nearly perpendicular to the target, the air is forced out of the suction-cup causing the dart to adhere 
+to the smooth surface.
+
+</para>
+
+
+
+
+<para id="p1105">
+<emphasis id="strong1036" effect="bold">
+Mechanical energy possessed by the dart
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1106">
+At that point in time, the dart has gravitational 
+potential energy due to its height above the floor and the suction cup has 
+elastic potential energy due to having been deformed within its elastic limit.
+
+</para>
+
+
+
+
+<para id="p1107">
+The slightest air leak will cause the suction cup to return to its original 
+shape, thereby causing the dart to pop off the target. Then the gravitational 
+potential energy possessed by the dart will cause it to fall to the floor.
+
+</para>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Total_mechanical_energy" effect="bold">
+
+Total mechanical energy
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1108">
+The total amount of mechanical energy possessed by an object is the sum of 
+the potential and kinetic energy possessed by the object. Therefore,
+
+</para>
+
+
+
+
+<para id="p1109">
+TME = PE + KE
+
+</para>
+
+
+
+
+<para id="p1110">
+where
+
+</para>
+
+
+
+
+<list id="ul1015" list-type="bulleted">
+
+	
+
+<item id="li1058">
+TME represents the total mechanical energy
+
+</item>
+
+
+	
+
+<item id="li1059">
+PE represents the total potential energy
+
+</item>
+
+
+	
+
+<item id="li1060">
+KE represents the kinetic energy
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1111">
+Because the potential energy can be of two forms,
+
+</para>
+
+
+
+
+<para id="p1112">
+TME = PEs + PEg + KE
+
+</para>
+
+
+
+
+<para id="p1113">
+where
+
+</para>
+
+
+
+
+<list id="ul1016" list-type="bulleted">
+
+	
+
+<item id="li1061">
+TME represents the total mechanical energy
+
+</item>
+
+
+	
+
+<item id="li1062">
+PEs represents the potential energy due to deformation such as 
+	stretching, compressing, twisting, etc.
+
+</item>
+
+
+	
+
+<item id="li1063">
+PEg represents the potential energy due to gravity
+
+</item>
+
+
+	
+
+<item id="li1064">
+KE represents the kinetic energy
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1114">
+<emphasis id="strong1037" effect="bold">
+Energy is a scalar quantity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1115">
+As mentioned earlier, energy is a scalar and not a vector quantity. 
+Therefore, the total mechanical energy is simply the sum of the three types of 
+energy possessed by the object. There are no angles or directions to contend 
+with when computing the sum.
+
+</para>
+
+
+
+
+<para id="p1116">
+<emphasis id="strong1038" effect="bold">
+Conversion of energy between types
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1117">
+Over the course of time, a moving object can convert the types of energy between 
+the different forms. A good example is the pendulum on a clock, or a child sitting 
+motionless in a swing that is in motion.
+
+</para>
+
+
+
+
+<para id="p1118">
+<emphasis id="strong1039" effect="bold">
+When the pendulum reaches its highest point...
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1119">
+There is an instant in time where a swinging pendulum is at its highest point and it is not moving. At that instant, it has no kinetic energy but it has 
+maximum gravitational potential energy.
+
+</para>
+
+
+
+
+<para id="p1120">
+<emphasis id="strong1040" effect="bold">
+When the pendulum reaches its lowest point...
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1121">
+As the pendulum goes through the lowest 
+point in its swing, it has the greatest speed and therefore the greatest amount 
+of kinetic energy. If you define the zero height reference as the height of the 
+pendulum at that point, then it has no potential energy at that point in time.
+
+</para>
+
+
+
+
+<para id="p1122">
+<emphasis id="strong1041" effect="bold">
+Swapping kinetic energy for potential energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1123">
+Therefore, the total mechanical energy of the pendulum is swapped back and 
+forth between kinetic energy and potential energy in a very smooth way.
+
+</para>
+
+
+
+
+<para id="p1124">
+If the 
+pendulum were swinging in a friction-free environment, it would continue that 
+process forever. The total amount of mechanical energy would stay the same but 
+at any instant in time would be divided between potential and kinetic energy.
+
+</para>
+
+
+
+
+<para id="p1125">
+Of course, there is no such thing as a friction-free environment and a small 
+amount of energy is dissipated by friction each time the pendulum swings through 
+a cycle. Over time, therefore, the total mechanical energy in the pendulum would 
+be depleted and the pendulum would stop swinging.
+
+</para>
+
+
+
+
+<para id="p1126">
+<emphasis id="strong1042" effect="bold">
+Pendulum clocks have springs
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1127">
+That is why pendulum clocks 
+have springs or weights that store potential energy and impart a small amount of 
+energy into the pendulum mechanism during each swing.
+
+</para>
+
+
+
+
+<para id="p1128">
+<emphasis id="strong1043" effect="bold">
+Where does the potential energy come from
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1129">
+That raises another issue. What happens to the clock when the spring or weights expend 
+all of their stored energy. The answer is that eventually the pendulum will stop 
+swinging and the clock will stop 
+running unless a human imparts more energy into 
+the spring or weight system that keeps the clock running.
+
+</para>
+
+
+
+
+<para id="p1130">
+<emphasis id="strong1044" effect="bold">
+Twenty-four hours of controlled energy transfers
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1131">
+I can still remember my grandfather winding the spring on his pendulum clock 
+as the last thing he did before going to bed each night. He was converting 
+potential energy derived from food into elastic potential energy in the clock's 
+spring.
+
+</para>
+
+
+
+
+<para id="p1132">
+During the next 24 hours, that elastic potential energy would be converted to 
+a combination of gravitational potential energy and kinetic energy in the 
+pendulum, which would move the hands on the clock to indicate the correct time.
+
+</para>
+
+
+
+
+<para id="p1133">
+The next night, my grandfather would start the process all over again by 
+imparting energy into the clock's spring.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Sample calculations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1134">
+I will present and explain sample calculations involving both kinetic energy 
+and mechanical energy in this section.
+
+</para>
+
+
+
+
+<section id="h21006">
+<title>
+<emphasis id="KineticEnergy02" effect="bold">
+
+Kinetic energy
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1135">
+<emphasis id="strong1045" effect="bold">
+A roller coaster car
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1136">
+What is the kinetic energy possessed by a 1378 pound roller coaster car that 
+is moving with a speed of 60 ft/sec?
+
+</para>
+
+
+
+
+<para id="p1137">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1138">
+Enter the following expression into the Google search box:
+
+</para>
+
+
+
+
+<para id="p1139">
+0.5*1378lb * (60ft/s)^2
+
+</para>
+
+
+
+
+<para id="p1140">
+The resulting kinetic energy is 1.045 * 10^5 joules.
+
+</para>
+
+
+
+
+<para id="p1141">
+Similarly, you could enter the following into the Google search box:
+
+</para>
+
+
+
+
+<para id="p1142">
+0.5*625kg * (60ft/s)^2
+
+</para>
+
+
+
+
+<para id="p1143">
+and you would get the same answer of 1.045 * 10^5 joules.
+
+</para>
+
+
+
+
+<para id="p1144">
+As you can see, it 
+doesn't matter whether you use English units or SI units for mass and velocity, 
+as long as you do the calculation correctly. The answer is the same, because the 
+kinetic energy of the object doesn't change just because you express those 
+quantities in different units.
+
+</para>
+
+
+
+
+<para id="p1145">
+<emphasis id="strong1046" effect="bold">
+More on the roller coaster car
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1146">
+What would be the kinetic energy of another car with the same mass but with 
+three times the speed?
+
+</para>
+
+
+
+
+<para id="p1147">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1148">
+We don't even need to evaluate the equation to answer this question. We know 
+that the kinetic energy varies as the square of the speed, so if we triple the 
+speed, we will increase the kinetic energy by a factor of 3*3=9. Therefore,
+
+</para>
+
+
+
+
+<para id="p1149">
+KE = 9*1.045 * 10^5 joules = 9.405 * 10^5 joules
+
+</para>
+
+
+
+
+<para id="p1150">
+<emphasis id="strong1047" effect="bold">
+Dead Fred the daredevil
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1151">
+Dead Fred, the daredevil possessed a kinetic energy of 18000 joules just prior 
+to hitting a solid brick wall on his motorcycle. If his mass was 176 pounds, what was his speed?
+
+</para>
+
+
+
+
+<para id="p1152">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1153">
+KE = 0.5*m*v^2, or
+
+</para>
+
+
+
+
+<para id="p1154">
+v^2 = KE/(0.5*m), or
+
+</para>
+
+
+
+
+<para id="p1155">
+v = sqrt(KE/(0.5*m)), or
+
+</para>
+
+
+
+
+<para id="p1156">
+v = sqrt(18000joules/(0.5*176pound))
+
+</para>
+
+
+
+
+<para id="p1157">
+Enter the right-hand expression above into the Google search box and you 
+should get a velocity of 
+
+</para>
+
+
+
+
+<para id="p1158">
+v = 21.24 m/s
+
+</para>
+
+
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="MechanicalEnergy02" effect="bold">
+
+Mechanical energy
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1159">
+<emphasis id="strong1048" effect="bold">
+A dart gun
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1160">
+A dart with a mass of 0.1 kg leaves the muzzle of a dart gun with a velocity 
+of 10 m/s. The child is holding the dart gun at a position that is 1 m above the 
+ground. At that instant,
+
+</para>
+
+
+
+
+<list id="ol1002" list-type="enumerated">
+
+	
+
+<item id="li1065">
+What is the potential energy of the dart?
+
+</item>
+
+
+	
+
+<item id="li1066">
+What is the kinetic energy of the dart?
+
+</item>
+
+
+	
+
+<item id="li1067">
+What is the total mechanical energy of the dart?
+
+</item>
+
+
+	
+
+<item id="li1068">
+Assuming no losses of energy due to friction or other causes, what is the change in the total mechanical energy of the gun 
+	at the instant the dart exits the gun?
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1161">
+Answers:
+
+</para>
+
+
+
+
+<para id="p1162">
+1. Assuming that the dart was not deformed as it was forced out of the barrel 
+of the gun, the potential energy of the dart is given by
+
+</para>
+
+
+
+
+<para id="p1163">
+mass*gravity*height
+
+</para>
+
+
+
+
+<para id="p1164">
+Enter the following into the Google search box:
+
+</para>
+
+
+
+
+<para id="p1165">
+(0.1 kg) * (9.8 (m / (s^2))) * (1 m) 
+
+</para>
+
+
+
+
+<para id="p1166">
+The result should be:
+
+</para>
+
+
+
+
+<para id="p1167">
+Potential energy = 0.98 joules
+
+</para>
+
+
+
+
+<para id="p1168">
+2. The kinetic energy of the dart is given by
+
+</para>
+
+
+
+
+<para id="p1169">
+0.5*m*v^2
+
+</para>
+
+
+
+
+<para id="p1170">
+Enter the following into the Google search box:
+
+</para>
+
+
+
+
+<para id="p1171">
+0.5*0.1kg*(10m/s)^2
+
+</para>
+
+
+
+
+<para id="p1172">
+The result should be:
+
+</para>
+
+
+
+
+<para id="p1173">
+kinetic energy = 5 joules
+
+</para>
+
+
+
+
+<para id="p1174">
+3. The total mechanical energy of the dart is the simple sum of the potential 
+energy and the kinetic energy, which is:
+
+</para>
+
+
+
+
+<para id="p1175">
+Total mechanical energy = 5.98 joules
+
+</para>
+
+
+
+
+<para id="p1176">
+4. When the dart exits the gun, the gravitational potential energy of the gun 
+is reduced because the total mass of the gun and the dart is reduced by the mass 
+of the dart.
+
+</para>
+
+
+
+
+<para id="p1177">
+In addition, the elastic potential energy stored in the spring is imparted 
+into the dart in the form of kinetic energy.
+
+</para>
+
+
+
+
+<para id="p1178">
+Therefore, the loss in mechanical energy of the gun is equal to the total 
+mechanical energy of the dart immediately upon exit from the gun barrel. 
+Therefore, the total mechanical energy of the gun is reduced by 5.98 joules when 
+the dart exits the gun.
+
+</para>
+
+
+
+
+<para id="p1179">
+<emphasis id="strong1049" effect="bold">
+A crate on a ski run
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1180">
+A crate containing soft drinks with a mass of 5 kg is accidentally released 
+at the top of a ski run and slides down the ski run to the valley below. The 
+height of the point where the crate is released is 100 m above the valley floor. The crate goes through numerous 
+dips and over many small hills on the way down but never stops.
+
+</para>
+
+
+
+
+<para id="p1181">
+Assuming there is no friction, no air resistance, no deformation, and no 
+loss of energy in any form during the trip, what is the magnitude of the crate's velocity 
+when it reaches the valley floor?
+
+</para>
+
+
+
+
+<para id="p1182">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1183">
+As presented, this is a simple case of the conversion of gravitational 
+potential energy into kinetic energy. The fact that the crate slowed down and 
+sped up several times during the trip while negotiating little dips and hills doesn't matter. All that really matters is 
+the balance of energy between the starting point and point where the crate 
+reached the valley floor. With no energy loss during the trip, the total mechanical 
+energy at the end of the trip must equal the total mechanical energy at the 
+beginning of the trip.
+
+</para>
+
+
+
+
+<para id="p1184">
+At the top of the hill, the crate's gravitational potential energy was equal 
+to
+
+</para>
+
+
+
+
+<para id="p1185">
+m*g*h = 5kg*(9.8m/s^2)*100m = 4900 joules
+
+</para>
+
+
+
+
+<para id="p1186">
+Therefore, at the bottom of the hill, with no remaining potential energy, the 
+crate's kinetic energy must be equal to
+
+</para>
+
+
+
+
+<para id="p1187">
+0.5*m*v^2 = 4900 joules
+
+</para>
+
+
+
+
+<para id="p1188">
+Rearranging terms gives us
+
+</para>
+
+
+
+
+<para id="p1189">
+v^2 = (4900 joules)/(0.5*m), or
+
+</para>
+
+
+
+
+<para id="p1190">
+v = sqrt((4900 joules)/(0.5*m)), or
+
+</para>
+
+
+
+
+<para id="p1191">
+v = sqrt((4900 joules)/(0.5*5kg))
+
+</para>
+
+
+
+
+<para id="p1192">
+Entering this expression into the Google calculator gives us the crate's 
+velocity when it reached the valley floor as
+
+</para>
+
+
+
+
+<para id="p1193">
+v = 44.3 m/s
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Do the calculations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1194">
+I encourage you to repeat the calculations that I have presented in this lesson to confirm that you get the same results. Experiment with the scenarios, making changes, and observing the results of your changes. Make certain that you can explain why your changes behave as they do. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1195">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1196">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1050" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1017" list-type="bulleted">
+
+
+
+<item id="li1069">
+Module name: Energy -- Kinetic and Mechanical Energy
+
+</item>
+
+
+
+
+<item id="li1070">
+File: Phy1190.htm
+
+
+</item>
+
+
+	
+
+<item id="li1071">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1072">
+Keywords:
+
+<list id="ul1018" list-type="bulleted">
+
+		
+
+<item id="li1073">
+physics
+
+</item>
+
+
+		
+
+<item id="li1074">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1075">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1076">
+blind
+
+</item>
+
+
+		
+
+<item id="li1077">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1078">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1079">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1080">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1081">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1082">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1083">
+potential energy
+
+</item>
+
+
+		
+
+<item id="li1084">
+work
+
+</item>
+
+
+		
+
+<item id="li1085">
+gravitational potential energy
+
+</item>
+
+
+		
+
+<item id="li1086">
+elastic potential energy
+
+</item>
+
+
+		
+
+<item id="li1087">
+kinetic energy
+
+</item>
+
+
+		
+
+<item id="li1088">
+mechanical energy
+
+</item>
+
+
+					
+
+<item id="li1089">
+total mechanical energy
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+<emphasis id="strong1051" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1197">
+<emphasis id="strong1052" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1053" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1198">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1054" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1199">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1055" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1200">
+<emphasis id="strong1056" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1201">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

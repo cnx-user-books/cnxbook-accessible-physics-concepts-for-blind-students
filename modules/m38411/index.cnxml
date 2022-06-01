@@ -1,0 +1,3718 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1260: Circular Motion -- The Mathematics of Circular Motion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38411</md:content-id>
+  <md:title>Phy1260: Circular Motion -- The Mathematics of Circular Motion</md:title>
+  <md:abstract>This module explains the mathematics of circular motion in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>019ad1b6-3a7c-4ad8-b591-2b428ee3b5d5</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+; 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" target-id="General_background_information">
+
+Discussion
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="Angular_displacement_and_angular_velocity">
+
+Angular 
+		displacement and angular velocity
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+			
+
+<item id="li1006">
+<link id="a1006" target-id="Angular_displacement">
+
+Angular displacement
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1007">
+<link id="a1007" target-id="Angular_velocity">
+
+Angular velocity
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1008">
+<link id="a1008" target-id="Radian_measure">
+
+Radian measure
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1009">
+<link id="a1009" target-id="Linear_displacement_versus_angular_displacement">
+
+
+			Tangential displacement versus angular displacement
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1010">
+<link id="a1010" target-id="Linear_velocity_versus_angular_velocity">
+
+Tangential 
+			speed versus angular velocity
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1011">
+<link id="a1011" target-id="Period_and_frequency">
+
+The relationship between period and frequency
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1012">
+<link id="a1012" target-id="Relationship_between_angular_velocity_and_frequency">
+
+The relationship between angular velocity and frequency
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1013">
+<link id="a1013" target-id="Radian_acceleration">
+
+Radial (centripetal) acceleration
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1014">
+<link id="a1014" target-id="Discussion">
+
+Example scenarios
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+		
+
+<item id="li1015">
+<link id="a1015" target-id="Circumference_of_the_Earth_at_the_equator">
+
+Circumference 
+		of the Earth at the equator
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1016">
+<link id="a1016" target-id="Speed_of_a_point_on_the_equator">
+
+Speed of a point on the 
+		equator
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+			
+
+<item id="li1017">
+<link id="a1017" target-id="Solution_A">
+
+Solution A
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1018">
+<link id="a1018" target-id="Solution_B">
+
+Solution B
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1019">
+<link id="a1019" target-id="PeriodAndFrequencyExercise">
+
+Period and frequency
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1020">
+<link id="a1020" target-id="RadialAcceleration">
+
+Radial acceleration
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1021">
+<link id="a1021" target-id="Run_the_program">
+
+Work through the examples
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1022">
+<link id="a1022" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1023">
+<link id="a1023" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1024" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains the mathematics of circular motion in a format that is 
+accessible to blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1024">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1025" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1025">
+A protractor for measuring angles (
+
+<link id="a1026" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1026">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1027" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1027">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1028" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1028">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1029">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1030">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1029" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1031">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1030" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1032">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1031" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1033">
+An introductory understanding of JavaScript programming (
+
+<link id="a1032" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1033" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1034">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1034" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="General_background_information" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+Now that you have an idea of how circular motion behaves from a physical 
+viewpoint, let's take a look at the mathematics that describe circular motion.
+
+</para>
+
+
+
+
+<section id="h21003">
+<title>
+<emphasis id="Angular_displacement_and_angular_velocity" effect="bold">
+
+Angular displacement and 
+angular velocity
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+We begin this module with two new terms: 
+
+<emphasis id="em1001" effect="italics">
+angular displacement
+
+</emphasis>
+ and 
+
+
+<emphasis id="em1002" effect="italics">
+angular 
+velocity
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1007">
+<emphasis id="strong1000" effect="bold">
+Dealing with points can be awkward
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1008">
+Up until now in this series of modules on circular motion, we have dealt 
+mainly with the motion of points involved in uniform circular motion. However, 
+in some situations, that is awkward. Consider a wheel on a car, for example. 
+There are an infinite number of points on the wheel, and when the wheel is 
+spinning, every point is moving with a different velocity and/or acceleration. 
+It would be difficult for us to describe that motion in terms of the motions of 
+all the points.
+
+</para>
+
+
+
+
+<para id="p1009">
+This causes us to seek a more comprehensive description that will encompass the 
+motion of all of the points on the wheel. Two terms that accomplish that purpose 
+are angular displacement and angular velocity.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+<emphasis id="Angular_displacement" effect="bold">
+
+Angular displacement
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1010">
+Approaching the situation from this viewpoint, we concentrate on angles instead of distances. If a wheel 
+spins through one-fourth of a complete revolution, every point on the wheel 
+moves through the same 90-degree angle. (However, as you learned in 
+earlier modules, points at different radii move different distances.)
+
+</para>
+
+
+
+
+<para id="p1011">
+<emphasis id="strong1001" effect="bold">
+A set of new variables
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1012">
+We will define a set of variables involving angular motion that are analogous to displacement, 
+velocity, and acceleration in the realm of linear motion. However, we will use angular measurements instead of 
+linear distance measurements.
+
+</para>
+
+
+
+
+<para id="p1013">
+<emphasis id="strong1002" effect="bold">
+Angular displacement
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1014">
+Instead of linear displacement, for example, we will speak of angular 
+displacement. 
+
+<emphasis id="strong1003" effect="bold">
+Angular displacement
+
+</emphasis>
+ is the angle through which a 
+rotating body turns based on some starting and stopping criteria.
+
+</para>
+
+
+
+
+<para id="p1015">
+<emphasis id="strong1004" effect="bold">
+A pie-shaped wedge
+
+</emphasis>
+</para>
+
+
+	
+	
+
+<para id="p1016">
+As you learned in an earlier module, a point on a wheel moves along the 
+	circumference of a circle as the wheel rotates. Viewing the rotating wheel 
+	from a vantage point that is perpendicular to the wheel, during a given time 
+	interval, we see that the point sweeps out a pie-shaped wedge with its point at the center of the wheel.
+
+</para>
+
+
+
+
+<para id="p1017">
+<emphasis id="strong1005" effect="bold">
+An arc of a circle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1018">
+The motion of the point describes an arc 
+	of a circle directly opposite the point at the center of the circle. This pie-shaped 
+	wedge describes an angle, which is the 
+
+<emphasis id="strong1006" effect="bold">
+angular displacement
+
+</emphasis>
+ 
+	during that episode of movement. (You should be able to simulate this on your 
+	graph board in order to get a better picture in your mind.)
+
+</para>
+
+
+	
+
+
+<note id="note1000" type="">
+
+
+
+
+
+	
+
+<para id="p1019">
+<emphasis id="strong1007" effect="bold">
+Definition of angular displacement
+
+</emphasis>
+ 
+
+</para>
+
+
+			
+
+<para id="p1020">
+dA = Af - Ai
+
+</para>
+
+
+			
+
+<para id="p1021">
+where 
+
+</para>
+
+
+			
+
+<list id="ul1008" list-type="bulleted">
+
+				
+
+<item id="li1035">
+dA represents the angular displacement
+
+</item>
+
+
+				
+
+<item id="li1036">
+Ai is the angle that a line through the point makes with the 
+				horizontal axis when the episode begins.
+
+</item>
+
+
+				
+
+<item id="li1037">
+Af is the angle that a line through the point makes with the 
+				horizontal axis when the episode ends.
+
+</item>
+
+
+			
+
+</list>
+
+
+			
+
+<para id="p1022">
+Physics books typically use Greek letters such as phi and theta 
+			to represent angles. However, it is unlikely that your Braille 
+			display can handle Greek characters, so I will stick with standard 
+			qwerty keyboard characters.
+
+</para>
+
+
+
+
+</note>
+
+
+
+
+	
+	
+
+<para id="p1023">
+<emphasis id="strong1008" effect="bold">
+Angular displacement is a signed quantity
+
+</emphasis>
+</para>
+
+
+	
+	
+	
+
+<para id="p1024">
+The direction of rotation is indicated by the algebraic sign of the 
+	angular displacement. It is conventional to consider a counter clockwise 
+	rotation to result in a positive angular displacement.
+
+</para>
+
+
+
+
+<para id="p1025">
+<emphasis id="strong1009" effect="bold">
+Units of angular displacement
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1026">
+The units of angular displacement are typically degrees or radians.
+
+</para>
+
+
+
+
+</section>
+<section id="h31001">
+<title>
+<emphasis id="Angular_velocity" effect="bold">
+
+Angular velocity
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1027">
+That brings us to angular velocity, The 
+
+<emphasis id="strong1010" effect="bold">
+average angular velocity
+
+</emphasis>
+ 
+is the average rate of change of angular displacement.
+
+</para>
+
+
+	
+
+
+<note id="note1001" type="">
+
+
+
+
+
+	
+
+<para id="p1028">
+<emphasis id="strong1011" effect="bold">
+Definition of angular velocity
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1029">
+wAvg = dA/dT
+
+</para>
+
+
+	
+
+<para id="p1030">
+where
+
+</para>
+
+
+			
+
+<list id="ul1009" list-type="bulleted">
+
+				
+
+<item id="li1038">
+wAvg represents average angular velocity
+
+</item>
+
+
+				
+
+<item id="li1039">
+dA represents the angular displacement in a given time 
+				interval
+
+</item>
+
+
+				
+
+<item id="li1040">
+dT represents the time interval
+
+</item>
+
+
+			
+
+</list>
+
+
+			
+
+<para id="p1031">
+It is customary in physics books to represent angular velocity 
+			with the Greek letter omega. In this module, I will use a lower-case 
+			"w" character to represent angular velocity where appropriate, 
+			simply because it looks a lot like a Greek omega character.
+
+</para>
+
+
+			
+
+</note>
+
+
+
+
+	
+	
+
+<para id="p1032">
+<emphasis id="strong1012" effect="bold">
+Reduce the time interval
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1033">
+If we allow the time interval dT to be come shorter and shorter, we are 
+	averaging over smaller and smaller time intervals. In the limit, as dT 
+	approaches zero, wAvg becomes w, which is the 
+
+<emphasis id="em1003" effect="italics">
+instantaneous
+
+</emphasis>
+ angular 
+	velocity.
+
+</para>
+
+
+	
+	
+	
+
+<para id="p1034">
+<emphasis id="strong1013" effect="bold">
+Angular velocity is a signed quantity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1035">
+Angular velocity is also a signed quantity with the sign indicating the 
+direction of rotation. By convention, counter clockwise rotation is viewed as 
+positive rotation. The sign of angular velocity is the same as the sign of the 
+angular displacement that forms the basis for the angular velocity.
+
+</para>
+
+
+
+
+<para id="p1036">
+<emphasis id="strong1014" effect="bold">
+Units of angular velocity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1037">
+The units of angular velocity are typically degrees per second or radians per 
+second. You will learn later that radians is a dimensionless quantity. 
+Therefore, when angular velocity is measured in radians per second, it often 
+appears simply as 
+
+</para>
+
+
+
+
+<para id="p1038">
+w = 10/sec
+
+</para>
+
+
+
+
+</section>
+<section id="h31002">
+<title>
+<emphasis id="Radian_measure" effect="bold">
+
+Radian measure
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1039">
+The most familiar measurement of angles, in the U.S. is in degrees. 
+However, in some situations, it is more convenient to measure angles in radians 
+than in degrees.
+
+</para>
+
+
+
+
+<para id="p1040">
+This becomes most apparent when we need to relate angular displacement or 
+angular velocity with the distance traveled or the tangential speed of a point on 
+a 
+rotating object.
+
+</para>
+
+
+	
+
+
+<note id="note1002" type="">
+
+
+
+
+
+	
+
+<para id="p1041">
+<emphasis id="strong1015" effect="bold">
+Definition of a radian
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1042">
+One radian is an angular measurement, which is equal to an angle 
+			at the center of a circle whose arc is equal in length to the radius 
+			of the circle.
+
+</para>
+
+
+			
+
+</note>
+
+
+
+
+	
+	
+
+<para id="p1043">
+<emphasis id="strong1016" effect="bold">
+Simulate with a graph board
+
+</emphasis>
+</para>
+
+
+	
+	
+	
+
+<para id="p1044">
+I recommend that you use your graph board to simulate an angle of one radian.
+
+</para>
+
+
+
+
+<para id="p1045">
+Using your graph board along with some string and pushpins, draw a 
+Cartesian coordinate system. Then draw a circle with a convenient radius with 
+its center at the origin of your coordinate system.
+
+</para>
+
+
+
+
+<para id="p1046">
+<emphasis id="strong1017" effect="bold">
+Make the arc match the radius
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1047">
+Cut a piece of string to the length of the radius of the circle. Then, 
+beginning at the intersection of the circle and the horizontal axis, lay the 
+string along the circumference of the circle moving in a counter clockwise 
+direction. Put a pushpin at the point where the string ends. Then stretch a 
+rubber band from that point back to the center of the circle.
+
+</para>
+
+
+
+
+<para id="p1048">
+<emphasis id="strong1018" effect="bold">
+Measure the angle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1049">
+Using your protractor, measure the angle that the rubber band makes with the horizontal axis. That 
+angle should be about 57.3 degrees, which is one radian.
+
+</para>
+
+
+
+
+<para id="p1050">
+<emphasis id="strong1019" effect="bold">
+Measure the number of radians in 360 degrees
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1051">
+Now, using the string whose length is equal to the radius of the circle as a 
+measuring tool, determine how many strings of that length you can lay end-to-end 
+around the circumference of the circle.
+
+</para>
+
+
+
+
+<para id="p1052">
+You should find that about 6.28 (2*pi) 
+such strings are required to go all the way around the circumference of the 
+circle.
+
+</para>
+
+
+	
+	
+
+<para id="p1053">
+<emphasis id="strong1020" effect="bold">
+An angle in radians is a ratio of lengths
+
+</emphasis>
+</para>
+
+
+	
+	
+	
+
+<para id="p1054">
+An angle measured in radians is a ratio of two values, each of which have 
+	units of length. Therefore, such an angle has no dimensions.
+
+</para>
+
+
+	
+
+
+<note id="note1003" type="">
+
+
+
+
+
+	
+
+<para id="p1055">
+<emphasis id="strong1021" effect="bold">
+Measurement of an angle in radians
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1056">
+angle = s/r
+
+</para>
+
+
+			
+
+<para id="p1057">
+where
+
+</para>
+
+
+			
+
+<list id="ul1010" list-type="bulleted">
+
+				
+
+<item id="li1041">
+s is the length of an arc along the circumference of a 
+				circle
+
+</item>
+
+
+				
+
+<item id="li1042">
+r is the radius of the circle
+
+</item>
+
+
+				
+
+<item id="li1043">
+angle is the angle subtended by the arc length, s
+
+</item>
+
+
+			
+
+</list>
+
+
+;
+
+</note>
+
+
+
+
+	
+	
+
+<para id="p1058">
+<emphasis id="strong1022" effect="bold">
+An example measurement
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1059">
+Assume that the arc length is equal to one-half the circumference of the 
+	circle. This arc represents a subtended angle of 180 degrees. Then,
+
+</para>
+
+
+
+
+<para id="p1060">
+s = circumference/2 = pi * radius
+
+</para>
+
+
+
+
+<para id="p1061">
+angle = (pi * radius)/radius = pi
+
+</para>
+
+
+
+
+<para id="p1062">
+From this we can see that pi radians is equal to 180 degrees.
+
+</para>
+
+
+
+
+<para id="p1063">
+Earlier we saw that 2*pi radians equal 360 degrees.
+
+</para>
+
+
+	
+
+
+<note id="note1004" type="">
+
+
+
+
+
+	
+
+<para id="p1064">
+<emphasis id="strong1023" effect="bold">
+Facts worth remembering
+
+</emphasis>
+</para>
+
+
+			
+
+<list id="ul1011" list-type="bulleted">
+
+				
+
+<item id="li1044">
+One radian is equal to approximately 57.3 degrees
+
+</item>
+
+
+				
+
+<item id="li1045">
+Pi radians is equal to 180 degrees
+
+</item>
+
+
+				
+
+<item id="li1046">
+2*Pi radians are equal to 360 degrees
+
+</item>
+
+
+			
+
+</list>
+
+
+			
+
+</note>
+
+
+
+
+	
+
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="Linear_displacement_versus_angular_displacement" effect="bold">
+
+Tangential 
+displacement versus angular displacement
+
+</emphasis>
+
+
+</title>
+
+
+	
+	
+	
+
+<para id="p1065">
+Consider the case of a 1.5-radian angular displacement of a wheel in a 
+	given time interval. What is the corresponding displacement of a 
+	point on the circumference of the wheel? Assume that the radius of the wheel 
+	is 0.5 meters.
+
+</para>
+
+
+
+
+<para id="p1066">
+angle = s/r, or
+
+</para>
+
+
+
+
+<para id="p1067">
+s = angle * r, or
+
+</para>
+
+
+
+
+<para id="p1068">
+s = 1.5 * 0.5m = 0.75m
+
+</para>
+
+
+
+
+<para id="p1069">
+<emphasis id="strong1024" effect="bold">
+A simple solution
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1070">
+Thus, we see that the tangential displacement of a point on the circumference of 
+a wheel due to a given angular displacement of the wheel in radians is simply 
+the product of the displacement and the radius of the wheel.
+
+</para>
+
+
+
+
+<para id="p1071">
+Solving for the 
+same result using angular displacement in degrees would be somewhat more 
+complicated.
+
+</para>
+
+
+
+
+</section>
+<section id="h31004">
+<title>
+<emphasis id="Linear_velocity_versus_angular_velocity" effect="bold">
+
+Tangential speed versus 
+angular velocity
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1072">
+A similar simplification occurs when dealing with the angular velocity of a 
+wheel and the tangential speed of a point on the circumference of the wheel.
+
+</para>
+
+
+
+
+<para id="p1073">
+As in linear measurements, the average angular velocity of a wheel is equal 
+to the angular displacement of the wheel divided by the time interval during 
+which the displacement takes place.
+
+</para>
+
+
+	
+
+
+<note id="note1005" type="">
+
+
+
+
+
+	
+
+<para id="p1074">
+<emphasis id="strong1025" effect="bold">
+Measurement of angular velocity in radians
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1075">
+w = dA/dT
+
+</para>
+
+
+			
+
+<para id="p1076">
+By substitution,
+
+</para>
+
+
+			
+
+<para id="p1077">
+w = (s/r)/dT = s/(r*dT)
+
+</para>
+
+
+			
+
+<para id="p1078">
+where
+
+</para>
+
+
+			
+
+<list id="ul1012" list-type="bulleted">
+
+				
+
+<item id="li1047">
+s is the length of an arc along the circumference of a 
+				circle
+
+</item>
+
+
+				
+
+<item id="li1048">
+dA is an angular displacement in a given time interval
+
+</item>
+
+
+				
+
+<item id="li1049">
+dT is the time interval
+
+</item>
+
+
+				
+
+<item id="li1050">
+r is the radius of the circle
+
+</item>
+
+
+				
+
+<item id="li1051">
+w is the angular velocity
+
+</item>
+
+
+			
+
+</list>
+
+
+			
+
+</note>
+
+
+
+
+	
+	
+
+<para id="p1079">
+<emphasis id="strong1026" effect="bold">
+Another example
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1080">
+Consider the case of a 1.5-radian/second angular velocity of a wheel. 
+	What is the corresponding tangential speed of a point on the circumference of 
+	the wheel? Assume that the radius of the wheel is 0.5 meters.
+
+</para>
+
+
+
+
+<para id="p1081">
+The tangential speed is equal to the tangential displacement, s, divided by the 
+time interval over which the displacement occurs. Given the above information, 
+we can write:
+
+</para>
+
+
+
+
+<para id="p1082">
+w = s/(r*dT)
+
+</para>
+
+
+
+
+<para id="p1083">
+Given that
+
+</para>
+
+
+
+
+<para id="p1084">
+v = s/dT
+
+</para>
+
+
+
+
+<para id="p1085">
+Substitution yields
+
+</para>
+
+
+
+
+<para id="p1086">
+v; = w*r, or
+
+</para>
+
+
+
+
+<para id="p1087">
+v = (1.5/s)*(0.5m) = 0.75 m/s
+
+</para>
+
+
+
+
+<para id="p1088">
+<emphasis id="strong1027" effect="bold">
+Another simple relationship
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1089">
+Once again, if you keep your units straight, the tangential speed of a point 
+on the circumference of the wheel is simply equal to the angular velocity in 
+radians per second multiplied by the radius of the wheel.
+
+</para>
+
+
+	
+
+
+<note id="note1006" type="">
+
+
+
+
+
+	
+
+<para id="p1090">
+<emphasis id="strong1028" effect="bold">
+Facts worth remembering
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1091">
+tangential displacement = dA * r
+
+</para>
+
+
+			
+
+<para id="p1092">
+tangential speed = w * r
+
+</para>
+
+
+			
+
+<para id="p1093">
+where
+
+</para>
+
+
+			
+
+<list id="ul1013" list-type="bulleted">
+
+				
+
+<item id="li1052">
+tangential displacement is the distance that a given point 
+				travels around the circumference of a circle as a function of an 
+				angular displacement in radians.
+
+</item>
+
+
+				
+
+<item id="li1053">
+tangential speed is the speed at which a point travels around 
+				the circumference of a circle as a function of an angular 
+				velocity in radians.
+
+</item>
+
+
+				
+
+<item id="li1054">
+w is the angular velocity in radians/second
+
+</item>
+
+
+				
+
+<item id="li1055">
+dA represents angular displacement
+
+</item>
+
+
+				
+
+<item id="li1056">
+r represents radius
+
+</item>
+
+
+			
+
+</list>
+
+
+;
+
+</note>
+
+
+
+
+	
+	
+
+</section>
+</section>
+<section id="h21004">
+<title>
+<emphasis id="Period_and_frequency" effect="bold">
+
+The relationship between period and frequency
+
+</emphasis>
+
+
+</title>
+
+
+	
+	
+	
+
+<para id="p1094">
+As you already know, when the speed of a point moving in a circle is constant, its motion is called uniform
+circular motion.
+
+</para>
+
+
+
+
+<para id="p1095">
+As you also already know, even though the speed of the point is constant, the velocity is
+not constant. The velocity is constantly changing because the direction of the 
+velocity vector is constantly changing.
+
+</para>
+
+
+
+
+<para id="p1096">
+<emphasis id="strong1029" effect="bold">
+The period
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1097">
+The amount of time required
+for the point to travel completely around the circle is called the period of the motion.
+
+</para>
+
+
+
+
+<para id="p1098">
+<emphasis id="strong1030" effect="bold">
+The frequency
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1099">
+The frequency of the motion, which is the number of revolutions per unit time, is
+defined as the reciprocal of the period. That is,
+
+</para>
+
+
+
+
+<para id="p1100">
+frequency in rev per sec = 1/(period in sec per rev), or
+
+</para>
+
+
+
+
+<para id="p1101">
+f = 1/T
+
+</para>
+
+
+
+
+<para id="p1102">
+where
+
+</para>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1057">
+f represents frequency in revolutions per second
+
+</item>
+
+
+	
+
+<item id="li1058">
+T represents period in seconds per revolution
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Relationship_between_angular_velocity_and_frequency" effect="bold">
+
+The relationship between angular velocity and frequency
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1103">
+The speed of a point moving completely around the circle is equal to the distance 
+traveled divided by the time.
+
+</para>
+
+
+
+
+<para id="p1104">
+sT = 2*pi*r/T, or
+
+</para>
+
+
+
+
+<para id="p1105">
+sT = 2*pi*r*f
+
+</para>
+
+
+
+
+<para id="p1106">
+where
+
+</para>
+
+
+
+
+<list id="ul1015" list-type="bulleted">
+
+	
+
+<item id="li1059">
+sT is the tangential speed
+
+</item>
+
+
+	
+
+<item id="li1060">
+r is the radius
+
+</item>
+
+
+	
+
+<item id="li1061">
+T is the time required for the point to make one complete revolution
+
+</item>
+
+
+	
+
+<item id="li1062">
+f is the reciprocal of T
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1107">
+We know from before that
+
+</para>
+
+
+
+
+<para id="p1108">
+sT = w * r, or
+
+</para>
+
+
+
+
+<para id="p1109">
+w = sT/r
+
+</para>
+
+
+
+
+<para id="p1110">
+Therefore, by substitution from above,
+
+</para>
+
+
+
+
+<para id="p1111">
+w = 2*pi*r*f/r = 2*pi*f, or
+
+</para>
+
+
+
+
+<para id="p1112">
+the angular velocity in radians per second is the product of 2*pi and the 
+frequency in revolutions per second.
+
+</para>
+
+
+
+
+<para id="p1113">
+where
+
+</para>
+
+
+
+
+<list id="ul1016" list-type="bulleted">
+
+	
+
+<item id="li1063">
+sT is tangential speed
+
+</item>
+
+
+	
+
+<item id="li1064">
+w is angular velocity in radians per second
+
+</item>
+
+
+	
+
+<item id="li1065">
+f is frequency in revolutions per second, or cycles per second, or hertz
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1114">
+<emphasis id="strong1031" effect="bold">
+The SI unit for frequency
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1115">
+The SI unit for frequency is hertz (Hz) where 1 Hz is equal to one revolution 
+per second or one cycle per second.
+
+</para>
+
+
+	
+
+
+<note id="note1007" type="">
+
+
+
+
+
+	
+
+<para id="p1116">
+<emphasis id="strong1032" effect="bold">
+Facts worth remembering
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1117">
+w = 2*pi*f
+
+
+
+</para>
+
+
+			
+
+<para id="p1118">
+where
+
+    
+
+</para>
+
+
+			
+
+<list id="ul1017" list-type="bulleted">
+
+				
+
+<item id="li1066">
+w is angular velocity in radians per second
+    
+
+</item>
+
+
+				
+
+<item id="li1067">
+f is frequency in revolutions per second, or cycles per second, or hertz
+				
+
+</item>
+
+
+			
+
+</list>
+
+
+	
+
+<para id="p1119">
+The SI unit for frequency is hertz (Hz) where 1 Hz is equal to one revolution per second or one cycle per second
+
+</para>
+
+
+			
+
+</note>
+
+
+
+
+	
+	
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Radian_acceleration" effect="bold">
+
+Radial (centripetal) acceleration
+
+</emphasis>
+
+
+</title>
+
+
+	
+	
+
+
+<para id="p1120">
+In an earlier module, you learned how to subtract vectors and; 
+demonstrate that the acceleration vector of an object moving with uniform 
+circular motion always points toward the center of the circle. However, in that 
+lesson, we did not address the magnitude of the acceleration vector. We will do 
+that here.
+
+</para>
+
+
+
+
+<para id="p1121">
+<emphasis id="strong1033" effect="bold">
+A very difficult derivation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1122">
+Deriving the magnitude of the acceleration vector depends very heavily on the 
+use of vector diagrams, complex assumptions, complicated equations. 
+Unfortunately, this is one of those times that I won't be able to present that 
+derivation in a format that is accessible for blind students. In this case, 
+blind students will simply have to accept the final results in equation form and 
+use those equations for the solution of problems in this area.
+
+</para>
+
+
+	
+
+
+<note id="note1008" type="">
+
+
+
+
+
+	
+
+<para id="p1123">
+<emphasis id="strong1034" effect="bold">
+Facts worth remembering
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1124">
+Ar = v^2/r, or
+
+</para>
+
+
+			
+
+<para id="p1125">
+Ar = (w^2)*r
+
+</para>
+
+
+			
+
+<para id="p1126">
+where
+
+</para>
+
+
+			
+
+<list id="ul1018" list-type="bulleted">
+
+				
+
+<item id="li1068">
+Ar is the magnitude of the radial acceleration
+
+</item>
+
+
+				
+
+<item id="li1069">
+v is the magnitude of the tangential velocity of the object 
+				moving around the circle
+
+</item>
+
+
+				
+
+<item id="li1070">
+r is the radius of the circle
+
+</item>
+
+
+				
+
+<item id="li1071">
+w is the angular velocity of the object moving around the 
+				circle
+
+</item>
+
+
+			
+
+</list>
+
+
+			
+
+</note>
+
+
+
+
+	
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Example scenarios
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1127">
+In this section, I will work through some examples that illustrate what you 
+learned in the earlier section along with what you have learned in earlier modules.
+
+</para>
+
+
+
+
+<section id="h21007">
+<title>
+<emphasis id="Circumference_of_the_Earth_at_the_equator" effect="bold">
+
+Circumference of the 
+Earth at the equator
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1128">
+The radius of the Earth at the equator is equal to approximately 6378km. What is the circumference of the earth at the equator.
+
+</para>
+
+
+
+
+<para id="p1129">
+Solution:
+
+</para>
+
+
+
+
+<para id="p1130">
+If you were to travel around the Earth at the equator, you would travel along 
+a circular arc that subtends an angle of 2*pi radians. We know how to compute 
+the length of the circular arc given the radius and the subtended angle:
+
+</para>
+
+
+
+
+<para id="p1131">
+arc length = (subtended angle) * radius, or
+
+</para>
+
+
+
+
+<para id="p1132">
+circumference = 2*pi*6378km = 40074 km
+
+</para>
+
+
+
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="Speed_of_a_point_on_the_equator" effect="bold">
+
+Speed of a point on the equator
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1133">
+The Earth rotates around its axis once each 24 hours. Therefore, a point on 
+the equator makes one full trip around a circle with the circumference of the 
+Earth each 24 hours.
+
+</para>
+
+
+
+
+<para id="p1134">
+Assume you are standing at a point on the equator. Ignoring all of the other 
+motions of the universe, what is the speed with which you are traveling around 
+that circle?
+
+</para>
+
+
+
+
+<para id="p1135">
+What is the angular velocity of the earth in radians per second.
+
+</para>
+
+
+
+
+<para id="p1136">
+Does the angular velocity of the Earth change when you drive North from the 
+equator?
+
+</para>
+
+
+
+
+<section id="h31005">
+<title>
+<emphasis id="Solution_A" effect="bold">
+
+Solution A
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1137">
+<emphasis id="strong1035" effect="bold">
+Speed
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1138">
+Since we already know the circumference of the Earth, we know that you will 
+travel 40074 km each 24 hours. Therefore, 
+
+</para>
+
+
+
+
+<para id="p1139">
+speed = 40074km/24hr = 463.8 meters/second, or
+
+</para>
+
+
+
+
+<para id="p1140">
+speed = 1037 miles/hour
+
+</para>
+
+
+
+
+<para id="p1141">
+Did you know that you are constantly moving through space at a speed slightly 
+greater than 1000 miles per hour?
+
+</para>
+
+
+
+
+<para id="p1142">
+<emphasis id="strong1036" effect="bold">
+Angular velocity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1143">
+We also know that the earth rotates around its axis by 2*pi radians each 24 hours. Therefore, the 
+angular velocity of the earth is
+
+</para>
+
+
+
+
+<para id="p1144">
+w = 2*pi radians/24 hours = 7.27 *10^(-5) radians / second
+
+</para>
+
+
+
+
+<para id="p1145">
+<emphasis id="strong1037" effect="bold">
+Differences in angular velocity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1146">
+For purposes of this discussion, the Earth does not distort as it rotates. 
+Therefore, the angular velocity of every point on the surface of the Earth 
+rotates around the Earth's axis with the same angular velocity; namely 2*pi 
+radians every 24 hours.
+
+</para>
+
+
+
+
+<para id="p1147">
+However I did see on TV the other day that the angular velocity of the 
+Earth's core may be different from the angular velocity of the outer crust of 
+the Earth. Apparently this can happen because the core is not firmly attached to 
+the crust, but rather is suspended in a bath of molten rock.
+
+</para>
+
+
+
+
+</section>
+<section id="h31006">
+<title>
+<emphasis id="Solution_B" effect="bold">
+
+Solution B
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1148">
+You learned earlier that the speed is equal to the product of the angular 
+velocity and the radius. Therefore, 
+
+</para>
+
+
+
+
+<para id="p1149">
+speed = w * r, or
+
+</para>
+
+
+
+
+<para id="p1150">
+speed = (7.27 *10^(-5) radians / second) * 6378km, or
+
+</para>
+
+
+
+
+<para id="p1151">
+speed = 463.7 m/s
+
+</para>
+
+
+
+
+<para id="p1152">
+which agrees with Solution A above.
+
+</para>
+
+
+
+
+<para id="p1153">
+Note that w represents angular velocity and r represents radius in the above 
+calculations.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21009">
+<title>
+<emphasis id="PeriodAndFrequencyExercise" effect="bold">
+
+Period and frequency
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1154">
+A child's toy contains a round disk that rotates with a period of 0.628 
+seconds.
+
+</para>
+
+
+
+
+<para id="p1155">
+What is the frequency with which a spot on the edge of the disk passes a 
+fixed mark on the body of the toy.
+
+</para>
+
+
+
+
+<para id="p1156">
+What is the angular velocity of the toy?
+
+</para>
+
+
+
+
+<para id="p1157">
+Solution:
+
+</para>
+
+
+
+
+<para id="p1158">
+f = 1/T = 1/(0.628) = 1.59 Hz
+
+</para>
+
+
+
+
+<para id="p1159">
+w = 2*pi*f = 10 radian/second
+
+</para>
+
+
+
+
+<para id="p1160">
+where
+
+</para>
+
+
+
+
+<list id="ul1019" list-type="bulleted">
+
+	
+
+<item id="li1072">
+f represents frequency
+
+</item>
+
+
+	
+
+<item id="li1073">
+T represents the period
+
+</item>
+
+
+	
+
+<item id="li1074">
+w represents angular velocity
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21010">
+<title>
+<emphasis id="RadialAcceleration" effect="bold">
+
+Radial acceleration
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1161">
+A student ties a 10 kg mass onto a fishing line with a breaking strength of 5 
+newtons, and then starts swinging the mass around over his head. The student 
+tries very hard to cause the path to be circular. The distance from the center 
+of the circle to the mass is 3 meters.
+
+</para>
+
+
+
+
+<para id="p1162">
+As time goes on, the student swings the mass faster and faster until the 
+fishing line breaks. What is the tangential velocity of the mass when the 
+fishing line breaks.
+
+</para>
+
+
+
+
+<para id="p1163">
+Solution:
+
+</para>
+
+
+
+
+<para id="p1164">
+Centripetal force = mass * (centripetal acceleration), or
+
+</para>
+
+
+
+
+<para id="p1165">
+f = m * Ar, or
+
+</para>
+
+
+
+
+<para id="p1166">
+f = m * v^2/r, or
+
+</para>
+
+
+
+
+<para id="p1167">
+v^2 = f*r/m, or
+
+</para>
+
+
+
+
+<para id="p1168">
+v = (f*r/m)^(1/2), or
+
+</para>
+
+
+
+
+<para id="p1169">
+v = (5 newtons * 3 meters/10 kg)^(1/2), or
+
+</para>
+
+
+
+
+<para id="p1170">
+v = 1.22 m/s
+
+</para>
+
+
+
+
+<para id="p1171">
+The magnitude of the tangential velocity of the mass when the fishing line 
+breaks is 1.22 meters/second
+
+</para>
+
+
+
+
+<para id="p1172">
+Check the solution using angular velocity, w
+
+</para>
+
+
+
+
+<para id="p1173">
+w = v / r, or
+
+</para>
+
+
+
+
+<para id="p1174">
+w = (1.22 m/s) / 3m = 0.407 radians/second
+
+</para>
+
+
+
+
+<para id="p1175">
+The angular velocity for a tangential velocity of 1.22 m/s is 0.407 
+radians/second
+
+</para>
+
+
+
+
+<para id="p1176">
+Ar = (w^2)*r, or
+
+</para>
+
+
+
+
+<para id="p1177">
+Ar = (( 0.407 /second)^2)*3m, or
+
+</para>
+
+
+
+
+<para id="p1178">
+Ar = 0.5 m/s^2
+
+</para>
+
+
+
+
+<para id="p1179">
+The magnitude of the radial acceleration is 0.5 m/s^2
+
+</para>
+
+
+
+
+<para id="p1180">
+f = m * Ar, or
+
+</para>
+
+
+
+
+<para id="p1181">
+f = 10kg*(0.5 m/s^2), or
+
+</para>
+
+
+
+
+<para id="p1182">
+f = 5 newtons, or
+
+</para>
+
+
+
+
+<para id="p1183">
+the force equals 5 newtons, which matches the breaking strength of the 
+fishing line.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Work through the examples
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1184">
+I encourage you to work through the examples that I have presented in 
+	this module to 
+confirm that you get the same results. Experiment with 
+the scenarios, making changes, and observing the results of your changes. Make 
+certain that you can explain why your changes behave as they do. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1185">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1186">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1009" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1038" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1020" list-type="bulleted">
+
+
+
+<item id="li1075">
+Module name: Circular Motion -- The Mathematics of Circular Motion
+
+</item>
+
+
+
+
+<item id="li1076">
+File: Phy1260.htm
+
+
+</item>
+
+
+	
+
+<item id="li1077">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1078">
+Keywords:
+
+<list id="ul1021" list-type="bulleted">
+
+		
+
+<item id="li1079">
+physics
+
+</item>
+
+
+		
+
+<item id="li1080">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1081">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1082">
+blind
+
+</item>
+
+
+		
+
+<item id="li1083">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1084">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1085">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1086">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1087">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1088">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1089">
+angular displacement
+
+</item>
+
+
+					
+
+<item id="li1090">
+angular velocity
+
+</item>
+
+
+					
+
+<item id="li1091">
+radian measure
+
+</item>
+
+
+					
+
+<item id="li1092">
+tangential displacement
+
+</item>
+
+
+					
+
+<item id="li1093">
+tangential speed
+
+</item>
+
+
+					
+
+<item id="li1094">
+frequency
+
+</item>
+
+
+					
+
+<item id="li1095">
+period
+
+</item>
+
+
+					
+
+<item id="li1096">
+centripetal
+
+</item>
+
+
+					
+
+<item id="li1097">
+centripetal acceleration
+
+</item>
+
+
+					
+
+<item id="li1098">
+centripetal force
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1010" type="">
+
+
+
+
+<emphasis id="strong1039" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1187">
+<emphasis id="strong1040" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1041" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1188">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1042" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1189">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1043" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1190">
+<emphasis id="strong1044" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1191">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

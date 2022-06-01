@@ -1,0 +1,1825 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1210: Energy -- Internal and External Forces</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38362</md:content-id>
+  <md:title>Phy1210: Energy -- Internal and External Forces</md:title>
+  <md:abstract>This module explains internal and external forces in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>5f438775-4f06-47ad-83b2-073e77cf839c</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" target-id="General_background_information">
+
+Discussion
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1005">
+<link id="a1005" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1006">
+<link id="a1006" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1007" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains internal and external forces in a format that is 
+accessible to blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1002" list-type="bulleted">
+
+	
+
+<item id="li1007">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1008" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1008">
+A protractor for measuring angles (
+
+<link id="a1009" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1009">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1010" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1010">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1011" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1011">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1003" list-type="bulleted">
+
+	
+
+<item id="li1012">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1013">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1012" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1014">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1013" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1015">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1014" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1016">
+An introductory understanding of JavaScript programming (
+
+<link id="a1015" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1016" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1017">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1017" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="General_background_information" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+<emphasis id="strong1000" effect="bold">
+Work
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1006">
+You learned in an earlier module that work is done on an object when that 
+object is displaced by a force. You further learned that the amount of work done 
+is proportional to the product of the force, the displacement distance, and the cosine of the 
+angle between them.
+
+</para>
+
+
+
+
+<para id="p1007">
+<emphasis id="strong1001" effect="bold">
+Mechanical energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1008">
+You also learned in an earlier module that mechanical energy is the energy that is possessed by an object due to its 
+motion or due to its position 
+
+<emphasis id="em1001" effect="italics">
+(where position includes the deformation, 
+stretching, compressing, etc., involved in elastic potential energy)
+
+</emphasis>
+. 
+
+</para>
+
+
+
+
+<para id="p1009">
+Mechanical 
+energy can be either 
+
+
+kinetic energy
+
+
+ resulting from motion or 
+
+
+
+potential energy
+
+
+ resulting from the position of the object.
+
+</para>
+
+
+
+
+<para id="p1010">
+<emphasis id="strong1002" effect="bold">
+Two categories of force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1011">
+When speaking of work and energy, we can categorize force into two 
+categories:
+
+</para>
+
+
+
+
+<list id="ul1004" list-type="bulleted">
+
+	
+
+<item id="li1018">
+internal or conservative force
+
+</item>
+
+
+	
+
+<item id="li1019">
+external or non-conservative force
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1012">
+In theory, the distinction between the two categories is not complicated. 
+Work done on an object solely by internal forces cannot change the total 
+mechanical energy possessed by an object. Work done on an object by external 
+forces can change the total mechanical energy possessed by an object.
+
+</para>
+
+
+
+
+<para id="p1013">
+<emphasis id="strong1003" effect="bold">
+Internal forces
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1014">
+Internal forces are forces that can act on an object without physically 
+touching the object. Examples of internal forces include:
+
+</para>
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1020">
+the force of gravity
+
+</item>
+
+
+	
+
+<item id="li1021">
+electrical forces
+
+</item>
+
+
+	
+
+<item id="li1022">
+magnetic forces
+
+</item>
+
+
+	
+
+<item id="li1023">
+spring forces
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1015">
+These forces cannot change the total mechanical energy possessed by an 
+object, but can transform that energy between potential energy and kinetic 
+energy.
+
+</para>
+
+
+
+
+<para id="p1016">
+<emphasis id="strong1004" effect="bold">
+External forces
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1017">
+Examples of external forces include:
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1024">
+applied force
+
+</item>
+
+
+	
+
+<item id="li1025">
+normal force
+
+</item>
+
+
+	
+
+<item id="li1026">
+tension force
+
+</item>
+
+
+	
+
+<item id="li1027">
+friction force
+
+</item>
+
+
+	
+
+<item id="li1028">
+air resistance force
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1018">
+When work is done on an object by external forces, the total mechanical 
+energy, consisting of kinetic energy plus potential energy, will change. The 
+work can be positive, in which case the total mechanical energy will increase. 
+The work can be negative, in which case the total mechanical energy will 
+decrease. The change in mechanical energy will be equal to the net work that is 
+done on the object.
+
+</para>
+
+
+
+
+<para id="p1019">
+<emphasis id="strong1005" effect="bold">
+A Super Ball example
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1020">
+Assume that a Super Ball 
+
+<emphasis id="em1002" effect="italics">
+(a toy manufactured by Wham-O that bounces with 
+great vigor)
+
+</emphasis>
+ is at rest on a table. The ball has a certain amount of 
+potential energy due to its position relative to the floor. While at rest, 
+however, it has no kinetic energy. The total mechanical energy possessed by the 
+ball is the potential energy due to gravity.
+
+</para>
+
+
+
+
+<para id="p1021">
+<emphasis id="strong1006" effect="bold">
+The ball falls
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1022">
+Assume that the ball is dangerously close to the edge of the table and the 
+family cat accidently tips the ball off the table.
+
+</para>
+
+
+
+
+<para id="p1023">
+As the ball falls towards the floor, it will be losing potential energy 
+because its height above the floor will be decreasing. At the same time, it will 
+be gaining kinetic energy because its speed will be increasing.
+
+</para>
+
+
+
+
+<para id="p1024">
+<emphasis id="strong1007" effect="bold">
+A transfer of energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1025">
+Assuming that we can neglect air resistance and that no forces other than the 
+force of gravity are acting on the ball, during its fall, it will be subjected 
+only to the 
+
+<emphasis id="em1003" effect="italics">
+internal
+
+</emphasis>
+ force of gravity. During that time interval, its 
+total mechanical energy cannot change. The loss in potential energy will be 
+replaced by an increase in kinetic energy and the total mechanical energy 
+possessed by the ball will remain constant.
+
+</para>
+
+
+
+
+<para id="p1026">
+<emphasis id="strong1008" effect="bold">
+An external force is applied
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1027">
+Suddenly the ball reaches the floor. At that instant, an 
+
+<emphasis id="em1004" effect="italics">
+external
+
+</emphasis>
+ 
+upward force will be applied to the ball by the normal force exerted by the 
+floor. There will be a change in the total mechanical energy possessed by the 
+ball, if for no reason other than the fact that some of the energy is converted 
+into sound wave energy. Both the kinetic energy and the gravitational potential 
+energy will go to zero for a very short period of time.
+
+</para>
+
+
+
+
+<para id="p1028">
+<emphasis id="strong1009" effect="bold">
+Negative work
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1029">
+The work done on the ball by the floor will be negative because the force 
+will be in the opposite direction of the direction of the displacement. Thus, 
+the total mechanical energy will be decreased.
+
+</para>
+
+
+
+
+<para id="p1030">
+<emphasis id="strong1010" effect="bold">
+Conversion into elastic potential energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1031">
+However, some of the mechanical energy will probably be converted into 
+elastic potential energy as the ball is compressed. 
+
+</para>
+
+
+
+
+<para id="p1032">
+Shortly thereafter, that elastic potential energy will be converted into 
+kinetic energy as the ball expands causing it to bounce up.
+
+</para>
+
+
+
+
+<para id="p1033">
+<emphasis id="strong1011" effect="bold">
+Another trip involving only internal forces
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1034">
+On the way up from the bounce, the potential energy due to gravity will be 
+increasing and the kinetic energy will be decreasing until the ball reaches the 
+top of the bounce.
+
+</para>
+
+
+
+
+<para id="p1035">
+For an instant, the kinetic energy will be zero and the gravitational 
+potential energy will be at its maximum. Then the ball will begin its trip back 
+toward the floor, gaining kinetic energy and losing potential energy along the 
+way.
+
+</para>
+
+
+
+
+<para id="p1036">
+<emphasis id="strong1012" effect="bold">
+Application of another external force
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1037">
+Then the ball will strike the floor again, and the process will repeat. Each 
+time the ball strikes the floor, some of the total mechanical energy will be 
+lost, having been converted into some other form of energy such as thermal 
+energy, sound wave energy, etc. 
+
+</para>
+
+
+
+
+<para id="p1038">
+<emphasis id="strong1013" effect="bold">
+All of the potential energy is expended
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1039">
+Eventually, an amount of energy equal to the original potential energy will 
+have been converted into those other forms of energy and the ball will come to 
+rest on floor. However, because of the design of the Super Ball, many cycles of 
+the process may be required for the ball to come to rest.
+
+</para>
+
+
+
+
+<para id="p1040">
+<emphasis id="strong1014" effect="bold">
+An aside -- a ball of Play Doh
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1041">
+Consider what would happen if instead of being a Super Ball, the toy 
+were a ball of Play Doh 
+
+<emphasis id="em1005" effect="italics">
+(a toy manufactured by Hasbro that doesn't bounce 
+very well)
+
+</emphasis>
+. The ball of Play Doh would probably only make one trip from the 
+tabletop to the floor.
+
+</para>
+
+
+
+
+<para id="p1042">
+On the way down, the ball of Play Doh would exchange potential energy for 
+kinetic energy. When it hits the floor, all of the kinetic energy would probably 
+be expended by converting it to heat energy, sound energy, etc., and by 
+deforming the ball of Play Doh beyond its elastic limit. (Play Doh has a very 
+low elastic limit, if any.)
+
+</para>
+
+
+
+
+<para id="p1043">
+<emphasis id="strong1015" effect="bold">
+Not done with the Super Ball yet
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1044">
+Now let's get back to the case of the Super Ball. Keep in mind that the total 
+mechanical energy possessed by the ball when it comes to rest on the floor is 
+not zero, because it still feels an attraction due to the force of gravity. 
+Thus, it still possesses gravitational potential energy.
+
+</para>
+
+
+
+
+<para id="p1045">
+If all of this has been happening in a second-story loft, and the cat comes 
+along again and causes the ball to roll off the edge of the loft floor, a 
+process similar to that described above will occur all over again involving the 
+ball and the floor below the loft.
+
+</para>
+
+
+
+
+<para id="p1046">
+<emphasis id="strong1016" effect="bold">
+Another phenomena
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1047">
+There is another phenomena that would probably occur with the Super Ball, but 
+which would be visible only through the use of high-speed photography or other 
+sensitive technology.
+
+</para>
+
+
+
+
+<para id="p1048">
+<emphasis id="strong1017" effect="bold">
+Oscillations
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1049">
+The impact with the floor would probably cause the ball to go into 
+spring-like oscillations. By this I mean that it would be compressed by the 
+impact with the floor. When it expands, (in addition to causing it to bounce 
+upward), the ball would probably over-expand or stretch and gain elastic 
+potential energy in the stretched configuration.
+
+</para>
+
+
+
+
+<para id="p1050">
+<emphasis id="strong1018" effect="bold">
+Energy conversion
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1051">
+During this process, the potential energy due to compression would be 
+converted to kinetic energy as the molecules in the ball fly away from one 
+another, and then be converted into potential energy again as the molecules fly 
+too far away from one another (stretch).
+
+</para>
+
+
+
+
+<para id="p1052">
+<emphasis id="strong1019" effect="bold">
+Compress again
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1053">
+Then the ball would compress again and the process of stretching and 
+compressing would continue until the elastic potential energy stored by the 
+compression of the impact with the floor is expended by transforming it into 
+heat energy, sound energy, etc.
+
+</para>
+
+
+
+
+<para id="p1054">
+Between impacts with the floor, this process would be occurring in addition 
+to the activity involving gravitational potential energy.
+
+</para>
+
+
+
+
+<para id="p1055">
+<emphasis id="strong1020" effect="bold">
+A Slinky toy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1056">
+A Slinky is a toy that was patented by R.T. James in 1946 and is currently 
+manufactured by James industries.
+
+</para>
+
+
+
+
+<para id="p1057">
+The original Slinky toy was a coil spring made of spring steel with a 
+diameter of about two inches. I can still remember the first time I saw one 
+"crawling" down a flight of stairs, and I can remember the student that brought 
+it to elementary school to show it off. (Slinky toys are also made of plastic 
+these days and are made with different diameters.)
+
+</para>
+
+
+
+
+<para id="p1058">
+If you hold one end of a Slinky toy and allow the other end to fall toward 
+the floor, the type of oscillations described above can easily be observed by a 
+sighted person. The bottom end of the spring goes up and down rather slowly, 
+exchanging elastic potential energy for kinetic energy and back again 
+during each cycle.
+
+</para>
+
+
+
+
+<para id="p1059">
+<emphasis id="strong1021" effect="bold">
+Probably discernable by a blind student
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1060">
+If a blind student were to do this with a Slinky toy, particularly with one 
+of the older and heavier versions made of spring steel, the student would 
+probably be able to feel the oscillations as the bottom end of the spring goes 
+up and down.
+
+</para>
+
+
+
+
+<para id="p1061">
+The blind student could also probably experience the phenomena by gently 
+touching one side of the spring and feeling the individual coils moving up and 
+down as the spring stretches and compresses.
+
+</para>
+
+
+
+
+<para id="p1062">
+<emphasis id="strong1022" effect="bold">
+Conservative versus non-conservative forces
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1063">
+Internal forces are often referred to as 
+
+<emphasis id="em1006" effect="italics">
+conservative
+
+</emphasis>
+ forces because 
+they are incapable of changing the total mechanical energy possessed by an 
+object. In other words, the mechanical energy possessed by an object is 
+conserved when the object is acted upon by internal forces.
+
+</para>
+
+
+
+
+<para id="p1064">
+External forces, on the other hand, are often referred to as 
+
+<emphasis id="em1007" effect="italics">
+
+non-conservative
+
+</emphasis>
+ forces for exactly the opposite reason. The mechanical 
+energy possessed by an object is not conserved when the object is acted upon by 
+external forces. In particular, the mechanical energy possessed by the object 
+will either increase or decrease by the net positive or negative work done on 
+the object by external forces.
+
+</para>
+
+
+
+
+<para id="p1065">
+<emphasis id="strong1023" effect="bold">
+External forces always occur
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1066">
+While discussing physics concepts, we often like to assume conditions such as 
+a friction-free surface, etc. However, there is no such thing as a friction-free 
+surface. If there were, we could build the ultimate perpetual-motion machine and 
+solve the world's energy problems forever.
+
+</para>
+
+
+
+
+<para id="p1067">
+<emphasis id="strong1024" effect="bold">
+A skier on a friction-free surface
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1068">
+If we speak of a skier gliding down a hill on a friction free surface, we can 
+talk about the skier losing potential energy and gaining kinetic energy on the 
+way down. Neglecting air resistance and other external forces, we can say that 
+there is no change in the mechanical energy possessed by the skier on the trip 
+down the hill. The skier's potential energy is converted to kinetic energy.
+
+</para>
+
+
+
+
+<para id="p1069">
+<emphasis id="strong1025" effect="bold">
+Bad for the ski business
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1070">
+But what happens when the skier reaches the bottom of the hill? Some external 
+force must be applied to the skier to cause the skier's velocity to change. 
+(Remember, the velocity of an object can only be changed by the application of a 
+force.)
+
+</para>
+
+
+
+
+<para id="p1071">
+Without the application of that external force, the skier would continue 
+moving with the same velocity and disappear over the horizon. It would be bad 
+for the ski business if every skier disappeared after only one trip down the ski 
+slope.
+
+</para>
+
+
+
+
+<para id="p1072">
+<emphasis id="strong1026" effect="bold">
+A falling object
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1073">
+It has been said that a fall doesn't hurt you. It's the sudden stop (negative 
+acceleration) at the end of the fall that hurts. We can discuss the concept of 
+only internal forces acting on an object while it is falling by neglecting air 
+resistance and other external forces.
+
+</para>
+
+
+
+
+<para id="p1074">
+Eventually, however, that falling object must reach the surface of the earth, 
+the floor, the table top, or some other surface that represents the zero 
+reference for gravitational potential energy. When that happens, an external 
+force must occur to change the object's velocity and change the mechanical 
+energy possessed by the object. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1075">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1076">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1027" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+
+
+<item id="li1029">
+Module name: Energy -- Internal and External Forces
+
+</item>
+
+
+
+
+<item id="li1030">
+File: Phy1210.htm
+
+
+</item>
+
+
+	
+
+<item id="li1031">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1032">
+Keywords:
+
+<list id="ul1008" list-type="bulleted">
+
+		
+
+<item id="li1033">
+physics
+
+</item>
+
+
+		
+
+<item id="li1034">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1035">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1036">
+blind
+
+</item>
+
+
+		
+
+<item id="li1037">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1038">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1039">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1040">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1041">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1042">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1043">
+potential energy
+
+</item>
+
+
+					
+
+<item id="li1044">
+work
+
+</item>
+
+
+					
+
+<item id="li1045">
+gravitational potential energy
+
+</item>
+
+
+					
+
+<item id="li1046">
+elastic potential energy
+
+</item>
+
+
+					
+
+<item id="li1047">
+kinetic energy
+
+</item>
+
+
+					
+
+<item id="li1048">
+mechanical energy
+
+</item>
+
+
+					
+
+<item id="li1049">
+total mechanical energy
+
+</item>
+
+
+					
+
+<item id="li1050">
+power
+
+</item>
+
+
+					
+
+<item id="li1051">
+watt
+
+
+
+</item>
+
+
+					
+
+<item id="li1052">
+internal force
+
+</item>
+
+
+					
+
+<item id="li1053">
+conservative force
+
+</item>
+
+
+					
+
+<item id="li1054">
+external force
+
+</item>
+
+
+					
+
+<item id="li1055">
+non-conservative force
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+<emphasis id="strong1028" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1077">
+<emphasis id="strong1029" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1030" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1078">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1031" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1079">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1032" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1080">
+<emphasis id="strong1033" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1081">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

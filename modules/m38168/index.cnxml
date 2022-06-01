@@ -1,0 +1,3174 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1120: Force -- Center of Gravity</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38168</md:content-id>
+  <md:title>Phy1120: Force -- Center of Gravity</md:title>
+  <md:abstract>This module explains force and center of gravity in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>3c14e408-d1a6-4c18-adac-1a49ac49d97f</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Figures">
+
+Figures
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1006">
+<link id="a1006" target-id="General_background_information">
+
+General background information
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1007">
+<link id="a1007" target-id="Discussion">
+
+Discussion and computations
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="Creation_of_tactile_graphics">
+
+Creation of tactile graphics
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="Equilibrium_stable_unstable_and_neutral">
+
+Equilibrium: stable, unstable, and neutral
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="An_exercise_involving_the_tipping_point">
+
+An exercise involving the tipping point
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1011">
+<link id="a1011" target-id="A_real-world_illustration">
+
+A real-world example
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1012">
+<link id="a1012" target-id="Run_the_program">
+
+Do the computations
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1013">
+<link id="a1013" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1014">
+<link id="a1014" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a collection of modules designed to make physics 
+concepts accessible to blind students.
+
+</para>
+
+
+
+
+<para id="p1001">
+If you opened this page in the context of the book, a Table of Contents for 
+the book (or collection) should be available above and to the left of this 
+paragraph. Otherwise, click
+
+
+<link id="a1015" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+here
+
+</link>
+
+ 
+to open the book at the beginning.
+
+</para>
+
+
+
+
+<para id="p1002">
+This book is intended to supplement but not to replace the textbook in an 
+introductory high school or college physics course. 
+
+</para>
+
+
+
+
+<para id="p1003">
+This module explains force and center of gravity in a format that is accessible to blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1004" list-type="bulleted">
+
+	
+
+<item id="li1015">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1016" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1016">
+A protractor for measuring angles (
+
+<link id="a1017" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1017">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1018" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1018">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1019" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1019">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+<item id="li1020">
+The ability to create tactile graphics as described
+	
+
+<link id="a1020" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+here
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1005">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1021">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1022">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1021" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1023">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1022" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1024">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1023" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1025">
+An introductory understanding of JavaScript programming (
+
+<link id="a1024" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1025" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1026">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+	
+
+<item id="li1027">
+An understanding of the creation and use of tactile graphics as 
+	described
+	
+
+<link id="a1026" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+here
+
+</link>
+
+.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+ I recommend that you open another copy of this document in a separate 
+browser window and use the following links to easily find and view the figures 
+while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+ 
+
+<emphasis id="Figures" effect="bold">
+
+Figures
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1028">
+<link id="a1027" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+. Mirror image from the file named Phy1120a1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1029">
+<link id="a1028" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+. Non-mirror-image version of the image from the file named Phy1120a1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1030">
+<link id="a1029" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+. Key-value pairs for the image in the file named Phy1120a1.svg.
+
+</item>
+
+
+	
+
+<item id="li1031">
+<link id="a1030" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+. Mirror image from the file named 
+	Phy1120b1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1032">
+<link id="a1031" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+. Non-mirror-image version of the image 
+	from the file named Phy1120b1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1033">
+<link id="a1032" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+. Key-value pairs for the image in the 
+	file named Phy1120b1.svg.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h21003">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1007">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1033" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="General_background_information" effect="bold">
+
+General background 
+information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1008">
+<emphasis id="strong1000" effect="bold">
+The gravitational constant
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1009">
+The gravitational constant, G, is a constant that is used in the calculation of the gravitational attraction between objects with mass. 
+The value of G is approximately:
+
+</para>
+
+
+
+
+<para id="p1010">
+G = 6.67 * 10^(-11) *m^3*kg^(-1)*s^(-2), or
+
+</para>
+
+
+
+
+<para id="p1011">
+G = 6.67 * 10^(-11) N*(m/kg)^2
+
+</para>
+
+
+
+
+<para id="p1012">
+According to the law of universal gravitation, the attractive force (F) between two bodies is proportional to the product of their masses (m1 and m2), and inversely proportional to the square of the distance (r) between them:
+
+</para>
+
+
+
+
+<para id="p1013">
+F = G*m1*m2/r^2
+
+</para>
+
+
+
+
+<para id="p1014">
+<emphasis id="strong1001" effect="bold">
+Newton's law of gravitation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1015">
+Newton's law of gravitation proposes that every small element of matter, m, 
+attracts every other small element of matter, m' with a force that is 
+proportional to the product of the masses and inversely proportional to the 
+square of the distance between them, so that at the small element level,
+
+</para>
+
+
+
+
+<para id="p1016">
+F = G*m*m'/r^2
+
+</para>
+
+
+
+
+<para id="p1017">
+As a result, we tend to fall toward the earth unless we are supported by 
+upward forces, such as the floor that we are standing on.
+
+</para>
+
+
+
+
+<para id="p1018">
+<emphasis id="strong1002" effect="bold">
+An important simplification
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1019">
+It would be very difficult to deal with the attraction of gravity if we were 
+required to deal with every object (including the earth) in terms of the many 
+small elements of mass that make up the object.
+
+</para>
+
+
+
+
+<para id="p1020">
+Newton simplified that 
+process by proving mathematically that the earth regarded as a sphere attracts a 
+body as if the whole mass of the earth were concentrated at its center.
+
+</para>
+
+
+
+
+<para id="p1021">
+<emphasis id="strong1003" effect="bold">
+Almost parallel forces
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1022">
+The 
+attraction of the earth on the elements of our body produces forces on those 
+elements that are almost parallel. Those forces lie along lines that all end at 
+a point that is almost 4000 miles beneath the surface of the earth.
+
+</para>
+
+
+
+
+<para id="p1023">
+At that distance, each pair of force lines forms the sides of a triangle with 
+extremely long sides, an extremely small angle, and an extremely narrow base. As 
+a practical matter, therefore, 
+we can assume that those forces are parallel insofar as estimating the effect 
+that the sum of all of those elemental forces have on our bodies.
+
+</para>
+
+
+
+
+<para id="p1024">
+<emphasis id="strong1004" effect="bold">
+The center of gravity C.G.
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1025">
+It can be proved that:
+
+</para>
+
+
+
+
+<para id="p1026">
+<emphasis id="em1000" effect="italics">
+The resultant of the weights of all the elements of a rigid body passes 
+through a certain fixed point commonly called its center of gravity, C.G., regardless 
+of the orientation of that body relative to the earth.
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1027">
+For purposes of computations involving statics, the mass of a rigid body may be considered as if 
+concentrated at it C.G., and its weight may be considered to center 
+at this same point.
+
+</para>
+
+
+
+
+<para id="p1028">
+(Recall that the weight of an object is the force required to cause the mass 
+of that object to fall toward the center of the earth with an acceleration of 
+approximately 32.2 ft/s^2 or 9.81 m/s^2.)
+
+</para>
+
+
+
+
+<para id="p1029">
+<emphasis id="strong1005" effect="bold">
+A plumb-bob or plummet
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1030">
+A plumb-bob or a plummet is a weight, usually with a pointed tip on the bottom, that is suspended from a string and used as a vertical reference line, or plumb-line.
+
+</para>
+
+
+
+
+<para id="p1031">
+When the string is attached to an object that is fixed relative to the surface 
+of the earth and the plummet is allowed to hang down, it will eventually (when 
+it stops swinging) point directly at the center of mass of the earth.
+
+</para>
+
+
+
+
+<para id="p1032">
+<emphasis id="strong1006" effect="bold">
+Common uses for a plummet
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1033">
+The plummet is most commonly used in construction projects to ensure that constructions are "plumb", or vertical.
+
+</para>
+
+
+
+
+<para id="p1034">
+It is also used in land surveying to set a surveying instrument exactly over 
+a fixed survey marker, or to transcribe positions onto the ground for placing a 
+marker.
+
+</para>
+
+
+
+
+<para id="p1035">
+<emphasis id="strong1007" effect="bold">
+Experimental verification of the C.G.
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1036">
+I'm aware that as a blind student, you probably can't perform this 
+experiment, but hopefully you can imagine it.
+
+</para>
+
+
+
+
+<para id="p1037">
+<emphasis id="strong1008" effect="bold">
+Make a hanger
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1038">
+Use a plummet to draw a vertical line on a flat, smooth, vertical surface 
+(such as a wall). Drive a finishing nail (a nail with a small head) into the 
+surface on the vertical line allowing a small portion of the nail to stick 
+out. Cause the nail to be as 
+horizontal as practical.
+
+</para>
+
+
+
+
+<para id="p1039">
+<emphasis id="strong1009" effect="bold">
+Make an irregular object
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1040">
+Cut an irregular shape out of a piece of flat cardboard and punch several 
+holes around the perimeter of the shape.
+
+</para>
+
+
+
+
+<para id="p1041">
+<emphasis id="strong1010" effect="bold">
+Perform the experiment
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1042">
+Using several holes in succession, including holes on all four sides of the 
+cardboard, hang the cardboard on the nail in such a way that the cardboard is 
+free to swing and settle into a stable orientation.
+
+</para>
+
+
+
+
+<para id="p1043">
+Once the cardboard stops swinging, mark the point on the bottom of the 
+cardboard that coincides with the vertical line that you drew on the vertical 
+surface.
+
+</para>
+
+
+
+
+<para id="p1044">
+After you have done this several times, draw lines from each hole to the 
+corresponding mark 
+that you made on the opposite edge of the cardboard. All of these lines should 
+cross at a single point. That point is the C.G. for that particular 
+irregular shape of cardboard.
+
+</para>
+
+
+
+
+<para id="p1045">
+<emphasis id="strong1011" effect="bold">
+Modify the experiment
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1046">
+Cut regular shapes of cardboard such as rectangles, triangles, hexagons, 
+octagons, etc, and repeat the experiment with those shapes. Observe the location 
+of the C.G. for those shapes.
+
+</para>
+
+
+
+
+<para id="p1047">
+<emphasis id="strong1012" effect="bold">
+Rectangular shapes
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1048">
+You should find that the C.G. for a rectangular piece of 
+cardboard is at the center of the rectangle. This should be the case for all 
+rectangles ranging from squares to long skinny rectangles (although it may 
+difficult to measure for long skinny rectangles.)
+
+</para>
+
+
+
+
+<para id="p1049">
+<emphasis id="strong1013" effect="bold">
+Triangular shapes
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1050">
+The C.G. for a triangular shape should be at the intersection of 
+its medians.
+
+</para>
+
+
+
+
+<para id="p1051">
+In case you have forgotten, the median of a triangle is a line segment from a vertex of the triangle to the midpoint of the side opposite that vertex. Because there are three vertices, there are 
+three medians. No matter what shape the triangle, all three medians intersect at a single point, 
+which is called the centroid of the triangle. That point would also be the C.G. 
+for a triangular-shaped piece of cardboard.
+
+</para>
+
+
+
+
+<para id="p1052">
+<emphasis id="strong1014" effect="bold">
+The doughnut hole
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1053">
+Cut a piece of cardboard in the general shape of a doughnut or tire with a 
+hole in the middle and 
+perform the experiment using that shape. Observe that the C.G. can 
+be located in the doughnut hole. The C.G. of an object doesn't have to be in a 
+solid part of the object.
+
+</para>
+
+
+
+
+<para id="p1054">
+<emphasis id="strong1015" effect="bold">
+A void in a 3D object
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1055">
+It is also possible for the C.G. to be located in a cavity in a 
+three-dimensional object. For example, the C.G. for a small section 
+of cylindrical pipe that is cut square on both ends would be in the center of 
+the void half way between the ends of the pipe.
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Discussion and computations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<section id="h21004">
+<title>
+<emphasis id="Creation_of_tactile_graphics" effect="bold">
+
+Creation of tactile graphics
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1056">
+The module titled
+
+
+<link id="a1034" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482/Phy1004-Manual-Creation-of-Tac">
+
+
+Manual Creation of Tactile Graphics
+
+</link>
+
+ explains how to create tactile graphics 
+from svg files that I will provide.
+
+</para>
+
+
+
+
+<para id="p1057">
+If you are going to have an assistant create tactile graphics for this 
+module, you will need to 
+
+<link id="a1035" url="Phy1120.zip">
+
+download the file named 
+Phy1120.zip
+
+</link>
+
+, which contains the svg files for this module. Extract the svg 
+files from the zip file and provide them to your assistant.
+
+</para>
+
+
+
+
+<para id="p1058">
+Also, if you are going to use tactile graphics, it probably won't be 
+necessary for you to perform the graph board exercises. However, you should 
+still walk through the graph board exercises in your mind because I will often 
+embed important physics concepts in the instructions for doing the graph board 
+exercises.
+
+</para>
+
+
+
+
+<para id="p1059">
+In each case where I am providing an svg file for the creation of tactile 
+graphics, I will identify the name of the appropriate svg file and display an 
+image of the contents of the file for the benefit of your assistant. As 
+explained 
+
+<link id="a1036" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+
+here
+
+</link>
+
+, those images will will be mirror images of 
+the actual images so that your assistant can emboss the image from the back of 
+the paper and you can explore it from the front.
+
+</para>
+
+
+
+
+<para id="p1060">
+I will also display a non-mirror-image version of the image so that your 
+assistant can easily read the text in the image.
+
+</para>
+
+
+
+
+<para id="p1061">
+Also in those cases, I will provide a table of key-value pairs that explain 
+how the Braille keys in the image relate to text or objects in the image.
+
+</para>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Equilibrium_stable_unstable_and_neutral" effect="bold">
+
+Equilibrium: stable, unstable, and neutral
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1062">
+When a vertical line through the C.G. of a body falls within the area covered 
+by the supporting 
+base, the body can rest in equilibrium. A body in equilibrium can be further 
+qualified as being either stable, unstable, or neutral.
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1034">
+Stable equilibrium: If a body at rest receives a small displacement and tends to return to its 
+former position, that body is said to be in stable equilibrium.
+
+</item>
+
+
+	
+
+<item id="li1035">
+Unstable equilibrium: If that body 
+tends to move further away, then that body is said to be in unstable 
+equilibrium.
+
+</item>
+
+
+	
+
+<item id="li1036">
+Neutral equilibrium: If it does neither, the body is said to be in neutral equilibrium.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1063">
+<emphasis id="strong1016" effect="bold">
+A practical example
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1064">
+Consider the case of a round pencil, sharpened on one end and flat on 
+the other end. If you lay the pencil flat on the table and give it a very small 
+push, it will move and then stop. That pencil is said to be in 
+
+<emphasis id="strong1017" effect="bold">
+neutral
+
+</emphasis>
+ 
+equilibrium. It doesn't tend to return to its original position, and except for 
+rolling a small distance as a result of inertia, it doesn't tend to move further 
+away.
+
+</para>
+
+
+
+
+<para id="p1065">
+<emphasis id="strong1018" effect="bold">
+Balance it on the flat end
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1066">
+If you balance the pencil on its flat end and give it a very small push at 
+the other end, it will tip slightly and then return to its original position. 
+This assumes that you don't push it beyond its tipping point, which we will 
+discuss in more detail later. 
+
+</para>
+
+
+
+
+<para id="p1067">
+The pencil in this configuration is said to be in 
+
+<emphasis id="strong1019" effect="bold">
+stable
+
+</emphasis>
+ equilibrium. The key 
+to success is 
+that you don't tip it so far that a vertical line through the C.G. moves outside 
+the circle that defines the area of the supporting base of the pencil.
+
+</para>
+
+
+
+
+<para id="p1068">
+<emphasis id="strong1020" effect="bold">
+Balance it on its point
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1069">
+Assume that you rub the pencil lead back and forth a few times to slightly 
+flatten the pointed end. If you were able to balance the pencil on that very 
+small flattened surface, and then blow on the pencil very lightly, it would 
+probably tip over and fall flat on the table. The smaller the flattened surface 
+supporting the pencil, the easier it would be to cause it to tip over. The 
+pencil in that state would be said to be in 
+
+<emphasis id="strong1021" effect="bold">
+unstable
+
+</emphasis>
+ 
+equilibrium.
+
+</para>
+
+
+
+
+<para id="p1070">
+<emphasis id="strong1022" effect="bold">
+Stability is important
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1071">
+Stability is very important for many things such as boats and airplanes. 
+Usually, the lower the C.G., the 
+more stable will be the object.
+
+</para>
+
+
+
+
+<para id="p1072">
+<emphasis id="strong1023" effect="bold">
+A high-wire artist
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1073">
+For example, a high-wire artist at the circus may carry a long flexible pole, 
+perpendicular to the wire held near the center of the pole at about thigh height. 
+In this case, the supporting surface is the feet on the wire.
+
+</para>
+
+
+
+
+<para id="p1074">
+The flex in the pole allows the ends of the pole, and conceivably a large portion 
+of the pole to hang lower than the soles of the feet. This has the effect of 
+lowering the C.G. of the combination of the person and the pole considerably. If 
+the C.G. is below the supporting surface, which in this case is the soles of the 
+feet, the combination of the person and the pole will be very stable.
+
+</para>
+
+
+
+
+<para id="p1075">
+<emphasis id="strong1024" effect="bold">
+Cargo ships
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1076">
+The people that load cargo ships try to keep the C.G. of the loaded ship low 
+in the hull of the ship. Sometimes they add extra weight called ballast very low 
+in the hull to get the C.G. as low as possible.
+
+</para>
+
+
+
+
+<para id="p1077">
+<emphasis id="strong1025" effect="bold">
+Cargo aircraft
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1078">
+The people that load large military cargo aircraft are very careful how they 
+load the cargo in order to control the location of the C.G. of the aircraft to 
+maintain stability of the aircraft. The position of the C.G. relative to the 
+axis of the wings is very important.
+
+</para>
+
+
+
+
+<para id="p1079">
+<emphasis id="strong1026" effect="bold">
+Children's toys
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1080">
+When my children were young, they had toys with a round bottom and something 
+like a clown's head on the top. The toys had a heavy 
+weight inside and very close to the bottom. This caused the C.G. to be very low in the toy. 
+When the child pushed the toy over, it would return to an upright position. The 
+toy was very stable.
+
+</para>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="An_exercise_involving_the_tipping_point" effect="bold">
+
+An exercise involving the 
+tipping point
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1081">
+Let's see if we can demonstrate stability or the lack thereof with a thought experiment. 
+Begin by drawing 
+two rectangles on your graph board side by side. Make each rectangle 2 units wide 
+and five units tall.
+
+</para>
+
+
+
+
+<para id="p1082">
+<emphasis id="strong1027" effect="bold">
+<emphasis id="Two_boxes" effect="bold">
+
+Two boxes
+
+</emphasis>
+
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1083">
+Pretend that these rectangles represent side views of two cardboard boxes 
+with dimensions of 2x2x5 ft. Assume that each box contains identical heavy 
+material at one 
+end and the remainder of the box is filled with very light packing material. 
+Assume that the heavy contents are at the bottom of the left box and at the 
+top of the right box. (The boxes and their contents are just alike, but one is 
+upside down relative to the other.)
+
+</para>
+
+
+
+
+<para id="p1084">
+<emphasis id="strong1028" effect="bold">
+Tactile graphics
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1085">
+The file named Phy1120a1.svg contains an image that represents this scenario. 
+The image shows two boxes, as described 
+
+<link id="a1037" target-id="Two_boxes">
+
+above
+
+</link>
+
+, tipped over to 
+
+
+<link id="a1038" target-id="Tilt_each_box">
+
+their tipping 
+points
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1086">
+<link id="a1039" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+ shows the mirror image that is contained in 
+that file for the benefit of your assistant who will create the tactile graphic 
+for this exercise.
+
+</para>
+
+
+	
+
+
+
+<table id="table1000" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1000">
+<row id="tr1000">
+<entry id="th1000">
+
+
+
+<emphasis id="Figure_1" effect="bold">
+
+Figure 1
+
+</emphasis>
+
+. Mirror image from the file named Phy1120a1.svg. 
+
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1000">
+<row id="tr1001">
+<entry id="td1000">
+
+
+
+<media id="media1000" alt="Missing image" display="block">
+<image id="img1000" mime-type="image/png" src="../../media/Phy1120a1a.png" width="600" height="464"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1087">
+<link id="a1040" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+ shows a non-mirror-image version of the same 
+image.
+
+</para>
+
+
+
+
+<table id="table1001" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1001">
+<row id="tr1002">
+<entry id="th1001">
+
+
+
+<emphasis id="Figure_2" effect="bold">
+
+Figure 2
+
+</emphasis>
+
+. Non-mirror-image version of the image from the file named Phy1120a1.svg.
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1001">
+<row id="tr1003">
+<entry id="td1001">
+
+
+
+<media id="media1001" alt="Missing image" display="block">
+<image id="img1001" mime-type="image/png" src="../../media/Phy1120a1b.png" width="600" height="464"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1088">
+<link id="a1041" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+ shows the key-value pairs that go with the 
+image in the file named Phy1120a1.svg.
+
+</para>
+
+
+
+
+
+
+<table id="table1002" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1002">
+<row id="tr1004">
+<entry id="th1002">
+
+
+
+<emphasis id="Figure_3" effect="bold">
+
+Figure 3
+
+</emphasis>
+
+. Key-value pairs for the image in the file named Phy1120a1.svg.
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1002">
+<row id="tr1005">
+<entry id="td1002">
+
+
+
+<code id="pre1000" display="block">m: An exercise involving the tipping point
+n: Tipping point = 45 degrees
+o: Tipping point = 14 degrees
+p: Center of gravity
+q: Center of gravity
+r: 45 degrees
+s: 76 degrees
+t: W
+u: W
+v: File: Phy1120a1.svg
+w: Floor
+x: Box
+y: Box</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+<para id="p1089">
+<emphasis id="strong1029" effect="bold">
+Mark the C.G. of each box
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1090">
+Getting back to your drawing, assume that the C.G. of the left box is one foot up from the bottom and the 
+C.G. of the right box is one foot down from the top (4 feet up from the bottom). 
+In both cases, the C.G. is at the horizontal center of the box. Insert a pin at 
+the location of the C.G. for both boxes and label it C.G. in both cases.
+
+</para>
+
+
+
+
+<para id="p1091">
+<emphasis id="strong1030" effect="bold">
+The weight of each box
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1092">
+The downward force that is the weight of each box is on a vertical line that 
+goes through the C.G. and the total weight appears to be concentrated at the 
+C.G. Therefore, when the box is setting flat on the floor, the 
+weight vector for each box is on a line that is 1 ft. from either side of the box.
+
+</para>
+
+
+
+
+<para id="p1093">
+<emphasis id="strong1031" effect="bold">
+Vertical weight vectors
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1094">
+Begin at the C.G. for each box and draw a vertical line that extends 7 units 
+down from the C.G. for each box. Label each line as W. These are weight vectors.
+
+</para>
+
+
+
+
+<para id="p1095">
+<emphasis id="strong1032" effect="bold">
+Both boxes are in equilibrium
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1096">
+We know from experience that both of these boxes are in equilibrium. We have 
+also just learned that so long as the vertical weight vector that goes through the C.G. also 
+goes through the two-foot wide supporting base of the box, the box will be in 
+stable equilibrium.
+
+</para>
+
+
+
+
+<para id="p1097">
+<emphasis id="strong1033" effect="bold">
+What is the tipping point?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1098">
+Label the bottom-right corner of each box as b. Pretend that you drive a nail 
+immediately to the right of point b and allow it to protrude up from the floor 
+so that when you push on the top-left corner of the box, it will rotate around 
+point b instead of sliding to the right.
+
+</para>
+
+
+
+
+<para id="p1099">
+How far can we tip each box in a clockwise direction around the bottom right 
+corner before we lose equilibrium?
+
+</para>
+
+
+
+
+<para id="p1100">
+<emphasis id="strong1034" effect="bold">
+Tactile graphics
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1101">
+The file named Phy1120b1.svg contains an image that shows the triangles 
+discussed 
+
+<link id="a1042" target-id="The_lines_K1">
+
+below
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1102">
+<link id="a1043" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+ shows the mirror image that is contained in 
+that file for the benefit of your assistant who will create the tactile graphic 
+for this exercise.
+
+</para>
+
+
+	
+
+
+
+<table id="table1003" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1003">
+<row id="tr1006">
+<entry id="th1003">
+
+
+
+<emphasis id="Figure_4" effect="bold">
+
+Figure 4
+
+</emphasis>
+
+. Mirror image from the file named Phy1120b1.svg. 
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1003">
+<row id="tr1007">
+<entry id="td1003">
+
+
+
+<media id="media1002" alt="Missing image" display="block">
+<image id="img1002" mime-type="image/png" src="../../media/Phy1120b1a.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1103">
+<link id="a1044" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+ shows a non-mirror-image version of the same 
+image.
+
+</para>
+
+
+
+
+<table id="table1004" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1004">
+<row id="tr1008">
+<entry id="th1004">
+
+
+
+<emphasis id="Figure_5" effect="bold">
+
+Figure 5
+
+</emphasis>
+
+. Non-mirror-image version of the image from the file named Phy1120b1.svg. 
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1004">
+<row id="tr1009">
+<entry id="td1004">
+
+
+
+<media id="media1003" alt="Missing image" display="block">
+<image id="img1003" mime-type="image/png" src="../../media/Phy1120b1b.png" width="464" height="600"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1104">
+<link id="a1045" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+ shows the key-value pairs that go with the 
+image in the file named Phy1120b1.svg.
+
+</para>
+
+
+
+
+
+
+<table id="table1005" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1005">
+<row id="tr1010">
+<entry id="th1005">
+
+
+
+<emphasis id="Figure_6" effect="bold">
+
+Figure 6
+
+</emphasis>
+
+. Key-value pairs for the image in the file named Phy1120b1.svg.
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1005">
+<row id="tr1011">
+<entry id="td1005">
+
+
+
+<code id="pre1001" display="block">m: An exercise involving the tipping point, part 2
+n: K1 = 1.414
+o: K2 = 4.123
+p: Z1 = 1
+q: Z2 = 4
+r: R = 1
+s: R = 1
+t: 45 degrees
+u: 14 degrees
+v: Center of gravity
+w: Center of gravity
+x: b
+y: b
+z: Floor
+mm: W
+mn: W
+mo: File: Phy1120b1.svg</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+<para id="p1105">
+<emphasis id="strong1035" effect="bold">
+<emphasis id="The_lines_K1" effect="bold">
+
+The lines K1
+
+</emphasis>
+
+, K2, Z1, Z2, and R
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1106">
+To answer this question, begin by drawing a line from the C.G. to point b for each box. Label this line K1 
+for the left box and K2 for the right box.
+
+</para>
+
+
+
+
+<para id="p1107">
+Label the line segment that extends from the C.G. to the bottom of the left 
+box as Z1 and label the line segment that extends from the C.G. to the bottom of 
+the right box as Z2. Label the line segment that is the right half of the bottom 
+of each box as R.
+
+</para>
+
+
+
+
+<para id="p1108">
+<emphasis id="strong1036" effect="bold">
+Right triangles
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1109">
+In the left box, the line segments K1, Z1, and R form a right triangle for 
+which the lengths of two line segments are:
+
+</para>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1037">
+Z1 = 1
+
+</item>
+
+
+	
+
+<item id="li1038">
+R = 1
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1110">
+In the right box, the line segments K2, Z2, and R form a right triangle for 
+which the lengths of two line segments are:
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1039">
+Z2 = 4
+
+</item>
+
+
+	
+
+<item id="li1040">
+R = 1
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1111">
+<emphasis id="strong1037" effect="bold">
+Compute the lengths of K1 and K2
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1112">
+Using the Pythagorean theorem and the Google calculator, we can compute the 
+following lengths:
+
+</para>
+
+
+
+
+<para id="p1113">
+K1 = sqrt(1^2 + 1^2) = 1.414
+
+</para>
+
+
+
+
+<para id="p1114">
+K2 = sqrt(1^2 + 4^2) = 4.123
+
+</para>
+
+
+
+
+<para id="p1115">
+<emphasis id="strong1038" effect="bold">
+The sides of the right triangles
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1116">
+Next, we will compute the interior angle for each triangle at the C.G. 
+vertex. Label the interior angle for the left box P1 and label the interior 
+angle for the right box P2.
+
+</para>
+
+
+
+
+<para id="p1117">
+We know the lengths of all three sides of each triangle. There are a couple 
+of ways that we can use trigonometry to find the interior angles. Considering the 
+triangle from the viewpoint of the interior angle at the C.G. for the left triangle:
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1041">
+hypotenuse = K1 = 1.414
+
+</item>
+
+
+	
+
+<item id="li1042">
+base = Z1 = 1
+
+</item>
+
+
+	
+
+<item id="li1043">
+opposite side = R = 1
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1118">
+For the right triangle,
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1044">
+hypotenuse = K2 = 4.123
+
+</item>
+
+
+	
+
+<item id="li1045">
+base = Z2 = 4
+
+</item>
+
+
+	
+
+<item id="li1046">
+opposite side = R = 1
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1119">
+<emphasis id="strong1039" effect="bold">
+Compute the interior angles at each C.G. vertex
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1120">
+Using the Google calculator, we can compute the interior angle at the C.G. for 
+each box as follows:
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1047">
+P1 = arcsine(1/1.414)*180/PI = 45 degrees
+
+</item>
+
+
+	
+
+<item id="li1048">
+P2 = arcsine(1/4.123)*180/PI = 14 degrees
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1121">
+<emphasis id="strong1040" effect="bold">
+<emphasis id="Tilt_each_box" effect="bold">
+
+Tilt each box
+
+</emphasis>
+
+ and observe the angles at the C.G. vertices
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1122">
+Now pretend that you exert a force on the top-left corner of each box 
+causing it to rotate around the lower-right corner at point b. As you do that, 
+the weight vector would rotate around the C.G. in a counter-clockwise direction 
+(always pointing straight down) and the angle between the weight vector and the 
+line K1 or K2 
+would decrease.
+
+</para>
+
+
+
+
+<para id="p1123">
+<emphasis id="strong1041" effect="bold">
+The tipping point
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1124">
+When the angle between the weight vector and the line K1 or K2 goes to zero degrees 
+for either box, the tipping point for that box will have 
+been reached. (See the image in the file named Phy1120a1.svg, or
+
+
+<link id="a1046" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+.)
+
+</para>
+
+
+
+
+<para id="p1125">
+At that exact point, the box will still be in equilibrium, but it will be in unstable 
+equilibrium. Exerting a little more force to the right will cause the box to turn all the way 
+over onto its side under its own weight. Relaxing the force a little when the 
+box is in that position will allow it to rotate 
+back towards its original position.
+
+</para>
+
+
+
+
+<para id="p1126">
+<emphasis id="strong1042" effect="bold">
+What are the tipping point angles?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1127">
+The box on the left would need to rotate slightly more than 45 degrees 
+clockwise around point b before the direction of the weight vector through the C.G. would move 
+to the right of point b, causing the box to continue rotating under its own 
+weight.
+
+</para>
+
+
+
+
+<para id="p1128">
+However, the box on the right would only need to rotate slightly more than 14 
+degrees clockwise around point b before the direction of the weight vector through the C.G. 
+would move to the right of point b causing the box to continue rotating under its 
+own weight.
+
+</para>
+
+
+
+
+<para id="p1129">
+<emphasis id="strong1043" effect="bold">
+Conclusion
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1130">
+Therefore, the box on the left is more stable than the box on the right. If you want to 
+lessen the likelihood of an object tipping over, cause the C.G. of the object to be near the bottom 
+of the object.
+
+</para>
+
+
+
+
+<para id="p1131">
+<emphasis id="strong1044" effect="bold">
+An exercise for the student
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1132">
+I will leave it as an exercise for the student to compute moments about point 
+b to confirm the tipping angle for each box where the torque about point b 
+changes from counter-clockwise to clockwise. 
+
+</para>
+
+
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="A_real-world_illustration" effect="bold">
+
+A real-world example
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1133">
+Let me illustrate this situation with a real-world example that may seem 
+familiar to you. Assume that you put some flowers with long stems in a 
+lightweight plastic vase and set the vase on a table. The C.G. of the vase and 
+the flowers would be relatively high, and it wouldn't take much of a sideways 
+push to cause the vase to turn over.
+
+</para>
+
+
+
+
+<para id="p1134">
+Now assume that you add water to the vase until it is about half full. This 
+would cause the C.G. of the vase, the water, and the flowers to move down, 
+probably into the bottom half of the vase. This would make it more difficult to tip the vase over. Of course, when it does tip over, it would make a bigger 
+mess than would be the case without the water.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Do the computations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1135">
+I encourage you to repeat the computations that I have performed in this 
+	module. Experiment with 
+the computations, making changes, and observing the results of your changes. Make 
+certain that you can explain why your changes behave as they do. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1136">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1137">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1045" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+
+
+<item id="li1049">
+Module name: Force -- Center of Gravity
+
+</item>
+
+
+
+
+<item id="li1050">
+File: Phy1120.htm
+
+
+</item>
+
+
+
+
+<item id="li1051">
+Revised: Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1052">
+Keywords:
+
+<list id="ul1014" list-type="bulleted">
+
+		
+
+<item id="li1053">
+physics
+
+</item>
+
+
+		
+
+<item id="li1054">
+accessible
+
+</item>
+
+
+					
+
+<item id="li1055">
+blind
+
+</item>
+
+
+		
+
+<item id="li1056">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1057">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1058">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1059">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1060">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1061">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1062">
+force
+
+</item>
+
+
+					
+
+<item id="li1063">
+center of gravity
+
+</item>
+
+
+					
+
+<item id="li1064">
+gravitational constant
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+<emphasis id="strong1046" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1138">
+<emphasis id="strong1047" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1048" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1139">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1049" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1140">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1050" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1141">
+<emphasis id="strong1051" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1142">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

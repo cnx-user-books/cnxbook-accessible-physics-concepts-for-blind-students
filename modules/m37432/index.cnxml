@@ -1,0 +1,1710 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1000: Introduction to Accessible Physics Concepts</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37432</md:content-id>
+  <md:title>Phy1000: Introduction to Accessible Physics Concepts</md:title>
+  <md:abstract>Blind students should not be excluded from physics courses because of inaccessible textbooks. The modules in this collection present physics concepts in a format that blind students can read using accessibility tools. These modules are intended to supplement and not to replace the physics textbook.</md:abstract>
+  <md:uuid>aba5529d-dddd-43de-8748-48bb84f818c0</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Impetus_for_this_collection_of_modules">
+
+Impetus for this 
+		collection of modules
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Prerequisite_requirements">
+
+Prerequisite requirements
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1004">
+<link id="a1004" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1005">
+<link id="a1005" target-id="Discussion">
+
+Discussion
+
+</link>
+
+
+	
+
+<list id="ul1002" list-type="bulleted">
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="Algebra">
+
+Algebra
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="Using_a_graph_board">
+
+Using a graph board
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="Using_a_protractor">
+
+Using a protractor
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="JavaScript_programming">
+
+JavaScript programming
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="Trigonometry">
+
+Trigonometry
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1011">
+<link id="a1011" target-id="Pictures_and_diagrams">
+
+Pictures and diagrams
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1012">
+<link id="a1012" target-id="Greek_characters">
+
+Greek characters
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1013">
+<link id="a1013" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1014">
+<link id="a1014" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+	
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+	
+
+	
+
+<section id="h21000">
+<title>
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1000">
+This is the first module in a collection of modules designed to make physics 
+accessible to blind students. 
+
+</para>
+
+
+
+
+<para id="p1001">
+If you opened this page in the Book context, a Table of Contents for the book 
+(or collection) should be available above and to the left of this paragraph. 
+Otherwise, click
+
+
+<link id="a1015" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+here
+
+</link>
+
+ 
+to open the page in the context of the Book.
+
+</para>
+
+
+
+
+<para id="p1002">
+This book is intended to supplement but not to 
+replace the textbook in an introductory high school or college 
+physics course. 
+
+</para>
+
+
+	
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Impetus_for_this_collection_of_modules" effect="bold">
+
+Impetus for this collection of modules
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1003">
+I am a professor of Computer Information Technology at Austin Community 
+College in Austin, TX. For the past couple of years, I have had the privilege of 
+teaching object-oriented Java programming to a blind student. That has gone very 
+well.
+
+</para>
+
+
+	
+
+<para id="p1004">
+<emphasis id="strong1000" effect="bold">
+Assist a student in physics
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1005">
+During a recent semester, I volunteered to assist this student in her efforts 
+to successfully complete a physics course that she was taking in another 
+department of the college. I quickly learned that she 
+faced significant barriers in this endeavor, not the least of which was the 
+general lack of accessibility provided by the electronic versions of the 
+textbook. (The student had access to both pdf and Word formats of the textbook.)
+
+</para>
+
+
+	
+
+<para id="p1006">
+<emphasis id="strong1001" effect="bold">
+Not compatible with accessibility tools
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1007">
+I am not visually impaired, so for me the textbook was adequate. 
+However, it contains numerous elements that don't work well when viewed by a 
+blind student using accessibility tools such as an audible screen reader and an electronic line-by-line 
+Braille display.
+
+</para>
+
+
+	
+
+<para id="p1008">
+<emphasis id="strong1002" effect="bold">
+Pictures and diagrams
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1009">
+For example, each chapter contains numerous pictures and diagrams that are an 
+integral part of the teaching material. In some cases, there is a reasonable 
+verbal explanation for a picture or diagram and in some cases there is little or 
+no explanation. Therefore, a blind student using this particular textbook is 
+deprived of a significant portion of the teaching material.
+
+</para>
+
+
+	
+
+<para id="p1010">
+<emphasis id="strong1003" effect="bold">
+Physics can be difficult under the best of conditions
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1011">
+Learning physics is 
+difficult for many students even when they have full access to all of the 
+available teaching resources. Learning physics is even more difficult when the 
+student is deprived of some of the available teaching resources.
+
+</para>
+
+
+	
+
+<para id="p1012">
+<emphasis id="strong1004" effect="bold">
+Greek characters
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1013">
+While it is not surprising that the textbook is full of Greek characters and 
+other fancy typesetting elements such as subscripts, superscripts, vector 
+symbols, etc., this also leads to difficulties relative to the use of a screen 
+reader and Braille display.
+
+</para>
+
+
+	
+
+<para id="p1014">
+<emphasis id="strong1005" effect="bold">
+Mathematics and equations
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1015">
+The language of physics is mathematics. Many blind students 
+are fully capable of understanding mathematics and equations when they are 
+presented in a format that is accessible to the student.
+
+</para>
+
+
+	
+
+<para id="p1016">
+<emphasis id="strong1006" effect="bold">
+Hundreds of equations
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1017">
+Each chapter in the textbook contains dozens and in some cases hundreds of 
+equations. The equations in the pdf version of the textbook look OK to a 
+sighted person like myself. However, they mostly look like garbage when viewed by a blind 
+student using an audible screen reader and a Braille display.
+
+</para>
+
+
+	
+
+<para id="p1018">
+<emphasis id="strong1007" effect="bold">
+The Word version is worse
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1019">
+The equations are 
+garbage when viewed by a sighted person using the Word version of the 
+textbook. I don't know what process was used to convert the pdf version to a 
+Word version, but I do know that the equations weren't properly 
+converted from pdf format to Word format.
+
+</para>
+
+
+	
+
+<para id="p1020">
+<emphasis id="strong1008" effect="bold">
+Overcoming the barriers
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1021">
+The situations described above are just a few of the barriers that I will 
+attempt to overcome in the modules in this collection. I will have more to say 
+about this later.
+
+</para>
+
+
+	
+
+</section>
+<section id="h21002">
+<title>
+<emphasis id="Prerequisite_requirements" effect="bold">
+
+Prerequisite requirements
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1022">
+<emphasis id="strong1009" effect="bold">
+Accessibility tools
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1023">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+	
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1015">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1016" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+		
+
+<item id="li1016">
+A protractor for measuring angles (
+
+<link id="a1017" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+		
+
+<item id="li1017">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA) that is freely 
+	available at 
+
+<link id="a1018" url="http://www.nvda-project.org/">
+
+http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+		
+
+<item id="li1018">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer 
+	screen 
+	(
+
+<link id="a1019" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+). 
+	While I understand that these devices are fairly expensive, you may not be 
+	able to work through the exercises without one.
+
+</item>
+
+
+		
+
+<item id="li1019">
+The ability to create tactile graphics as described
+		
+
+<link id="a1020" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+
+		 here
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+<para id="p1024">
+I will have more to say about the need for and the use of these tools 
+	later.
+
+</para>
+
+
+	
+
+<para id="p1025">
+<emphasis id="strong1010" effect="bold">
+Prerequisite knowledge
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1026">
+The minimum prerequisites for understanding the material in these modules 
+	include the following.
+
+</para>
+
+
+	
+
+<list id="ul1004" list-type="bulleted">
+
+		
+
+<item id="li1020">
+A good understanding of algebra.
+
+</item>
+
+
+		
+
+<item id="li1021">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1021" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+). 
+	I will have more to say about this later.
+
+</item>
+
+
+		
+
+<item id="li1022">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1022" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+). 
+	I will have more to say about this later as well.
+
+</item>
+
+
+		
+
+<item id="li1023">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1023" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+). 
+	Once again, I will have more to say about this later.
+
+</item>
+
+
+		
+
+<item id="li1024">
+An introductory understanding of JavaScript programming (
+
+<link id="a1024" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+		
+
+<link id="a1025" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+). 
+	Ditto on more to say about this later.
+
+</item>
+
+
+		
+
+<item id="li1025">
+An understanding of the creation and use of tactile graphics as 
+		described
+		
+
+<link id="a1026" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+
+		 here
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</section>
+<section id="h21003">
+<title>
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1027">
+I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+	
+
+<link id="a1027" url="http://www.dickbaldwin.com/toc.htm">
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+	
+
+	
+
+</section>
+</section>
+<section id="h11002">
+<title>
+<emphasis id="Discussion" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+	
+
+<para id="p1028">
+The following sections expand on the discussion from above.
+
+</para>
+
+
+	
+
+<section id="h21004">
+<title>
+<emphasis id="Algebra" effect="bold">
+
+Algebra
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1029">
+As I mentioned earlier, the language of physics is mathematics. In order to 
+understand the material in this collection, you will need a good foundation in 
+algebra. If you have such a foundation, you will probably know that to be the 
+case. If not, you 
+might want to work on that before embarking on a course in physics.
+
+</para>
+
+
+	
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Using_a_graph_board" effect="bold">
+
+Using a graph board
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1030">
+There is a good chance that you already know how to use a graph board based 
+on your earlier coursework in algebra. If not, there is a series of videos 
+beginning at 
+
+<link id="a1028" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+ that will teach you what a graph 
+board is and how to use it.
+
+</para>
+
+
+	
+
+<para id="p1031">
+<emphasis id="strong1011" effect="bold">
+Why would I direct a blind student to a video?
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1032">
+Of course, you may be wondering why I would direct a blind student to an 
+instructional video. My hope is that if you need this information on graph 
+boards, you can find 
+a sighted friend who will help you to work through the series of graph-board 
+tutorials on the website referred to above.
+
+</para>
+
+
+	
+
+<para id="p1033">
+<emphasis id="strong1012" effect="bold">
+You will need a graph board
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1034">
+You will need a graph board to complete many of the exercises in this 
+collection. If you don't have access to one, it shouldn't be too difficult for 
+you and a sighted friend to make one using a sheet of Styrofoam, corkboard, 
+bulletin-board material or any flat surface into which you can push pins and 
+expect them to stay until you pull them out.
+
+</para>
+
+
+	
+
+<para id="p1035">
+<emphasis id="strong1013" effect="bold">
+Tactile grid lines
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1036">
+To create the tactile grid lines on your homemade graph board, ask your sighted friend to draw the grid 
+lines on a sheet of heavy paper and then perforate them using a serrated tracing 
+wheel (
+
+<link id="a1029" url="http://en.wikipedia.org/wiki/Tracing_wheel">
+
+http://en.wikipedia.org/wiki/Tracing_wheel
+
+</link>
+
+). 
+Then turn the paper over and pin it to the backing material so that you can feel 
+the perforated grid lines.
+
+</para>
+
+
+	
+
+<para id="p1037">
+<emphasis id="strong1014" effect="bold">
+Perforating with a tracing wheel
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1038">
+I find that it works well to place the paper on a sheet of Styrofoam to 
+perforate the lines with the tracing wheel. Also, some tracing wheels work 
+better than others for this purpose. The serrations are very sharp on some 
+wheels and less sharp on others. The sharp ones work best.
+
+</para>
+
+
+	
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Using_a_protractor" effect="bold">
+
+Using a protractor
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1039">
+There is also a good chance that you already know how to use a protractor to 
+measure angles based on your earlier coursework in algebra. If not, there is a 
+series of videos beginning at
+	
+
+<link id="a1030" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+ that will teach you how to 
+measure angles with a protractor.
+
+</para>
+
+
+	
+
+<para id="p1040">
+Once again, you may be wondering why I would direct a blind student to an 
+instructional video. As before, my hope is that if you need this information, 
+you can find a sighted friend who will help you to work through the series of 
+protractor video tutorials.
+
+</para>
+
+
+	
+
+<para id="p1041">
+<emphasis id="strong1015" effect="bold">
+You will need a protractor
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1042">
+You will need a protractor to complete many of the exercises in this 
+collection. While it may be possible to adapt a protractor normally used by 
+sighted students for this purpose, this will probably be more difficult than 
+making a graph board.
+
+</para>
+
+
+	
+
+<para id="p1043">
+A protractor that looks like the one in the video can be purchased at
+	
+
+<link id="a1031" url="http://shop.aph.org/webapp/wcs/stores/servlet/Product_Braille-Large%20Print%20Protractor_1-04115-00P_10001_11051">
+
+http://shop.aph.org/webapp/wcs/stores/servlet/Product_Braille-Large%20Print%20Protractor_1-04115-00P_10001_11051
+
+</link>
+
+. 
+However, this is not a recommendation that you purchase this particular brand of 
+protractor. You should do your own shopping and make your own decision.
+
+</para>
+
+
+	
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="JavaScript_programming" effect="bold">
+
+JavaScript programming
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1044">
+As I stated earlier, you will need an introductory understanding of 
+JavaScript programming (
+
+<link id="a1032" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ 
+and 
+
+<link id="a1033" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+) to work through the exercises in 
+this collection of modules. Why is that?
+
+</para>
+
+
+	
+
+<para id="p1045">
+<emphasis id="strong1016" effect="bold">
+Incompatible typesetting elements
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1046">
+Typical physics textbooks designed for use by sighted 
+students are full of typesetting elements that are often incompatible with 
+accessibility tools such as screen reading software, a Braille display, or both.
+
+</para>
+
+
+	
+
+<para id="p1047">
+In writing these modules, I 
+will need a way to ensure that all of the text, including the text in equations 
+and other mathematical expressions, is compatible with those tools. One way that 
+I hope to do that is to ensure that all of the text consists only of the 
+characters on a standard QWERTY keyboard (
+
+<link id="a1034" url="http://en.wikipedia.org/wiki/QWERTY">
+
+http://en.wikipedia.org/wiki/QWERTY
+
+</link>
+
+).
+
+</para>
+
+
+	
+
+<para id="p1048">
+<emphasis id="strong1017" effect="bold">
+Restrict to QWERTY characters
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1049">
+One way to accomplish that goal is to write all equations and other 
+mathematical expressions in a format that is compatible with a standard computer 
+programming language that will only accept a subset of the characters on a 
+QWERTY keyboard. I have 
+selected the programming language named JavaScript for this purpose. While 
+JavaScript is not my favorite programming language, it is adequate for this 
+purpose and is probably the most accessible programming language for blind 
+students.
+
+</para>
+
+
+	
+
+<para id="p1050">
+<emphasis id="strong1018" effect="bold">
+Prior knowledge of JavaScript is not required
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1051">
+It will not be necessary for you to have prior knowledge of or to develop 
+expertise in JavaScript programming to understand and work through these 
+modules. One of the early modules in the collection will be a module on 
+JavaScript programming. That module will be designed to teach you what you need 
+to know about JavaScript programming to satisfy your needs. There will also be 
+additional information about JavaScript programming scattered throughout the 
+modules on an as-needed basis.
+
+</para>
+
+
+	
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="Trigonometry" effect="bold">
+
+Trigonometry
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1052">
+While it would be advantageous for you to have prior knowledge of 
+trigonometry, that is also not a requirement. One of the early modules in the 
+collection will be an introduction to trigonometry. That module will be designed to 
+teach you what you need to know to understand and work 
+through the material in the modules. There may also be additional information 
+about trigonometry scattered throughout the modules on an as-needed basis.
+
+</para>
+
+
+	
+
+</section>
+<section id="h21009">
+<title>
+<emphasis id="Pictures_and_diagrams" effect="bold">
+
+Pictures and diagrams
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1053">
+I will be very frugal with the use of pictures and diagrams.
+
+</para>
+
+
+
+
+<para id="p1054">
+In those 
+cases where a picture or a diagram is needed, I will make such pictures and diagrams as simple as possible so that 
+a blind student can print an enlarged version and ask a sighted friend to 
+perforate the lines using a tracing wheel. Then the student can turn the paper 
+over and explore the perforations while reading the text.
+
+</para>
+
+
+
+
+<para id="p1055">
+In many cases, I will provide detailed instructions for using a graph board 
+to create the picture or diagram.
+
+</para>
+
+
+
+
+<para id="p1056">
+Finally, I will provide SVG graphics files for all pictures and diagrams so 
+that you can convert them to tactile graphics as described
+
+
+<link id="a1035" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+
+		 here
+
+</link>
+
+.
+
+</para>
+
+
+	
+
+</section>
+<section id="h21010">
+<title>
+<emphasis id="Greek_characters" effect="bold">
+
+Greek characters
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1057">
+I will not use any Greek characters in the modules. In those cases where the 
+use of a Greek character is unavoidable or highly desirable, I will spell out 
+the name of the character using QWERTY characters.
+
+</para>
+
+
+	
+
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1058">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as the modules 
+in this collection are published.
+
+</para>
+
+
+	
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1059">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1000" type="">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1019" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1005" list-type="bulleted">
+
+					
+
+<item id="li1026">
+Module name: Introduction to Accessible Physics Concepts
+
+</item>
+
+
+					
+
+<item id="li1027">
+File: Phy1000.htm
+
+
+</item>
+
+
+					
+
+<item id="li1028">
+Revised: 09/29/15
+
+</item>
+
+
+					
+
+<item id="li1029">
+Keywords:
+					
+
+<list id="ul1006" list-type="bulleted">
+
+						
+
+<item id="li1030">
+physics
+
+</item>
+
+
+						
+
+<item id="li1031">
+accessible
+
+</item>
+
+
+						
+
+<item id="li1032">
+blind
+
+</item>
+
+
+						
+
+<item id="li1033">
+graph board
+
+</item>
+
+
+						
+
+<item id="li1034">
+protractor
+
+</item>
+
+
+						
+
+<item id="li1035">
+screen reader
+
+</item>
+
+
+						
+
+<item id="li1036">
+Braille display
+
+</item>
+
+
+						
+
+<item id="li1037">
+JavaScript
+
+</item>
+
+
+						
+
+<item id="li1038">
+trigonometry
+
+</item>
+
+
+					
+
+</list>
+
+
+					
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+
+	
+
+<note id="note1001" type="">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1020" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1060">
+<emphasis id="strong1021" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1022" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1061">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1023" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1062">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1024" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1063">
+<emphasis id="strong1025" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+
+</para>
+
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+	
+
+<para id="p1064">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

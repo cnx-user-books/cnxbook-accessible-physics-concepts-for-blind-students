@@ -1,0 +1,77 @@
+<!-- Created with Inkscape (http://www.inkscape.org/) --><svg contentScriptType="text/ecmascript" zoomAndPan="magnify" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" id="svg2" sodipodi:docname="20 - Copy.svg" version="1.1" width="990" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" preserveAspectRatio="xMidYMid meet" inkscape:version="0.48.1 " viewBox="0.0 143.44 855.0 630.0" height="765" xmlns="http://www.w3.org/2000/svg" xmlns:iveo="http://viewplus.com/iveo">
+  <defs id="defs4"/>
+  <sodipodi:namedview bordercolor="#666666" inkscape:window-height="1054" inkscape:zoom="1.4" id="base" inkscape:current-layer="layer1" inkscape:window-y="-4" inkscape:cy="289.19449" inkscape:window-x="-4" inkscape:cx="375" showgrid="true" inkscape:showpageshadow="false" showguides="true" inkscape:pageopacity="0.0" inkscape:document-units="in" units="in" inkscape:pageshadow="2" inkscape:guide-bbox="true" inkscape:window-width="1920" pagecolor="#ffffff" borderopacity="1.0" inkscape:window-maximized="1">
+    <sodipodi:guide orientation="0,1" position="0,297" id="guide2988"/>
+    <inkscape:grid type="xygrid" visible="true" empspacing="5" units="in" id="grid3762" enabled="true" spacingx="0.01in" snapvisiblegridlinesonly="true" spacingy="0.01in"/>
+    <sodipodi:guide orientation="1,0" position="216,333" id="guide3786"/>
+  </sodipodi:namedview>
+  <metadata id="metadata7">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:groupmode="layer" id="layer1" transform="translate(0,-287.362)" inkscape:label="Layer 1">
+    <rect x="1.0049438" y="431.80783" width="852.99005" style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.00999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" height="619.54919" id="rect2985"/>
+    
+    <text x="170.14282" y="484.21915" style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial" id="text2990" sodipodi:linespacing="125%" xml:space="preserve"><tspan x="170.14282" id="tspan2992" y="484.21915" sodipodi:role="line">Beam supported by a diagonal cable</tspan></text>
+    <rect x="9.999939" y="492.362" width="20" style="fill:#c0c0c0;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 6;stroke-dashoffset:0" height="550" id="rect3766">
+      <title id="title16">Wall supporting beam</title>
+    </rect>
+    <rect x="29.999939" y="836.362" width="717" style="fill:#c0c0c0;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.97236544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.97236542, 11.66838505;stroke-dashoffset:0" height="72" id="rect3768">
+      <title id="title19">Beam</title>
+    </rect>
+    <path id="path3770" d="m 746.99995,872.362 -720.000001,-360" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 4;stroke-dashoffset:0">
+      <title id="title20">Physical support cable</title>
+    </path>
+    <path id="path3772" d="m 386.99995,872.362 0,90 -9,0 9,18 9,-18 -9,0" inkscape:connector-curvature="0" style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:6;stroke-opacity:1;stroke-dasharray:none">
+      <title id="title23">Weight vector for beam</title>
+    </path>
+    <path id="path3774" d="m 26.999949,872.362 150.000001,0 0,-9 30,9 -30,9 0,-9" inkscape:connector-curvature="0" style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:7.74596691;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <title id="title26">Horizontal support vector at wall</title>
+    </path>
+    <path id="path3776" d="m 26.999949,872.362 0,-92.57143 -9,0 9,-15.42857 9,15.42857 -9,0" inkscape:connector-curvature="0" style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5.55492067;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <title id="title29">Vertical support vector at wall</title>
+    </path>
+    <path id="path3782" d="m 746.99995,872.362 -186.3,0 0,-9 -20.7,9 20.7,9 0,-9" inkscape:connector-curvature="0" style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:6.43428278;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <title id="title32">Horizontal component of tension vector</title>
+    </path>
+    <path id="path3784" d="m 746.99995,872.362 0,-94.5 -9,0 9,-13.5 9,13.5 -9,0" inkscape:connector-curvature="0" style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5.19615221;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <title id="title35">Vertical component of tension vector</title>
+    </path>
+    <path id="path3788" d="m 746.99995,872.362 -196.36364,-98.18182 9.81819,-9.81818 -29.45455,0 9.81818,19.63636 9.81818,-9.81818" inkscape:connector-curvature="0" style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:6.5454545;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <title id="title38">Tension vector</title>
+    </path>
+    
+    
+    
+    <text x="56.714233" y="742.64771" style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial" id="text3802" sodipodi:linespacing="125%" xml:space="preserve"><tspan x="56.714233" id="tspan3804" y="742.64771" sodipodi:role="line">V</tspan></text>
+    
+    
+    <text x="269.85712" y="882.362" transform="matrix(1.0,0.0,0.0,1.0,-26.74971,-1.383095)" style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial" id="text3814" sodipodi:linespacing="125%" xml:space="preserve"><tspan x="269.85712" id="tspan3816" y="882.362" sodipodi:role="line">H</tspan></text>
+    
+    
+    <text x="395.71423" y="1014.6477" style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial" id="text3826" sodipodi:linespacing="125%" xml:space="preserve"><tspan x="395.71423" id="tspan3828" y="1014.6477" sodipodi:role="line">M*g</tspan></text>
+    
+    
+    <text x="502.4285" y="758.79059" style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial" id="text3838" sodipodi:linespacing="125%" xml:space="preserve"><tspan x="502.4285" id="tspan3840" y="758.79059" sodipodi:role="line">T</tspan></text>
+    
+    
+    <text x="748.57135" y="748.07629" style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial" id="text3850" sodipodi:linespacing="125%" xml:space="preserve"><tspan x="748.57135" id="tspan3852" y="748.07629" sodipodi:role="line">Ty</tspan></text>
+    <text x="190.71423" y="530.21918" style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial" id="text3854" sodipodi:linespacing="125%" xml:space="preserve"><tspan x="190.71423" id="tspan3856" y="530.21918" sodipodi:role="line">The large characters are 32 pt and these characters are 16 pt</tspan></text>
+    
+    
+    <text x="494.99994" y="880.93341" style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial" id="text3870" sodipodi:linespacing="125%" xml:space="preserve"><tspan x="494.99994" id="tspan3872" y="880.93341" sodipodi:role="line">Tx</tspan></text>
+    
+    
+    <text x="547.85706" y="844.50488" style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial" id="text3890" sodipodi:linespacing="125%" xml:space="preserve"><tspan x="547.85706" id="tspan3892" y="844.50488" sodipodi:role="line">30 degrees</tspan></text>
+    
+    
+    <text x="297.85712" y="586.64771" style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial" id="text3057" sodipodi:linespacing="125%" xml:space="preserve"><tspan x="297.85712" y="586.64771" id="tspan3059" sodipodi:role="line">Note: Vectors not drawn to scale.</tspan></text>
+  </g>
+  <iveo:paper top-margin="1.0 inch" width="8.5 inch" right-margin="0.75 inch" orientation="landscape" left-margin="0.75 inch" bottom-margin="0.5 inch" height="11.0 inch" name="Letter (Landscape)"/>
+  
+<text x="133.2531865585168" id="TEXT1" y="190.46607339735482" style="font-family:&apos;Braille US Computer ASCII&apos;;font-size:32;fill:#000000;stroke:none;" transform="matrix(1.0,0.0,0.0,1.0,15.356315,4.840834)">M</text><text x="34.67555040556199" id="TEXT2" y="455.3288615422505" style="font-family:&apos;Braille US Computer ASCII&apos;;font-size:32;fill:#000000;stroke:none;">N</text><text x="241.7381228273465" id="TEXT3" y="591.5637682381889" style="font-family:&apos;Braille US Computer ASCII&apos;;font-size:32;fill:#000000;stroke:none;" transform="matrix(1.0,0.0,0.0,1.0,-18.328505,0.0)">O</text><text x="370.0376593279259" id="TEXT4" y="727.1071271844019" style="font-family:&apos;Braille US Computer ASCII&apos;;font-size:32;fill:#000000;stroke:none;">P</text><text x="477.5318655851681" id="TEXT5" y="471.92600753566427" style="font-family:&apos;Braille US Computer ASCII&apos;;font-size:32;fill:#000000;stroke:none;">Q</text><text x="729.6726535341833" id="TEXT6" y="458.09505254115277" style="font-family:&apos;Braille US Computer ASCII&apos;;font-size:32;fill:#000000;stroke:none;">R</text><text x="472.0828505214369" id="TEXT7" y="594.3299592370913" style="font-family:&apos;Braille US Computer ASCII&apos;;font-size:32;fill:#000000;stroke:none;">S</text><text x="520.6286210892238" id="TEXT8" y="556.9863807519101" style="font-family:&apos;Braille US Computer ASCII&apos;;font-size:32;fill:#000000;stroke:none;">T</text><text x="278.8904982618772" id="TEXT9" y="297.6559746048191" style="font-family:&apos;Braille US Computer ASCII&apos;;font-size:32;fill:#000000;stroke:none;">U</text><text x="174.86384704519122" id="TEXT10" y="236.10822487924284" style="font-family:&apos;Braille US Computer ASCII&apos;;font-size:32;fill:#000000;stroke:none;" transform="matrix(1.0,0.0,0.0,1.0,-1.98146,5.532382)">V</text><iveo:key param1="65e08fc0290faeaf45dda3cbd39f2582" param2="454f4d5faea85a16a9ed6b4245e73527" param3="Document created using licensed technology (license 7428949862842624) from ViewPlus Technologies, Inc. (www.viewplus.com)"/></svg>

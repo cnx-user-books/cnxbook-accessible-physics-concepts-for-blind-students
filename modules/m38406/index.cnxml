@@ -1,0 +1,2473 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1250: Circular Motion -- Acceleration and Centripetal Force</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38406</md:content-id>
+  <md:title>Phy1250: Circular Motion -- Acceleration and Centripetal Force</md:title>
+  <md:abstract>This module explains acceleration and centripetal force in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>21471ac0-10d9-4648-b262-93df3bec7bc7</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" target-id="General_background_information">
+
+Discussion
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="Subtraction_of_vectors">
+
+Subtraction of vectors
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="An_old-fashioned_merry-go-round">
+
+An old-fashioned 
+		merry-go-round
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="A_weight_on_a_string">
+
+A weight on a string
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="Water_in_a_bucket">
+
+Water in a bucket
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="The_moon_and_the_Earth">
+
+The moon and the Earth
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="The_work-energy_standpoint">
+
+The work-energy explanation
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1011">
+<link id="a1011" target-id="Centripetal_not_centrifugal">
+
+Centripetal, not centrifugal
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1012">
+<link id="a1012" target-id="Summary">
+
+Summary
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1013">
+<link id="a1013" target-id="Discussion">
+
+Example scenarios
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1014">
+<link id="a1014" target-id="Uniform_circular_motion_1">
+
+Scenario #1
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1015">
+<link id="a1015" target-id="Uniform_circular_motion_2">
+
+Scenario #2
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1016">
+<link id="a1016" target-id="Scenario_3">
+
+Scenario #3
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1017">
+<link id="a1017" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1018">
+<link id="a1018" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1019" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains acceleration and centripetal force in a format that is 
+accessible to blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1004" list-type="bulleted">
+
+	
+
+<item id="li1019">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1020" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1020">
+A protractor for measuring angles (
+
+<link id="a1021" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1021">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1022" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1022">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1023" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1023">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1024">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1025">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1024" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1026">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1025" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1027">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1026" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1028">
+An introductory understanding of JavaScript programming (
+
+<link id="a1027" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1028" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1029">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1029" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="General_background_information" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+I purposely published an earlier module titled
+
+
+<link id="a1030" url="http://cnx.org/contents/24c8ce82-69a9-457a-8255-eca4c77a47ab/Phy1230-Vector-Subtraction">
+
+Vector Subtraction for Blind Students
+
+</link>
+
+ in preparation for this module.
+
+</para>
+
+
+
+
+<para id="p1006">
+<emphasis id="strong1000" effect="bold">
+An unbalanced net force is required
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1007">
+As you learned in an earlier module, in order for an object to travel in a 
+circle under uniform circular motion, a force must act on that object to cause 
+it to stay on the circular path. Otherwise, according to Newton, the object will 
+fly off into space at a constant velocity (ignoring both air resistance and 
+gravity).
+
+</para>
+
+
+
+
+<para id="p1008">
+<emphasis id="strong1001" effect="bold">
+Change of direction equals acceleration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1009">
+Whenever the velocity vector that describes the motion of an object changes 
+direction, that object has undergone an acceleration, even if the magnitude of 
+the velocity vector hasn't changed.
+
+</para>
+
+
+
+
+<para id="p1010">
+<emphasis id="strong1002" effect="bold">
+Continual change in direction
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1011">
+The velocity vector for an object that is traveling on a circular path at a 
+constant speed is constantly changing direction. Otherwise, the object would not 
+stay on the circular path. As you are aware, velocity is a vector. That is, it 
+has both magnitude and direction.
+
+</para>
+
+
+
+
+<para id="p1012">
+As you are also aware, acceleration (the time rate of change of velocity) is 
+also a vector. That is to say, it also has magnitude and direction. The 
+direction of the acceleration vector is the same as the direction of the force 
+that caused the acceleration.
+
+</para>
+
+
+
+
+<para id="p1013">
+<emphasis id="strong1003" effect="bold">
+The direction of the acceleration vector
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1014">
+The direction of the acceleration vector for an object under uniform circular 
+motion always points to the center of the circle.
+
+</para>
+
+
+
+
+<para id="p1015">
+That may be difficult for you to believe. I will try to convince you 
+using several different approaches, some graphically satisfying, and some more 
+anecdotal.
+
+</para>
+
+
+
+
+<section id="h21003">
+<title>
+<emphasis id="Subtraction_of_vectors" effect="bold">
+
+Subtraction of vectors
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1016">
+For this approach, I would like for you to use your graph board and follow 
+along by creating and subtracting vectors. Use your graph board, some 
+string, and a few pushpins to create an arc of a circle centered on the origin 
+of a Cartesian coordinate system. All you will need is 
+about one-half of the circle, on and to the right of the vertical axis.
+
+</para>
+
+
+
+
+<para id="p1017">
+<emphasis id="strong1004" effect="bold">
+Uniform circular motion
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1018">
+We will assume that on object is moving counter-clockwise around that circle 
+with a uniform speed.
+
+</para>
+
+
+
+
+<para id="p1019">
+<emphasis id="strong1005" effect="bold">
+The initial velocity vector
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1020">
+Draw a vector with a length of ten units with it's tail at the 
+intersection of the circle and the positive horizontal axis. This vector should point 
+straight up in the direction of the positive y-axis. This vector represents the 
+velocity of the object as it crosses the horizontal axis on its trip around the 
+circle.
+
+</para>
+
+
+
+
+<para id="p1021">
+<emphasis id="strong1006" effect="bold">
+The final velocity vector
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1022">
+Now go up to a point on the circle about 30 degrees relative to the positive 
+horizontal axis (the exact angle isn't critical). Draw a vector with a length of 
+10 units that is tangent to the circle at that point.
+
+</para>
+
+
+
+
+<para id="p1023">
+It isn't easy to draw a vector that is tangent to a circle. However, the direction of that vector should be 
+perpendicular to a line that extends from the point on the circle to the center 
+of the circle. That will cause the vector to be tangent to the circle at that 
+point.
+
+</para>
+
+
+
+
+<para id="p1024">
+<emphasis id="strong1007" effect="bold">
+The initial and final velocity vectors
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1025">
+We now have two vectors that represent the velocity vectors for the 
+object at two different points along its circular path separated by a time 
+interval. (The exact time interval doesn't matter at this point in the 
+discussion.) Label the vector at the horizontal axis as Vi (for initial vector). 
+Label the vector at the 30-degree point as Vf (for final vector).
+
+</para>
+
+
+
+
+<para id="p1026">
+Although there is no way for you to label it on the graph, we will represent 
+the time interval required for the object to move from the first point to the 
+second point as dt (which is an abbreviation for delta-time, or change in time).
+
+</para>
+
+
+
+
+<para id="p1027">
+<emphasis id="strong1008" effect="bold">
+Average acceleration
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1028">
+We know that the average acceleration is the time rate of change of velocity. 
+Therefore, we can write
+
+</para>
+
+
+
+
+<para id="p1029">
+Aavg = (Vf - Vi)/dt
+
+</para>
+
+
+
+
+<para id="p1030">
+where
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1030">
+Aavg represents the average acceleration
+
+</item>
+
+
+	
+
+<item id="li1031">
+Vf represents the velocity at the second point
+
+</item>
+
+
+	
+
+<item id="li1032">
+Vi represents the velocity at the first point
+
+</item>
+
+
+	
+
+<item id="li1033">
+(Vf - Vi) represents the change in velocity
+
+</item>
+
+
+	
+
+<item id="li1034">
+dt represents the time interval over which that change took place
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1031">
+<emphasis id="strong1009" effect="bold">
+Subtracting vectors
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1032">
+In the earlier module titled
+
+
+<link id="a1031" url="http://cnx.org/contents/24c8ce82-69a9-457a-8255-eca4c77a47ab/Phy1230-Vector-Subtraction">
+
+Vector Subtraction for Blind Students
+
+</link>
+
+, you learned how to subtract the 
+vector named Vi from the vector named Vf using the parallelogram method.
+
+</para>
+
+
+
+
+<para id="p1033">
+<emphasis id="strong1010" effect="bold">
+Let the time interval get smaller and smaller
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1034">
+What we want to do in this module is to estimate what happens to (Vf 
+- Vi) as the time interval, dt, gets smaller and smaller.
+
+</para>
+
+
+
+
+<para id="p1035">
+Given that the speed 
+of the object remains constant, the point on the circumference of the circle 
+that represents the tail of Vf will move closer and closer to the horizontal 
+axis as the time interval gets smaller.
+
+</para>
+
+
+
+
+<para id="p1036">
+<emphasis id="strong1011" effect="bold">
+The angle between the vectors gets smaller and smaller
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1037">
+That, in turn, will cause the angle that Vf forms with the horizontal axis 
+to move closer and closer to 90 degrees. That means that the difference in the 
+angles that the two vectors make with the horizontal axis will grow smaller and 
+smaller, and the angle between the two vectors will grow smaller and smaller.
+
+</para>
+
+
+
+
+<para id="p1038">
+<emphasis id="strong1012" effect="bold">
+The difference vector
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1039">
+In the earlier module, you learned that for 
+very small angles, the difference vector is very close to being perpendicular to 
+both Vf and Vi. Being very close to perpendicular to both Vf and Vi means that 
+the acceleration vector is very close to pointing directly at the center of the 
+circle.
+
+</para>
+
+
+
+
+<para id="p1040">
+Using calculus, it can be shown that in the limit, as the time 
+interval, dt, approaches zero, the direction of the acceleration vector points 
+directly at the center of the circle.
+
+</para>
+
+
+
+
+<para id="p1041">
+<emphasis id="strong1013" effect="bold">
+The magnitude of the acceleration vector
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1042">
+In the earlier module, you also learned that the magnitude of the difference 
+vector approaches zero as the angle between the two velocity vectors approaches 
+zero. However, the acceleration is equal to the magnitude of the difference 
+vector divided by the scalar value of the time interval, dt, which is also 
+approaching zero. One very small value divided by another very small value is 
+not necessarily a very small value. It can be shown using calculus that in the 
+limit, the magnitude of the acceleration vector is not zero.
+
+</para>
+
+
+
+
+<para id="p1043">
+<emphasis id="strong1014" effect="bold">
+The conclusion
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1044">
+The conclusion is that an object undergoing uniform circular motion 
+experiences an acceleration vector that points directly at the center of the 
+circle and it has a non-zero magnitude. 
+
+</para>
+
+
+
+
+</section>
+<section id="h21004">
+<title>
+<emphasis id="An_old-fashioned_merry-go-round" effect="bold">
+
+An old-fashioned merry-go-round
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1045">
+That was the graphical explanation of the acceleration vector. Now I will 
+cite a few anecdotal explanations.
+
+</para>
+
+
+
+
+<para id="p1046">
+<emphasis id="strong1015" effect="bold">
+A long wooden plank
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1047">
+When I was around ten or eleven years old, the child across the street from 
+my house had an 
+old-fashioned homemade merry-go-round in his back yard. This device consisted of 
+a long wooden plank with a hole in the center. A large bolt was threaded through 
+the hold and pushed vertically into a hole in the top of a post about two feet tall. The 
+bolt formed a spindle and the plank was able to rotate around the spindle.
+
+</para>
+
+
+
+
+<para id="p1048">
+<emphasis id="strong1016" effect="bold">
+Two handles
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1049">
+Two short skinny boards were fastened to the plank about 18 inches from each 
+end to form a 
+sort of a cross in each end. These boards extended about 9 inches on either side of the plank 
+and were intended to be handles.
+
+</para>
+
+
+
+
+<para id="p1050">
+<emphasis id="strong1017" effect="bold">
+A three-child operation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1051">
+It took three children to operate this merry-go-round. One child sat on each end 
+and the third child pushed it around and around as fast as possible.
+
+</para>
+
+
+
+
+<para id="p1052">
+<emphasis id="strong1018" effect="bold">
+Oops
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1053">
+We quickly learned that if we sat 
+on the plank between the handle and the end of the plank and tried to hold onto 
+the handle, we would slide off the end of the plank when the rotation of the 
+plank reached a certain speed. Therefore, we learned to sit with our legs across the 
+handle, with the handle pressing against the back insides of our knees. By doing this, we 
+could survive without sliding off the plank no matter how fast the third child caused the 
+plank to rotate.
+
+</para>
+
+
+
+
+<para id="p1054">
+<emphasis id="strong1019" effect="bold">
+Why am I telling you this?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1055">
+Although I didn't understand it at the time, when the plank was rotating around its spindle at a relatively high rate 
+of speed, the handle exerted a force on the inside of both knees. In 
+other words, the handle exerted a force on each leg in the direction of the 
+center of the plank. This is a force that we will call a 
+
+<emphasis id="strong1020" effect="bold">
+<emphasis id="em1001" effect="italics">
+centripetal force
+
+</emphasis>
+</emphasis>
+.
+
+</para>
+
+
+	
+
+
+<note id="note1000" type="">
+
+
+
+
+
+	
+
+<para id="p1056">
+
+	
+
+<emphasis id="strong1021" effect="bold">
+Centripetal force
+
+</emphasis>
+</para>
+
+
+			
+
+<para id="p1057">
+According to
+	
+
+<link id="a1032" url="http://www.physicsclassroom.com/Class/circles/u6l1c.cfm">
+
+The 
+	Physics Classroom
+
+</link>
+
+, any object moving in a circle (or along a circular 
+	path) experiences a centripetal force. That is, there is some physical force 
+	pushing or pulling the object towards the center of the circle. This is the 
+	centripetal force requirement.
+
+</para>
+
+
+			
+
+<para id="p1058">
+The word centripetal is merely an adjective 
+	used to describe the direction of the force. We are not introducing a new 
+	type of force but rather describing the direction of the net force acting 
+	upon the object that moves in the circle. Whatever the object, if it moves 
+	in a circle, there is some force acting upon it to cause it to deviate from 
+	its straight-line path, accelerate inwards and move along a circular path.
+
+</para>
+
+
+			
+
+</note>
+
+
+
+
+	
+
+
+<para id="p1059">
+<emphasis id="strong1022" effect="bold">
+A centripetal force on my body
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1060">
+The effect of this centripetal force was to cause my body to accelerate in the direction 
+of the force, which was directly toward the spindle at the center of the plank. 
+The spindle was at the center of the circle around which I was experiencing 
+circular motion (although probably not uniform circular motion).
+
+</para>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="A_weight_on_a_string" effect="bold">
+
+A weight on a string
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1061">
+Consider tying a weight, such as a full bottle of soda, to the end of a 
+string. Then swing the bottle around and around above your head in an 
+approximate circle. You will feel a force pulling your hand toward the periphery 
+of the circle, so you will exert a force on the string to keep the bottle from 
+flying away. The force that you exert on the string will be exerted on the 
+bottle at the other end of the string and that force will be directed along the 
+string towards the center of the circle. That is the force that we will refer to 
+as centripetal (center seeking) force, and that force will act on the mass of 
+the bottle to cause the bottle to accelerate in the direction of the center of 
+the circle.
+
+</para>
+
+
+
+
+<para id="p1062">
+<emphasis id="strong1023" effect="bold">
+What happens if the string breaks?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1063">
+If the string breaks, there will no longer be a centripetal force acting on 
+the bottle and it will fly off into space along a line that is tangential to its 
+location on the circle at the instant the string breaks. It won't continue moving 
+in a circle. Instead, it will move in a straight line until the resistance of 
+the air and force of gravity bring it to a sudden stop on the ground. (Actually, 
+it will move along a parabolic arc under the force of gravity until it strikes 
+the ground.)
+
+</para>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Water_in_a_bucket" effect="bold">
+
+Water in a bucket
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1064">
+If you don't mind taking a chance on getting wet, fill a small bucket about 
+half full of water. Then swing the bucket rapidly in a circle in a vertical 
+plane.
+
+</para>
+
+
+
+
+<para id="p1065">
+If you can swing the bucket fast enough, the water will stay in the bucket 
+even when the bucket is upside down. Why is that? The water molecules want to 
+move in a straight line. However, the inside surface of the bucket exerts a 
+centripetal force on the water molecules causing them to accelerate toward the 
+center of the circle. The centripetal force increases with the speed of the 
+bucket. As long as the centripetal force is greater than the weight of the 
+water, the water won't fall out of the bucket onto your head. However, if you 
+allow the speed of the bucket to decrease, you will reach the point where 
+gravity will overcome, and you will probably get wet.
+
+</para>
+
+
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="The_moon_and_the_Earth" effect="bold">
+
+The moon and the Earth
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1066">
+Don't ask me how it got started in the first place, but somehow the moon got 
+started circling the Earth.
+
+</para>
+
+
+
+
+<para id="p1067">
+The speed of the moon and the radius of its orbit is just exactly right so 
+that the gravitational force that the Earth exerts on the moon causes the moon 
+to accelerate towards the Earth. The amount of acceleration toward the earth, 
+when combined with the speed of the moon, causes the moon to move in a uniform 
+circular orbit around the Earth instead of either flying off into space or 
+crashing into the Earth. 
+
+</para>
+
+
+
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="The_work-energy_standpoint" effect="bold">
+
+The work-energy explanation
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1068">
+It is probably time to start explaining this phenomena in a more technical 
+and less anecdotal manner.
+
+</para>
+
+
+
+
+<para id="p1069">
+The application of a centripetal force for uniform circular motion causes the direction of the object 
+to be changed without changing its speed. Let's see if we can explain this from 
+a work-energy viewpoint.
+
+</para>
+
+
+
+
+<para id="p1070">
+<emphasis id="strong1024" effect="bold">
+Work
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1071">
+Recall from an earlier module that 
+
+<emphasis id="strong1025" effect="bold">
+work
+
+</emphasis>
+ is a force acting 
+upon an object to cause a 
+
+<emphasis id="strong1026" effect="bold">
+displacement
+
+</emphasis>
+. Also recall that the 
+amount of work done on an object, expressed in Joules, is given by
+
+</para>
+
+
+
+
+<para id="p1072">
+Work = F * D * cosine(theta)
+
+</para>
+
+
+
+
+<para id="p1073">
+where
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1035">
+F represents the force that causes the displacement expressed in 
+	Newtons.
+
+</item>
+
+
+	
+
+<item id="li1036">
+D represents the amount of the displacement expressed in meters.
+
+</item>
+
+
+	
+
+<item id="li1037">
+theta is the angle between the direction of the displacement and the 
+	line of action of the force.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1074">
+<emphasis id="strong1027" effect="bold">
+Centripetal force points toward center of circle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1075">
+As we showed (or claimed to show) earlier, the centripetal force for an object in uniform circular 
+motion always points in the direction of the center of the circle. At the same 
+time, the velocity vector, which represents the direction of the displacement is 
+tangential to the circle. Therefore, the angle between the centripetal force and 
+the direction of displacement is 90 degrees. This means that the centripetal 
+force does no work on the object, because the cosine of 90 degrees is zero.
+
+</para>
+
+
+
+
+<para id="p1076">
+<emphasis id="strong1028" effect="bold">
+No work is done
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1077">
+When no work is done upon an object by external forces, the total mechanical 
+energy, consisting of potential energy plus kinetic energy, of the object 
+remains constant. If an object is moving in a circle in a plane that is parallel 
+to the surface of the Earth, the effect of gravity may pull the entire plane 
+toward the surface of the Earth, but it won't effect the circular motion unequally 
+with respect to the position of the object in the circle.
+
+</para>
+
+
+
+
+<para id="p1078">
+Therefore, if an object is moving in a horizontal circle at constant speed, 
+the centripetal force does no work on the object and cannot change the total 
+mechanical energy of the object. The kinetic energy will remain constant and 
+therefore, the speed of the object will remain constant. The centripetal force 
+will accelerate the object by changing its direction but will not change its 
+speed.
+
+</para>
+
+
+
+
+</section>
+<section id="h21009">
+<title>
+<emphasis id="Centripetal_not_centrifugal" effect="bold">
+
+Centripetal, not centrifugal
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1079">
+Don't confuse centripetal force with the word 
+
+<emphasis id="em1002" effect="italics">
+centrifugal
+
+</emphasis>
+. For some 
+reason, many people mistakenly use the word centrifugal (meaning outward) when 
+they should use the word centripetal. In this case, centripetal is the correct 
+word.
+
+</para>
+
+
+
+
+<para id="p1080">
+Maybe this is like the use of the words nuclear and nucular. Which is 
+correct? I will leave that as an exercise for the student to determine.
+
+</para>
+
+
+
+
+</section>
+<section id="h21010">
+<title>
+<emphasis id="Summary" effect="bold">
+
+Summary
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1081">
+An object in uniform circular motion must experience an unbalanced force 
+pointing towards the center of the circle. This force is referred to as a centripetal force, where centripetal 
+means 
+
+<emphasis id="em1003" effect="italics">
+inward seeking
+
+</emphasis>
+. 
+
+</para>
+
+
+
+
+<para id="p1082">
+This force is required to cause the object to continually change its direction 
+in order to move along a circular path without changing its speed.
+
+</para>
+
+
+
+
+<para id="p1083">
+Because the centripetal force is directed perpendicular to the tangential velocity 
+vector, the centripetal force cannot change the total mechanical energy possessed 
+by the object (the cosine of 90 degrees is 0).
+
+</para>
+
+
+
+
+<para id="p1084">
+Because the centripetal force has 
+no impact on the potential energy possessed by the object, and because it cannot 
+change the total mechanical energy, it cannot change the kinetic energy 
+possessed by the object. Since it can't change the kinetic energy, it can't 
+change the object's speed.
+
+</para>
+
+
+
+
+<para id="p1085">
+However, it can change the object's direction without 
+changing its speed.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Example 
+
+</emphasis>
+
+scenarios
+
+</title>
+
+
+
+
+
+
+<section id="h21011">
+<title>
+<emphasis id="Uniform_circular_motion_1" effect="bold">
+
+Scenario #1
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1086">
+An object is moving with uniform circular motion in a counter-clockwise direction around a circle whose 
+center is at the origin in a Cartesian coordinate system. When the object passes 
+through the intersection of the circle with the positive horizontal axis, what 
+is the direction of the velocity vector relative to the horizontal axis?
+
+</para>
+
+
+
+
+<list id="ol1000" list-type="enumerated">
+
+	
+
+<item id="li1038">
+0 degrees
+
+</item>
+
+
+	
+
+<item id="li1039">
+180 degrees
+
+</item>
+
+
+	
+
+<item id="li1040">
+90 degrees
+
+</item>
+
+
+	
+
+<item id="li1041">
+270 degrees
+
+</item>
+
+
+	
+
+<item id="li1042">
+30 degrees
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1087">
+The correct answer is #3, 90 degrees. At that point, the line tangent to the 
+circle touches the circle where it intersects the positive horizontal axis and 
+is perpendicular to the horizontal axis. Because the motion is 
+counter-clockwise, the vector points up at 90 degrees (instead of down at 270 
+degrees) relative to the positive 
+horizontal axis. 
+
+</para>
+
+
+
+
+</section>
+<section id="h21012">
+<title>
+<emphasis id="Uniform_circular_motion_2" effect="bold">
+
+Scenario #2
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1088">
+An object is moving with uniform circular motion in a counter-clockwise direction around a circle whose 
+center is at the origin in a Cartesian coordinate system. When the object passes 
+through the intersection of the circle with the positive horizontal axis, what 
+is the direction of the acceleration vector relative to the positive horizontal 
+axis?
+
+</para>
+
+
+
+
+<list id="ol1001" list-type="enumerated">
+
+	
+
+<item id="li1043">
+0 degrees
+
+</item>
+
+
+	
+
+<item id="li1044">
+180 degrees
+
+</item>
+
+
+	
+
+<item id="li1045">
+90 degrees
+
+</item>
+
+
+	
+
+<item id="li1046">
+270 degrees
+
+</item>
+
+
+	
+
+<item id="li1047">
+30 degrees
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1089">
+The correct answer is #2, 180 degrees. The acceleration vector for an object 
+under uniform circular motion always points in the direction of the center of 
+the circle. At the intersection of the circle with the positive horizontal axis, 
+the direction of the center of the circle is 180 degrees relative to the 
+positive horizontal axis.
+
+</para>
+
+
+
+
+</section>
+<section id="h21013">
+<title>
+<emphasis id="Scenario_3" effect="bold">
+
+Scenario #3
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1090">
+A heavy object is being swung on a string in a counter-clockwise direction around a circle whose 
+center is at the origin in a Cartesian coordinate system. The plane of the 
+circle is parallel to the ground so that we can ignore the effects of gravity.
+
+</para>
+
+
+
+
+<para id="p1091">
+Just as the object passes 
+through the intersection of the circle with the positive horizontal axis, the 
+string breaks allowing the object to fly off into the nearby playground space. 
+What is the direction of motion of the object relative to the positive 
+horizontal axis?
+
+</para>
+
+
+
+
+<list id="ol1002" list-type="enumerated">
+
+	
+
+<item id="li1048">
+0 degrees
+
+</item>
+
+
+	
+
+<item id="li1049">
+180 degrees
+
+</item>
+
+
+	
+
+<item id="li1050">
+90 degrees
+
+</item>
+
+
+	
+
+<item id="li1051">
+270 degrees
+
+</item>
+
+
+	
+
+<item id="li1052">
+30 degrees
+
+</item>
+
+
+	
+
+<item id="li1053">
+The object will continue to move in a circle.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1092">
+The correct answer is #3, 90 degrees, which is the direction of the velocity 
+vector at the instant that the string breaks. Because there will no longer be a 
+centripetal force to cause the object to change direction and stay on the 
+circular path, it will continue moving in the direction that it is moving when 
+the string breaks.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1093">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1094">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1029" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+
+
+<item id="li1054">
+Module name: Circular Motion -- Acceleration and Centripetal Force 
+
+</item>
+
+
+
+
+<item id="li1055">
+File: Phy1250.htm
+
+
+</item>
+
+
+	
+
+<item id="li1056">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1057">
+Keywords:
+
+<list id="ul1009" list-type="bulleted">
+
+		
+
+<item id="li1058">
+physics
+
+</item>
+
+
+		
+
+<item id="li1059">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1060">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1061">
+blind
+
+</item>
+
+
+		
+
+<item id="li1062">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1063">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1064">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1065">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1066">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1067">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1068">
+uniform circular motion
+
+</item>
+
+
+					
+
+<item id="li1069">
+tangential
+
+</item>
+
+
+					
+
+<item id="li1070">
+velocity vector
+
+</item>
+
+
+					
+
+<item id="li1071">
+centripetal force
+
+</item>
+
+
+					
+
+<item id="li1072">
+work-energy
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1002" type="">
+
+
+
+
+<emphasis id="strong1030" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1095">
+<emphasis id="strong1031" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1032" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1096">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1033" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1097">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1034" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1098">
+<emphasis id="strong1035" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1099">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

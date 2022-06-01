@@ -1,0 +1,3866 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1340: Angular Momentum -- Rotational Equilibrium</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38465</md:content-id>
+  <md:title>Phy1340: Angular Momentum -- Rotational Equilibrium</md:title>
+  <md:abstract>This module explains rotational equilibrium in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>0b7b420c-9cc0-42ea-9736-446f8fd7fac6</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" target-id="Discussion">
+
+Discussion
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1005">
+<link id="a1005" target-id="Example_scenarios">
+
+Example scenarios
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="Weights_hanging_on_a_beam">
+
+Weights hanging on a beam
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+			
+
+<item id="li1007">
+<link id="a1007" target-id="Part_1">
+
+Part 1
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1008">
+<link id="a1008" target-id="Part_2">
+
+Part 2
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="Beam_supported_by_a_diagonal_cable">
+
+Beam supported by a 
+		diagonal cable
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+			
+
+<item id="li1010">
+<link id="a1010" target-id="Part1a">
+
+Part 1
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1011">
+<link id="a1011" target-id="Part2a">
+
+Part 2
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1012">
+<link id="a1012" target-id="Part3a">
+
+Part 3
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1013">
+<link id="a1013" target-id="A_crane_problem">
+
+A crane scenario
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+			
+
+<item id="li1014">
+<link id="a1014" target-id="Part1b">
+
+Part 1
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1015">
+<link id="a1015" target-id="Part2b">
+
+Part 2
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1016">
+<link id="a1016" target-id="Part3b">
+
+Part 3
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1017">
+<link id="a1017" target-id="Sliding_a_crate">
+
+Sliding a crate
+
+</link>
+
+
+<list id="ul1006" list-type="bulleted">
+
+			
+
+<item id="li1018">
+<link id="a1018" target-id="Part1C">
+
+Part 1
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1019">
+<link id="a1019" target-id="Part2c">
+
+Part 2
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1020">
+<link id="a1020" target-id="Another_crane_problem">
+
+Another crane scenario
+
+</link>
+
+
+<list id="ul1007" list-type="bulleted">
+
+			
+
+<item id="li1021">
+<link id="a1021" target-id="Part1d">
+
+Part 1
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1022">
+<link id="a1022" target-id="Part2d">
+
+Part 2
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1023">
+<link id="a1023" target-id="Part3d">
+
+Part 3
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1024">
+<link id="a1024" target-id="A_ladder_problem">
+
+A ladder scenario
+
+</link>
+
+
+<list id="ul1008" list-type="bulleted">
+
+			
+
+<item id="li1025">
+<link id="a1025" target-id="Part1e">
+
+Part 1
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1026">
+<link id="a1026" target-id="Part2e">
+
+Part 2
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1027">
+<link id="a1027" target-id="Run_the_program">
+
+Repeat the computations
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1028">
+<link id="a1028" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1029">
+<link id="a1029" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1030" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics.
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains rotational equilibrium in a format that is accessible to 
+blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1030">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1031" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1031">
+A protractor for measuring angles (
+
+<link id="a1032" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1032">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1033" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1033">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1034" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1034">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1035">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1036">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1035" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1037">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1036" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1038">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1037" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1039">
+An introductory understanding of JavaScript programming (
+
+<link id="a1038" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1039" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1040">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1040" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+This module will consist of a short discussion followed by a lot of hands-on 
+practical problem solving.
+
+</para>
+
+
+
+
+<para id="p1006">
+<emphasis id="strong1000" effect="bold">
+Translational and rotational equilibrium
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1007">
+You learned in an earlier module that an object is in translational 
+equilibrium when the net force acting on it is zero. In other words, the vector 
+sum of the forces acting on the object must be zero.
+
+</para>
+
+
+
+
+<para id="p1008">
+However, you also learned in an earlier module that it is possible for the 
+net force to be zero, while the net torque is not zero. If the net torque is not 
+zero, the object would have non-zero acceleration, and therefore would not be in 
+rotational equilibrium.
+
+</para>
+
+
+
+
+<para id="p1009">
+<emphasis id="strong1001" effect="bold">
+Be careful when climbing a ladder
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1010">
+When you are climbing a ladder, for example, it would be highly undesirable 
+for the system that includes you and the ladder to not be in rotational 
+equilibrium.
+
+</para>
+
+
+
+
+<para id="p1011">
+<emphasis id="strong1002" effect="bold">
+Conditions for translational and rotational equilibrium
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1012">
+While zero net force is sufficient to ensure translational equilibrium, zero 
+net torque is also required to ensure rotational equilibrium. When both 
+translational and rotational equilibrium is achieved, the object is said to be 
+in a state of static equilibrium.
+
+</para>
+
+
+
+
+<para id="p1013">
+In order to achieve 
+static equilibrium, the sum of the forces acting on the object must 
+be zero and the sum of the torques about all axes must also be zero. 
+
+</para>
+
+
+
+
+<para id="p1014">
+<emphasis id="strong1003" effect="bold">
+Choosing an axis of rotation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1015">
+If an object is not already rotating, it may not be obvious how to determine the axis 
+about 
+which the object is likely to rotate. You need to ensure that the sum of the torques 
+about that axis are zero.
+
+</para>
+
+
+
+
+<para id="p1016">
+As it turns out, you can choose just about any axis you please when doing the 
+calculations to confirm that the sum of the torques are zero. You touched on 
+this in an earlier module involving the parallel axis theorem. It can be shown 
+that if the net force acting on an object is zero and the net torque about one 
+axis is zero, the net torque about every other parallel axis will also be 
+zero.
+
+</para>
+
+
+
+
+<para id="p1017">
+<emphasis id="strong1004" effect="bold">
+The worst case scenario
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1018">
+In the worst case, therefore, you can ensure rotational equilibrium by 
+ensuring that the net torque about three orthogonal axes are zero. In some 
+cases, it will be obvious that you only need to worry about one axis. In some 
+cases, you would need to worry about two or three axes.
+
+</para>
+
+
+
+
+<para id="p1019">
+<emphasis id="strong1005" effect="bold">
+A ladder
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1020">
+Before climbing a ladder, for example, you need to ensure rotational 
+equilibrium about 
+
+</para>
+
+
+
+
+<list id="ol1000" list-type="enumerated">
+
+	
+
+<item id="li1041">
+One axis that is parallel to the rungs on the ladder
+
+</item>
+
+
+	
+
+<item id="li1042">
+One axis that is perpendicular to a rectangle formed by two rungs and 
+	the side rails
+
+</item>
+
+
+	
+
+<item id="li1043">
+One axis that is parallel to the side rails on the ladder
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1021">
+The lack of rotational equilibrium about any of these three axes can result 
+in a nasty fall from a ladder.
+
+</para>
+
+
+
+
+<para id="p1022">
+<emphasis id="strong1006" effect="bold">
+Ensuring rotational equilibrium for a ladder
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1023">
+Ladder manufacturers install special "feet" with a high coefficient of 
+friction on ladders to avoid accidents from the first item in the above list. 
+These feet are designed to prevent the ladder from sliding away from the wall 
+that it is leaning on.
+
+</para>
+
+
+
+
+<para id="p1024">
+They also install wide outriggers on the base of very tall ladders to avoid 
+accidents from the second item in the list. The outriggers are designed to 
+prevent top of the ladder from sliding sideways on the wall.
+
+</para>
+
+
+
+
+<para id="p1025">
+Tree trimmers that use ladders to trim trees take special precautions to 
+prevent accidents from the third item in the list in those cases where both 
+sides of the top of the ladder are not firmly supported.
+
+</para>
+
+
+
+
+<para id="p1026">
+<emphasis id="strong1007" effect="bold">
+Simplification through the choice of an axis
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1027">
+A judicious choice of axis can often greatly simplify the solution of an 
+equilibrium problem by causing one or more forces to go through the axis. This 
+eliminates the 
+effect of those forces from the computation of rotational equilibrium.
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Example_scenarios" effect="bold">
+
+Example scenarios
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1028">
+I will present several example scenarios involving rotational equilibrium in 
+this section. In several cases, I will ask you to construct a replica of the 
+scenario on your graph board.
+
+</para>
+
+
+
+
+<para id="p1029">
+All scenarios assume that counter clockwise rotation is the positive 
+direction of rotation. All scenarios also assume that the positive horizontal 
+axis is to the right and the positive vertical axis is up.
+
+</para>
+
+
+
+
+<section id="h21003">
+<title>
+<emphasis id="Weights_hanging_on_a_beam" effect="bold">
+
+Weights hanging on a beam
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1030">
+Using your graph board, draw a picture of a beam of length L hanging from a 
+rope at its center. Hang a mass M1 from the left end of the beam. Hang a mass M2 
+from the right end of the beam. Hang a mass M3 half way between M1 and the 
+tie-point of the rope.
+
+</para>
+
+
+
+
+<para id="p1031">
+Assume that the system is in static 
+equilibrium. 
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+<emphasis id="Part_1" effect="bold">
+
+Part 1
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1032">
+Find the value of M3 given the following:
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1044">
+M1 = 1kg
+
+</item>
+
+
+	
+
+<item id="li1045">
+M2 = 2kg
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1033">
+<emphasis id="strong1008" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1034">
+Choose the tie-point of the rope as the axis of rotation.
+
+</para>
+
+
+
+
+<para id="p1035">
+The net torque about the axis of rotation is
+
+</para>
+
+
+
+
+<para id="p1036">
+Tnet = (L/2)*M1 + (L/4)*M3 - (L/2)*M2
+
+</para>
+
+
+
+
+<para id="p1037">
+For rotational equilibrium, the net torque must be equal to zero. 
+
+</para>
+
+
+
+
+<para id="p1038">
+Rewriting 
+and simplifying yields
+
+</para>
+
+
+
+
+<para id="p1039">
+L*(M1)/2 + L*(M3)/4 = L*(M2)/2
+
+</para>
+
+
+
+
+<para id="p1040">
+Dividing both sides by L yields
+
+</para>
+
+
+
+
+<para id="p1041">
+(M1)/2 + (M3)/4 = (M2)/2
+
+</para>
+
+
+
+
+<para id="p1042">
+Solving for M3 yields
+
+</para>
+
+
+
+
+<para id="p1043">
+M3 = 2*M2 - 2*M1
+
+</para>
+
+
+
+
+<para id="p1044">
+Substituting numeric values yields
+
+</para>
+
+
+
+
+<para id="p1045">
+M3 = 2*2kg - 2*1kg, or
+
+</para>
+
+
+
+
+<para id="p1046">
+M3 = 2kg
+
+</para>
+
+
+
+
+</section>
+<section id="h31001">
+<title>
+<emphasis id="Part_2" effect="bold">
+
+Part 2
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1047">
+If the mass of the beam is 2kg, what is the tension in the rope?
+
+</para>
+
+
+
+
+<para id="p1048">
+<emphasis id="strong1009" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1049">
+In order for the system to be in translational equilibrium, the downward 
+forces must be equal to the upward force exerted by the rope.
+
+</para>
+
+
+
+
+<para id="p1050">
+tension = (M1 + M2 + M3 + Mbeam)*g
+
+</para>
+
+
+
+
+<para id="p1051">
+Substituting numeric values yields
+
+</para>
+
+
+
+
+<para id="p1052">
+tension = (1kg + 2kg + 2kg + 2kg)*9.8m/s^2, or
+
+</para>
+
+
+
+
+<para id="p1053">
+tension = 68.6 newtons
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21004">
+<title>
+<emphasis id="Beam_supported_by_a_diagonal_cable" effect="bold">
+
+Beam supported by a diagonal 
+cable
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1054">
+Draw the following picture on your graph board. A vertical wall is on the 
+left. A beam is attached to the wall with a hinge and extends outward 
+horizontally to the right. (Without further support, the beam is free to rotate 
+around the hinge causing the end of the beam to move up and down.)
+
+</para>
+
+
+
+
+<para id="p1055">
+To support the horizontal orientation of the beam, a cable is attached to the 
+end of the beam and is attached to the wall above the attachment point of the 
+beam. The angle between the beam and the cable at the end of the beam is 30 
+degrees.
+
+</para>
+
+
+
+
+<para id="p1056">
+Assume that the system is in static equilibrium.
+
+</para>
+
+
+
+
+<para id="p1057">
+<emphasis id="AssumeA" effect="bold">
+
+Assume
+
+</emphasis>
+
+ that 
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1046">
+the mass of the cable is negligible
+
+</item>
+
+
+	
+
+<item id="li1047">
+the mass of the beam is given by M = 20kg
+
+</item>
+
+
+	
+
+<item id="li1048">
+the length of the beam is L
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<section id="h31002">
+<title>
+<emphasis id="Part1a" effect="bold">
+
+Part 1
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1058">
+Draw vectors showing all of the forces that are exerted on the beam.
+
+</para>
+
+
+
+
+<para id="p1059">
+Solution:
+
+</para>
+
+
+
+
+<para id="p1060">
+The following forces are exerted on the beam:
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1049">
+A horizontal force pushing outward on the left end of the beam. Label it H.
+
+</item>
+
+
+	
+
+<item id="li1050">
+A vertical force supporting the beam where it is connected to the wall 
+	by the hinge. Label it V.
+
+</item>
+
+
+	
+
+<item id="li1051">
+A tension force in the cable. Label it T.
+
+</item>
+
+
+	
+
+<item id="li1052">
+The weight of the beam acting downward at the center of the beam. Label 
+	it M*g.
+
+</item>
+
+
+	
+
+<item id="li1053">
+The horizontal component of the tension force pushing the beam towards 
+	the wall. Label it T*cos(30 degrees).
+
+</item>
+
+
+	
+
+<item id="li1054">
+The vertical component of the tension force pushing the end of the beam 
+	upward. Label it T*sin(30 degrees).
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="Part2a" effect="bold">
+
+Part 2
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1061">
+What is the most judicious location for computing the sum of the torques to 
+establish rotational equilibrium?
+
+</para>
+
+
+
+
+<para id="p1062">
+<emphasis id="strong1010" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1063">
+This is probably a matter of opinion. However, if the torques are computed 
+around the point where the beam attaches to the wall, three of the forces listed 
+above pass through that point and can be ignored when computing the sum of the 
+torques around that point. Therefore, I consider that to be the most 
+judicious point.
+
+</para>
+
+
+
+
+</section>
+<section id="h31004">
+<title>
+<emphasis id="Part3a" effect="bold">
+
+Part 3
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1064">
+Given the above 
+
+<link id="a1041" target-id="AssumeA">
+
+assumptions
+
+</link>
+
+, what are the magnitudes 
+of the forces labeled V, H, and T required to produce translational and 
+rotational equilibrium?
+
+</para>
+
+
+
+
+<para id="p1065">
+<emphasis id="strong1011" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1066">
+We begin by determining the required value of the tension in the cable, T, 
+to produce rotational equilibrium.
+
+</para>
+
+
+
+
+<para id="p1067">
+<emphasis id="strong1012" effect="bold">
+Solve for the value of T
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1068">
+Choose the hinge as the axis of rotation for 
+the reasons given above.
+
+</para>
+
+
+
+
+<para id="p1069">
+For rotational equilibrium,
+
+</para>
+
+
+
+
+<para id="p1070">
+L*T*sin(30 degrees) - (L/2)*M*g = 0
+
+</para>
+
+
+
+
+<para id="p1071">
+Dividing both sides by L yields
+
+</para>
+
+
+
+
+<para id="p1072">
+T*sin(30 degrees) - M*g/2 = 0
+
+</para>
+
+
+
+
+<para id="p1073">
+Note that the actual length of the beam is not important for this 
+computation.
+
+</para>
+
+
+
+
+<para id="p1074">
+Solving for T yields
+
+</para>
+
+
+
+
+<para id="p1075">
+T = (20kg*(9.8m/s^2)/2 )/sin(30 degrees), or
+
+</para>
+
+
+
+
+<para id="p1076">
+T = 196 newtons
+
+</para>
+
+
+
+
+<para id="p1077">
+Therefore, the tension in the cable is a force of 196 newtons directed from 
+the end of the beam toward the wall at an angle of 30 degrees north of west.
+
+</para>
+
+
+
+
+<para id="p1078">
+<emphasis id="strong1013" effect="bold">
+Solve for the value of V
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1079">
+Now that we know the tension in the cable, we can compute the values for V 
+and H.
+
+</para>
+
+
+
+
+<para id="p1080">
+For translational equilibrium in the vertical dimension,
+
+</para>
+
+
+
+
+<para id="p1081">
+V + T*sin(30 degrees) - M*g = 0, or
+
+</para>
+
+
+
+
+<para id="p1082">
+V = M*g - T*sin(30 degrees)
+
+</para>
+
+
+
+
+<para id="p1083">
+Inserting numeric values from above,
+
+</para>
+
+
+
+
+<para id="p1084">
+V = (20kg*9.8m/s^2) - 196newtons * sin(30 degrees), or
+
+</para>
+
+
+
+
+<para id="p1085">
+V = 98 newtons
+
+</para>
+
+
+
+
+<para id="p1086">
+<emphasis id="strong1014" effect="bold">
+Check the result for V
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1087">
+We can check this result by computing the sum of the torques about the center 
+of the beam.
+
+</para>
+
+
+
+
+<para id="p1088">
+(L/2)*T*sin(30 degrees) - (L/2)*V = 0
+
+</para>
+
+
+
+
+<para id="p1089">
+Dividing through by L/2 yields
+
+</para>
+
+
+
+
+<para id="p1090">
+T*sin(30 degrees) - V = 0
+
+</para>
+
+
+
+
+<para id="p1091">
+Inserting numeric values yields
+
+</para>
+
+
+
+
+<para id="p1092">
+196*sin(30 degrees) - 98 = 0
+
+</para>
+
+
+
+
+<para id="p1093">
+and the values for T and V check.
+
+</para>
+
+
+
+
+<para id="p1094">
+<emphasis id="strong1015" effect="bold">
+Solve for the value of H
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1095">
+Knowing the value of T also makes it possible for us to compute the value of 
+H.
+
+</para>
+
+
+
+
+<para id="p1096">
+For horizontal equilibrium,
+
+</para>
+
+
+
+
+<para id="p1097">
+H - T*cos(30 degrees) = 0, or
+
+</para>
+
+
+
+
+<para id="p1098">
+H = T*cos(30 degrees)
+
+</para>
+
+
+
+
+<para id="p1099">
+Inserting numeric values yields
+
+</para>
+
+
+
+
+<para id="p1100">
+H = 196newtons*cos(30 degrees), or
+
+</para>
+
+
+
+
+<para id="p1101">
+H = 169.7 newtons
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21005">
+<title>
+<emphasis id="A_crane_problem" effect="bold">
+
+A crane scenario
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1102">
+Draw the following schematic diagram of a crane on your graph board.
+
+</para>
+
+
+
+
+<para id="p1103">
+The crane consists of a boom attached to a horizontal surface with a pin. 
+(The pin acts as a hinge and the boom can rotate around the pin.) The 
+boom extends upwards and to the right at an angle of 30 degrees relative to the 
+surface.
+
+</para>
+
+
+
+
+<para id="p1104">
+A weight of 6000 newtons is hanging from the end of the boom.
+
+</para>
+
+
+
+
+<para id="p1105">
+A vertical cable is attached to a winch on an overhead beam and is also attached to the 
+boom 2 meters from the lower 
+end.
+
+</para>
+
+
+
+
+<para id="p1106">
+Assumptions:
+
+</para>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1055">
+The length of the boom = L = 8m
+
+</item>
+
+
+	
+
+<item id="li1056">
+The weight of the boom is negligible
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<section id="h31005">
+<title>
+<emphasis id="Part1b" effect="bold">
+
+Part 1
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1107">
+Draw a vector diagram showing the vertical forces being exerted on the boom.
+
+</para>
+
+
+
+
+<para id="p1108">
+<emphasis id="strong1016" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1109">
+Three vertical forces are exerted on the boom:
+
+</para>
+
+
+
+
+<list id="ol1001" list-type="enumerated">
+
+	
+
+<item id="li1057">
+A downward force at the lower end of the boom where the boom is attached 
+	to the pin. Label this force V.
+
+</item>
+
+
+	
+
+<item id="li1058">
+An upward force at the point where the cable is attached to 
+	the boom. Label this force F.
+
+</item>
+
+
+	
+
+<item id="li1059">
+A downward force at the upper end of the boom where the 6000 newton 
+	weight is attached. Label this force W.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31006">
+<title>
+<emphasis id="Part2b" effect="bold">
+
+Part 2
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1110">
+What is the downward force on the cable?
+
+</para>
+
+
+
+
+<para id="p1111">
+Let the lower end of the boom be the axis of rotation.
+
+</para>
+
+
+
+
+<para id="p1112">
+Compute the torques due to the cable and the weight. The sum of those 
+torques must be zero for rotational stability.
+
+</para>
+
+
+
+
+<para id="p1113">
+2m * F*cos(30 degrees) - 8m*6000 newtons * cos(30 degrees) = 0
+
+</para>
+
+
+
+
+<para id="p1114">
+Divide both sides of the equation by cos(30 degrees)
+
+</para>
+
+
+
+
+<para id="p1115">
+2m*F = 8m*6000 newtons, or
+
+</para>
+
+
+
+
+<para id="p1116">
+F = (8M*6000newtons)/2m, or
+
+</para>
+
+
+
+
+<para id="p1117">
+F = 24000 newtons
+
+</para>
+
+
+
+
+<para id="p1118">
+Therefore, the force pulling down on the cable is 24000 newtons.
+
+</para>
+
+
+
+
+</section>
+<section id="h31007">
+<title>
+<emphasis id="Part3b" effect="bold">
+
+Part 3
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1119">
+What is the magnitude and direction of the force on the pin at the bottom of 
+the boom?
+
+</para>
+
+
+
+
+<para id="p1120">
+For vertical equilibrium, the vertical forces must sum to zero.
+
+</para>
+
+
+
+
+<para id="p1121">
+V + 24000 newtons - 6000 newtons = 0, or
+
+</para>
+
+
+
+
+<para id="p1122">
+V = 6000 newtons - 24000 newtons, or
+
+</para>
+
+
+
+
+<para id="p1123">
+V = -18000 newtons
+
+</para>
+
+
+
+
+<para id="p1124">
+Therefore, the force on the pin is 18000 newtons down.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Sliding_a_crate" effect="bold">
+
+Sliding a crate
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1125">
+A crate is being slid to the right on a horizontal floor by pulling on a rope 
+tied to the right side of the crate.
+
+</para>
+
+
+
+
+<para id="p1126">
+Width of the crate = w = 4 m
+
+</para>
+
+
+
+
+<para id="p1127">
+Height of the crate = h = 3 m
+
+</para>
+
+
+
+
+<para id="p1128">
+Coefficient of kinetic friction = u = 0..5
+
+</para>
+
+
+
+
+<para id="p1129">
+Attachment point of rope = d = ?
+
+</para>
+
+
+
+
+<section id="h31008">
+<title>
+<emphasis id="Part1C" effect="bold">
+
+Part 1
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1130">
+Draw a picture of the crate showing the forces that are being exerted on the 
+crate.
+
+</para>
+
+
+
+
+<para id="p1131">
+<emphasis id="strong1017" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1132">
+The crate is a rectangle with the dimensions given above. There are three 
+forces acting on the crate.
+
+</para>
+
+
+
+
+<para id="p1133">
+There is a downward force at the bottom center of the crate, which is the 
+weight of the crate. Label it F1.
+
+</para>
+
+
+
+
+<para id="p1134">
+There is a horizontal force pointing to the left at the bottom of the crate. 
+This is the force of friction. Label it F2.
+
+</para>
+
+
+
+
+<para id="p1135">
+There is a horizontal force pointing to the right on the right side of the 
+crate that is d units above the floor. This is the force that is pulling the 
+crate to the right. Label it F3.
+
+</para>
+
+
+
+
+</section>
+<section id="h31009">
+<title>
+<emphasis id="Part2c" effect="bold">
+
+Part 2
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1136">
+What is the maximum value for d that allows the crate to slide without 
+tipping over?
+
+</para>
+
+
+
+
+<para id="p1137">
+Compute the sum of the horizontal forces.
+
+</para>
+
+
+
+
+<para id="p1138">
+F3 - F2 = 0, or
+
+</para>
+
+
+
+
+<para id="p1139">
+F3 - m*g*u = 0, or
+
+</para>
+
+
+
+
+<para id="p1140">
+F3 = m*g*u
+
+</para>
+
+
+
+
+<para id="p1141">
+Compute the torques about the bottom right corner.
+
+</para>
+
+
+
+
+<para id="p1142">
+(w/2)*F1 - d*F3 = 0, or
+
+</para>
+
+
+
+
+<para id="p1143">
+d*F3 = (w/2)*F1, or
+
+</para>
+
+
+
+
+<para id="p1144">
+d*F3 = (w/2)*m*g
+
+</para>
+
+
+
+
+<para id="p1145">
+Substitution yields
+
+</para>
+
+
+
+
+<para id="p1146">
+d*m*g*u = (w/2)*m*g
+
+</para>
+
+
+
+
+<para id="p1147">
+Simplification yields
+
+</para>
+
+
+
+
+<para id="p1148">
+d*u = (w/2), or
+
+</para>
+
+
+
+
+<para id="p1149">
+d = (w/2)/u
+
+</para>
+
+
+
+
+<para id="p1150">
+Inserting values yields
+
+</para>
+
+
+
+
+<para id="p1151">
+d = (4/2)/0.5, or
+
+</para>
+
+
+
+
+<para id="p1152">
+d = 4 m
+
+</para>
+
+
+
+
+<para id="p1153">
+Since the height of the crate is only 3 m, it is not possible to tip it over 
+by pulling on a rope attached to the right side of the crate.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21007">
+<title>
+<emphasis id="Another_crane_problem" effect="bold">
+
+Another crane scenario
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1154">
+The boom of a crane is pinned at the intersection of a horizontal floor and a 
+vertical wall. The boom slopes toward the upper right.
+
+</para>
+
+
+
+
+<para id="p1155">
+A mass hangs from the top end of the boom.
+
+</para>
+
+
+
+
+<para id="p1156">
+The top end of the boom is connected to the vertical wall by a cable that is 
+stretched horizontally from the wall to the boom.
+
+</para>
+
+
+
+
+<para id="p1157">
+Length of cable = X = 4 m
+
+</para>
+
+
+
+
+<para id="p1158">
+Height of cable = Y = 3 m
+
+</para>
+
+
+
+
+<para id="p1159">
+Mass = M = 2000 kg
+
+</para>
+
+
+
+
+<para id="p1160">
+The weight of the boom is negligible.
+
+</para>
+
+
+
+
+<section id="h31010">
+<title>
+<emphasis id="Part1d" effect="bold">
+
+Part 1
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1161">
+Draw the forces acting on the boom.
+
+</para>
+
+
+
+
+<para id="p1162">
+<emphasis id="strong1018" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1163">
+There are four forces acting on the boom:
+
+</para>
+
+
+
+
+<para id="p1164">
+A downward force that is attributable to the mass hanging on the top end of the 
+boom. Label this force F1.
+
+</para>
+
+
+
+
+<para id="p1165">
+A force pointing to the left from the top end of the boom due to the cable. 
+Label this force F2.
+
+</para>
+
+
+
+
+<para id="p1166">
+A force pointing up at the bottom end of the boom. Label this force F3.
+
+</para>
+
+
+
+
+<para id="p1167">
+A force pointing to the right at the bottom of the boom. Label this force F4.
+
+</para>
+
+
+
+
+</section>
+<section id="h31011">
+<title>
+<emphasis id="Part2d" effect="bold">
+
+Part 2
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1168">
+Find the tension in the cable.
+
+</para>
+
+
+
+
+<para id="p1169">
+<emphasis id="strong1019" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1170">
+For rotational equilibrium, the sum of the torques about the bottom of the 
+boom must be zero.
+
+</para>
+
+
+
+
+<para id="p1171">
+F2*Y = F1*X, or
+
+</para>
+
+
+
+
+<para id="p1172">
+F2*Y = M*g*X, or
+
+</para>
+
+
+
+
+<para id="p1173">
+F2 = (M*g*X)*/Y
+
+</para>
+
+
+
+
+<para id="p1174">
+Inserting numeric values yields
+
+</para>
+
+
+
+
+<para id="p1175">
+F2 = (2000kg*(9.8m/s^2)*4m)/3m
+
+</para>
+
+
+
+
+<para id="p1176">
+F2 = 26133 newtons
+
+</para>
+
+
+
+
+<para id="p1177">
+Therefore, the tension in the cable is equal to 26133 newtons
+
+</para>
+
+
+
+
+</section>
+<section id="h31012">
+<title>
+<emphasis id="Part3d" effect="bold">
+
+Part 3
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1178">
+Find the force pushing against the bottom end of the boom along the length of 
+the boom. Also find the angle between that force and the floor.
+
+</para>
+
+
+
+
+<para id="p1179">
+For horizontal equilibrium
+
+</para>
+
+
+
+
+<para id="p1180">
+F4 = F2 = 26133 newtons
+
+</para>
+
+
+
+
+<para id="p1181">
+For vertical equilibrium
+
+</para>
+
+
+
+
+<para id="p1182">
+F3 = F1 = M*g = 2000kg*9.8m/s^2, or
+
+</para>
+
+
+
+
+<para id="p1183">
+F3 = 19600 newtons
+
+</para>
+
+
+
+
+<para id="p1184">
+The magnitude of the force = sqrt(F4^2 + F3^2), or
+
+</para>
+
+
+
+
+<para id="p1185">
+Magnitude = sqrt(26133^2 + 19600^2), or
+
+</para>
+
+
+
+
+<para id="p1186">
+Magnitude = 32666 newtons
+
+</para>
+
+
+
+
+<para id="p1187">
+Therefore, the magnitude of the force is 32666 newtons.
+
+</para>
+
+
+
+
+<para id="p1188">
+The angle of the force is
+
+</para>
+
+
+
+
+<para id="p1189">
+angle = atan(19600 newtons/26133 newtons) in degrees
+
+</para>
+
+
+
+
+<para id="p1190">
+angle = 36.9 degrees north of east
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21008">
+<title>
+<emphasis id="A_ladder_problem" effect="bold">
+
+A ladder scenario
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1191">
+A ladder is sitting on a horizontal floor and leaning against a smooth wall. 
+A bucket of paint is hanging from a rung 80-percent up from the bottom of the 
+ladder. The parameters are as follows:
+
+</para>
+
+
+
+
+<list id="ul1015" list-type="bulleted">
+
+	
+
+<item id="li1060">
+Length of ladder = L = 5 m
+
+</item>
+
+
+	
+
+<item id="li1061">
+Angle between ladder and floor = A = 50 degrees
+
+</item>
+
+
+	
+
+<item id="li1062">
+Mass of the bucket of paint = m = 2.5 kg
+
+</item>
+
+
+	
+
+<item id="li1063">
+Mass of the ladder = M = 12 kg
+
+</item>
+
+
+	
+
+<item id="li1064">
+Coefficient of static friction = u = ?
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<section id="h31013">
+<title>
+<emphasis id="Part1e" effect="bold">
+
+Part 1
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1192">
+Draw a vector diagram of the forces acting on the ladder.
+
+</para>
+
+
+
+
+<para id="p1193">
+<emphasis id="strong1020" effect="bold">
+Solution:
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1194">
+There are five forces acting on the ladder:
+
+</para>
+
+
+
+
+<list id="ol1002" list-type="enumerated">
+
+	
+
+<item id="li1065">
+A force directed outward from the wall at the top of the ladder. Label 
+	this force F1.
+
+</item>
+
+
+	
+
+<item id="li1066">
+A force pushing straight down due to the mass of the bucket of paint. 
+	Label this force F2.
+
+</item>
+
+
+	
+
+<item id="li1067">
+A force pushing straight down due to the mass of the ladder. Label this 
+	force F3.
+
+</item>
+
+
+	
+
+<item id="li1068">
+A force at the bottom of the ladder directed toward the wall due to 
+	static friction. Label this force F4.
+
+</item>
+
+
+	
+
+<item id="li1069">
+A force at the bottom of the ladder directed straight up due to the 
+	weight of the ladder and the bucket of paint. Label this force F5.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31014">
+<title>
+<emphasis id="Part2e" effect="bold">
+
+Part 2
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1195">
+The ladder is in static equilibrium.
+
+</para>
+
+
+
+
+<para id="p1196">
+The coefficient of static friction between the ladder and the wall is zero.
+
+</para>
+
+
+
+
+<para id="p1197">
+What is the minimum possible value for the coefficient of static friction 
+between the ladder and the floor.
+
+</para>
+
+
+
+
+<para id="p1198">
+F1 = ?
+
+</para>
+
+
+
+
+<para id="p1199">
+F2 = m*g = 2.5kg * 9.8m/s^2 = 24.5 newtons
+
+</para>
+
+
+
+
+<para id="p1200">
+F3 = M*g = 12kg*9.8m/s^2 = 117.6 newtons
+
+</para>
+
+
+
+
+<para id="p1201">
+F4 = F5*u
+
+</para>
+
+
+
+
+<para id="p1202">
+For vertical equilibrium,
+
+</para>
+
+
+
+
+<para id="p1203">
+F5 = F2 + F3 = (2.5kg + 12kg)*9.8m/s^2 = 142 newtons
+
+</para>
+
+
+
+
+<para id="p1204">
+For rotational equilibrium, the sum of the torques about the bottom of the 
+ladder must be zero.
+
+</para>
+
+
+
+
+<para id="p1205">
+Compute the horizontal distance to the line of action of the weight of the 
+ladder.
+
+</para>
+
+
+
+
+<para id="p1206">
+X1 = (L/2)*cos(50 degrees), or
+
+</para>
+
+
+
+
+<para id="p1207">
+X1 = ((5/2)m)*cos(50 degrees), or
+
+</para>
+
+
+
+
+<para id="p1208">
+X1 = 1.61m
+
+</para>
+
+
+
+
+<para id="p1209">
+Compute the horizontal distance to the line of action of the weight of the 
+bucket of paint.
+
+</para>
+
+
+
+
+<para id="p1210">
+X2 = 0.8*5m*cos(50 degrees), or
+
+</para>
+
+
+
+
+<para id="p1211">
+X2 = 2.57m
+
+</para>
+
+
+
+
+<para id="p1212">
+Compute the vertical distance to the line of action of the horizontal force 
+at the top of the ladder.
+
+</para>
+
+
+
+
+<para id="p1213">
+Y1 = 5m*sin(50 degrees), or
+
+</para>
+
+
+
+
+<para id="p1214">
+Y1 = 3.83m
+
+</para>
+
+
+
+
+<para id="p1215">
+Compute sum of the torques about the bottom of the ladder.
+
+</para>
+
+
+
+
+<para id="p1216">
+Y1*F1 - X2*F2 - X1*F3 = 0, or
+
+</para>
+
+
+
+
+<para id="p1217">
+F1 = (X2*F2 + X1*F3)/Y1, or
+
+</para>
+
+
+
+
+<para id="p1218">
+F1 = (2.57m*24.5 newtons+ 1.61m*117.6 newtons)/3.83m
+
+</para>
+
+
+
+
+<para id="p1219">
+F1 = 65.87 newtons
+
+</para>
+
+
+
+
+<para id="p1220">
+For horizontal equilibrium,
+
+</para>
+
+
+
+
+<para id="p1221">
+F4 = 65.87 newtons
+
+</para>
+
+
+
+
+<para id="p1222">
+By substitution,
+
+</para>
+
+
+
+
+<para id="p1223">
+F4 = F5*u = 65.87 newtons
+
+</para>
+
+
+
+
+<para id="p1224">
+u = (65.87 newtons)/F5, or
+
+</para>
+
+
+
+
+<para id="p1225">
+u = (65.87 newtons)/142 newtons, or
+
+</para>
+
+
+
+
+<para id="p1226">
+u = 0.46
+
+</para>
+
+
+
+
+<para id="p1227">
+While the coefficient of static friction could be higher than this and still 
+achieve static equilibrium, if the coefficient were any lower, the ladder would 
+slide away from the wall.
+
+</para>
+
+
+
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Repeat the computations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1228">
+I encourage you to repeat the computations that I have presented in this lesson to 
+confirm that you get the same results. Experiment with 
+the scenarios, making changes, and observing the results of your changes. Make 
+certain that you can explain why your changes behave as they do. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1229">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1230">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1021" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1016" list-type="bulleted">
+
+
+
+<item id="li1070">
+Module name: Angular Momentum -- Rotational equilibrium
+
+</item>
+
+
+
+
+<item id="li1071">
+File: Phy1340.htm
+
+
+</item>
+
+
+	
+
+<item id="li1072">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1073">
+Keywords:
+
+<list id="ul1017" list-type="bulleted">
+
+		
+
+<item id="li1074">
+physics
+
+</item>
+
+
+		
+
+<item id="li1075">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1076">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1077">
+blind
+
+</item>
+
+
+		
+
+<item id="li1078">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1079">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1080">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1081">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1082">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1083">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1084">
+rotational equilibrium
+
+</item>
+
+
+					
+
+<item id="li1085">
+translational equilibrium
+
+</item>
+
+
+					
+
+<item id="li1086">
+static equilibrium
+
+</item>
+
+
+					
+
+<item id="li1087">
+beam
+
+</item>
+
+
+					
+
+<item id="li1088">
+boom
+
+</item>
+
+
+					
+
+<item id="li1089">
+crane
+
+</item>
+
+
+					
+
+<item id="li1090">
+crate
+
+</item>
+
+
+					
+
+<item id="li1091">
+ladder
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+<emphasis id="strong1022" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1231">
+<emphasis id="strong1023" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1024" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1232">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1025" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1233">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1026" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1234">
+<emphasis id="strong1027" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1235">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

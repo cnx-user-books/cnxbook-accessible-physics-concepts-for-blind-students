@@ -1,0 +1,4155 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1215: Energy -- Elastic and Inelastic Collisions in Two Dimensions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38431</md:content-id>
+  <md:title>Phy1215: Energy -- Elastic and Inelastic Collisions in Two Dimensions</md:title>
+  <md:abstract>This module explains elastic and inelastic collisions in two dimensions in a format that is accessible to blind students.</md:abstract>
+  <md:uuid>2f476b60-221c-46a7-b8a0-f5b7713c5fb5</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Figures">
+
+Figures
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1005">
+<link id="a1005" target-id="Listings">
+
+Listings
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1007">
+<link id="a1007" target-id="Discussion">
+
+Discussion
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1008">
+<link id="a1008" target-id="Example_scenarios">
+
+Example scenarios
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="Onedimensional_scenarios">
+
+One-dimensional scenarios
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+			
+
+<item id="li1010">
+<link id="a1010" target-id="The_rear_end_car_crash">
+
+The rear end car crash
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1011">
+<link id="a1011" target-id="Another_rear_end_car_crash">
+
+A perfectly inelastic car 
+			crash
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1012">
+<link id="a1012" target-id="Twodimensional_scenarios">
+
+Two-dimensional scenarios
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+			
+
+<item id="li1013">
+
+			
+
+<link id="a1013" target-id="Elastic_collision_between_two_pucks_on_friction-free_ice">
+
+
+			Elastic collision between two pucks on friction-free ice
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1014">
+
+			
+
+<link id="a1014" target-id="Perfectly_inelastic_collision_between_objects_with_odd_angles">
+
+
+			Perfectly inelastic collision between objects with odd angles
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1015">
+
+			
+
+<link id="a1015" target-id="Rotating_the_axis_for_simplification">
+
+Rotating the axes 
+			for simplification
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1016">
+<link id="a1016" target-id="Run_the_program">
+
+Run the scripts
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1017">
+<link id="a1017" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1018">
+<link id="a1018" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1019" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains elastic and inelastic collisions in two dimensions in a 
+format that is accessible to blind students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1019">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1020" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1020">
+A protractor for measuring angles (
+
+<link id="a1021" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1021">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1022" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1022">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1023" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1023">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1024">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1025">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1024" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1026">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1025" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1027">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1026" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1028">
+An introductory understanding of JavaScript programming (
+
+<link id="a1027" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1028" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1029">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you open another copy of this document in a separate 
+browser window and use the following links to easily find and view the figures 
+and listings while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+ 
+
+<emphasis id="Figures" effect="bold">
+
+Figures
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1030">
+<link id="a1029" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+. Equations for collisions of two objects in two-dimensional space. 
+
+</item>
+
+
+	
+
+<item id="li1031">
+<link id="a1030" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+. Output for the rear end car crash. 
+
+</item>
+
+
+	
+
+<item id="li1032">
+<link id="a1031" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+. Output for the perfectly inelastic car crash. 
+
+</item>
+
+
+	
+
+<item id="li1033">
+<link id="a1032" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+. Output for an elastic collision between two pucks on friction-free ice. 
+
+</item>
+
+
+	
+
+<item id="li1034">
+<link id="a1033" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+. Output for a perfectly inelastic collision between objects with odd angles. 
+
+</item>
+
+
+	
+
+<item id="li1035">
+<link id="a1034" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+. Output for rotation of the axes for simplification. 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31001">
+<title>
+ 
+
+<emphasis id="Listings" effect="bold">
+
+Listings
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1036">
+<link id="a1035" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+. The rear end car crash. 
+
+</item>
+
+
+	
+
+<item id="li1037">
+<link id="a1036" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+. A perfectly inelastic car crash. 
+
+</item>
+
+
+	
+
+<item id="li1038">
+<link id="a1037" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+. Elastic collision between two pucks on friction-free ice.
+
+</item>
+
+
+	
+
+<item id="li1039">
+<link id="a1038" target-id="Listing_4">
+
+Listing 4
+
+</link>
+
+. Perfectly inelastic collision between objects with odd angles.
+
+</item>
+
+
+	
+
+<item id="li1040">
+<link id="a1039" target-id="Listing_5">
+
+Listing 5
+
+</link>
+
+. Rotation of the axes for simplification. 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h21003">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1040" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+I have touched on collisions in one dimension in earlier modules. I will deal 
+with collisions in a more rigorous manner in this module, and will also extend 
+the analysis to two dimensions.
+
+</para>
+
+
+	
+
+
+<note id="note1000" type="">
+
+
+
+
+
+	
+
+<para id="p1007">
+<emphasis id="strong1000" effect="bold">
+Facts worth remembering -- Types of collisions
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1008">
+An 
+
+<emphasis id="strong1001" effect="bold">
+elastic
+
+</emphasis>
+ collision is one in which the total kinetic energy is the same before and after 
+the collision.
+
+</para>
+
+
+			
+
+<para id="p1009">
+An 
+
+<emphasis id="strong1002" effect="bold">
+inelastic
+
+</emphasis>
+ collision is one in which the final kinetic energy is less than the initial kinetic energy. 
+
+</para>
+
+
+			
+
+<para id="p1010">
+A 
+
+<emphasis id="strong1003" effect="bold">
+perfectly inelastic
+
+</emphasis>
+ collision is one that results in 
+			the two objects sticking together. The decrease of kinetic energy in a perfectly inelastic collision is as
+large as possible (consistent with the conservation of momentum).
+
+</para>
+
+
+			
+
+<para id="p1011">
+<emphasis id="strong1004" effect="bold">
+Momentum
+
+</emphasis>
+ is conserved regardless of whether the 
+			collision is elastic or inelastic.
+
+</para>
+
+
+
+
+</note>
+
+
+
+
+	
+	
+
+<para id="p1012">
+<emphasis id="strong1005" effect="bold">
+A general solution for elastic collisions
+
+</emphasis>
+</para>
+
+
+	
+
+
+<para id="p1013">
+I will provide you with three equations that apply in general to elastic 
+collisions in two dimensions. However, as you will see, there are more than 
+three variables involved in such collisions. With only three equations, you can 
+only solve for three unknowns. Therefore, in order to solve the general problem, 
+the values of all the other variables must be known.
+
+</para>
+
+
+
+
+<para id="p1014">
+The two-dimensional solution can be applied to one-dimensional problems by 
+constraining the directions of motion of the two objects to either be the same 
+or to differ by 180 degrees. If possible, such problems should be structured to 
+cause the directions to be along the x-axis. This will often simplify the 
+solution.
+
+</para>
+
+
+
+
+<para id="p1015">
+<emphasis id="strong1006" effect="bold">
+A general solution for inelastic collisions
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1016">
+The case for inelastic collisions is more restrictive than the case for 
+elastic collisions. Only two of the 
+equations mentioned above apply to inelastic collisions. As a result, you can 
+only solve for two unknown values for an inelastic collision. The values for all 
+of the other variables must be known.
+
+</para>
+
+
+
+
+<para id="p1017">
+<emphasis id="strong1007" effect="bold">
+Collision equations
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1018">
+The equations for collisions of two objects in two-dimensional space are 
+shown in 
+
+<link id="a1041" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+. Note that it is assumed that the two objects constitute an 
+isolated system -- that is, a closed system that is not subject to external 
+interactions. This requires that both the magnitude and the direction of the 
+momentum for the system be the same at the beginning and the end of the collision.
+
+</para>
+
+
+
+
+
+
+<table id="table1000" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1000">
+<row id="tr1000">
+<entry id="th1000">
+
+
+
+<emphasis id="Figure_1" effect="bold">
+
+Figure 1
+
+</emphasis>
+
+. Equations for collisions of two objects in two-dimensional space.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1000">
+<row id="tr1001">
+<entry id="td1000">
+
+
+
+<code id="pre1000" display="block">Using conservation of momentum alone, we have two 
+equations, allowing us to solve for two unknowns.
+
+m1*u1x + m2*u2x = m1*v1x + m2*v2x
+m1*u1y + m2*u2y = m1*v1y + m2*v2y
+
+Using conservation of kinetic energy for the elastic 
+case gives us one additional equation, allowing us 
+to solve for three unknowns.
+
+0.5*m1*u1^2 + 0.5*m2*u2^2 = 0.5*m1*v1^2 + 0.5*m2*v2^2
+
+Velocities can be decomposed into their x and 
+y-components using the following equations:
+
+u1x = u1*cos(a1)
+u1y = u1*sin(a1)
+
+u2x = u2*cos(a2)
+u2y = u2*sin(a2)
+
+v1x = v1*cos(b1)
+v1y = v1*sin(b1)
+
+v2x = v2*cos(b2)
+v2y = v2*sin(b2)
+
+Substitution yields the following for the two momentum
+equations:
+
+m1*u1*cos(a1) + m2*u2*cos(a2) = m1*v1*cos(b1) + m2*v2*cos(b2)
+m1*u1*sin(a1) + m2*u2*sin(a2) = m1*v1*sin(b1) + m2*v2*sin(b2)
+
+where:
+
+m1 and m2 are the masses of the two objects in kg
+
+u1 and u2 are the magnitudes of the initial 
+velocities of the two objects. Velocities are 
+measured in meters/second
+
+v1 and v2 are the magnitudes of the final velocities 
+of the two objects
+
+u1x, u1y, v1x, and v1y are the x and y-components
+of the initial and final velocities in 2D space.
+
+a1 and a2 are angles that describe the initial 
+directions of the two objects through 2D space. 
+Angles are measured counter-clockwise relative to 
+the positive x-axis
+
+b1 and b2 are angles that describe the final 
+directions of the two objects through 2D space
+
+It is assumed that the two objects constitute an 
+isolated system.
+
+Variables:
+m1, m2, u1, u2, v1, v2, a1, a2, b1, b2</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+	
+
+<para id="p1019">
+<emphasis id="strong1008" effect="bold">
+What do the equations imply?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1020">
+The first two equations based on momentum in 
+
+<link id="a1042" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+ require that the 
+combined momentum of the two objects be the same, along each axis, before 
+and after the collision. Thus, one of the equations deals with momentum along 
+the horizontal axis and the other equation deals with momentum along the 
+vertical axis.
+
+</para>
+
+
+
+
+<para id="p1021">
+The terms in the two equations are:
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1041">
+m1 and m2 represent the masses of object 1 and object 2.
+
+</item>
+
+
+	
+
+<item id="li1042">
+u1x and u2x represent the components of the velocities of the two 
+	objects along the horizontal or x axis before the collision.
+
+</item>
+
+
+	
+
+<item id="li1043">
+u1y and u2y represent the components of the velocities of the two 
+	objects along the vertical or y axis before the collision.
+
+</item>
+
+
+	
+
+<item id="li1044">
+v1x and v2x represent the components of the velocities of the two 
+	objects along the horizontal or x axis after the collision.
+
+</item>
+
+
+	
+
+<item id="li1045">
+v1y and v2y represent the components of the velocities of the two 
+	objects along the vertical or y axis after the collision.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1022">
+<emphasis id="strong1009" effect="bold">
+The third or energy equation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1023">
+As indicated in 
+
+<link id="a1043" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+, this equation can only be used for the case of an 
+elastic collision. This equation requires that the total kinetic energy of the 
+two objects before the collision be equal to the total kinetic energy of the two 
+objects after the collision.
+
+</para>
+
+
+
+
+<para id="p1024">
+In addition to the masses described above, this equation introduces the 
+following terms:
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1046">
+u1 and u2 represent the magnitudes of the velocities of the two objects 
+	before the collision.
+
+</item>
+
+
+	
+
+<item id="li1047">
+v1 and v2 represent the magnitudes of the velocities of the two objects 
+	after the collision.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1025">
+<emphasis id="strong1010" effect="bold">
+Definition of the angles
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1026">
+In order to compute the horizontal and vertical components of the velocities 
+before and after the equations, you must know the directions in which the 
+objects are moving before and after the collision. Those directions appear as 
+angles in 
+
+<link id="a1044" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+ where
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1048">
+a1 and a2 are angles measured counter clockwise relative to the 
+	horizontal axis that represent the direction of travel of each of the 
+	objects respectively before the collision.
+
+</item>
+
+
+	
+
+<item id="li1049">
+b1 and b2 are angles measured counter clockwise relative to the 
+	horizontal axis that represent the direction of travel of each of the 
+	objects respectively after the collision.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1027">
+<emphasis id="strong1011" effect="bold">
+Ten variables
+
+</emphasis>
+</para>
+
+
+	
+
+
+<para id="p1028">
+As you can see in 
+
+<link id="a1045" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+, these equations involve ten variables. That means 
+that in order for a solution to be possible, the values for eight of the 
+variables must be know for an inelastic collision, and the values for seven of 
+the variables must be known for an elastic collision.
+
+</para>
+
+
+
+
+<para id="p1029">
+<emphasis id="strong1012" effect="bold">
+Not conceptually difficult
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1030">
+If you believe in the laws of conservation of momentum and conservation of 
+energy on which these three equations are based, the solution to collision 
+problems is not conceptually difficult.
+
+</para>
+
+
+
+
+<para id="p1031">
+However, depending on which variables are known, which are unknown, and 
+whether the collision is elastic, inelastic, or perfectly inelastic, you can 
+come up with equations that are difficult to solve from an algebra/trigonometry 
+viewpoint.
+
+</para>
+
+
+
+
+<para id="p1032">
+<emphasis id="strong1013" effect="bold">
+Axis rotation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1033">
+For the case where none of the given directions are along the x- axis or the 
+y-axis, you can sometimes simplify the algebraic/trigonometric problem by 
+rotating the axis so as to place one of those directions along the x-axis or the 
+y-axis. This will often cause one or more terms in the set of equations to go to 
+zero, thus simplifying the solution to the set of equations.
+
+</para>
+
+
+
+
+<para id="p1034">
+Having done that, you can rotate the axis by the same amount in the opposite 
+direction at the end to cause the final solution to apply to the original axes. 
+I will present an example of this in the next section.
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Example_scenarios" effect="bold">
+
+Example scenarios
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1035">
+<emphasis id="strong1014" effect="bold">
+Several examples
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1036">
+I will use the information in 
+
+<link id="a1046" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+ to analyze several scenarios 
+involving collisions in both one dimension and two dimensions in this section.
+
+</para>
+
+
+
+
+<para id="p1037">
+<emphasis id="strong1015" effect="bold">
+The use of JavaScript
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1038">
+All of these examples could be solved using the Google calculator. However, 
+several steps are involved and I find it easier to keep things organized and 
+perform the steps in the correct order by using JavaScript to compute and 
+display the solution.
+
+</para>
+
+
+
+
+<para id="p1039">
+Note, however, that JavaScript will only do the arithmetic for you. You 
+must still do the algebra/trigonometry yourself. In these examples, I will 
+usually work through the algebra in comment sections and switch to actual code 
+when it is time to compute and display one or more values.
+
+</para>
+
+
+
+
+<section id="h21004">
+<title>
+<emphasis id="Onedimensional_scenarios" effect="bold">
+
+One-dimensional scenarios
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1040">
+The first one-dimensional scenario involves an automobile accident.
+
+</para>
+
+
+
+
+<section id="h31002">
+<title>
+<emphasis id="The_rear_end_car_crash" effect="bold">
+
+The rear end car crash
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1041">
+The description as well as the solution to the problem are shown in 
+
+
+<link id="a1047" target-id="Listing_1">
+
+Listing 
+1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+
+<table id="table1001" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1001">
+<row id="tr1002">
+<entry id="th1001">
+
+
+
+<emphasis id="Listing_1" effect="bold">
+
+Listing 1
+
+</emphasis>
+
+. The rear end car crash.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1001">
+<row id="tr1003">
+<entry id="td1001">
+
+
+
+<code id="pre1001" display="block">&lt;!---------------- File JavaScript01.html ---------------------&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+
+/*
+This script simulates car #2 rear-ending car #1 in a
+one-dimensional elastic collision while car #1 was stopped.
+The script computes and displays the speed of car #2
+immediately before the collision under the assumption that
+car #1 was moving at 20 m/s just after the collision.
+
+
+Using conservation of momentum alone, we have two
+equations, allowing us to solve for two unknowns.
+
+m1*u1x + m2*u2x = m1*v1x + m2*v2x
+m1*u1y + m2*u2y = m1*v1y + m2*v2y
+
+Using conservation of kinetic energy for the elastic
+case gives us one additional equation, allowing us
+to solve for three unknowns.
+
+0.5*m1*u1^2 + 0.5*m2*u2^2 = 0.5*m1*v1^2 + 0.5*m2*v2^2
+
+Variables:
+m1, m2, u1, u2, v1, v2, a1, a2, b1, b2
+*/
+
+document.write("Start Script &lt;/br&gt;");
+
+//Solve for u2 and v2 for an elastic collision
+var m1 = 1500;//kg
+var m2 = 2000;//kg
+//Velocities before the collision
+var u1 = 0;//meters per second - standing still
+var u2;//unknown value to be determined
+//Velocities after the collision
+var v1 = 20;//meters/second
+var v2;//unknown value to be determined
+//Angles
+var a1 = 0;//car was not moving
+var a2 = 0;//moving straight ahead
+var b1 = 0;//moving straight ahead
+var b2 = 0;//moving straight ahead
+
+//Convert angles to radians
+A1 = a1*Math.PI/180;
+A2 = a2*Math.PI/180;
+B1 = b1*Math.PI/180;
+B2 = b2*Math.PI/180;
+
+//Compute and print the x and y components of velocity
+u1x = u1*Math.cos(A1)
+u1y = u1*Math.sin(A1)
+
+//u2x = u2*Math.cos(A2)//unknown
+//u2y = u2*Math.sin(A2)//unknown
+
+v1x = v1*Math.cos(B1)
+v1y = v1*Math.sin(B1)
+
+//v2x = v2*Math.cos(B2)//unknown
+//v2y = v2*Math.sin(B2)//unknown
+
+document.write("x and y components of velocity&lt;/br&gt;");
+document.write("u1x = " + u1x.toFixed(3) + "&lt;/br&gt;");
+document.write("u1y = " + u1y.toFixed(3) + "&lt;/br&gt;");
+document.write("v1x = " + v1x.toFixed(3) + "&lt;/br&gt;");
+document.write("v1y = " + v1y.toFixed(3) + "&lt;/br&gt;");
+document.write("==============================="+ " &lt;/br&gt;");
+
+/*
+Prepare the equations for use in solving the problem.
+
+Given the following three equations
+m1*u1x + m2*u2x = m1*v1x + m2*v2x
+m1*u1y + m2*u2y = m1*v1y + m2*v2y
+0.5*m1*u1^2 + 0.5*m2*u2^2 = 0.5*m1*v1^2 + 0.5*m2*v2^2
+
+Eliminate all of the components for which the above printout
+shows zero or for which the given values show zero.
+
+0 + m2*u2x = m1*v1x + m2*v2x
+0 + m2*u2y = 0 + m2*v2y
+0 + 0.5*m2*u2^2 = 0.5*m1*v1^2 + 0.5*m2*v2^2
+
+Although it isn't totally obvious from the equations, at this
+point we need to recognize that because all velocities are
+defined to occur along the x-axis, all of the terms in the
+middle equation above that deals with the y-component of
+velocity must be zero. Therefore, we can eliminate that
+equation entirely.
+
+We also need to recognize that because there are no velocity
+components along the y-axis, the velocity components along
+the x-axis are actually the magnitudes of those velocity
+components. Thus, u2x = u2.
+
+Now we will make the substitutions and eliminate terms with a
+value of 0 in the process, yielding
+
+m2*u2 = m1*v1 + m2*v2
+0.5*m2*u2^2 = 0.5*m1*v1^2 + 0.5*m2*v2^2
+
+Substituting known values into the two equations yields
+
+2000*u2 = 1500*20 + 2000*v2
+2000*u2^2 = 1500*20*20 + 2000*v2^2
+
+Simplifying the two equations yields
+
+u2 = 15 + v2
+u2*u2 = 300 + v2*v2
+
+Now we need to eliminate one equation through substitution
+v2 = u2 - 15
+
+u2*u2 = 300 + (u2 - 15)*(u2 - 15)
+u2*u2 = 300 + u2*u2 - 30*u2 +225
+u2*u2 - 300 - u2*u2 + 30*u2 -225 = 0
+u2*u2 - u2*u2 + 30*u2 - 300 -225 = 0
+30*u2 - 525 = 0
+30*u2 = 525
+*/
+
+//Compute and print the first speed value
+document.write("Speed values&lt;/br&gt;");
+u2 = 525/30;
+document.write("u2 = " + u2.toFixed(2) + " m/s&lt;/br&gt;");
+
+/*
+Substituting this value back into an earlier energy equation
+yields
+
+v2*v2 = u2*u2 - 300;
+*/
+
+//Compute and display the second speed value
+v2 = Math.sqrt(u2*u2 - 300);
+document.write("v2 = " + v2.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("==============================="+ " &lt;/br&gt;");
+
+//Check the answers for conservation of momentum
+document.write("Check for conservation of momentum&lt;/br&gt;");
+var mou = m1*u1 + m2*u2;
+var mov = m1*v1 + m2*v2;
+
+document.write("mou = " + mou.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("mov = " + mov.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+
+document.write("==============================="+ " &lt;/br&gt;");
+
+//Check the answer for elastic collision
+var keIn = 0.5*m1*u1*u1 + 0.5*m2*u2*u2;
+var keOut = 0.5*m1*v1*v1 + 0.5*m2*v2*v2;
+
+document.write("Check for conservation of energy&lt;/br&gt;");
+document.write("keIn = " + keIn.toFixed(0)
+  + " Kg*m^2/s^2&lt;/br&gt;");
+document.write("keOut = " + keOut.toFixed(0)
+  + " Kg*m^2/s^2&lt;/br&gt;");
+
+document.write("End Script");
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1042">
+<emphasis id="strong1016" effect="bold">
+The output
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1043">
+The output produced by this script is shown in 
+
+<link id="a1048" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+<para id="p1044">
+The only comments that I will make in addition to the comments in 
+
+<link id="a1049" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+ 
+are that the values displayed for mou, mov, keIn, and keOut near the end of 
+
+
+<link id="a1050" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+ show that both momentum and kinetic energy were conserved. Therefore, 
+the requirements for an elastic collision were met.
+
+</para>
+
+
+
+
+<para id="p1045">
+The meaning of each of those terms is as follows:
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1050">
+mou represents total momentum before the crash
+
+</item>
+
+
+	
+
+<item id="li1051">
+mov represents total momentum after the crash
+
+</item>
+
+
+	
+
+<item id="li1052">
+keIn represents total kinetic energy before the crash
+
+</item>
+
+
+	
+
+<item id="li1053">
+keOut represents total kinetic energy after the crash
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+<table id="table1002" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1002">
+<row id="tr1004">
+<entry id="th1002">
+
+
+
+<emphasis id="Figure_2" effect="bold">
+
+Figure 2
+
+</emphasis>
+
+. Output for the rear end car crash.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1002">
+<row id="tr1005">
+<entry id="td1002">
+
+
+
+<code id="pre1002" display="block">Start Script 
+x and y components of velocity
+u1x = 0.000
+u1y = 0.000
+v1x = 20.000
+v1y = 0.000
+=============================== 
+Speed values
+u2 = 17.50 m/s
+v2 = 2.50 m/s
+=============================== 
+Check for conservation of momentum
+mou = 35000 Kg*m/s
+mov = 35000 Kg*m/s
+=============================== 
+Check for conservation of energy
+keIn = 306250 Kg*m^2/s^2
+keOut = 306250 Kg*m^2/s^2
+End Script</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+	
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="Another_rear_end_car_crash" effect="bold">
+
+A perfectly inelastic car crash
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1046">
+The description and the solution to another rear end car crash are provided in 
+	
+
+<link id="a1051" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+. Whereas the previous car-crash scenario described an elastic 
+	collision, this scenario describes a perfectly inelastic collision.In this crash, the two cars become entangled and move forward as 
+	a single object following the collision. Therefore, this is an example of a 
+	perfectly inelastic collision.
+
+</para>
+
+
+
+
+
+
+
+
+<table id="table1003" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1003">
+<row id="tr1006">
+<entry id="th1003">
+
+
+
+<emphasis id="Listing_2" effect="bold">
+
+Listing 2
+
+</emphasis>
+
+. A perfectly inelastic car crash.
+
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1003">
+<row id="tr1007">
+<entry id="td1003">
+
+
+
+<code id="pre1003" display="block">&lt;!---------------- File JavaScript10.html ---------------------&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+
+/*
+This script simulates car #2 rear-ending car #1 in a
+one-dimensional perfectly inelastic collision while car #1 was
+stopped.
+
+Assume that car #2 was moving at 17.5 m/s immediately before
+the collision. The cars became entangled and moved as a single
+object in a straight line following the collision. Find
+the velocity of the two objects immediately following the
+collision. Find the total momentum of the two objects
+immediately before and immediately after the collision.
+
+
+Using conservation of momentum alone, we have two
+equations, allowing us to solve for two unknowns.
+
+m1*u1x + m2*u2x = m1*v1x + m2*v2x
+m1*u1y + m2*u2y = m1*v1y + m2*v2y
+
+However, because the cars are moving along the x-axis, all
+terms in the second equation must be zero. This limits us to
+only the first equation shown above. Note also that because
+this is an inelastic collision, we can't use the equation
+based on conservation of energy.
+
+Variables:
+m1, m2, u1, u2, v1, v2, a1, a2, b1, b2
+*/
+
+document.write("Start Script &lt;/br&gt;");
+
+var m1 = 1500;//kg
+var m2 = 2000;//kg
+//Velocities before the collision
+var u1 = 0;//meters per second - standing still
+var u2 = 17.5;//meters per second
+//Velocities after the collision
+var v1;//unknown but v2 = v1
+var v2;//unknown value to be determined
+//Angles
+var a1 = 0;//car was not moving
+var a2 = 0;//moving straight ahead
+var b1;//unknown but not needed
+var b2;//unknown but not needed
+
+//Convert angles to radians
+A1 = a1*Math.PI/180;
+A2 = a2*Math.PI/180;
+//B1 = b1*Math.PI/180;
+//B2 = b2*Math.PI/180;
+
+//Compute and print the initial x and y components of velocity.
+// Because both cars are moving along the x-axis, all
+// y-components are zero and all x components are equal to the
+// magnitude.
+u1x = u1
+u1y = 0
+u2x = u2
+u2y = 0
+//v1x = v1//unknown
+v1y = 0
+//v2x = v2//unknown
+v2y = 0
+
+document.write("Initial velocities&lt;/br&gt;");
+document.write("u1x = " + u1x.toFixed(2) + "&lt;/br&gt;");
+document.write("u2x = " + u2x.toFixed(2) + "&lt;/br&gt;");
+document.write("==============================="+ " &lt;/br&gt;");
+
+/*
+Prepare the equations for use in solving the problem.
+
+Given the following three equations
+m1*u1x + m2*u2x = m1*v1x + m2*v2x
+m1*u1y + m2*u2y = m1*v1y + m2*v2y
+0.5*m1*u1^2 + 0.5*m2*u2^2 = 0.5*m1*v1^2 + 0.5*m2*v2^2
+
+Only the first equation can be used for an inelastic collision
+moving along the x-axis. This gives us the following equation
+to work with.
+
+m1*u1x + m2*u2x = m1*v1x + m2*v2x
+
+Eliminate all of the components which are known to be zero.
+
+m2*u2x = m1*v1x + m2*v2x
+
+For a perfectly inelastic collision, v2=v1 yielding
+
+m2*u2x = m1*v1x + m2*v1x, or
+m2*u2x = (m1 + m2)*v1x
+
+Rearranging terms gives the following:
+*/
+
+//Compute and print the final speed values
+v1x = m2*u2x/(m1 + m2)
+v2x = v1x;//required for a perfectly inelastic collision
+
+document.write("Final speed values&lt;/br&gt;");
+document.write("v1x = " + v1x.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("v2x = " + v2x.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("==============================="+ " &lt;/br&gt;");
+
+//Check the answer for conservation of momentum
+document.write("Check for conservation of momentum&lt;/br&gt;");
+var mou = m1*u1x + m2*u2x;//momentum before the collision
+var mov = m1*v1x + m2*v2x;//momentum after the collision
+
+document.write("mou = " + mou.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("mov = " + mov.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+
+document.write("==============================="+ " &lt;/br&gt;");
+
+document.write("End Script");
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1047">
+<emphasis id="strong1017" effect="bold">
+The output
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1048">
+<link id="a1052" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+ shows the output for the car crash scenario portrayed by Listing 
+	2.
+
+</para>
+
+
+
+
+
+
+<table id="table1004" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1004">
+<row id="tr1008">
+<entry id="th1004">
+
+
+
+<emphasis id="Figure_3" effect="bold">
+
+Figure 3
+
+</emphasis>
+
+. Output for the perfectly inelastic car crash.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1004">
+<row id="tr1009">
+<entry id="td1004">
+
+
+
+<code id="pre1004" display="block">Start Script 
+Initial velocities
+u1x = 0.00
+u2x = 17.50
+=============================== 
+Final speed values
+v1x = 10.00 m/s
+v2x = 10.00 m/s
+=============================== 
+Check for conservation of momentum
+mou = 35000 Kg*m/s
+mov = 35000 Kg*m/s
+=============================== 
+End Script</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+
+
+</section>
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Twodimensional_scenarios" effect="bold">
+
+Two-dimensional scenarios
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1049">
+Now we will examine some two-dimensional scenarios. In these 
+scenarios, the objects are free to move in a plane described by horizontal and 
+vertical coordinates. Instead of the directions of motion being limited to only 
+forward and backward, any object can move in any direction from 0 to 360 
+degrees.
+
+</para>
+
+
+
+
+<section id="h31004">
+<title>
+<emphasis id="Elastic_collision_between_two_pucks_on_friction-free_ice" effect="bold">
+
+Elastic 
+collision between two pucks on friction-free ice
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1050">
+The description and the solution to a scenario involving an elastic collision 
+between two pucks on friction-free ice is shown in 
+
+<link id="a1053" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+. As you will see:
+
+</para>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1054">
+The pucks are free to move in two dimensions.
+
+</item>
+
+
+	
+
+<item id="li1055">
+Even though this is an elastic collision, there were only two unknowns, 
+	so it wasn't necessary to use the energy-conservation equation to find a 
+	solution.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1051">
+<emphasis id="strong1018" effect="bold">
+Three unknowns can be challenging
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1052">
+Elastic collisions involving three unknowns, particularly those where one or 
+more angles are unknown, can be challenging from an 
+algebraic/trigonometric viewpoint. Those solutions typically 
+involve a quadratic equation containing trigonometric functions. This is not one 
+of those especially challenging scenarios.
+
+</para>
+
+
+
+
+
+
+
+
+<table id="table1005" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1005">
+<row id="tr1010">
+<entry id="th1005">
+
+
+
+<emphasis id="Listing_3" effect="bold">
+
+Listing 3
+
+</emphasis>
+
+. Elastic collision between two pucks on friction-free ice.
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1005">
+<row id="tr1011">
+<entry id="td1005">
+
+
+
+<code id="pre1005" display="block">&lt;!---------------- File JavaScript02.html ---------------------&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+/*
+Obj1 and Obj2 are identical and are on friction-free ice. Obj1
+has an initial velocity of 2.0 m/s in the direction
+of 0 degrees. Obj2 is at rest. Obj1 collides elastically with
+Obj2 and Obj1 moves off at 1.0 m/s at an angle of 60 degrees
+north of east. What is the speed and direction of Obj2 after
+the collision?
+
+
+Using conservation of momentum alone, we have two
+equations, allowing us to solve for two unknowns.
+
+m1*u1x + m2*u2x = m1*v1x + m2*v2x
+m1*u1y + m2*u2y = m1*v1y + m2*v2y
+
+Using conservation of kinetic energy for the elastic
+case gives us one additional equation, allowing us
+to solve for three unknowns.
+
+0.5*m1*u1^2 + 0.5*m2*u2^2 = 0.5*m1*v1^2 + 0.5*m2*v2^2
+
+The specifications tell us that this is an elastic collision,
+so we are free to use any or all of the three equations to
+solve the problem. In this case, we have three equations but
+only two unknowns, v2 and b1, so we won't need all three
+of the equations.
+
+Note that the specifications don't specify the values of the
+masses, but do specify that they are the same. Therefore, we
+will be able to cancel them out of all three equations.
+
+Variables:
+m1, m2, u1, u2, v1, v2, a1, a2, b1, b2
+*/
+
+document.write("Start Script &lt;/br&gt;");
+
+//var m1 = unknown;//kg
+//var m2 = m1;//kg
+var u1 = 2;//meters per second
+var u2 = 0;//meters per second -- at rest
+var v1 = 1;//meter per second
+var v2;//unknown -- to find
+var a1 = 0;//degrees
+var a2 = 0;//degrees -- at rest
+var b1 = 60;//degrees
+var b2;//unknown -- to find
+
+//Convert angles to radians
+A1 = a1*Math.PI/180;
+A2 = a2*Math.PI/180;
+B1 = b1*Math.PI/180;
+//B2 = b2*Math.PI/180;//unknown
+
+//Compute the initial x and y components of velocity
+u1x = u1*Math.cos(A1)
+u1y = u1*Math.sin(A1)
+
+u2x = u2*Math.cos(A2)
+u2y = u2*Math.sin(A2)
+
+v1x = v1*Math.cos(B1)
+v1y = v1*Math.sin(B1)
+
+//v2x = v2*Math.cos(B2) //unknown
+//v2y = v2*Math.sin(B2) //unknown
+
+/*
+For the special case of m2=m1 the three equations can be
+written as follows (after canceling out the m-terms):
+u1x + u2x = v1x + v2x
+u1y + u2y = v1y + v2y
+0.5*u1*u1 + 0.5*u2*u2 = 0.5*v1*v1 + 0.5*v2*v2
+
+Identify all terms that are known to be zero
+u1x + 0 = v1x + v2x
+0 + 0 = v1y + v2y
+0.5*u1*u1 + 0.5*0*0 = 0.5*v1*v1 + 0.5*v2*v2
+
+Removing those terms yields
+u1x = v1x + v2x
+0 = v1y + v2y
+0.5*u1*u1 = 0.5*v1*v1 + 0.5*v2*v2
+
+Divide through the energy equation by 0.5 for simplification
+u1x = v1x + v2x
+0 = v1y + v2y
+u1*u1 = v1*v1 + v2*v2
+
+Substitute known values
+2 = 0.5 + v2x
+0 = 0.866 + v2y
+u1*u1 + = v1*v1 + v2*v2
+
+This problem can be solved without using the energy equation.
+I will use the energy equation later to check the results.
+*/
+
+//Compute the components, magnitude, and direction of the
+// final velocity of obj #2
+v2x = 2 - 0.5;
+v2y = -0.866;
+v2 = Math.sqrt(v2x*v2x + v2y*v2y);
+b2 = getAngle(1.5,-0.866);
+
+//Display the known values along with the results.
+document.write("u1x = " + u1x.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("u1y = " + u1y.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("u2x = " + u2x.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("u2y = " + u2y.toFixed(2) + " m/s&lt;/br&gt;");
+
+document.write("v1x = " + v1x.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("v1y = " + v1y.toFixed(2) + " m/s&lt;/br&gt;");
+
+document.write("v2x = " + v2x.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("v2y = " + v2y.toFixed(3) + " m/s&lt;/br&gt;");
+
+document.write("u1 = " + u1.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("u2 = " + u2.toFixed(2) + " m/s&lt;/br&gt;");
+
+document.write("v1 = " + v1.toFixed(2) + " m/s&lt;/br&gt;");
+
+document.write("==============================="+ " &lt;/br&gt;");
+document.write("v2 = " + v2.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("b2 = " + b2.toFixed(2) + " degrees&lt;/br&gt;");
+document.write("==============================="+ " &lt;/br&gt;");
+
+
+
+//Check the answers assuming that the mass of the objects
+// is one Kg each.
+var moux = u1x + u2x;
+var movx = v1x + v2x;
+var mouy = u1y + u2y;
+var movy = v1y + v2y;
+document.write("moux = " + moux.toFixed(2) + " Kg*m/s&lt;/br&gt;");
+document.write("movx = " + movx.toFixed(2) + " Kg*m/s&lt;/br&gt;");
+document.write("mouy = " + mouy.toFixed(2) + " Kg*m/s&lt;/br&gt;");
+document.write("movy = " + movy.toFixed(2) + " Kg*m/s&lt;/br&gt;");
+
+//Check to confirm an elastic collision
+var u1 = Math.sqrt(u1x*u1x + u1y*u1y);
+var u2 = Math.sqrt(u2x*u2x + u2y*u2y);
+var v1 = Math.sqrt(v1x*v1x + v1y*v1y);
+var v2 = Math.sqrt(v2x*v2x + v2y*v2y);
+
+var mou = 0.5*u1*u1 + 0.5*u2*u2;
+var mov = 0.5*v1*v1 + 0.5*v2*v2;
+document.write("mou = " + mou.toFixed(2) + " Kg*m/s&lt;/br&gt;");
+document.write("mov = " + mov.toFixed(2) + " Kg*m/s&lt;/br&gt;");
+document.write("==============================="+ " &lt;/br&gt;");
+
+
+//The purpose of this function is to receive the adjacent
+// and opposite side values for a right triangle and to
+// return the angle in degrees in the correct quadrant.
+function getAngle(x,y){
+  if((x == 0) &amp;&amp; (y == 0)){
+    //Angle is indeterminate. Just return zero.
+    return 0;
+  }else if((x == 0) &amp;&amp; (y &gt; 0)){
+    //Avoid divide by zero denominator.
+    return 90;
+  }else if((x == 0) &amp;&amp; (y &lt; 0)){
+    //Avoid divide by zero denominator.
+    return -90;
+  }else if((x &lt; 0) &amp;&amp; (y &gt;= 0)){
+    //Correct to second quadrant
+    return Math.atan(y/x)*180/Math.PI + 180;
+  }else if((x &lt; 0) &amp;&amp; (y &lt;= 0)){
+    //Correct to third quadrant
+    return Math.atan(y/x)*180/Math.PI + 180;
+  }else{
+    //First and fourth quadrants. No correction required.
+    return Math.atan(y/x)*180/Math.PI;
+  }//end else
+}//end function getAngle
+
+document.write("End Script");
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1053">
+<emphasis id="strong1019" effect="bold">
+The output
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1054">
+The output for this scenario is shown in 
+
+<link id="a1054" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+.
+
+</para>
+
+
+
+	
+
+
+<table id="table1006" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1006">
+<row id="tr1012">
+<entry id="th1006">
+
+
+
+<emphasis id="Figure_4" effect="bold">
+
+Figure 4
+
+</emphasis>
+
+. Output for an elastic collision between two pucks on friction-free ice.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1006">
+<row id="tr1013">
+<entry id="td1006">
+
+
+
+<code id="pre1006" display="block">Start Script 
+u1x = 2.00 m/s
+u1y = 0.00 m/s
+u2x = 0.00 m/s
+u2y = 0.00 m/s
+v1x = 0.50 m/s
+v1y = 0.87 m/s
+v2x = 1.50 m/s
+v2y = -0.866 m/s
+u1 = 2.00 m/s
+u2 = 0.00 m/s
+v1 = 1.00 m/s
+=============================== 
+v2 = 1.73 m/s
+b2 = -30.00 degrees
+=============================== 
+moux = 2.00 Kg*m/s
+movx = 2.00 Kg*m/s
+mouy = 0.00 Kg*m/s
+movy = 0.00 Kg*m/s
+mou = 2.00 Kg*m/s
+mov = 2.00 Kg*m/s
+=============================== 
+End Script</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+	
+
+<para id="p1055">
+Hopefully the comments in the script will be sufficient to explain the 
+	solution to this problem.
+
+</para>
+
+
+	
+	
+	
+
+</section>
+<section id="h31005">
+<title>
+<emphasis id="Perfectly_inelastic_collision_between_objects_with_odd_angles" effect="bold">
+
+
+	Perfectly inelastic collision between objects with odd angles
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+
+<para id="p1056">
+<link id="a1055" target-id="Listing_4">
+
+Listing 4
+
+</link>
+
+ provides the description and the solution to a scenario involving a 
+perfectly inelastic collision between two objects in a friction-free environment 
+moving at odd angles. By odd angles, I mean that neither object is moving along 
+either the x-axis or the y-axis, either before or after the collision.
+
+</para>
+
+
+
+
+
+
+
+
+<table id="table1007" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1007">
+<row id="tr1014">
+<entry id="th1007">
+
+
+
+<emphasis id="Listing_4" effect="bold">
+
+Listing 4
+
+</emphasis>
+
+. Perfectly inelastic collision between objects with odd angles.
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1007">
+<row id="tr1015">
+<entry id="td1007">
+
+
+
+<code id="pre1007" display="block">&lt;!---------------- File JavaScript03.html ---------------------&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+/*
+Obj1 with a mass of 1 Kg and an initial velocity of 3000 m/s
+in a direction 67 degrees north of east collides in a perfectly
+inelastic manner with Obj2, whose mass is also 1 Kg and whose
+initial velocity is 2000 m/s in a direction 45 degrees north of east.
+
+Calculate (1) the angle of motion of the combined bodies,
+and (2) the magnitude of the momentum of the combined bodies
+after the collision.
+
+Using conservation of momentum alone, we have two
+equations, allowing us to solve for two unknowns.
+
+m1*u1x + m2*u2x = m1*v1x + m2*v2x
+m1*u1y + m2*u2y = m1*v1y + m2*v2y
+
+Variables:
+m1, m2, u1, u2, v1, v2, a1, a2, b1, b2
+*/
+
+document.write("Start Script &lt;/br&gt;");
+
+var m1 = 1;//kg
+var m2 = 1;//kg
+var u1 = 3000;//meters per second
+var u2 = 2000;//meters per second
+var v1;//unknown -- to be found
+var v2;//unknown -- to be found
+var a1 = 67;//degrees
+var a2 = 45;//degrees
+var b1;//unknown -- to be found
+var b2;//unknown -- to be found
+
+//Perfectly inelastic collision so v2=v1 and b2=b1
+
+//Convert angles to radians
+A1 = a1*Math.PI/180;
+A2 = a2*Math.PI/180;
+//B1 = b1*Math.PI/180;//unknown
+//B2 = b2*Math.PI/180;//unknown
+
+//Compute the x and y components of velocity
+u1x = u1*Math.cos(A1)
+u1y = u1*Math.sin(A1)
+
+u2x = u2*Math.cos(A2)
+u2y = u2*Math.sin(A2)
+
+//v1x = v1*Math.cos(B1)//unknown
+//v1y = v1*Math.sin(B1)//unknown
+
+//v2x = v2*Math.cos(B2)//unknown
+//v2y = v2*Math.sin(B2)//unknown
+
+/*
+For the special case of m2=m1=1 and v2=v1 (perfectly inelastic
+collision) we can simplify the equations to the following:
+u1x + u2x = 2*v1x
+u1y + u2y = 2*v1y
+*/
+
+//Rearranging terms yields
+v1x = (u1x + u2x)/2
+v1y = (u1y + u2y)/2
+
+//Knowing the x and y components of the final velocity, we can
+// find the angle and magnitude as
+b1 = getAngle(v1x,v1y);
+v1 = Math.sqrt(v1x*v1x + v1y*v1y);
+
+
+//Compute the momentum after the collision
+var Px = v1x*(m1 + m2);
+var Py = v1y*(m1 + m2);
+var Pmag = Math.sqrt(Px*Px + Py*Py);
+
+//Display the results
+document.write("b1 = " + b1.toFixed(1) + " degrees&lt;/br&gt;");
+document.write("v1 = " + v1.toFixed(0) + " m/s&lt;/br&gt;");
+document.write("v1x = " + v1x.toFixed(0) + " m/s&lt;/br&gt;");
+document.write("v1y = " + v1y.toFixed(0) + " m/s&lt;/br&gt;");
+document.write("Px = " + Px.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("Py = " + Py.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("Pmag = " + Pmag.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("==============================="+ " &lt;/br&gt;");
+
+//Check the answer for perfect inelastic collision
+v2x = v1x;
+v2y = v1y;
+v2 = v1;
+var moux = u1x + u2x;
+var movx = v1x + v2x;
+var mouy = u1y + u2y;
+var movy = v1y + v2y;
+var mou = Math.sqrt(moux * moux + mouy * mouy);
+var mov = Math.sqrt(movx * movx + movy * movy);
+
+document.write("moux = " + moux.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("movx = " + movx.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("mouy = " + mouy.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("movy = " + movy.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("mou = " + mou.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("mov = " + mov.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("==============================="+ " &lt;/br&gt;");
+
+//The purpose of this function is to receive the adjacent
+// and opposite side values for a right triangle and to
+// return the angle in degrees in the correct quadrant.
+function getAngle(x,y){
+  if((x == 0) &amp;&amp; (y == 0)){
+    //Angle is indeterminate. Just return zero.
+    return 0;
+  }else if((x == 0) &amp;&amp; (y &gt; 0)){
+    //Avoid divide by zero denominator.
+    return 90;
+  }else if((x == 0) &amp;&amp; (y &lt; 0)){
+    //Avoid divide by zero denominator.
+    return -90;
+  }else if((x &lt; 0) &amp;&amp; (y &gt;= 0)){
+    //Correct to second quadrant
+    return Math.atan(y/x)*180/Math.PI + 180;
+  }else if((x &lt; 0) &amp;&amp; (y &lt;= 0)){
+    //Correct to third quadrant
+    return Math.atan(y/x)*180/Math.PI + 180;
+  }else{
+    //First and fourth quadrants. No correction required.
+    return Math.atan(y/x)*180/Math.PI;
+  }//end else
+}//end function getAngle
+
+
+document.write("End Script");
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1057">
+<emphasis id="strong1020" effect="bold">
+The output
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1058">
+The output for the script shown in 
+
+<link id="a1056" target-id="Listing_4">
+
+Listing 4
+
+</link>
+
+ is provided in 
+
+<link id="a1057" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+<table id="table1008" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1008">
+<row id="tr1016">
+<entry id="th1008">
+
+
+
+<emphasis id="Figure_5" effect="bold">
+
+Figure 5
+
+</emphasis>
+
+. Output for a perfectly inelastic collision between objects with odd angles.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1008">
+<row id="tr1017">
+<entry id="td1008">
+
+
+
+<code id="pre1008" display="block">Start Script 
+b1 = 58.2 degrees
+v1 = 2456 m/s
+v1x = 1293 m/s
+v1y = 2088 m/s
+Px = 2586 Kg*m/s
+Py = 4176 Kg*m/s
+Pmag = 4912 Kg*m/s
+=============================== 
+moux = 2586 Kg*m/s
+movx = 2586 Kg*m/s
+mouy = 4176 Kg*m/s
+movy = 4176 Kg*m/s
+mou = 4912 Kg*m/s
+mov = 4912 Kg*m/s
+=============================== 
+End Script</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+	
+
+<para id="p1059">
+As before, I will allow the comments in 
+
+<link id="a1058" target-id="Listing_4">
+
+Listing 4
+
+</link>
+
+ serve as the 
+	explanation for the solution of this scenario.
+
+</para>
+
+
+	
+
+
+</section>
+<section id="h31006">
+<title>
+<emphasis id="Rotating_the_axis_for_simplification" effect="bold">
+
+Rotating the axes for 
+simplification
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+<para id="p1060">
+The scenario shown in 
+
+<link id="a1059" target-id="Listing_5">
+
+Listing 5
+
+</link>
+
+ illustrates how, in some cases, you can 
+simplify the algebra/trigonometry by rotating the axes. This situation occurs 
+when none of the directions involving the two objects lies along either the x or 
+y axis. In those cases, you may be able to simplify the three equations that you 
+develop by rotating the axes such that one of the directions lies along either 
+the x or the y axis. That will often cause some of the terms in the equations to 
+go to zero and drop out of the equations.
+
+</para>
+
+
+
+
+<para id="p1061">
+<emphasis id="strong1021" effect="bold">
+A crash at an intersection
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1062">
+If you examine the scenario shown in 
+
+<link id="a1060" target-id="Listing_5">
+
+Listing 5
+
+</link>
+
+ carefully, you will see that 
+it is the classic collision at the intersection of two streets that are 
+perpendicular to one another. However, the streets don't run in north-south, 
+east-west directions. 
+
+</para>
+
+
+
+
+<para id="p1063">
+<emphasis id="strong1022" effect="bold">
+Rotating the axes simplified the problem
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1064">
+In this particular case, rotating the axes so that one 
+street runs east and west while the other street runs north and south simplifies 
+the equations considerably.
+
+</para>
+
+
+
+
+<para id="p1065">
+<emphasis id="strong1023" effect="bold">
+Don't forget the rotate the axes back at the end
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1066">
+Of course, if you rotate the axes to simplify the solution, you must remember 
+to rotate it back again, and correct the solution accordingly, once you have a 
+solution. The procedure for doing that is illustrated in the scenario shown 
+in 
+
+<link id="a1061" target-id="Listing_5">
+
+Listing 5
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<table id="table1009" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1009">
+<row id="tr1018">
+<entry id="th1009">
+
+
+
+<emphasis id="Listing_5" effect="bold">
+
+Listing 5
+
+</emphasis>
+
+. Rotation of the axes for simplification.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1009">
+<row id="tr1019">
+<entry id="td1009">
+
+
+
+<code id="pre1009" display="block">&lt;!---------------- File JavaScript04.html ---------------------&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+
+/*
+Two objects collide in a perfectly inelastic collision. Obj1
+has a mass of 10000 kg and is traveling 30 degrees north of
+east at 15 m/s. Obj2 has a mass of 1500 kg and is traveling
+30 degrees west of north, or 120 degrees at 25 m/s. Find
+the direction that the two object move and the speed of that
+movement following the collision.
+
+Note that this script illustrates rotating the axis to simplify
+the problem.
+
+Using conservation of momentum alone, we have two
+equations, allowing us to solve for two unknowns.
+
+m1*u1x + m2*u2x = m1*v1x + m2*v2x
+m1*u1y + m2*u2y = m1*v1y + m2*v2y
+
+Variables:
+m1, m2, u1, u2, v1, v2, a1, a2, b1, b2
+*/
+
+document.write("Start Script &lt;/br&gt;");
+
+var m1 = 10000;//kg
+var m2 = 1500;//kg
+var u1 = 15;//meters per second
+var u2 = 25;//meters per second
+var v1;//unknown -- to be found
+var v2;//unknown -- to be found
+var a1 = 30;//degrees
+var a2 = 120;//degrees
+var b1;//unknown -- to be found
+var b2;//unknown -- to be found
+
+//For a perfectly inelastic collision, v2=v1 and b2=b1
+
+//Convert angles to radians
+A1 = a1*Math.PI/180;
+A2 = a2*Math.PI/180;
+//B1 = b1*Math.PI/180;//unknown
+//B2 = b2*Math.PI/180;//unknown
+
+//Compute the x and y components of velocity
+u1x = u1*Math.cos(A1)
+u1y = u1*Math.sin(A1)
+
+u2x = u2*Math.cos(A2)
+u2y = u2*Math.sin(A2)
+
+//v1x = v1*Math.cos(B1)//unknown
+//v1y = v1*Math.sin(B1)//unknown
+
+//v2x = v2*Math.cos(B2)//unknown
+//v2y = v2*Math.sin(B2)//unknown
+
+//Display the x and y components of initial velocity
+document.write("x and y components of initial velocity&lt;/br&gt;");
+document.write("u1x = " + u1x.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("u1y = " + u1y.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("u2x = " + u2x.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("u2y = " + u2y.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("==============================="+ " &lt;/br&gt;");
+
+/*
+Given the following two equations
+m1*u1x + m2*u2x = m1*v1x + m2*v2x
+m1*u1y + m2*u2y = m1*v1y + m2*v2y
+
+For the special case of v2=v1 (perfectly inelastic
+collision), the equations can be simplified to the following:
+m1*u1x + m2*u2x = (m1 + m2)*v1x
+m1*u1y + m2*u2y = (m1 + m2)*v1y
+
+Replace the terms with known x and y velocity component values.
+m1*13 + m2*(-12.5) = (m1 + m2)*v1x
+m1*7.5  + m2*21.6 = (m1 + m2)*v1y
+
+A judicious examination of the problem reveals that if we were
+to rotate the axis by 30 degrees clockwise, we could cause
+some of the terms in these two equations to go to zero. We will
+subtract 30 degrees from the given angles at this point and
+add that 30 degrees back into the results at the end.
+*/
+a1 = a1 - 30;
+a2 = a2 - 30;
+
+//Convert the new angles to radians
+A1 = a1*Math.PI/180;
+A2 = a2*Math.PI/180;
+
+//Recompute the x and y components of velocity
+u1x = u1*Math.cos(A1)
+u1y = u1*Math.sin(A1)
+
+u2x = u2*Math.cos(A2)
+u2y = u2*Math.sin(A2)
+
+//Display the new x and y components of initial velocity
+document.write(" New x and y components of velocity&lt;/br&gt;");
+document.write("u1x = " + u1x.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("u1y = " + u1y.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("u2x = " + u2x.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("u2y = " + u2y.toFixed(2) + " m/s&lt;/br&gt;");
+document.write("==============================="+ " &lt;/br&gt;");
+
+/*
+Returning now to the special case of v2=v1 (perfectly inelastic
+collision):
+m1*u1x + m2*u2x = (m1 + m2)*v1x
+m1*u1y + m2*u2y = (m1 + m2)*v1y
+
+Replace the x and y components of velocity with the modified
+values, two of which are now 0. This results in a simplification
+of the equations.
+m1*15 + m2*0 = (m1 + m2)*v1x
+m1*0 + m2*25 = (m1 + m2)*v1y
+
+Plugging in the values for mass and eliminating terms with
+a zero value yields
+10000*15 = (10000 + 1500)*v1x
+1500*25 = (10000 + 1500)*v1y
+*/
+
+//Rearranging terms yields
+v1x = (10000*15)/(10000 + 1500)
+v1y = (1500*25)/(10000 + 1500)
+
+//Compute the magnitude and the angle of the velocity of the
+// two objects following the collision.
+v1 = Math.sqrt(v1x*v1x + v1y*v1y);
+b1 = getAngle(v1x,v1y);
+
+//Because this is a perfectly inelastic collision, v2=v1
+// and b2=b1
+v2 = v1;
+b2 = b1;
+
+//Display results for the modified angles
+document.write("Results for modified angles&lt;/br&gt;");
+document.write("v1x = " + v1x.toFixed(1) + " m/s&lt;/br&gt;");
+document.write("v1y = " + v1y.toFixed(1) + " m/s&lt;/br&gt;");
+document.write("v1 = " + v1.toFixed(1) + " m/s&lt;/br&gt;");
+document.write("v2 = " + v2.toFixed(1) + " m/s&lt;/br&gt;");
+document.write("b1 = " + b1.toFixed(1) + " degrees&lt;/br&gt;");
+document.write("b2 = " + b2.toFixed(1) + " degrees&lt;/br&gt;");
+document.write("==============================="+ " &lt;/br&gt;");
+
+/*
+Now we need to rotate the axis by 30 degrees counter-clockwise
+to correct for the original rotation by 30 degrees clockwise.
+The magnitude of the final velocity is the same regardless of
+the orientation of the axes. Therefore, we will add 30 degrees
+to the values of b1 and b2, and use the new angles along with
+the magnitude of the final velocity to recompute the x and y
+components of the final velocity.
+*/
+
+b1 = b1 + 30;
+b2 = b1;
+v1x = v1*Math.cos(b1*Math.PI/180);
+v1y = v1*Math.sin(b1*Math.PI/180);
+
+//Display results for the corrected angle
+document.write("Results for corrected angle&lt;/br&gt;");
+document.write("v1x = " + v1x.toFixed(1) + " m/s&lt;/br&gt;");
+document.write("v1y = " + v1y.toFixed(1) + " m/s&lt;/br&gt;");
+document.write("v1 = " + v1.toFixed(1) + " m/s&lt;/br&gt;");
+document.write("v2 = " + v2.toFixed(1) + " m/s&lt;/br&gt;");
+document.write("b1 = " + b1.toFixed(1) + " degrees&lt;/br&gt;");
+document.write("b2 = " + b2.toFixed(1) + " degrees&lt;/br&gt;");
+document.write("==============================="+ " &lt;/br&gt;");
+
+//Check the answer for a perfect inelastic collision. Must
+// recognize that v2=v1 and correct the angles for a1 and a2.
+v2x = v1x;
+v2y = v1y;
+
+u1x = u1*Math.cos((a1+30)*Math.PI/180);
+u1y = u1*Math.sin((a1+30)*Math.PI/180);
+
+u2x = u2*Math.cos((a2+30)*Math.PI/180);
+u2y = u2*Math.sin((a2+30)*Math.PI/180);
+
+var moux = m1*u1x + m2*u2x;
+var movx = m1*v1x + m2*v2x;
+var mouy = m1*u1y + m2*u2y;
+var movy = m1*v1y + m2*v2y;
+var mou = Math.sqrt(moux * moux + mouy * mouy);
+var mov = Math.sqrt(movx * movx + movy * movy);
+
+document.write("Check the answers.&lt;/br&gt;");
+document.write("moux = " + moux.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("movx = " + movx.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("mouy = " + mouy.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("movy = " + movy.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("mou = " + mou.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("mov = " + mov.toFixed(0) + " Kg*m/s&lt;/br&gt;");
+document.write("==============================="+ " &lt;/br&gt;");
+
+
+//The purpose of this function is to receive the adjacent
+// and opposite side values for a right triangle and to
+// return the angle in degrees in the correct quadrant.
+function getAngle(x,y){
+  if((x == 0) &amp;&amp; (y == 0)){
+    //Angle is indeterminate. Just return zero.
+    return 0;
+  }else if((x == 0) &amp;&amp; (y &gt; 0)){
+    //Avoid divide by zero denominator.
+    return 90;
+  }else if((x == 0) &amp;&amp; (y &lt; 0)){
+    //Avoid divide by zero denominator.
+    return -90;
+  }else if((x &lt; 0) &amp;&amp; (y &gt;= 0)){
+    //Correct to second quadrant
+    return Math.atan(y/x)*180/Math.PI + 180;
+  }else if((x &lt; 0) &amp;&amp; (y &lt;= 0)){
+    //Correct to third quadrant
+    return Math.atan(y/x)*180/Math.PI + 180;
+  }else{
+    //First and fourth quadrants. No correction required.
+    return Math.atan(y/x)*180/Math.PI;
+  }//end else
+}//end function getAngle
+
+
+//The purpose of the getRoots function is to compute and
+// return the roots of a quadratic equation expressed in
+// the format
+//   a*x^2 + b*x + c = 0
+//The roots are returned in the elements of a two-element
+// array. If the roots are imaginary, the function
+// returns NaN for the value of each root.
+function getRoots(a,b,c){
+  var roots = new Array(2);
+  roots[0] = (-b+Math.sqrt(b*b-4*a*c))/(2*a);
+  roots[1] = (-b-Math.sqrt(b*b-4*a*c))/(2*a);
+  return roots;
+}//end getRoots
+
+document.write("End Script");
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1067">
+<emphasis id="strong1024" effect="bold">
+The output
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1068">
+The output for this scenario is shown in 
+
+<link id="a1062" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+<table id="table1010" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1010">
+<row id="tr1020">
+<entry id="th1010">
+
+
+
+<emphasis id="Figure_6" effect="bold">
+
+Figure 6
+
+</emphasis>
+
+. Output for rotation of the axes for simplification.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1010">
+<row id="tr1021">
+<entry id="td1010">
+
+
+
+<code id="pre1010" display="block">Start Script 
+x and y components of initial velocity
+u1x = 12.99 m/s
+u1y = 7.50 m/s
+u2x = -12.50 m/s
+u2y = 21.65 m/s
+=============================== 
+New x and y components of velocity
+u1x = 15.00 m/s
+u1y = 0.00 m/s
+u2x = 0.00 m/s
+u2y = 25.00 m/s
+=============================== 
+Results for modified angles
+v1x = 13.0 m/s
+v1y = 3.3 m/s
+v1 = 13.4 m/s
+v2 = 13.4 m/s
+b1 = 14.0 degrees
+b2 = 14.0 degrees
+=============================== 
+Results for corrected angle
+v1x = 9.7 m/s
+v1y = 9.3 m/s
+v1 = 13.4 m/s
+v2 = 13.4 m/s
+b1 = 44.0 degrees
+b2 = 44.0 degrees
+=============================== 
+Check the answers.
+moux = 111154 Kg*m/s
+movx = 111154 Kg*m/s
+mouy = 107476 Kg*m/s
+movy = 107476 Kg*m/s
+mou = 154616 Kg*m/s
+mov = 154616 Kg*m/s
+=============================== 
+End Script</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+	
+	
+
+<para id="p1069">
+Once more, I will allow the comments in 
+
+<link id="a1063" target-id="Listing_4">
+
+Listing 4
+
+</link>
+
+ to serve as the 
+	explanation for the solution of this scenario.
+
+</para>
+
+
+	
+
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Run the scripts
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1070">
+I encourage you to run the scripts that I have presented in this lesson to 
+confirm that you get the same results. Copy the code for each script into a 
+	text file with an extension of html. Then open that file in your browser. Experiment with 
+the code, making changes, and observing the results of your changes. Make 
+certain that you can explain why your changes behave as they do. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1071">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1072">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1025" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1015" list-type="bulleted">
+
+
+
+<item id="li1056">
+Module name: Energy -- Elastic and Inelastic Collisions in Two Dimensions
+
+</item>
+
+
+
+
+<item id="li1057">
+File: Phy1215.htm
+
+
+</item>
+
+
+	
+
+<item id="li1058">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1059">
+Keywords:
+
+<list id="ul1016" list-type="bulleted">
+
+		
+
+<item id="li1060">
+physics
+
+</item>
+
+
+		
+
+<item id="li1061">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1062">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1063">
+blind
+
+</item>
+
+
+		
+
+<item id="li1064">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1065">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1066">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1067">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1068">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1069">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1070">
+one-dimensional
+
+</item>
+
+
+					
+
+<item id="li1071">
+two-dimensional
+
+</item>
+
+
+					
+
+<item id="li1072">
+collision
+
+</item>
+
+
+					
+
+<item id="li1073">
+elastic collision
+
+</item>
+
+
+					
+
+<item id="li1074">
+inelastic collision
+
+</item>
+
+
+					
+
+<item id="li1075">
+perfectly inelastic collision
+
+</item>
+
+
+					
+
+<item id="li1076">
+kinetic energy
+
+</item>
+
+
+					
+
+<item id="li1077">
+conservation of momentum
+
+</item>
+
+
+					
+
+<item id="li1078">
+conservation of energy
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1002" type="">
+
+
+
+
+<emphasis id="strong1026" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1073">
+<emphasis id="strong1027" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1028" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1074">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1029" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1075">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1030" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1076">
+<emphasis id="strong1031" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1077">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

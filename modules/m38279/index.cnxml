@@ -1,0 +1,2507 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1180: Energy -- Potential Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38279</md:content-id>
+  <md:title>Phy1180: Energy -- Potential Energy</md:title>
+  <md:abstract>This module explains potential energy in a format that is accessible to blind sudents.</md:abstract>
+  <md:uuid>ea211603-6028-40b0-891d-3632c8272fb1</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" target-id="General_background_information">
+
+General background information
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="Graphic_examples_of_potential_energy">
+
+Graphic examples of 
+		potential energy
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="Potential_energy">
+
+Potential energy
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+			
+
+<item id="li1007">
+<link id="a1007" target-id="Gravitational_potential_energy">
+
+Gravitational potential energy
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1008">
+<link id="a1008" target-id="Elastic_potential_energy">
+
+Elastic potential energy
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="Summary">
+
+Summary
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1010">
+<link id="a1010" target-id="Discussion">
+
+Sample calculations
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1011">
+<link id="a1011" target-id="Run_the_program">
+
+Do the calculations
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1012">
+<link id="a1012" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1013">
+<link id="a1013" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a
+
+
+<link id="a1014" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+book
+
+</link>
+
+
+
+
+<emphasis id="em1000" effect="italics">
+(or collection)
+
+</emphasis>
+ designed to make physics concepts accessible to blind 
+students. The collection is intended to supplement but not to replace the 
+textbook in an introductory course in high school or college physics. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module explains potential energy in a format that is accessible to 
+
+blind sudents.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1004" list-type="bulleted">
+
+	
+
+<item id="li1014">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1015" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1015">
+A protractor for measuring angles (
+
+<link id="a1016" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1016">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1017" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1017">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer monitor 
+	(
+
+<link id="a1018" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1018">
+A device to create Braille labels. Will be used to label graphs 
+	constructed on the graph board.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1003">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1019">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1020">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1019" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1021">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1020" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1022">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1021" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1023">
+An introductory understanding of JavaScript programming (
+
+<link id="a1022" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1023" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1024">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1024" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="General_background_information" effect="bold">
+
+General background 
+information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+I will begin this explanation with a couple of graphic examples.
+
+</para>
+
+
+
+
+<section id="h21003">
+<title>
+<emphasis id="Graphic_examples_of_potential_energy" effect="bold">
+
+Graphic examples of potential 
+energy
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+<emphasis id="strong1000" effect="bold">
+Gravitational potential energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1007">
+If you find a flat rock with a mass of 10 kg on the ground at a location on 
+the surface of the earth where the ground is flat for miles around, that rock 
+has little or no potential energy.
+
+</para>
+
+
+
+
+<para id="p1008">
+<emphasis id="strong1001" effect="bold">
+A change in potential energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1009">
+If you pick that rock up and balance it on a limb of a tree that is 2 meters 
+off the ground, you have done at least two things:
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1025">
+You have done work on the rock by exerting a force on the rock that 
+	displaced it upward by 2 meters. With some simplifying assumptions, we can 
+	calculate that you have done 196.2 joules of work on the rock.
+
+</item>
+
+
+	
+
+<item id="li1026">
+You have caused the rock to have gravitational potential energy that it 
+	did not have in its earlier position on the ground.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1010">
+<emphasis id="strong1002" effect="bold">
+An accident waiting to happen
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1011">
+Perhaps the change in potential energy can best be illustrated by stating 
+that the rock now has the potential to crack someone's skull open if they happen 
+to be standing under the limb when the rock falls towards 
+the ground with an acceleration of 9.8 m/s^2. 
+
+</para>
+
+
+
+
+<para id="p1012">
+When the rock was laying on the 
+surface of the earth, it did not have that potential. You created that potential 
+by imparting potential energy into the rock when you listed it from the ground 
+and balanced it on the limb.
+
+</para>
+
+
+
+
+<para id="p1013">
+<emphasis id="strong1003" effect="bold">
+Elastic potential energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1014">
+Consider a common rubber band. Because of its small mass, a rubber band can 
+never be expected to acquire much in the way of gravitational potential 
+energy. However, it can acquire a considerable amount of elastic potential 
+energy.
+
+</para>
+
+
+
+
+<para id="p1015">
+While I don't recommend that you try the experiment with the rock described 
+earlier, this is an experiment that you can try with no permanent damage to your 
+person.
+
+</para>
+
+
+
+
+<para id="p1016">
+<emphasis id="strong1004" effect="bold">
+Thread your arm through the rubber band
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1017">
+Find a strong rubber band and thread your left arm through the rubber band up 
+to the wrist. Make certain that the rubber band fits loosely on your arm. At 
+that point, the rubber band has little or no potential energy.
+
+</para>
+
+
+
+
+<para id="p1018">
+<emphasis id="strong1005" effect="bold">
+Change the potential energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1019">
+Now grasp the rubber band between the thumb and forefinger of your right hand 
+and stretch it to the point where it is almost ready to break.
+
+</para>
+
+
+
+
+<para id="p1020">
+At that point, 
+you have expended your energy in stretching the rubber band, and the rubber band has 
+acquired elastic potential energy.
+
+</para>
+
+
+
+
+<para id="p1021">
+<emphasis id="strong1006" effect="bold">
+How much elastic potential energy?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1022">
+How much elastic potential energy did the rubber band acquire? You can get a 
+qualitative estimate of the amount of potential energy by releasing the rubber 
+band and letting it strike your bare wrist.
+
+</para>
+
+
+
+
+<para id="p1023">
+When the rubber band contacts your skin, it will impart energy into the nerve 
+ending in your skin as its potential energy goes back to zero. If it hurts a 
+lot, there was a lot of elastic potential energy stored in the stretched rubber 
+band. If it doesn't hurt very much, there probably wasn't much potential 
+energy stored in the rubber band, or you have very tough skin with few nerve endings.
+
+</para>
+
+
+
+
+</section>
+<section id="h21004">
+<title>
+<emphasis id="Potential_energy" effect="bold">
+
+Potential energy
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1024">
+There are several ways that an object can acquire and store energy, which we 
+will refer to as 
+
+<emphasis id="em1001" effect="italics">
+potential energy
+
+</emphasis>
+. Two of the most common ways are:
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1027">
+Raising the object to a new height above the surface of the earth 
+	(gravitational potential energy)
+
+</item>
+
+
+	
+
+<item id="li1028">
+Deforming the object within its elastic limit (elastic potential energy)
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1025">
+<emphasis id="strong1007" effect="bold">
+Increasing the potential energy of the rock
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1026">
+For example, elevating the rock by 2 meters above the ground as described 
+earlier imparted energy into the rock. (Work was done on the rock in order to 
+increase its height above the ground.) 
+
+</para>
+
+
+
+
+<para id="p1027">
+<emphasis id="strong1008" effect="bold">
+Storing the potential energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1028">
+Balancing the rock on the limb caused 
+that energy to be (temporarily) stored in the rock as gravitational potential 
+energy. The rock stores that energy for so long as it is held at that elevated 
+position.
+
+</para>
+
+
+
+
+<para id="p1029">
+<emphasis id="strong1009" effect="bold">
+Releasing the potential energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1030">
+Tipping the rock off the limb so that it would fall back to the ground caused 
+that potential energy to be released and caused the potential energy of the rock 
+to go back to zero.
+
+</para>
+
+
+
+
+<para id="p1031">
+<emphasis id="strong1010" effect="bold">
+Potential energy and the rubber band
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1032">
+Similarly, stretching and then releasing the rubber band as described above 
+first stored, and then released elastic potential energy in the rubber band.
+
+</para>
+
+
+
+
+<para id="p1033">
+<emphasis id="strong1011" effect="bold">
+Work is required to increase the potential energy of an object
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1034">
+In both cases, it was necessary for you to expend energy in order to increase 
+the amount of energy stored in the rock and the rubber band.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+<emphasis id="Gravitational_potential_energy" effect="bold">
+
+Gravitational potential energy
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1035">
+Gravitational potential energy is the energy stored in an object as the 
+result of the gravitational attraction between the earth and the object. In 
+practical terms, the energy is stored as the result of the objects height above 
+the surface of the earth.
+
+</para>
+
+
+
+
+<para id="p1036">
+Every object that has a position above the surface of 
+the earth has stored gravitational potential energy. Some common examples are 
+
+</para>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1029">
+Books on a bookshelf
+
+</item>
+
+
+	
+
+<item id="li1030">
+An air conditioning unit in a window on the third story of an apartment 
+building
+
+</item>
+
+
+	
+
+<item id="li1031">
+You, when you climb a tree and sit on a limb or walk up the stairs to 
+	your classroom.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1037">
+Because all objects are attracted to a point in the center of the earth, all 
+objects that don't rest on the surface of the earth have potential energy.
+
+</para>
+
+
+
+
+<para id="p1038">
+<emphasis id="strong1012" effect="bold">
+All objects have stored gravitational potential energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1039">
+Even those objects that do rest on the surface of the earth have potential 
+energy, because they have a strong tendency to make their way to the center of the 
+earth. In most cases, however, that desire cannot be fulfilled so we usually 
+consider the surface of the earth to be the reference point for gravitational 
+potential energy.
+
+</para>
+
+
+
+
+<para id="p1040">
+<emphasis id="strong1013" effect="bold">
+The deep
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1041">
+In the final analysis, however, only those objects that rest at the bottom of 
+the deepest point in the ocean cannot be forced to give up stored gravitational 
+potential energy. In theory, every other object could be transported to and 
+dropped to that point on the ocean bed, thereby giving up stored potential 
+energy in the process.
+
+</para>
+
+
+
+
+<para id="p1042">
+<emphasis id="strong1014" effect="bold">
+The height and the mass are critical
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1043">
+The magnitude of the potential energy possessed by the rock balanced on the 
+tree limb in the earlier example depends on two things: the height of the rock 
+above the ground and the mass of the rock.
+
+</para>
+
+
+
+
+<para id="p1044">
+<emphasis id="strong1015" effect="bold">
+Gravitational potential energy is proportional to mass
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1045">
+The gravitational potential energy of an object is proportional to the mass 
+of the object. Objects with more mass are capable of having more potential energy than objects 
+with less mass. Therefore, if the rubber band discussed in the earlier 
+example were to be placed on the same limb as the rock, the rock would have more 
+gravitational potential energy than the rubber band due to its greater mass. 
+
+</para>
+
+
+
+
+<para id="p1046">
+<emphasis id="strong1016" effect="bold">
+Gravitational potential energy is proportional to height
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1047">
+Gravitational potential energy is also proportional to the distance of the 
+object from the center of the earth. Thus, a 10 kg rock falling from 50 meters 
+onto your head would do more damage than the same 10 kg rock falling onto your 
+head from 2 meters. In both cases, the potential energy of the rock would 
+be converted to kinetic energy, (which is a topic for a future module), and that 
+kinetic energy would be converted to pain when the rock strikes your head.
+
+</para>
+
+
+
+
+<para id="p1048">
+The 
+higher the starting point for the rock, 
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1032">
+the faster it would be going right 
+before it strikes your head, 
+
+</item>
+
+
+	
+
+<item id="li1033">
+the more kinetic energy it would possess at that 
+point in time, and
+
+</item>
+
+
+	
+
+<item id="li1034">
+the more damage it would do to your head.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1049">
+<emphasis id="strong1017" effect="bold">
+Gravitational potential energy is proportional to the product of 
+mass, height, and gravity
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1050">
+Thus, the gravitational potential energy of an object that is elevated above 
+the surface of the earth is equal to the product of the mass of the object, the 
+height of the object, and the acceleration of gravity. Expressed as an equation, 
+we can write:
+
+</para>
+
+
+
+
+<para id="p1051">
+PEg = mass*kg * gravity*m/s^2 * height*m
+
+</para>
+
+
+
+
+<para id="p1052">
+where
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1035">
+PEg represents gravitational potential energy
+
+</item>
+
+
+	
+
+<item id="li1036">
+mass, gravity, and height represent their namesakes
+
+</item>
+
+
+	
+
+<item id="li1037">
+kg, m, and s represent kilogram, meter, and second
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1053">
+<emphasis id="strong1018" effect="bold">
+Units of gravitational potential energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1054">
+As you can see from above, the units of gravitational potential energy are 
+
+</para>
+
+
+
+
+<para id="p1055">
+kg*m^2/s^2 = kg*(m/s^2)*(m) = N*m = joule
+
+</para>
+
+
+
+
+<para id="p1056">
+<emphasis id="strong1019" effect="bold">
+What is the zero height reference?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1057">
+Because the determination of gravitational potential energy requires 
+knowledge of the height of the object, you must determine the height of the 
+object above a 
+
+<emphasis id="em1002" effect="italics">
+zero-height
+
+</emphasis>
+ reference level. Therefore, to determine the 
+gravitational potential energy of an object, you must first decide what level 
+you are going to consider to be zero height.
+
+</para>
+
+
+
+
+<para id="p1058">
+<emphasis id="strong1020" effect="bold">
+The ultimate reference
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1059">
+The ultimate zero-height reference is the point in the center of the earth to 
+which all objects are attracted. Using that point, however, would lead to a lot 
+of arithmetic accuracy problems. The radius of the earth is something like 
+6378100 meters, and that depends on where on the earth you are standing -- death 
+valley, Mount Everest, or somewhere in between.
+
+</para>
+
+
+
+
+<para id="p1060">
+I will leave it as an exercise for the student to determine why the use of 
+the center of the earth as the zero-height reference might lead to arithmetic accuracy problems when doing 
+calculations involving gravitational potential energy.
+
+</para>
+
+
+
+
+<para id="p1061">
+<emphasis id="strong1021" effect="bold">
+Doubling the height doubles the gravitational potential energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1062">
+The gravitational potential energy of an object is directly proportional to 
+its height above the zero position. Therefore, doubling or tripling the height 
+of the object above the zero position will have a corresponding doubling or 
+tripling effect on the gravitational potential energy.
+
+</para>
+
+
+
+
+</section>
+<section id="h31001">
+<title>
+<emphasis id="Elastic_potential_energy" effect="bold">
+
+Elastic potential energy
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1063">
+Elastic potential energy is the energy stored in an object as a result of 
+deforming the object within its elastic limit, such as stretching a rubber band, 
+stretching a coil spring in a fisherman's scale, or compressing a coil spring in 
+the suspension of an automobile.
+
+</para>
+
+
+
+
+<para id="p1064">
+<emphasis id="strong1022" effect="bold">
+The elastic limit
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1065">
+Many materials are elastic up to a point, some more than others. This means that they can recover from 
+a deformation up to a point.
+
+</para>
+
+
+
+
+<para id="p1066">
+However, most materials have an elastic limit. The elastic limit 
+is the point beyond which the material cannot recover from a deformation.
+
+</para>
+
+
+
+
+<para id="p1067">
+<emphasis id="strong1023" effect="bold">
+A rubber band
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1068">
+For example, if you stretch a rubber band by an inch or two, it will usually 
+recover when the load is removed. However, if you stretch it too far, it will 
+break. In that case, the rubber band has clearly been deformed beyond its 
+elastic limit.
+
+</para>
+
+
+
+
+<para id="p1069">
+<emphasis id="strong1024" effect="bold">
+A steel beam
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1070">
+A steel beam that supports a bridge can normally flex by a small amount when 
+loaded by traffic on the bridge and return to its original shape once the load 
+is removed. However, there is a point beyond which it cannot recover if flexed 
+too far.
+
+</para>
+
+
+
+
+<para id="p1071">
+<emphasis id="strong1025" effect="bold">
+A coil spring
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1072">
+A coil spring in an old-fashioned fisherman's scale can stretch up to a 
+certain limit when loaded with a fish, and then return to its original length 
+when the fish is removed. However, if it is stretched beyond its elastic limit, 
+it won't return to its original length when the load is removed. (The enclosure 
+on a fisherman's scale is usually designed to prevent the spring from being 
+stretched beyond its elastic limit.)
+
+</para>
+
+
+
+
+<para id="p1073">
+<emphasis id="strong1026" effect="bold">
+Many objects store elastic potential energy
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1074">
+Elastic potential energy can be stored in steel beams, rubber bands, golf 
+balls, springs, automobile tires, etc. The amount of elastic potential energy 
+stored in such a device is related to the amount by which the object is deformed 
+(usually stretched or compressed). The more the object is deformed, up to a 
+point, the more elastic potential energy is stored in the object.
+
+</para>
+
+
+
+
+<para id="p1075">
+<emphasis id="strong1027" effect="bold">
+Springs are a special case
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1076">
+Springs are a special case of an object that can store elastic potential 
+energy either through stretching or compression. Some springs are probably 
+manufactured with one or the other in mind while other springs may be 
+manufactured to serve both purposes.
+
+</para>
+
+
+
+
+<para id="p1077">
+For example, the spring in a fisherman's scale is probably manufactured with 
+only stretching in mind. The process of weighing a fish on a fisherman's scale 
+is to hang the fish on a hook on the bottom end of the spring and measure how 
+far the spring stretches.
+
+</para>
+
+
+
+
+<para id="p1078">
+On the other hand, I believe, but am not certain, that the coil springs in 
+the suspension of a car serve their purpose by both stretching an compressing.
+
+</para>
+
+
+
+
+<para id="p1079">
+<emphasis id="strong1028" effect="bold">
+A force is required
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1080">
+A force is required to compress or stretch a spring. The more the spring is 
+compressed or stretched (depending on its purpose), the more force will be 
+required to compress or stretch it further.
+
+</para>
+
+
+
+
+<para id="p1081">
+<emphasis id="strong1029" effect="bold">
+The spring constant
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1082">
+For certain springs, the amount of force required to compress or stretch the 
+spring (up to a limit) is directly proportional to the amount of stretch or 
+compression. This can be expressed in equation form as
+
+</para>
+
+
+
+
+<para id="p1083">
+Fs = k * x
+
+</para>
+
+
+
+
+<para id="p1084">
+where
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1038">
+Fs is the force applied to the spring
+
+</item>
+
+
+	
+
+<item id="li1039">
+k is the constant of proportionality
+
+</item>
+
+
+	
+
+<item id="li1040">
+x is the amount of stretch or compression of the spring
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1085">
+<emphasis id="strong1030" effect="bold">
+Hooke's law
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1086">
+The constant of proportionality in the above equation is known as the 
+
+<emphasis id="strong1031" effect="bold">
+spring constant
+
+</emphasis>
+. Springs that 
+behave this way are said to follow Hooke's law, named after the 17th 
+century British physicist Robert Hooke.
+
+</para>
+
+
+
+
+<para id="p1087">
+<emphasis id="strong1032" effect="bold">
+The equilibrium state
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1088">
+If the spring is not compressed or stretched, it is in its equilibrium state, 
+and 
+there is no potential energy stored in it. The equilibrium state is the state 
+that the spring naturally assumes when no forces are acting on it. This state 
+could be called the zero-potential energy state.
+
+</para>
+
+
+
+
+<para id="p1089">
+(This is the state of the rubber band that hung loosely around your wrist in 
+the experiment at the beginning of this module.)
+
+</para>
+
+
+
+
+<para id="p1090">
+<emphasis id="strong1033" effect="bold">
+Potential energy versus stretch or compression
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1091">
+There is an equation for springs that relates the amount of elastic potential energy to the amount of stretch (or compression) and the spring constant. The equation is 
+
+</para>
+
+
+
+
+<para id="p1092">
+PEs = 0.5 * k * x^2
+
+</para>
+
+
+
+
+<para id="p1093">
+where
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1041">
+PEs represents the elastic potential energy stored in the spring
+
+</item>
+
+
+	
+
+<item id="li1042">
+k is the spring constant for the material from which the spring is made
+
+</item>
+
+
+	
+
+<item id="li1043">
+x is the amount of compression or stretch relative to the equilibrium 
+	state.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Summary" effect="bold">
+
+Summary
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1094">
+Gravitational potential energy can be stored in an object by moving it 
+further away from the center of the earth. As a practical matter, this usually 
+means moving it to a higher position relative to the ground, the floor, or a 
+tabletop.
+
+</para>
+
+
+
+
+<para id="p1095">
+Elastic potential energy can be stored in an object by deforming it within 
+its elastic limit. Usually, but not always, this involves stretching or 
+compressing the object, but it could also mean twisting it or deforming it in 
+some other way. If the deformation doesn't exceed the elastic limit of the 
+object, it will return to its original shape when the load is removed.
+
+</para>
+
+
+
+
+<para id="p1096">
+Some materials, such as the spring material in a fisherman's scale, can 
+sustain considerable deformation before reaching the elastic limit. Other 
+materials, such as toasted bread, not only reach their elastic limit, but also 
+reach their structural limit and break at the slightest amount of deformation.
+
+</para>
+
+
+
+
+<para id="p1097">
+Other materials, such as fresh bread and modeling clay have a low elastic 
+limit but a relatively high structural limit. In other words, they doesn't 
+return to their original shape when deformed, but they also don't easily break 
+when deformed.
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Sample 
+
+</emphasis>
+
+calculations
+
+</title>
+
+
+
+
+
+
+<para id="p1098">
+<emphasis id="strong1034" effect="bold">
+The rock and the tree
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1099">
+You pick a flat rock with a 10kg mass off the ground and balance it on a tree 
+limb 2 meters above the ground.
+
+</para>
+
+
+
+
+<para id="p1100">
+What was the gravitational potential energy of the rock before your arrival 
+and what change in gravitational potential energy did you impart to the rock by 
+your actions?
+
+</para>
+
+
+
+
+<para id="p1101">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1102">
+Assuming that the rock was flat and the ground was flat and there was 
+essentially no chance the the rock could roll downhill, the gravitational 
+potential energy of the rock before you picked it up was zero.
+
+</para>
+
+
+
+
+<para id="p1103">
+Using the Google calculator to do the arithmetic and handle the 
+units, after you balanced the rock on the tree limb, the potential energy was:
+
+</para>
+
+
+
+
+<para id="p1104">
+(10 kg) * (9.8 (m / (s^2))) * (2 m) = 196 joules
+
+</para>
+
+
+
+
+<para id="p1105">
+Therefore, the change in gravitational potential energy was 196 joules.
+
+</para>
+
+
+
+
+<para id="p1106">
+<emphasis id="strong1035" effect="bold">
+A crate and a ramp
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1107">
+You push a 100 kg mass up a 5 meter-long ramp and onto a platform at the 
+upper end of the ramp. The ramp makes an angle of 36.9 degrees relative to the 
+ground on which it is setting.
+
+</para>
+
+
+
+
+<para id="p1108">
+What change in gravitational potential energy did you impart to the crate?
+
+</para>
+
+
+
+
+<para id="p1109">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1110">
+First compute the height of the platform at the upper end of the ramp.
+
+</para>
+
+
+
+
+<para id="p1111">
+height = 5 * sin(36.9 degrees) = 3m
+
+</para>
+
+
+
+
+<para id="p1112">
+Now compute the change in gravitational potential energy.
+
+</para>
+
+
+
+
+<para id="p1113">
+ 	
+(100 kg) * (9.8 (m / (s^2))) * (3 m) = 2940 joules
+
+</para>
+
+
+
+
+<para id="p1114">
+All that matters insofar as the change in gravitational potential energy is 
+concerned is that the crate was lifted 3 meters higher than its initial position. 
+How that lift was accomplished doesn't matter. It could be accomplished with a 
+ramp, a pulley, or with brute strength and the change in gravitational potential 
+energy would be the same.
+
+</para>
+
+
+
+
+<para id="p1115">
+<emphasis id="strong1036" effect="bold">
+More on the crate and the ramp
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1116">
+How much work was done on the crate in pushing it to the top of the ramp?
+
+</para>
+
+
+
+
+<para id="p1117">
+Answer:
+
+</para>
+
+
+
+
+<para id="p1118">
+The first task is to compute the force parallel to the ramp that is required 
+to push the crate up the ramp, ignoring the extra push required to get it moving 
+at the bottom of the ramp. That parallel force is equal to the component of the crate's 
+weight that is pushing down parallel to the ramp.
+
+</para>
+
+
+
+
+<para id="p1119">
+A little trigonometry will reveal that the component of the crate's weight 
+that is parallel to the ramp is 
+equal to the product of the total weight of the crate and the sine of the ramp 
+angle relative to the horizontal ground. That gives us a requirement for a force 
+pushing up the ramp and parallel to the ramp of
+
+</para>
+
+
+
+
+<para id="p1120">
+(100 kg) * 9.8 (m / (s^2)) * sin(36.9 degrees) = 588 newtons
+
+</para>
+
+
+
+
+<para id="p1121">
+The angle between the line of action of the force and the displacement 
+direction of the crate was 0 degrees. Therefore, the work done on the crate was:
+
+</para>
+
+
+
+
+<para id="p1122">
+(588 newtons) * 5 m * cos(0) = 2940 joules
+
+</para>
+
+
+
+
+<para id="p1123">
+Note that the work done on the crate to move it to its new position was equal 
+to the change in gravitational potential energy for the crate. As you may have 
+guessed, that is not a coincidence. You will learn more about that relationship 
+in a future module.
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Do the calculations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1124">
+I encourage you to repeat the calculations that I have presented in this lesson to confirm that you get the same results. Experiment with the scenarios, making changes, and observing the results of your changes. Make certain that you can explain why your changes behave as they do. 
+
+
+
+ 
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1125">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1126">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1037" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+
+
+<item id="li1044">
+Module name: Energy -- Potential Energy
+
+</item>
+
+
+
+
+<item id="li1045">
+File: Phy1180.htm
+
+
+</item>
+
+
+	
+
+<item id="li1046">
+Revised: 10/02/15
+
+</item>
+
+
+	
+
+<item id="li1047">
+Keywords:
+
+<list id="ul1014" list-type="bulleted">
+
+		
+
+<item id="li1048">
+physics
+
+</item>
+
+
+		
+
+<item id="li1049">
+accessible
+
+</item>
+
+
+		
+
+<item id="li1050">
+accessibility
+
+</item>
+
+
+					
+
+<item id="li1051">
+blind
+
+</item>
+
+
+		
+
+<item id="li1052">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1053">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1054">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1055">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1056">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1057">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1058">
+potential energy
+
+</item>
+
+
+					
+
+<item id="li1059">
+work
+
+</item>
+
+
+					
+
+<item id="li1060">
+gravitational potential energy
+
+</item>
+
+
+					
+
+<item id="li1061">
+elastic potential energy
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1001" type="">
+
+
+
+
+<emphasis id="strong1038" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1127">
+<emphasis id="strong1039" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1040" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1128">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1041" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1129">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1042" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1130">
+<emphasis id="strong1043" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1131">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>
